@@ -1,0 +1,99 @@
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+Sumio	B-BR
+công	B-PROP
+nghệ	I-PROP
+Nhật	I-PROP
+Bản	I-PROP
+
+Bình	B-PN
+Nước	I-PN
++	O
+Túi	B-PN
+“   O
+My	B-PROP
+Bottle  I-PROP
+”	O
+
+2	O
+khuôn	B-PN
+làm	B-FUNC
+sushi	B-FUNC-OB
+nắm	I-FUNC-OB
+
+2	O
+Khuôn	B-PN
+làm	B-FUNC
+sushi	B-FUNC-OB
+cuộn	I-FUNC-OB
+
+140	O
+Túi	B-PN
+PE	B-PROP
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+
+2	O
+vỉ	B-PN
+chắn	B-FUNC
+dầu	B-FUNC-OB
+mỡ	I-FUNC-OB
+dùng	O
+khi	O
+chiên	O
+,	O
+rán	O
+,	O
+xào	O
+,	O
+nấu	O
+,	O
+...	O
+
+2	O
+Tay	B-PN
+cầm	I-PN
+tủ	I-PN
+lạnh	I-PN
+
+Chảo	B-PN
+xào	B-FUNC
+sâu	B-PROP
+lòng	I-PROP
+vân	B-PROP
+đá	I-PROP
+hoa	I-PROP
+cương	I-PROP
+
+Elmich	B-BR
+-	O
+SMARTCOOK	I-BR
+-	O
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+vân	B-PROP
+tổ	I-PROP
+ong	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+ép	B-FUNC
+cơm	B-FUNC-OB
+hình	B-PROP
+thù	I-PROP
+ngộ	I-PROP
+nghĩnh	I-PROP
+
+2	O
+túi	B-PN
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Ringo	B-BR
+25cm	O
+x	O
+35cm	O

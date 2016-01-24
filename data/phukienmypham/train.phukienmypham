@@ -1,0 +1,5019 @@
+2	O
+Lọ	B-PN
+chiết	B-FUNC
+nước	I-FUNC
+hoa	I-FUNC
+tiện	B-PROP
+lợi	I-PROP
+
+2	O
+gói	O
+kem	B-PN
+tắm	B-FUNC
+trắng	I-FUNC
+thuốc	B-PROP
+bắc	I-PROP
+(sữa	O
+non	O
+/	O
+cám	O
+gạo)	O
+
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+trang	I-FUNC-OB
+điểm	I-FUNC-OB
+nhiều	B-PROP
+ngăn	I-PROP
+
+Xịt	B-PN
+khử	B-FUNC
+mùi	I-FUNC
+chân	I-FUNC
+-	O
+Beauty	B-BR
+Formulas	I-BR
+
+Ba	B-PN
+lô	I-PN
+xanh	B-PROP
+navy	I-PROP
+có	O
+khóa	B-STYLE
+cài.	I-STYLE
+Tiện	O
+đi	O
+học	O
+,	O
+đi	O
+chơi	O
+
+Combo	O
+5	O
+Khẩu	B-PN
+trang	I-PN
+đi	B-FUNC
+mưa	I-FUNC
+tiện	B-PROP
+ích	I-PROP
+
+Tinh	B-PN
+chất	I-PN
+giảm	B-FUNC
+béo	I-FUNC
+Slim	B-BR
+Extreme	I-BR
+3D	I-BR
+Eveline	I-BR
+
+Tinh	B-PN
+chất	I-PN
+nâng	B-FUNC
+,	O
+nở	B-FUNC
+ngực	B-FUNC-OB
+Eveline	B-BR
+Slim	I-BR
+Extreme	I-BR
+3D	I-BR
+
+Sandal	B-PN
+cao	B-STYLE
+gót	I-STYLE
+quai	B-STYLE
+chéo	I-STYLE
+màu	B-PROP
+đen	I-PROP
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+mũi	B-STYLE
+nhọn	I-STYLE
+phối	B-STYLE
+màu	I-STYLE
+
+Kẻ	B-PN
+viền	B-FUNC
+mí	I-FUNC
+&	O
+màu	B-FUNC
+mắt	I-FUNC
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+Etude	B-BR
+House	I-BR
+
+BB	B-BR
+Cream	I-BR
+Etude	I-BR
+Precious	I-BR
+-	O
+Hàn	B-BR
+Quốc	I-BR
+
+Bộ	O
+7	O
+cây	O
+nước	B-PN
+hoa	I-PN
+Fantasy	B-BR
+
+Cọ	B-PN
+tạo	B-FUNC
+khối	I-FUNC
+Pro	B-BR
+Skill	I-BR
+102	O
+Etude	B-BR
+House	I-BR
+
+Cặp	O
+đôi	O
+gội	B-FUNC
+và	O
+xả	B-FUNC
+Alpifresh	B-BR
+
+Cọ	B-PN
+đánh	B-FUNC
+phấn	I-FUNC
+phủ	I-FUNC
+Pro	B-BR
+Skill	I-BR
+002	O
+Etude	B-BR
+Houes	I-BR
+
+4	O
+quần	B-PN
+gen	B-STYLE
+bụng	I-STYLE
+cạp	B-STYLE
+cao	I-STYLE
+định	B-PROP
+hình	I-PROP
+eo	I-PROP
+thon	I-PROP
+
+2	O
+băng	B-PN
+đô	I-PN
+nhung	B-PROP
+đính	B-STYLE
+nơ	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+giả	B-PROP
+da	I-PROP
+ép	B-STYLE
+vân	I-STYLE
+cá	I-STYLE
+sấu	I-STYLE
+
+02	O
+đôi	O
+hoa	B-PN
+tai	I-PN
+kiểu	B-STYLE
+dáng	I-STYLE
+Hàn	I-STYLE
+Quốc	I-STYLE
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+đắp	B-FUNC
+mặt	I-FUNC
++	O
+1	O
+gói	O
+yến	B-PN-OB
+mạch	i-PN-OB
+200g	O
+
+Gel	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+Pink	B-BR
+Gel	B-PN
+Làm	B-FUNC
+trắng	I-FUNC
+,	O
+xóa	B-FUNC
+nhăn	I-FUNC
+hiệu	B-PROP
+quả	I-PROP
+
+Áo	B-PN
+lót	I-PN
+3	B-STYLE
+dây	I-STYLE
+sau	I-STYLE
+độc	B-PROP
+đáo	I-PROP
+và	O
+thời	B-PROP
+trang	I-PROP
+
+2	O
+thắt	B-PN
+lưng	I-PN
+nữ	B-OB
+có	B-STYLE
+nơ	I-STYLE
+điệu	B-PROP
+đà	I-PROP
+
+Kem	B-PN
+che	B-FUNC
+khuyết	I-FUNC
+điểm	I-FUNC
+Acne	B-BR
+Care	I-BR
+Concealer	B-BR
+White	I-BR
+Label	I-BR
+
+Sữa	B-PN
+tắm	B-FUNC
+cao	B-PROP
+cấp	I-PROP
+Hàn	B-BR
+Quốc	I-BR
+-	O
+Giảm	O
+giá	O
+đón	O
+Hè	O
+
+Combo	O
+2	O
+khăn	B-PN
+quấn	B-FUNC
+đi	B-STYLE
+biển	I-STYLE
+quyến	B-PROP
+rũ	I-PROP
+
+Bộ	B-PN
+kit	I-PN
+dưỡng	B-FUNC
+da	I-FUNC
+5	O
+món	O
+WhiteLable	B-BR
+
+Kem	B-PN
+làm	B-FUNC
+hồng	I-FUNC
+nhũ	I-FUNC
+hoa	I-FUNC
+WhiteLable	B-BR
+
+Kem	B-PN
+trị	B-FUNC
+rạn	I-FUNC
+da	I-FUNC
+,	O
+khô	O
+da	O
+White	B-BR
+Label	I-BR
+
+Gel	B-PN
+massage	B-FUNC
+làm	B-FUNC
+căng	I-FUNC
+và	O
+săn	B-FUNC
+chắc	I-FUNC
+ngực	I-FUNC
+WhiteLable	B-BR
+
+Sữa	B-PN
+dưỡng	B-FUNC
+trắng	I-FUNC
+và	O
+giữ	B-FUNC
+ẩm	I-FUNC
+toàn	I-FUNC
+thân	I-FUNC
+White	B-BR
+Label	I-BR
+
+Giày	B-PN
+đế	B-PROP
+thô	I-PROP
+quai	B-STYLE
+chéo	I-STYLE
+màu	B-PROP
+trắng	I-PROP
+-	O
+Bảo	O
+hành	O
+1	O
+năm	O
+
+Kem	B-PN
+dưỡng	B-FUNC
+và	O
+làm	B-FUNC
+sạch	I-FUNC
+tế	B-FUNC-OB
+bào	I-FUNC-OB
+chết	I-FUNC-OB
+
+Giày	B-PN
+đế	B-PROP
+thô	I-PROP
+quai	B-STYLE
+chéo	I-STYLE
+màu	B-PROP
+đen	I-PROP
+-	O
+Bảo	O
+hành	O
+1	O
+năm	O
+
+Nước	B-PN
+giữ	B-FUNC
+ẩm	I-FUNC
+Shinbing	B-BR
+Nhật	B-BR
+Bản	I-BR
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+quai	B-STYLE
+ngang	I-STYLE
+cách	B-STYLE
+điệu	I-STYLE
+màu	B-PROP
+kem	I-PROP
+
+Thắt	B-PN
+lưng	I-PN
+nữ	B-OB
+xinh	B-PROP
+xắn	I-PROP
+thời	B-PROP
+trang	I-PROP
+cho	O
+nàng	B-OB
+
+Mặt	B-PN
+nạ	I-PN
+rửa	B-FUNC
+trôi	I-FUNC
+dưỡng	B-FUNC
+da	I-FUNC
+White	B-BR
+Label	I-BR
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+quai	B-STYLE
+ngang	I-STYLE
+cách	B-STYLE
+điệu	I-STYLE
+màu	B-PROP
+đen	I-PROP
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+HYS	B-BR
+sành	B-STYLE
+điệu	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+hình	B-STYLE
+đôi	I-STYLE
+mắt	I-STYLE
+
+Dầu	B-PN
+dừa	I-PN
+tinh	B-PROP
+chất	I-PROP
+Milaganics	B-BR
+100ml	O
+
+Túi	B-PN
+xách	B-FUNC
+đa	B-PROP
+năng	I-PROP
+3	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+tập	I-FUNC-OB
+thể	I-FUNC-OB
+thao	I-FUNC-OB
+cá	B-PROP
+tính	I-PROP
+
+4	O
+quần	B-PN
+lót	I-PN
+trơn	B-PROP
+cạp	B-STYLE
+cao	I-STYLE
+mềm	B-PROP
+mại	I-PROP
+
+20	O
+miếng	B-PN
+dán	I-PN
+nhũ	I-PN
+hoa	I-PN
+
+Bộ	O
+sáp	B-PN
+tẩy	B-FUNC
+lông	I-FUNC
+cơ	O
+thể	O
+dạng	B-PROP
+miếng	I-PROP
+Shifei	B-BR
+
+Nón	B-PN
+bảo	B-STYLE
+hiểm	I-STYLE
+có	B-PROP
+kính	I-PROP
+chắn	O
+gió	O
+,	O
+chắn	O
+bụi	O
+
+Sữa	B-PN
+tắm	B-FUNC
+bùn	I-FUNC
+khoáng	I-FUNC
+thiên	B-PROP
+nhiên	I-PROP
+Fango	B-BR
+
+Sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+dưỡng	B-FUNC
+da	I-FUNC
+WhiteLable	B-BR
+
+Kem	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+trắng	I-FUNC
+mịn	I-FUNC
+Placenta	B-BR
+White	B-BR
+Label	I-BR
+
+Máy	B-PN
+làm	B-FUNC
+sạch	I-FUNC
+và	O
+massage	B-FUNC
+da	B-FUNC-OB
+mặt	I-FUNC-OB
+Pobling	B-BR
+thế	O
+hệ	O
+mới	O
+
+Dây	B-PN
+nịt	I-PN
+bụng	I-PN
+thể	B-STYLE
+thao	I-STYLE
+
+Gương	B-PN
+công	B-STYLE
+chúa	I-STYLE
+cầm	B-FUNC
+tay	I-FUNC
+
+Nữ	B-PROP
+tính	I-PROP
+ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+vân	B-STYLE
+hoa	I-STYLE
+nổi	I-STYLE
+
+Dầu	B-PN
+gội	B-FUNC
+Kella	B-BR
+Argan	I-BR
+Oil	I-BR
+treatment	I-BR
+500ml	O
+
+Dầu	B-PN
+xả	B-FUNC
+Kella	B-BR
+Argan	I-BR
+Oil	I-BR
+Treatment	I-BR
+500ml	O
+
+2	O
+Hấp	O
+dầu	B-PN
+Kella	B-BR
+Argan	I-BR
+Oil	I-BR
+Treatment	I-BR
+
+Sữa	B-PN
+tắm	B-FUNC
+dưỡng	B-FUNC
+da	I-FUNC
+mềm	I-FUNC
+mịn	I-FUNC
+xuất	O
+xứ	O
+Nhật	B-BR
+Bản	I-BR
+
+2	O
+chai	O
+Hấp	O
+dầu	O
+tóc	O
+Kella	B-BR
+Argan	I-BR
+Oil	I-BR
+Treatment	I-BR
+400ml	O
+
+Dưỡng	B-FUNC
+da	I-FUNC
+trắng	I-FUNC
+mịn	I-FUNC
+với	O
+Sữa	B-PN
+tắm	B-FUNC
+hương	B-PROP
+hoa	I-PROP
+thảo	B-PROP
+mộc	I-PROP
+
+Serum	B-PN
+Kella	B-BR
+Argan	I-BR
+Oil	I-BR
+/	O
+Serum	B-PN
+Kella	B-BR
+keratin	I-BR
+30ml	O
+
+Sữa	B-PN
+dưỡng	B-FUNC
+tóc	I-FUNC
+Kella	B-BR
+Argan	I-BR
+Oil	I-BR
+Treatment	I-BR
+250m	O
+
+Sữa	B-PN
+dưỡng	B-FUNC
+tóc	I-FUNC
+Kella	B-BR
+keratin	I-BR
+Treatment	I-BR
+280ml	O
+
+Ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+2	B-PROP
+ngăn	I-PROP
+sành	B-STYLE
+điệu	I-STYLE
+
+Dầu	B-PN
+xả	B-FUNC
+Kella	B-BR
+keratin	I-BR
+Treatment	I-BR
+500ml	O
+
+Dầu	B-PN
+gội	B-FUNC
+kella	B-BR
+keratin	I-BR
+treatment	I-BR
+500ml	O
+
+Phấn	B-PN
+má	B-FUNC
+hồng	I-FUNC
+Lovely	B-BR
+kèm	O
+bông	B-PN-OB
+phấn	i-PN-OB
+Etude	B-BR
+House	I-BR
+
+Đồng	B-PN
+hồ	I-PN
+cặp	B-PROP
+kiểu	B-STYLE
+cổ	I-STYLE
+điển	I-STYLE
+
+Khăn	B-PN
+quấn	B-FUNC
+đi	B-STYLE
+biển	I-STYLE
+đa	B-PROP
+năng	I-PROP
+chất	O
+cotton	B-PROP
+mềm	B-PROP
+mại	I-PROP
+
+Đồng	B-PN
+hồ	I-PN
+cặp	B-PROP
+mặt	B-STYLE
+tròn	I-STYLE
+dây	B-PROP
+da	I-PROP
+
+Tinh	B-PN
+dầu	I-PN
+sả	B-FUNC
+chanh	B-PROP
+Pure	B-BR
+Ssence	I-BR
+-	O
+Đẹp	B-PROP
+da	I-PROP
+,	O
+thư	B-PROP
+giãn	I-PROP
+
+Ba	B-PN
+lô	I-PN
+laptop	B-FUNC-OB
+2	B-PROP
+ngăn	I-PROP
+
+Dép	B-PN
+tông	B-STYLE
+quai	B-PROP
+da	I-PROP
+hai	B-PROP
+màu	I-PROP
+duyên	B-PROP
+dáng	I-PROP
+
+Mắt	B-PN
+kính	I-PN
+tráng	B-PROP
+gương	I-PROP
+gọng	B-PROP
+dày	I-PROP
+
+Gọng	B-PN
+kính	I-PN
+Exodus	B-BR
+-	O
+Nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+2	O
+áo	B-PN
+lót	I-PN
+ren	B-STYLE
+đệm	B-PROP
+dày	I-PROP
+gợi	B-PROP
+cảm	I-PROP
+
+Son	B-PN
+Dear	B-BR
+My	I-BR
+Wish	I-BR
+Lips	I-BR
+-	O
+Talk	O
+RD301	O
+Etude	B-BR
+House	I-BR
+
+Ví	B-PN
+nữ	B-OB
+cầm	B-FUNC
+tay	I-FUNC
+2	O
+khóa	B-STYLE
+kéo	I-STYLE
+
+Bộ	O
+dưỡng	B-PN
+môi	I-PN
+và	O
+chuốt	B-PN
+mi	I-PN
+dầu	B-PN
+dừa	I-PN
+
+Sơn	B-FUNC
+và	O
+viền	B-FUNC
+ren	I-FUNC
+cho	O
+móng	B-FUNC-OB
+Etude	B-BR
+House	I-BR
+
+2	O
+đai	B-PN
+quấn	B-FUNC
+nhỏ	I-FUNC
+bụng	I-FUNC
+-	O
+eo	B-PROP
+thon	I-PROP
+dáng	B-PROP
+đẹp	I-PROP
+
+Túi	B-PN
+xách	B-FUNC
+da	B-PROP
+Thành	B-BR
+Long	I-BR
+,	O
+dáng	B-STYLE
+mini	I-STYLE
+
+5	O
+đôi	O
+tất	B-PN
+nửa	B-STYLE
+bàn	I-STYLE
+chân	I-STYLE
+cho	O
+nam	B-OB
+,	O
+nữ	B-OB
+
+Sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+Hàn	B-BR
+Quốc	I-BR
+cao	B-PROP
+cấp	I-PROP
+Point	B-BR
+Clean	I-BR
+Naturals	I-BR
+
+Áo	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+Tomato	B-BR
+2	B-PROP
+lớp	I-PROP
+chống	B-FUNC
+tia	I-FUNC
+cực	I-FUNC
+tím	I-FUNC
+
+Túi	B-PN
+xách	B-FUNC
+đeo	B-FUNC
+chéo	I-FUNC
+họa	B-STYLE
+tiết	I-STYLE
+caro	I-STYLE
+
+Dây	B-PN
+nịt	I-PN
+da	B-PROP
+bò	I-PROP
+in	B-STYLE
+vân	I-STYLE
+đà	I-STYLE
+điểu	I-STYLE
+1	B-PROP
+lớp	I-PROP
+
+Balo	B-PN
+thời	B-PROP
+trang	I-PROP
+Dutti	B-BR
+4	O
+dây	B-STYLE
+kéo	I-STYLE
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+công	B-STYLE
+sở	I-STYLE
+đính	B-STYLE
+đá	I-STYLE
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+mũi	B-STYLE
+nhọn	I-STYLE
+phối	B-STYLE
+màu	I-STYLE
+
+Nước	B-PN
+hoa	I-PN
+Aqua	B-BR
+dành	O
+cho	O
+nam	B-OB
+/	O
+nữ	B-OB
+50ml	O
+
+Sandal	B-PN
+cao	B-STYLE
+gót	I-STYLE
+quai	B-STYLE
+chéo	I-STYLE
+màu	B-PROP
+kem	I-PROP
+
+2	O
+hộp	O
+sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+hồng	B-PROP
+sâm	I-PROP
+đỏ	I-PROP
+130ml	O
+
+Nước	B-PN
+hoa	I-PN
+Blue	B-BR
+Ocean	I-BR
+cho	O
+nam	B-OB
+/	O
+nữ	B-OB
+(50ml)	O
+
+2	O
+đôi	O
+hoa	B-PN
+tai	I-PN
+họa	B-STYLE
+tiết	I-STYLE
+xe	I-STYLE
+đạp	I-STYLE
+và	O
+chữ	B-STYLE
+Kiss	I-STYLE
+
+Dụng	B-PN
+cụ	I-PN
+chà	B-FUNC
+mụn	I-FUNC
+cám	I-FUNC
++	O
+nâng	B-FUNC
+sống	I-FUNC
+mũi	I-FUNC
+
+Túi	B-PN
+ipad	B-FUNC-OB
+Miti	B-BR
+nhỏ	B-PROP
+gọn	I-PROP
+,	O
+thời	B-PROP
+trang	I-PROP
+
+4	O
+đôi	O
+dép	B-PN
+massage	B-FUNC
+chân	I-FUNC
+chống	B-PROP
+trượt	I-PROP
+
+5	O
+đôi	O
+bông	B-PN
+tai	I-PN
+hạt	B-STYLE
+tròn	I-STYLE
+
+Kính	B-PN
+mát	I-PN
+đính	B-STYLE
+đá	I-STYLE
+pha	I-STYLE
+lê	I-STYLE
+chống	B-FUNC
+tia	I-FUNC
+UV	I-FUNC
+
+10	O
+gói	O
+dầu	B-PN
+nhuộm	B-FUNC
+tóc	I-FUNC
+-	O
+Gội	O
+là	O
+đen	O
+Algimar	B-BR
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+phối	O
+2	O
+ngăn	B-STYLE
+trước	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+viền	B-STYLE
+kim	I-STYLE
+loại	I-STYLE
+
+Yến	B-PN
+mạch	I-PN
+và	O
+bộ	O
+dụng	B-PN
+cụ	I-PN
+trộn	B-FUNC
+kem	I-FUNC
+đắp	B-FUNC
+mặt	I-FUNC
+nạ	I-FUNC
+
+Móc	B-PN
+khóa	I-PN
+kèm	O
+nước	B-PN
+hoa	I-PN
+khô	B-PROP
+
+Dầu	B-PN
+nhuộm	B-FUNC
+tóc	I-FUNC
+gội	B-FUNC
+lên	I-FUNC
+màu	I-FUNC
+-	O
+Màu	B-PROP
+hạt	I-PROP
+dẻ	I-PROP
+
+Bộ	O
+uốn	B-PN
+tóc	I-PN
+xoăn	I-PN
+không	B-PROP
+dùng	I-PROP
+nhiệt	I-PROP
+
+Dép	B-PN
+xốp	B-PROP
+quai	B-STYLE
+vải	I-STYLE
+mềm	I-STYLE
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Cám	B-PN
+gạo	B-PROP
+nghệ	B-PROP
+nguyên	B-PROP
+chất	I-PROP
+Hai	B-BR
+Lúa	I-BR
+(lọ	O
+350g)	O
+
+Kem	B-PN
+hấp	B-FUNC
+dầu	I-FUNC
+đặc	B-FUNC
+trị	I-FUNC
+hư	I-FUNC
+tổn	I-FUNC
+M	O
+Hair	B-BR
+collagen	I-BR
+
+Nịt	B-PN
+bụng	I-PN
+cao	B-PROP
+cấp	I-PROP
+Hương	B-BR
+Quế	I-BR
+cho	O
+vòng	B-FUNC
+eo	I-FUNC
+lý	I-FUNC
+tưởng	I-FUNC
+
+2	O
+chai	O
+bột	B-PN
+trà	B-PROP
+xanh	I-PROP
+Bảo	B-BR
+Lộc	I-BR
+
+Dầu	B-PN
+dừa	I-PN
+nguyên	B-PROP
+chất	I-PROP
+dưỡng	B-PROP
+da	I-PROP
+và	O
+tóc	B-PROP
+(500ml)	O
+
+Ví	B-PN
+da	B-PROP
+in	B-STYLE
+hoa	I-STYLE
+3D	I-STYLE
+sang	B-PROP
+trọng	I-PROP
+,	O
+thời	B-PROP
+trang	I-PROP
+
+Bộ	O
+băng	B-PN
+đô	I-PN
+và	O
+vòng	B-PN
+cổ	I-PN
+điệu	B-PROP
+đà	I-PROP
+,	O
+thời	B-PROP
+trang	I-PROP
+
+Serum	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+SKC	B-BR
+Bio	I-BR
+-	O
+Q10	O
+Collagen	B-PROP
+nhập	O
+khẩu	O
+Úc	B-BR
+
+Túi	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+2	B-PROP
+ngăn	I-PROP
+
+2	O
+lọ	O
+mặt	B-PN
+nạ	I-PN
+dưỡng	B-FUNC
+da	I-FUNC
+Cao	B-PN
+bí	I-PN
+đao	I-PN
+
+Bộ	O
+dây	B-PN
+chuyền	I-PN
++	O
+lắc	B-PN
+tay	I-PN
+mặt	B-STYLE
+trời	I-STYLE
+đính	B-STYLE
+đá	I-STYLE
+
+2	O
+Chai	O
+sữa	B-PN
+tắm	B-FUNC
+White	B-BR
+Care	I-BR
+-	O
+Tặng	O
+kèm	O
+bông	B-PN
+tắm	B-FUNC
+
+Thắt	B-PN
+lưng	I-PN
+nữ	B-OB
+da	B-PROP
+bò	I-PROP
+100%	O
+
+Sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+Herb	B-BR
+Day	I-BR
+365	O
+Hàn	B-BR
+Quốc	I-BR
+
+Giầy	B-PN
+Moka	B-BR
+đính	B-STYLE
+nơ	I-STYLE
+siêu	B-PROP
+nhẹ	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+2	B-PROP
+ngăn	I-PROP
+sành	B-STYLE
+điệu	I-STYLE
+
+2	O
+vòng	B-PN
+tay	I-PN
+đá	B-STYLE
+kết	I-STYLE
+hợp	I-STYLE
+
+Quần	B-PN
+định	B-FUNC
+hình	I-FUNC
+Slim	B-BR
+Lift	I-BR
+cho	O
+thân	O
+hình	O
+gọn	O
+gàng	O
+
+Tinh	O
+cám	B-PN
+gạo	I-PN
+nguyên	B-PROP
+chất	I-PROP
+Hai	B-OB
+Lúa	I-OB
+hũ	O
+300g	O
+
+Tinh	O
+cám	B-PN
+gạo	I-PN
+trà	B-PROP
+xanh	I-PROP
+Hai	B-BR
+Lúa	I-BR
+(lọ	O
+350g)	O
+
+2	O
+chai	O
+sữa	B-PN
+tắm	I-PN
+đào	B-PROP
+The	B-BR
+Nature	I-BR
+Time	I-BR
+cho	O
+bé	B-OB
+
+Túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+và	O
+mỹ	B-FUNC-OB
+phẩm	I-FUNC-OB
+,	O
+đồ	B-FUNC-OB
+du	I-FUNC-OB
+lịch	I-FUNC-OB
+cá	O
+nhân	O
+
+Serum	B-PN
+dài	B-FUNC
+mi	I-FUNC
+Marroc	B-BR
+(10ml)	O
+
+Ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+cao	B-PROP
+cấp	I-PROP
+1	O
+khóa	B-STYLE
+kéo	I-STYLE
+
+Bộ	O
+dán	B-PN
+lót	I-PN
+ngực	I-PN
+và	O
+1	O
+bộ	O
+nâng	B-PN
+ngực	I-PN
+
+Balo	B-PN
+kiểu	B-STYLE
+dáng	I-STYLE
+thể	I-STYLE
+thao	I-STYLE
+
+Set	O
+đồ	B-PN
+nội	I-PN
+y	I-PN
+ren	B-STYLE
+đính	I-STYLE
+nơ	I-STYLE
+
+Tinh	B-PN
+dầu	I-PN
+vỏ	B-PROP
+bưởi	I-PROP
+nguyên	B-PROP
+chất	I-PROP
+-	O
+Ngăn	B-FUNC
+tóc	I-FUNC
+gãy	I-FUNC
+rụng	I-FUNC
+
+8	O
+đôi	O
+tất	B-PN
+cổ	B-STYLE
+ngắn	I-STYLE
+Romario	B-BR
+-	O
+Thấm	B-PROP
+hút	I-PROP
+mồ	I-PROP
+hôi	I-PROP
+tốt	O
+
+Túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+trang	I-FUNC-OB
+điểm	I-FUNC-OB
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+khóa	B-STYLE
+dọc	I-STYLE
+cách	B-STYLE
+điệu	I-STYLE
+
+Set	O
+túi	B-PN
+xách	B-FUNC
+và	O
+ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+kèm	O
+khăn	B-PN-OB
+voan	i-PN-OB
+
+Ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+thời	B-PROP
+trang	I-PROP
+
+Túi	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+công	B-STYLE
+sở	I-STYLE
+khóa	B-STYLE
+vuông	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+vân	B-STYLE
+chỉ	I-STYLE
+
+3	O
+bịch	O
+bột	B-PN
+nghệ	B-PROP
+tắm	B-FUNC
+trắng	I-FUNC
+
+Túi	B-PN
+xách	B-FUNC
+giả	B-PROP
+da	I-PROP
+nhiều	B-STYLE
+màu	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+
+Sành	B-STYLE
+điệu	I-STYLE
+với	O
+túi	B-PN
+xách	B-FUNC
+cỡ	B-PROP
+lớn	I-PROP
+
+3	O
+bịch	O
+bột	B-PN
+đậu	B-PROP
+đỏ	I-PROP
+tắm	B-FUNC
+trắng	I-FUNC
+,	O
+ngăn	B-FUNC
+ngừa	I-FUNC
+mụn	I-FUNC
+
+Ba	B-PN
+lô	I-PN
+du	B-PROP
+lịch	I-PROP
+mẫu	O
+mới	O
+
+SUN	B-BR
+Kem	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+SPF	B-BR
+30	O
+
+Sữa	B-PN
+tắm	B-FUNC
+YOGHURT	B-BR
+
+Sữa	B-PN
+dưỡng	B-FUNC
+thể	I-FUNC
+YOGHURT	B-BR
+
+Kem	B-PN
+dưỡng	B-FUNC
+ẩm	I-FUNC
+ngày	O
+và	O
+đêm	O
+YOGHURT	B-BR
+
+Nước	B-PN
+hoa	I-PN
+ReFan	B-BR
+hương	B-PROP
+hoa	I-PROP
+hồng	I-PROP
+10ml	O
+-	O
+Bulgaria	B-BR
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+giả	B-PROP
+da	I-PROP
+thời	B-PROP
+trang	I-PROP
+
+Kem	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+SPF	B-BR
+50	O
++	O
+SUN	B-BR
+CREAM	B-BR
+SPF	B-BR
+50	O
++	O
+	O
+
+SUN	B-BR
+Kem	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+chiết	B-PROP
+xuất	I-PROP
+lô	I-PROP
+hội	I-PROP
+
+Mắt	B-PN
+kính	I-PN
+tráng	B-PROP
+gương	I-PROP
+
+Áo	B-PN
+ngực	I-PN
+silicon	B-PROP
+không	B-STYLE
+dây	I-STYLE
+
+Túi	B-PN
+Đựng	B-FUNC
+Mỹ	B-FUNC-OB
+Phẩm	I-FUNC-OB
+Thu	B-PROP
+Gọn	I-PROP
+Roll	B-BR
+N	O
+Go	O
+
+Kính	B-PN
+nữ	B-OB
+mắt	B-STYLE
+tráng	I-STYLE
+gương	I-STYLE
+hoặc	O
+mắt	B-STYLE
+màu	I-STYLE
+cá	B-PROP
+tính	I-PROP
+
+Cám	B-PN
+gạo	B-PROP
+nguyên	B-PROP
+chất	I-PROP
+Hai	B-BR
+Lúa	I-BR
+-	O
+Gói	O
+500g	O
+
+Túi	B-PN
+du	B-PROP
+lịch	I-PROP
+gắn	B-FUNC
+trên	I-FUNC
+vali	I-FUNC
+kéo	I-FUNC
+
+Túi	B-PN
+da	B-PROP
+đựng	B-FUNC
+iPad	B-FUNC-OB
+thời	B-PROP
+trang	I-PROP
+-	O
+Hàng	O
+Quảng	B-BR
+Châu	I-BR
+
+Túi	B-PN
+nữ	B-OB
+Thành	B-BR
+Long	I-BR
+3	B-PROP
+màu	I-PROP
+duyên	B-PROP
+dáng	I-PROP
+
+Túi	O
+đeo	O
+chéo	O
+dễ	O
+thương	O
+Cho	O
+Bé	O
+
+Túi	B-PN
+da	B-PROP
+đeo	B-FUNC
+chéo	I-FUNC
+
+Combo	O
+2	O
+túi	B-PN
+chống	B-FUNC
+nước	I-FUNC
+điện	I-FUNC
+thoại	I-FUNC
+dễ	B-PROP
+thương	I-PROP
+
+Mũ	B-PN
+đi	B-STYLE
+biển	I-STYLE
+vành	B-STYLE
+rộng	I-STYLE
+thời	B-PROP
+trang	I-PROP
+
+Túi	B-PN
+xách	B-FUNC
+da	B-PROP
++	O
+ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+
+2	O
+Miếng	B-PN
+dán	I-PN
+nhũ	I-PN
+hoa	I-PN
+Silicon	B-PROP
+
+Mũ	B-PN
+cói	B-PROP
+vành	B-STYLE
+rộng	I-STYLE
+thắt	B-STYLE
+nơ	I-STYLE
+đi	B-STYLE
+biển	I-STYLE
+thời	B-PROP
+trang	I-PROP
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+phối	B-STYLE
+2	B-PROP
+màu	I-PROP
+da	B-STYLE
+bóng	I-STYLE
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+Cindydrella	B-BR
+
+Hút	O
+mắt	O
+chàng	O
+với	O
+7	O
+quần	B-PN
+lót	I-PN
+ren	B-STYLE
+gợi	B-PROP
+cảm	I-PROP
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+đế	B-PROP
+vuông	I-PROP
+màu	B-PROP
+trắng	I-PROP
+
+3	O
+Dây	B-PN
+chuyển	I-PN
+đổi	B-PROP
++	O
+5	O
+miếng	B-PN
+nối	I-PN
++	O
+10	O
+miếng	O
+cài	B-PN
+áo	I-PN
+ngực	I-PN
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+dây	B-STYLE
+đan	I-STYLE
+Cindydrella	B-BR
+
+Combo	O
+10	O
+mặt	B-PN
+nạ	I-PN
+dưỡng	B-FUNC
+da	I-FUNC
+Dermal	B-BR
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+nữ	B-OB
+dây	B-STYLE
+đan	I-STYLE
+da	B-PROP
+bóng	I-PROP
+
+Kính	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+thời	B-PROP
+trang	I-PROP
+cá	B-PROP
+tính	I-PROP
+
+Kính	B-PN
+râm	I-PN
+sành	B-STYLE
+điệu	I-STYLE
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Bảo	B-FUNC
+vệ	I-FUNC
+đôi	I-FUNC
+mắt	I-FUNC
+với	O
+kính	B-PN
+râm	I-PN
+thời	B-PROP
+trang	I-PROP
+
+03	O
+Gói	O
+tắm	B-PN
+trắng	I-PN
+tinh	B-PROP
+chất	I-PROP
+Ốc	I-PROP
+Sên	I-PROP
+
+3	O
+lọ	O
+tinh	B-PN
+dầu	I-PN
+nguyên	B-PROP
+chất	I-PROP
+100%	O
+
+2	O
+lọ	O
+tinh	B-PN
+dầu	I-PN
+thiên	B-PROP
+nhiên	I-PROP
+(10ml	O
+/	O
+lọ)	O
+
+Bút	B-PN
+Viền	I-PN
+Mí	B-PROP
+Mắt	I-PROP
+
+Vòng	B-PN
+tay	I-PN
+đá	B-PROP
+mắt	I-PROP
+hổ	I-PROP
+may	B-PROP
+mắn	I-PROP
+
+Túi	B-PN
+xách	B-FUNC
+thời	B-PROP
+trang	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+thêm	O
+nổi	O
+bật	O
+
+Kính	B-PN
+bơi	I-PN
+Hàn	B-BR
+Quốc	I-BR
+bảo	B-FUNC
+vệ	I-FUNC
+mắt	I-FUNC
+khi	O
+bơi	O
+
+Ba	B-PN
+lô	I-PN
+laptop	B-FUNC-OB
+Qami	B-BR
+hình	B-STYLE
+chữ	I-STYLE
+nhật	I-STYLE
+
+Mũ	B-PN
+thời	B-PROP
+trang	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+thêm	B-PROP
+xinh	I-PROP
+
+Giày	B-PN
+sandal	B-PN
+nữ	B-OB
+quai	B-STYLE
+ngang	I-STYLE
+
+Tinh	B-PN
+Dầu	I-PN
+Bưởi	B-PROP
+Dưỡng	B-PROP
+Tóc	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+nâng	B-FUNC
+mũi	I-FUNC
+an	B-PROP
+toàn	I-PROP
+Nose	B-BR
+Secret	I-BR
+
+Cao	B-PN
+tinh	B-PROP
+nghệ	I-PROP
+/	O
+Cao	B-PN
+vỏ	B-PROP
+bưởi	I-PROP
+trị	B-FUNC
+mụn	I-FUNC
+,	O
+đẹp	B-FUNC
+da	I-FUNC
+
+Gọng	B-PN
+kính	I-PN
+Exodus	B-BR
+-	O
+Nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Kính	B-PN
+gọng	B-STYLE
+dẻo	I-STYLE
+Exodus	B-BR
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Dầu	B-PN
+gội	B-FUNC
+Hàn	B-BR
+Quốc	I-BR
+Kerasys	B-BR
+cân	B-FUNC
+bằng	I-FUNC
+độ	I-FUNC
+ẩm	I-FUNC
+cho	O
+tóc	B-FUNC-OB
+
+Tinh	B-PN
+dầu	I-PN
+vỏ	B-PROP
+bưởi	I-PROP
+,	O
+dầu	B-PN
+cám	I-PN
+gạo	B-PROP
+100%	O
+thiên	B-PROP
+nhiên	I-PROP
+
+2	O
+túi	O
+sữa	B-PN
+tắm	B-FUNC
+cao	B-PROP
+cấp	I-PROP
+Hàn	B-BR
+Quốc	I-BR
+Shower	B-BR
+Mate	I-BR
+
+Cao	B-PN
+bí	B-PROP
+đao	I-PROP
+trị	B-FUNC
+mụn	I-FUNC
+
+Son	B-PN
+môi	I-PN
+lâu	B-PROP
+phai	I-PROP
+True	B-BR
+Color	I-BR
+Lisstick	B-BR
+Farmasi	I-BR
+
+Đồng	B-PN
+hồ	I-PN
+nam	B-OB
+thời	B-PROP
+trang	I-PROP
+
+2	O
+Ba	B-PN
+lô	I-PN
+dây	B-STYLE
+rút	I-STYLE
+năng	B-PROP
+động	I-PROP
+
+Ví	B-PN
+nữ	B-OB
+khóa	B-STYLE
+xéo	I-STYLE
+phong	B-STYLE
+cách	I-STYLE
+mới	I-STYLE
+
+5	O
+khăn	B-PN
+ống	I-PN
+đa	B-PROP
+năng	I-PROP
+
+Mũ	B-PN
+cói	B-PROP
+vành	B-STYLE
+nhỏ	I-STYLE
+có	B-STYLE
+nơ	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+,	O
+dễ	B-PROP
+thương	I-PROP
+
+2	O
+Nón	B-PN
+Lưỡi	B-STYLE
+Trai	I-STYLE
+Ông	B-OB
+Xã	I-OB
+&	O
+Bà	B-OB
+Xã	I-OB
+
+Giày	B-PN
+thể	B-STYLE
+thao	I-STYLE
+nữ	B-OB
+PC	B-BR
+màu	B-PROP
+tím	I-PROP
+
+Giày	B-PN
+thể	B-STYLE
+thao	I-STYLE
+nữ	B-OB
+PC	B-BR
+màu	B-PROP
+xanh	I-PROP
+
+Váy	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+-	O
+chất	O
+thun	B-PROP
+dày	B-PROP
+
+Bộ	O
+túi	B-PN
+xách	B-FUNC
+4	O
+món	O
+phong	B-STYLE
+cách	I-STYLE
+Hàn	I-STYLE
+Quốc	I-STYLE
+
+Giày	B-PN
+sandal	B-PN
+xỏ	B-STYLE
+ngón	I-STYLE
+đính	B-STYLE
+hạt	I-STYLE
+
+Sandal	B-PN
+nữ	B-OB
+kẹp	B-STYLE
+ngón	I-STYLE
+viền	B-STYLE
+móc	I-STYLE
+xích	I-STYLE
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+mũi	B-STYLE
+nhọn	I-STYLE
+đính	B-STYLE
+nơ	I-STYLE
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+đính	B-STYLE
+đá	I-STYLE
+gót	B-STYLE
+cao	I-STYLE
+3cm	O
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+vải	B-PROP
+mũi	B-STYLE
+nhọn	I-STYLE
+
+Ví	B-PN
+nam	B-OB
+H2	B-BR
+da	B-PROP
+bò	I-PROP
+kèm	O
+hộp	B-PN-OB
+đựng	i-PN-OB
+sang	B-PROP
+trọng	I-PROP
+
+Quần	B-PN
+gen	B-STYLE
+nịt	B-PROP
+bụng	I-PROP
+
+Khăn	B-PN
+tắm	B-FUNC
+đi	B-STYLE
+biển	I-STYLE
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Dao	B-PN
+cạo	I-PN
+Techno	B-BR
+Max	I-BR
+Sensitive	I-BR
+Skin	I-BR
+4	B-PROP
+lưỡi	I-PROP
+cho	O
+nữ	B-OB
+
+24	O
+Dụng	B-PN
+cụ	I-PN
+dũa	B-FUNC
+móng	I-FUNC
+Uncle	B-BR
+Bills	I-BR
+
+Biến	O
+hóa	O
+với	O
+khăn	B-PN
+choàng	B-FUNC
+đi	B-STYLE
+biển	I-STYLE
+2	B-STYLE
+dây	I-STYLE
+
+Dao	B-PN
+cạo	I-PN
+cho	O
+nữ	B-OB
+Techno	B-BR
+Max	I-BR
+Pink	I-BR
+3	B-PROP
+lưỡi	I-PROP
+
+Dây	B-PN
+lưng	I-PN
+nam	B-OB
+H2	B-BR
+vân	B-STYLE
+cá	I-STYLE
+sấu	I-STYLE
+sang	B-PROP
+trọng	I-PROP
+-	O
+BH	O
+6	O
+tháng	O
+
+Vòng	B-PN
+cổ	I-PN
+ngọc	B-PROP
+trai	I-PROP
+
+Dây	B-PN
+chuyền	I-PN
+2	B-PROP
+mặt	I-PROP
++	O
+Hoa	O
+tay	O
+trái	O
+châu	O
+
+Giầy	B-PN
+lưới	B-STYLE
+nam	B-OB
+siêu	B-PROP
+nhẹ	I-PROP
+,	O
+thoáng	B-PROP
+mát	I-PROP
+
+Tắm	B-FUNC
+trắng	I-FUNC
+với	O
+tinh	O
+bột	B-PN
+gạo	B-PROP
+,	O
+bột	B-PN
+nghệ	B-PROP
+&	O
+bột	B-PN
+yến	B-PROP
+mạch	I-PROP
+
+Giầy	B-PN
+lưới	B-STYLE
+hoa	B-STYLE
+dịu	B-PROP
+dàng	I-PROP
+quyến	B-PROP
+rũ	I-PROP
+
+Dây	B-PN
+nịt	I-PN
+kiểu	O
+-	O
+phong	B-STYLE
+cách	I-STYLE
+mới	I-STYLE
+cho	O
+nữ	B-OB
+
+Gương	B-PN
+phóng	B-PROP
+lớn	I-PROP
+kiểm	O
+soát	O
+tình	O
+trạng	O
+da	O
+mặt	O
+
+5	O
+khẩu	B-PN
+trang	I-PN
+bông	B-PROP
+hoạt	I-PROP
+tính	I-PROP
+3	B-PROP
+lớp	I-PROP
+cao	B-PROP
+cấp	I-PROP
+Tomato	B-BR
+
+Túi	B-PN
+xách	B-FUNC
+viền	B-STYLE
+gợn	I-STYLE
+sóng	I-STYLE
+
+12	O
+miếng	O
+mút	B-PN
+trang	B-FUNC
+điểm	I-FUNC
+Uncle	B-BR
+Bills	I-BR
+
+3	O
+hộp	O
+khẩu	B-PN
+trang	I-PN
+y	B-PROP
+tế	I-PROP
+than	B-PROP
+hoạt	I-PROP
+tính	I-PROP
+kháng	B-FUNC
+khuẩn	I-FUNC
+
+Kính	B-PN
+nữ	B-OB
+mắt	B-STYLE
+vuông	I-STYLE
+cá	B-PROP
+tính	I-PROP
+
+Kính	B-PN
+tai	B-STYLE
+mèo	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+
+Dầu	B-PN
+cám	I-PN
+gạo	B-PROP
+Thanh	B-BR
+Xuân	I-BR
+-	O
+Dưỡng	B-FUNC
+da	I-FUNC
+mặt	I-FUNC
+trắng	B-PROP
+sáng	I-PROP
+
+Túi	B-PN
+đeo	B-FUNC
+iPad	I-FUNC
+chống	B-FUNC
+sốc	I-FUNC
+,	O
+chống	B-FUNC
+thấm	I-FUNC
+
+Bộ	O
+3	O
+bấm	B-PN
+móng	I-PN
+tay	I-PN
+Uncle	B-BR
+Bills	I-BR
+
+Nước	B-PN
+hoa	I-PN
+hình	B-STYLE
+quả	I-STYLE
+táo	I-STYLE
+
+Dầu	B-PN
+nhuộm	B-FUNC
+tóc	I-FUNC
+gội	B-FUNC
+lên	I-FUNC
+màu	I-FUNC
+-	O
+Màu	B-PROP
+cà	I-PROP
+phê	I-PROP
+
+Sữa	B-PN
+tắm	B-FUNC
+dưỡng	B-FUNC
+ẩm	I-FUNC
+Charme	B-BR
+cho	O
+làn	O
+da	O
+mịn	O
+màng	O
+1000ml	O
+
+Ba	B-PN
+lô	I-PN
+xanh	B-PROP
+navy	I-PROP
+có	O
+khóa	B-STYLE
+cài.	I-STYLE
+Tiện	O
+đi	O
+học	O
+,	O
+đi	O
+chơi	O
+
+10	O
+miếng	O
+lót	B-PN
+silicon	B-PROP
+nhung	B-PROP
+tăng	B-FUNC
+chiều	I-FUNC
+cao	I-FUNC
+
+Gel	B-PN
+Lô	B-PROP
+hội	I-PROP
+dưỡng	B-FUNC
+da	I-FUNC
++	O
+Mascara	B-PROP
+dầu	B-PN
+dừa	I-PN
+Milaganics	B-BR
+
+Gel	B-PN
+lô	B-PROP
+hội	I-PROP
+Milaganics	B-BR
+dưỡng	B-FUNC
+da	I-FUNC
+,	O
+dưỡng	B-FUNC
+thể	I-FUNC
+400gr	O
+
+Tinh	B-PN
+Dầu	I-PN
+Bưởi	B-PROP
+Đậm	B-PROP
+Đặc	I-PROP
+Milaganics	B-BR
+30ml	O
+
+Tinh	B-PN
+dầu	I-PN
+vỏ	B-PROP
+bưởi	I-PROP
+đậm	B-PROP
+đặc	I-PROP
+Milaganics	B-BR
+USA	B-BR
+10ml	O
+
+Dầu	B-PN
+gội	B-FUNC
+,	O
+xả	B-FUNC
+Maccaessen	B-BR
+tặng	O
+nước	B-PN-OB
+dưỡng	B-FUNC
+huyết	I-FUNC
+thanh	I-FUNC
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+đính	B-STYLE
+kim	I-STYLE
+sa	I-STYLE
+họa	B-STYLE
+tiết	I-STYLE
+đôi	I-STYLE
+mắt	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+giả	B-PROP
+da	I-PROP
+đính	B-STYLE
+kim	I-STYLE
+sa	I-STYLE
+
+2	O
+gói	O
+kem	B-PN
+tắm	B-FUNC
+siêu	I-FUNC
+trắng	I-FUNC
+thuốc	B-PROP
+bắc	I-PROP
+và	O
+ngọc	B-PROP
+trai	I-PROP
+
+Dầu	B-PN
+dừa	I-PN
+tinh	B-PROP
+khiết	I-PROP
+Milaganics	B-BR
+450	O
+ml	O
+
+Dầu	B-PN
+dừa	I-PN
+tinh	B-PROP
+chất	I-PROP
+Milaganics	B-BR
+Cold	I-BR
+450ml	O
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+đính	B-STYLE
+nơ	I-STYLE
+mũi	B-STYLE
+cách	I-STYLE
+điệu	I-STYLE
+
+Combo	O
+3	O
+cài	B-PN
+tóc	I-PN
+handmade	B-STYLE
+
+Giày	B-PN
+chiến	B-STYLE
+binh	I-STYLE
+cao	B-STYLE
+gót	I-STYLE
+chốt	B-PROP
+vuông	I-PROP
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+chốt	B-PROP
+vuông	I-PROP
+phong	B-STYLE
+cách	I-STYLE
+chiến	I-STYLE
+binh	I-STYLE
+
+Bộ	O
+kem	B-PN
+tắm	B-FUNC
+trắng	I-FUNC
+toàn	I-FUNC
+thân	I-FUNC
+Noblesse	B-BR
+
+Combo	O
+2	O
+lọ	O
+cao	B-PN
+tinh	B-PROP
+nghệ	I-PROP
+30ml	O
+
+Kem	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+Lebe	B-BR
+Hàn	B-BR
+Quốc	I-BR
+
+Máy	B-PN
+rửa	B-FUNC
+và	O
+massage	B-FUNC
+mặt	B-FUNC-OB
+Pobling	B-BR
+Habalan	I-BR
+-	O
+Hàn	B-BR
+Quốc	I-BR
+
+Dép	B-PN
+tông	B-STYLE
+quai	B-PROP
+da	I-PROP
+hai	B-PROP
+màu	I-PROP
+duyên	B-PROP
+dáng	I-PROP
+
+Kính	B-PN
+bơi	I-PN
+Hàn	B-BR
+Quốc	I-BR
+bảo	B-FUNC
+vệ	I-FUNC
+mắt	I-FUNC
+khi	O
+bơi	O
+
+Kem	B-PN
+tẩy	B-FUNC
+tế	I-FUNC
+bào	I-FUNC
+chết	I-FUNC
+Lebelage	B-BR
+cho	O
+da	O
+mặt	O
+
+Sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+Darness	B-BR
+pomegranate	I-BR
+
+Gọng	B-PN
+kính	I-PN
+Exodus	B-BR
+-	O
+Nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+5	O
+đôi	O
+vớ	B-PN
+nữ	B-OB
+massage	B-FUNC
+chân	I-FUNC
+
+2	O
+Chai	O
+sữa	B-PN
+tắm	B-FUNC
+Elizzer	B-BR
+tinh	B-PN
+chất	I-PN
+bưởi	B-PROP
+,	O
+trà	B-PROP
+xanh	I-PROP
+
+Kính	B-PN
+thời	B-PROP
+thang	I-PROP
+,	O
+hộp	O
+xinh	B-PROP
+xắn	I-PROP
+
+Giày	B-PN
+thể	B-STYLE
+thao	I-STYLE
+thời	B-PROP
+trang	I-PROP
+cho	O
+nam	B-OB
+/	O
+nữ	B-OB
+
+Đồng	B-PN
+hồ	I-PN
+silicone	B-PROP
+thời	B-PROP
+trang	I-PROP
+
+Ví	B-PN
+silicon	B-PROP
+hình	B-STYLE
+động	I-STYLE
+vật	I-STYLE
+siêu	B-PROP
+dễ	I-PROP
+thương	I-PROP
+
+Mắt	B-PN
+kính	I-PN
+chuồn	B-STYLE
+chuồn	I-STYLE
+thời	B-PROP
+trang	I-PROP
+nam	B-OB
+nữ	B-OB
+
+Kem	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+Mioggi	B-BR
+Blessing	I-BR
+Brich	I-BR
+Cream	I-BR
+
+Giày	B-PN
+thể	B-STYLE
+thao	I-STYLE
+siêu	B-PROP
+nhẹ	I-PROP
+,	O
+siêu	B-PROP
+thoáng	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+2	O
+gói	O
+kem	B-PN
+tắm	B-FUNC
+trắng	I-FUNC
+tinh	B-PROP
+chất	I-PROP
+huyết	I-PROP
+yến	I-PROP
+
+Kính	B-PN
+mát	I-PN
+thời	B-PROP
+trang	I-PROP
+cho	O
+nữ	B-OB
+
+Bột	O
+cám	B-PN
+gạo	B-PROP
+Hải	B-BR
+Đăng	I-BR
+cao	B-PROP
+cấp	I-PROP
+(gói	O
+500g)	O
+
+Balo	B-PN
+nhung	B-PROP
+thời	B-PROP
+trang	I-PROP
+
+Hộp	O
+mặt	B-PN
+nạ	I-PN
+Anna	B-BR
+Tumoru	I-BR
+10	O
+miếng	O
+Nhật	B-BR
+Bản	I-BR
+
+Bộ	B-PN
+cọ	I-PN
+trang	B-FUNC
+điểm	I-FUNC
+bỏ	B-PROP
+túi	I-PROP
+
+5	O
+đôi	O
+vớ	B-PN
+nữ	B-OB
+massage	B-FUNC
+chân	I-FUNC
+
+Váy	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+chất	O
+thô	B-PROP
+thoáng	B-PROP
+mát	I-PROP
+
+Ba	B-PN
+lô	I-PN
+laptop	B-FUNC-OB
+Qami	B-BR
+hình	B-STYLE
+chữ	I-STYLE
+nhật	I-STYLE
+
+Balo	B-PN
+vải	B-PROP
+kẻ	B-STYLE
+ngang	I-STYLE
+trẻ	B-STYLE
+trung	I-STYLE
+và	O
+cá	B-PROP
+tính	I-PROP
+
+Giày	B-PN
+đi	B-FUNC
+mưa	I-FUNC
+có	B-PROP
+đế	I-PROP
+chống	I-PROP
+trượt	I-PROP
+
+Mắt	B-PN
+kính	I-PN
+phân	B-PROP
+cực	I-PROP
+chống	B-FUNC
+tia	I-FUNC
+UV	I-FUNC
+,	O
+chống	B-FUNC
+chói	I-FUNC
+&	O
+lóa	O
+
+Túi	B-PN
+xách	B-FUNC
+viền	B-STYLE
+gợn	I-STYLE
+sóng	I-STYLE
+
+Máy	B-PN
+bấm	B-FUNC
+tóc	I-FUNC
+4	B-PROP
+cặp	I-PROP
+kẹp	I-PROP
+
+Dầu	B-PN
+dừa	I-PN
+100ml	O
++	O
+mascara	B-PROP
+dầu	B-PN
+dừa	I-PN
+Coco	B-BR
+Sesret	I-BR
+
+Son	B-PN
+-	O
+Xà	B-PN
+phòng	I-PN
+-	O
+Lotion	B-BR
+từ	O
+dầu	B-PN
+dừa	I-PN
+Coco	B-BR
+Secret	I-BR
+
+Kem	B-PN
+ủ	B-FUNC
+kiểm	B-FUNC
+soát	I-FUNC
+gãy	I-FUNC
+rụng	I-FUNC
+Vatika	B-BR
+500g	O
+
+Dầu	B-PN
+xả	B-FUNC
+kiểm	B-PROP
+soát	I-PROP
+gãy	I-PROP
+rụng	I-PROP
+Vatika	B-BR
+200ml	O
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+phối	B-STYLE
+màu	I-STYLE
+đính	B-STYLE
+nơ	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7003	O
+
+Váy	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+nhiều	B-STYLE
+họa	I-STYLE
+tiết	I-STYLE
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+phối	B-STYLE
+nơ	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7001	O
+
+Dầu	B-PN
+gội	B-FUNC
+kiểm	B-FUNC
+soát	I-FUNC
+tóc	I-FUNC
+gãy	I-FUNC
+rụng	I-FUNC
+Vatika	B-BR
+200ml	O
+
+Khăn	B-PN
+choàng	I-PN
+đi	B-STYLE
+biển	I-STYLE
+2	B-STYLE
+dây	I-STYLE
+duyên	B-PROP
+dáng	I-PROP
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+màu	B-STYLE
+nho	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7007	O
+
+Giày	B-PN
+búp	B-STYLE
+bê	I-STYLE
+đính	B-STYLE
+nơ	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7008	O
+
+Giày	B-PN
+hở	B-STYLE
+mũi	I-STYLE
+xẻ	B-STYLE
+chữ	I-STYLE
+V	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7006	O
+
+Sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+tẩy	B-PROP
+da	I-FUNC
+chết	I-FUNC
+Beauty	B-BR
+Formulas	I-BR
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+mũi	B-STYLE
+nhọn	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7011	O
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+dây	B-STYLE
+xích	I-STYLE
+da	B-PROP
+mềm	I-PROP
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+nữ	B-OB
+5cm	B-PROP
+Huy	B-BR
+Hoàng	I-BR
+7014	O
+
+Bột	B-PN
+trà	B-PROP
+xanh	I-PROP
+Matcha	B-BR
+đắp	B-FUNC
+mặt	I-FUNC
+công	O
+nghệ	O
+Nhật	B-BR
+Bản	I-BR
+
+Túi	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+phối	B-STYLE
+dây	I-STYLE
+kéo	B-STYLE
+trước	I-STYLE
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+nữ	B-OB
+5cm	B-PROP
+Huy	B-BR
+Hoàng	I-BR
+7012	O
+
+Túi	B-PN
+xách	B-FUNC
+nhựa	B-PROP
+mini	B-PROP
+sắc	B-STYLE
+màu	I-STYLE
+rực	I-STYLE
+rỡ	I-STYLE
+
+Clutch	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+trẻ	B-STYLE
+và	O
+cá	B-PROP
+tính	I-PROP
+
+Túi	B-PN
+hộp	B-STYLE
+xách	B-FUNC
+tay	I-FUNC
+sang	B-PROP
+trọng	I-PROP
+
+Giày	B-PN
+cao	B-STYLE
+gót	B-STYLE
+7cm	B-PROP
+Huy	B-BR
+Hoàng	I-BR
+7017	O
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+hở	B-STYLE
+mũi	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7018	O
+
+Giày	B-PN
+cao	B-STYLE
+gót	I-STYLE
+mũi	B-STYLE
+nhọn	I-STYLE
+quai	B-STYLE
+cài	I-STYLE
+Huy	B-BR
+Hoàng	I-BR
+7019	O
+
+Mắt	B-PN
+kính	I-PN
+chuồn	B-STYLE
+chuồn	I-STYLE
+sành	B-STYLE
+điệu	I-STYLE
+
+Ba	B-PN
+lô	I-PN
+du	B-STYLE
+lịch	I-STYLE
+màu	B-PROP
+trơn	I-PROP
+2	B-PROP
+ngăn	I-PROP
+
+Không	O
+lo	O
+nắng	O
+nóng	O
+với	O
+váy	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+2	B-PROP
+lớp	I-PROP
+
+Combo	O
+2	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+trang	I-FUNC-OB
+sức	I-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+
+Ví	B-PN
+nữ	B-OB
+sắc	B-STYLE
+màu	I-STYLE
+thời	B-PROP
+trang	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Sữa	B-PN
+tắm	B-FUNC
+tái	B-FUNC
+tạo	I-FUNC
+da	I-FUNC
+và	O
+dưỡng	B-FUNC
+ẩm	I-FUNC
+Cleopatra	B-BR
+
+Gel	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+Nha	B-PROP
+Đam	I-PROP
+100	O
+%	O
+
+Xịt	B-PN
+Thơm	B-FUNC
+Miệng	I-FUNC
+Beauty	B-BR
+Formulas	I-BR
+15ml	O
+-	O
+Từ	O
+Anh	B-BR
+Quốc	I-BR
+
+Beauty	B-BR
+Formulas	I-BR
+Phấn	B-PN
+Khử	B-FUNC
+Mùi	I-FUNC
+Chân	I-FUNC
+-	O
+Từ	O
+Anh	B-BR
+Quốc	I-BR
+
+Kem	B-PN
+Ủ	B-FUNC
+Tóc	I-FUNC
+Beauty	B-BR
+Formulas	I-BR
+500ml	O
+–	O
+Từ	O
+Anh	B-BR
+Quốc	I-BR
+
+4	O
+gói	O
+kem	B-PN
+siêu	B-FUNC
+trắng	I-FUNC
+ngọc	B-PROP
+trai	I-PROP
+cho	O
+mặt	O
+và	O
+cổ	O
+
+Kem	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+chân	I-FUNC
+Beauty	B-BR
+Formulas	I-BR
+Anh	B-BR
+Quốc	I-BR
+(100ml)	O
+
+Serum	B-PN
+kích	B-FUNC
+dài	I-FUNC
+,	O
+dày	B-FUNC
+mi	I-FUNC
+,	O
+rậm	B-FUNC
+lông	I-FUNC
+mày	I-FUNC
+VIDICO	B-BR
+
+Mũ	B-PN
+rộng	B-STYLE
+vành	I-STYLE
+-	O
+Phụ	O
+kiện	O
+đáng	B-PROP
+yêu	I-PROP
+của	O
+mùa	O
+hè	O
+
+Sữa	B-PN
+Rửa	B-FUNC
+Mặt	I-FUNC
+Chống	B-FUNC
+Nhờn	I-FUNC
+Beauty	B-BR
+Formulas	I-BR
+-	O
+Anh	B-BR
+Quốc	I-BR
+
+Kem	B-PN
+Dưỡng	B-FUNC
+tay	B-FUNC-OB
+và	O
+Móng	B-FUNC-OB
+Beauty	B-BR
+Formulas	I-BR
+-	O
+Anh	B-BR
+Quốc	I-BR
+
+Son	B-PN
+-	O
+Xà	B-PN
+phòng	I-PN
+-	O
+Lotion	B-PN
+từ	O
+dầu	B-PN
+dừa	I-PN
+Coco	B-BR
+Secret	I-BR
+
+Dầu	B-PN
+dừa	I-PN
+100ml	O
++	O
+mascara	B-PN
+dầu	B-PN
+dừa	I-PN
+Coco	B-BR
+Sesret	I-BR
+
+3	O
+khẩu	B-PN
+trang	I-PN
+chống	B-FUNC
+tia	I-FUNC
+UV	I-FUNC
+Nobi	B-BR
+thương	O
+hiệu	O
+Việt	B-BR
+
+Dầu	B-PN
+dừa	I-PN
+Coco	B-BR
+Secret	I-BR
+nguyên	B-PROP
+chất	I-PROP
+250	O
+ml	O
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+chăm	B-FUNC
+sóc	I-FUNC
+móng	I-FUNC
+AG0386	B-BR
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Bộ	O
+4	O
+dao	B-PN
+cạo	I-PN
+cho	O
+nữ	B-OB
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Giày	B-PN
+chiến	B-STYLE
+binh	I-STYLE
+gót	B-STYLE
+vuông	I-STYLE
+màu	B-PROP
+da	I-PROP
+
+Túi	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+nắp	B-PROP
+gấp	I-PROP
+cho	O
+nam	B-OB
+
+Túi	B-PN
+xách	B-FUNC
+tay	I-FUNC
+DM	B-BR
+cho	O
+nam	B-OB
+
+Dr.Placen	B-BR
+-	O
+Chống	B-FUNC
+nhăn	B-FUNC-OB
+,	O
+chống	B-FUNC
+lão	B-FUNC-OB
+hóa	I-FUNC-OB
+và	O
+thâm	B-FUNC-OB
+nám	I-FUNC-OB
+
+Giày	B-PN
+chiến	B-STYLE
+binh	I-STYLE
+gót	B-PROP
+vuông	I-PROP
+màu	B-PROP
+đen	I-PROP
+
+Giày	B-PN
+đi	B-FUNC
+mưa	I-FUNC
+có	O
+đế	B-PROP
+chống	I-PROP
+trượt	I-PROP
+
+2	O
+Gói	O
+kem	B-PN
+tắm	B-FUNC
+trắng	I-FUNC
+trà	B-PROP
+xanh	I-PROP
+
+Thắt	B-PN
+lưng	I-PN
+nam	B-OB
+/	O
+nữ	B-OB
+mặt	B-PROP
+kim	I-PROP
+loại	I-PROP
+chữ	I-PROP
+nhật	I-PROP
+
+Băng	B-PN
+đô	I-PN
+hoa	B-STYLE
++	O
+Băng	B-PN
+đô	I-PN
+ngọc	B-STYLE
+trai	I-STYLE
++	O
+Lược	B-PN
+cài	I-PN
+đính	B-STYLE
+đá	I-STYLE
+
+Serum	B-PN
+bưởi	B-PROP
+Milaganics	B-BR
+100ml	O
+
+Khăn	B-PN
+quấn	B-FUNC
+đi	B-STYLE
+biển	I-STYLE
+đa	B-PROP
+năng	I-PROP
+chất	O
+cotton	B-PROP
+mềm	B-PROP
+mại	I-PROP
+
+Đồng	B-PN
+hồ	I-PN
+led	B-PROP
+silicon	B-PROP
+kiêm	O
+vòng	O
+đeo	O
+tay	O
+
+Ví	B-PN
+nữ	B-OB
+cầm	B-FUNC
+tay	I-FUNC
+chất	O
+liệu	O
+da	B-PROP
+thật	I-PROP
+
+Combo	O
+2	O
+Gen	B-PN
+nịt	B-FUNC
+bụng	I-FUNC
+Hiền	B-BR
+Trang	I-BR
+cho	O
+dáng	B-PROP
+eo	I-PROP
+thon	I-PROP
+
+Cho	O
+đôi	O
+chân	O
+mịn	O
+màng	O
+với	O
+3	O
+quần	B-PN
+tất	I-PN
+15D	B-BR
+
+3	O
+Dây	B-PN
+chuyển	I-PN
+đổi	B-PROP
++	O
+5	O
+miếng	B-PN
+nối	I-PN
++	O
+10	O
+miếng	O
+cài	B-PN
+áo	I-PN
+ngực	I-PN
+
+Chì	B-PN
+kẻ	B-FUNC
+mắt	I-FUNC
+Lebelage	B-BR
+
+2	O
+áo	B-PN
+lót	I-PN
+không	B-STYLE
+gọng	I-STYLE
+pha	B-STYLE
+ren	I-STYLE
+-	O
+Giải	O
+phóng	O
+bầu	O
+ngực	O
+
+Dép	B-PN
+bông	B-STYLE
+đi	B-STYLE
+trong	I-STYLE
+nhà	I-STYLE
+cho	O
+nam	B-OB
+/	O
+nữ	B-OB
+
+Ba	B-PN
+lô	I-PN
+Dutti	B-BR
+nam	B-OB
+nữ	B-OB
+02	B-PROP
+dây	I-PROP
+kéo	I-PROP
+
+Ba	B-PN
+lô	I-PN
+da	B-PROP
+1	O
+khóa	B-STYLE
+cài	I-STYLE
+
+Ba	B-PN
+lô	I-PN
+da	B-PROP
+2	O
+khóa	B-STYLE
+cài	I-STYLE
+
+Dầu	B-PN
+olive	B-PROP
+nguyên	B-PROP
+chất	I-PROP
+Milaganics100ml	O
+
+Nón	B-PN
+nỉ	B-PROP
+vành	B-STYLE
+tròn	I-STYLE
+rộng	I-STYLE
+
+Túi	B-PN
+da	B-PROP
+bóng	I-PROP
+đeo	B-FUNC
+chéo	I-FUNC
+đáng	B-PROP
+yêu	I-PROP
+
+Dầu	B-PN
+cám	I-PN
+gạo	B-PROP
+Milaganics	B-BR
+100ml	O
+
+Dầu	B-PN
+olive	B-PROP
+nguyên	B-PROP
+chất	I-PROP
+Milaganics	B-BR
+100ml	O
+
+Toner	B-PN
+dấm	B-PROP
+táo	I-PROP
+thiên	B-PROP
+nhiên	I-PROP
+-	O
+Chăm	B-FUNC
+sóc	I-FUNC
+da	I-FUNC
+hiệu	O
+quả	O
+
+Túi	B-PN
+xách	B-FUNC
+da	B-PROP
+cao	B-PROP
+cấp	I-PROP
+cho	O
+nam	B-OB
+
+Ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+họa	B-STYLE
+tiết	I-STYLE
+da	I-STYLE
+báo	I-STYLE
+sành	B-STYLE
+điệu	I-STYLE
+
+Ví	B-PN
+đựng	B-FUNC
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+cầm	B-FUNC
+tay	I-FUNC
+
+Nổi	B-PROP
+bật	I-PROP
+,	O
+phong	B-STYLE
+cách	I-STYLE
+với	O
+kính	B-PN
+râm	I-PN
+thời	B-PROP
+trang	I-PROP
+
+Son	B-PN
+dưỡng	B-FUNC
+môi	I-FUNC
+Farmasi	B-BR
+-	O
+dưỡng	B-FUNC
+ẩm	I-FUNC
+8	O
+giờ	O
+
+Kính	B-PN
+mát	I-PN
+nữ	B-OB
+bản	B-STYLE
+rộng	I-STYLE
+
+Mũ	B-PN
+bảo	B-STYLE
+hiểm	I-STYLE
+thời	B-PROP
+trang	I-PROP
+
+Nổi	B-PROP
+bật	I-PROP
+,	O
+cá	B-PROP
+tính	I-PROP
+với	O
+kính	B-PN
+râm	I-PN
+thời	B-PROP
+trang	I-PROP
+
+3	O
+hộp	O
+bông	B-PN
+tẩy	B-FUNC
+trang	I-FUNC
+Pop	B-BR
+-	O
+Puf	B-BR
+
+Túi	B-PN
+nữ	B-OB
+Thành	B-BR
+Long	I-BR
+3	B-PROP
+màu	I-PROP
+duyên	B-PROP
+dáng	I-PROP
+
+Kính	B-PN
+nữ	B-OB
+gọng	B-PROP
+sần	I-PROP
+phong	B-STYLE
+cách	I-STYLE
+
+Kính	B-PN
+nữ	B-OB
+gọng	B-PROP
+nhựa	I-PROP
+kèm	O
+bao	B-PN-OB
+đựng	i-PN-OB
+
+Đồng	B-PN
+hồ	I-PN
+dây	B-STYLE
+nhựa	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+mini	I-STYLE
+
+02	O
+thắt	B-PN
+lưng	I-PN
+thời	B-PROP
+trang	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+3	O
+băng	B-PN
+đô	I-PN
+dây	B-STYLE
+hình	I-STYLE
+bím	I-STYLE
+tóc	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+đa	B-PROP
+năng	I-PROP
+3	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Ví	B-PN
+da	B-PROP
+nữ	B-OB
+cầm	B-FUNC
+tay	I-FUNC
+
+Giầy	B-PN
+siêu	B-PROP
+nhẹ	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Dây	B-PN
+chuyền	I-PN
+bạc	B-PROP
+trẻ	B-STYLE
+trung	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+
+20	O
+Miếng	B-PN
+dán	I-PN
+tẩy	B-FUNC
+lông	I-FUNC
+Beauty	B-BR
+Formulas	I-BR
+-	O
+Anh	B-BR
+Quốc	I-BR
+
+Ví	B-PN
+da	B-PROP
+nữ	B-OB
+cầm	B-FUNC
+tay	I-FUNC
+
+Dép	B-PN
+bông	B-PROP
+đi	B-STYLE
+trong	I-STYLE
+nhà	I-STYLE
+cho	O
+nam	B-OB
+/	O
+nữ	B-OB
+
+Bộ	B-PN
+cọ	I-PN
+trang	B-FUNC
+điểm	I-FUNC
+Doraemon	B-BR
+7	O
+cây	O
+
+Bộ	B-PN
+cọ	I-PN
+trang	B-FUNC
+điểm	I-FUNC
+13	O
+cây	O
+-	O
+Xuất	O
+xứ	O
+Hàn	B-BR
+Quốc	I-BR
+
+6	O
+đôi	O
+tất	B-PN
+cổ	B-STYLE
+cao	I-STYLE
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+3	O
+quần	B-PN
+lót	I-PN
+không	B-STYLE
+đường	I-STYLE
+may	I-STYLE
+siêu	B-PROP
+mềm	I-PROP
+mịn	I-PROP
+Adella	B-BR
+
+Túi	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+3	B-PROP
+ngăn	I-PROP
+thời	B-PROP
+trang	I-PROP
+có	O
+quai	B-STYLE
+đeo	I-STYLE
+
+Túi	B-PN
+nam	B-OB
+đeo	B-FUNC
+chéo	I-FUNC
+da	B-PROP
+thật	I-PROP
+trẻ	B-STYLE
+trung	I-STYLE
+
+Máy	B-PN
+làm	B-FUNC
+tóc	I-FUNC
+Sonar	B-BR
+3	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Quyến	B-PROP
+rũ	I-PROP
+với	O
+2	O
+quần	B-PN
+tất	I-PN
+Sabrina	B-BR
+
+Dụng	B-PN
+cụ	I-PN
+nâng	B-FUNC
+cằm	I-FUNC
+,	O
+đánh	O
+tan	O
+mỡ	O
+nọng	O
+
+Máy	B-PN
+rửa	B-FUNC
+và	O
+massage	B-FUNC
+mặt	B-FUNC-OB
+Hàn	B-BR
+Quốc	I-BR
+
+Bộ	B-PN
+cọ	I-PN
+trang	B-FUNC
+điểm	I-FUNC
+7	O
+món	O
+cực	O
+hot	O
+
+Ví	B-PN
+nữ	B-OB
+họa	B-STYLE
+tiết	I-STYLE
+da	I-STYLE
+beo	I-STYLE
+
+Đồng	B-PN
+hồ	I-PN
+nam	B-OB
+chống	B-PROP
+nước	I-PROP
+mặt	B-STYLE
+rồng	I-STYLE
+
+Bộ	B-PN
+kềm	I-PN
+12	O
+món	O
+
+2	O
+Kềm	B-PN
+cắt	B-FUNC
+móng	I-FUNC
+dạng	B-STYLE
+móc	I-STYLE
+khóa	I-STYLE
+
+Hộp	O
+miếng	B-PN
+dán	I-PN
+tẩy	B-FUNC
+lông	I-FUNC
+chân	I-FUNC
+&	O
+body	O
+Beauty	B-BR
+Formulas	I-BR
+
+Lược	B-PN
+Gỗ	B-PROP
+Massage	B-FUNC
+Body	B-BR
+&	I-BR
+Mind	I-BR
+
+Kính	B-PN
+mắt	I-PN
+vuông	B-STYLE
+cá	B-PROP
+tính	I-PROP
+
+2	O
+áo	B-PN
+ống	B-STYLE
+khóa	I-STYLE
+cài	B-STYLE
+sau	I-STYLE
+
+2	O
+Hộp	O
+Chỉ	B-PN
+Nha	I-PN
+Khoa	I-PN
+(100m	O
+/	O
+Hôp)	O
+Beauty	B-BR
+Formulas	I-BR
+
+Bộ	O
+đồ	B-PN
+lót	I-PN
+phối	B-STYLE
+ren	I-STYLE
+khoe	B-PROP
+dáng	I-PROP
+yêu	I-PROP
+kiều	I-PROP
+
+Dầu	B-PN
+nhuộm	B-FUNC
+tóc	I-FUNC
+gội	B-FUNC
+lên	B-PROP
+màu	I-PROP
+-	O
+Màu	B-PROP
+hạt	I-PROP
+dẻ	I-PROP
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+Chocobaby	B-BR
+
+Tự	O
+tin	O
+khoe	B-PROP
+dáng	I-PROP
+với	O
+2	O
+quần	B-PN
+gen	B-STYLE
+bụng	I-STYLE
+định	B-PROP
+hình	I-PROP
+
+Túi	B-PN
+đựng	B-FUNC
+mỹ	B-FUNC-OB
+phẩm	I-FUNC-OB
+
+Tinh	B-PN
+bột	I-PN
+nghệ	B-PROP
+kết	O
+hợp	O
+tinh	B-PN
+bột	I-PN
+gạo	B-PROP
+dưỡng	B-FUNC
+da	I-FUNC
+350g	O
+
+Kem	B-PN
+Chống	B-FUNC
+Tích	I-FUNC
+Tụ	I-FUNC
+Mỡ	I-FUNC
+Và	O
+Mềm	B-FUNC
+Da	I-FUNC
+Sudatone	B-BR
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+công	B-STYLE
+sở	I-STYLE
+cao	B-PROP
+cấp	I-PROP
+
+Ví	B-PN
+da	B-PROP
+bóng	I-PROP
+thời	B-PROP
+trang	I-PROP
+
+Bảo	B-FUNC
+vệ	I-FUNC
+đôi	I-FUNC
+mắt	I-FUNC
+cùng	O
+Kính	B-PN
+bơi	I-PN
+Wenfei	B-BR
+
+Mũ	B-PN
+cói	B-PROP
+thời	B-PROP
+trang	I-PROP
+cho	O
+người	B-OB
+trung	I-OB
+niên	I-OB
+
+Túi	B-PN
+nhựa	B-PROP
+dáng	B-STYLE
+hộp	I-STYLE
+
+Máy	B-PN
+massage	I-PN
+mặt	B-PROP
+7	B-PROP
+trong	I-PROP
+1	I-PROP
+CNAIER	B-BR
+AE	I-BR
+-	O
+807A	O
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+công	B-STYLE
+sở	I-STYLE
+da	B-PROP
+mềm	I-PROP
+
+Kem	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+Sunscreen	B-BR
+Coco	I-BR
+Secret	I-BR
+SPF	O
+50	O
++	O
+	O
+
+Túi	B-PN
+hộp	B-STYLE
+da	B-PROP
+mềm	I-PROP
+-	O
+phụ	O
+kiện	O
+hoàn	O
+hảo	O
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Kính	B-PN
+mắt	I-PN
+thời	B-PROP
+trang	I-PROP
+Unisex	B-BR
+
+Vòng	B-PN
+tay	I-PN
+kiểu	B-STYLE
+dáng	I-STYLE
+Pandora	I-STYLE
+
+Tinh	B-PN
+dầu	I-PN
+bưởi	B-PROP
+dưỡng	B-FUNC
+tóc	I-FUNC
+khỏe	B-PROP
+,	O
+đẹp	B-PROP
+(chai	O
+100ml)	O
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+dạng	B-STYLE
+hộp	I-STYLE
+sang	B-PROP
+trọng	I-PROP
+
+Combo	O
+5	O
+đôi	O
+tất	B-PN
+cổ	B-STYLE
+ngắn	I-STYLE
+màu	B-STYLE
+sắc	I-STYLE
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Túi	B-PN
+xách	B-FUNC
+thanh	B-PROP
+lịch	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+công	B-STYLE
+sở	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+thời	B-PROP
+trang	I-PROP
+cá	B-PROP
+tính	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Cặp	O
+đồng	B-PN
+hồ	I-PN
+tình	B-STYLE
+nhân	I-STYLE
+mặt	B-STYLE
+tròn	I-STYLE
+
+Dầu	B-PN
+dừa	I-PN
+tinh	B-PROP
+khiết	I-PROP
+Khỏe	O
+là	O
+đẹp	O
+(lọ	O
+400ml)	O
+
+Đồng	B-PN
+hồ	I-PN
+LED	B-PROP
+nam	B-OB
+,	O
+kiểu	B-STYLE
+dáng	I-STYLE
+phi	I-STYLE
+thuyền	I-STYLE
+
+Kính	B-PN
+mũi	B-STYLE
+tên	I-STYLE
+thời	B-PROP
+trang	I-PROP
+cá	B-PROP
+tính	I-PROP
+
+Kính	B-PN
+thời	B-PROP
+trang	I-PROP
+mắt	B-STYLE
+to	I-STYLE
+sành	B-STYLE
+điệu	I-STYLE
+
+Ba	B-PN
+lô	I-PN
+da	B-PROP
+1	O
+khóa	B-STYLE
+cài	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+da	B-PROP
+Thành	B-BR
+Long	I-BR
+,	O
+dáng	B-STYLE
+mini	I-STYLE
+thanh	B-STYLE
+lịch	I-STYLE
+
+Ba	B-PN
+lô	I-PN
+da	B-PROP
+phong	B-STYLE
+cách	I-STYLE
+năng	I-STYLE
+động	I-STYLE
+
+Ba	B-PN
+lô	I-PN
+da	B-PROP
+2	O
+khóa	B-STYLE
+cài	I-STYLE
+
+Khăn	B-PN
+voan	B-PROP
+đi	B-STYLE
+biển	I-STYLE
+thời	B-PROP
+trang	I-PROP
+và	O
+quyến	B-PROP
+rũ	I-PROP
+
+Bộ	O
+đôi	O
+hoàn	O
+hảo	O
+Dầu	B-PN
+gội	B-FUNC
++	O
+xả	B-FUNC
+Kella	B-BR
+Revitalizing	I-BR
+
+Combo	O
+2	O
+đôi	O
+dép	B-PN
+đi	B-STYLE
+biển	I-STYLE
+sắc	B-STYLE
+màu	I-STYLE
+
+2	O
+chai	O
+sữa	B-PN
+tắm	B-FUNC
+Elizzer	B-BR
+Royal	I-BR
+Jelly	I-BR
+Pearl	I-BR
+
+2	O
+chai	O
+sữa	B-PN
+tắm	B-FUNC
+Elizzer	B-BR
+white	O
+Beaute	I-BR
+Care	I-BR
+
+Nữ	B-PROP
+tính	I-PROP
+cùng	O
+hoa	B-PN
+tai	I-PN
+bạc	B-PROP
+ta	I-PROP
+100%	O
+
+Sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+Herb	B-BR
+Day	I-BR
+365	O
+Hàn	B-OB
+Quốc	I-OB
+
+Xịt	B-PN
+Khử	B-FUNC
+Mùi	I-FUNC
+Giày	I-FUNC
+Beauty	B-BR
+Formulas	I-BR
+-	O
+Từ	O
+Anh	B-BR
+Quốc	I-BR
+
+Xịt	B-PN
+khoáng	I-PN
+giữ	B-FUNC
+ẩm	I-FUNC
+,	O
+dưỡng	B-FUNC
+trắng	I-FUNC
+da	I-FUNC
+từ	O
+Nha	B-PROP
+đam	I-PROP
+
+Xịt	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+mật	B-PROP
+ong	I-PROP
+nghệ	B-PROP
+nguyên	B-PROP
+chất	I-PROP
+Kimchi	B-BR
+Muns	I-BR
+
+3	O
+quần	B-PN
+mặc	B-STYLE
+trong	I-STYLE
+váy	I-STYLE
+-	O
+Tự	O
+tin	O
+diện	O
+trang	O
+phục	O
+
+02	O
+gen	B-PN
+nịt	B-FUNC
+bụng	I-FUNC
+tự	O
+tin	O
+khoe	B-PROP
+dáng	I-PROP
+
+Túi	B-PN
+kẻ	B-STYLE
+thời	B-PROP
+trang	I-PROP
+cho	O
+cô	B-OB
+nàng	I-OB
+cá	B-PROP
+tính	I-PROP
+
+10	O
+mặt	B-PN
+nạ	I-PN
+dưỡng	B-FUNC
+da	I-FUNC
+Dabo	B-BR
+Hàn	B-BR
+Quốc	I-BR
+loại	O
+mới	O
+2015	O
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+hỗ	I-PN
+trợ	I-PN
+đắp	B-FUNC
+mặt	I-FUNC
+nạ	I-FUNC
+
+Kính	B-PN
+tráng	B-PROP
+gương	I-PROP
+trẻ	B-STYLE
+trung	I-STYLE
+,	O
+năng	B-PROP
+động	I-PROP
+(kèm	O
+bao	O
+da)	O
+
+8	O
+Miếng	O
+lót	B-PN
+giày	I-PN
+silicon	B-BR
+
+Serum	B-PN
+bưởi	B-PROP
+ngăn	B-FUNC
+rụng	I-FUNC
+tóc	I-FUNC
+
+Kính	B-PN
+mắt	B-STYLE
+mèo	I-STYLE
+đính	B-STYLE
+đá	I-STYLE
+sành	B-STYLE
+điệu	I-STYLE
+
+Dầu	B-PN
+nóng	B-PROP
+xoa	B-FUNC
+bóp	I-FUNC
+Antiphlamine	B-BR
+Hàn	B-BR
+Quốc	I-BR
+(100ml)	O
+
+Serum	B-PN
+dưỡng	B-FUNC
+da	I-FUNC
+SKC	B-BR
+Bio	I-BR
+-	O
+Q10	O
+Collagen	B-PROP
+nhập	O
+khẩu	O
+Úc	B-BR
+
+Bikini	B-PN
+cạp	B-STYLE
+cao	I-STYLE
+họa	B-STYLE
+tiết	I-STYLE
+bắt	I-STYLE
+mắt	I-STYLE
+chào	O
+hè	O
+
+Ví	B-PN
+đựng	B-FUNC
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+cầm	B-FUNC
+tay	I-FUNC
+
+02	O
+Váy	B-PN
+thun	B-PROP
+chống	B-FUNC
+nắng	I-FUNC
+
+Kem	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+,	O
+dưỡng	B-FUNC
+trắng	I-FUNC
+da	I-FUNC
+DSB	B-BR
+Hàn	B-BR
+Quốc	I-BR
+
+Túi	B-PN
+da	B-PROP
+đựng	B-FUNC
+iPad	B-FUNC-OB
+,	O
+máy	B-PN
+tính	I-PN
+bảng	I-PN
+thời	B-PROP
+trang	I-PROP
+cá	B-PROP
+tính	I-PROP
+
+Đồng	B-PN
+hồ	I-PN
+LED	B-PROP
+màu	B-STYLE
+sắc	I-STYLE
+thời	B-PROP
+trang	I-PROP
+
+Túi	B-PN
+xách	B-FUNC
+nữ	B-OB
+thời	B-PROP
+trang	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Tinh	B-PN
+dầu	I-PN
+bưởi	B-PROP
+dưỡng	B-FUNC
+tóc	I-FUNC
+khỏe	I-FUNC
+,	O
+đẹp	O
+(chai	O
+100ml)	O
+
+Khăn	B-PN
+choàng	I-PN
+voan	B-PROP
+đi	B-STYLE
+biển	I-STYLE
+2	B-STYLE
+dây	I-STYLE
+quyến	B-PROP
+rũ	I-PROP
+
+5	O
+vòng	B-PN
+tay	I-PN
++	O
+1	O
+đôi	O
+hoa	B-PN
+tai	I-PN
+hình	B-STYLE
+tròn	I-STYLE
+
+Máy	B-PN
+rửa	B-FUNC
+và	O
+massage	B-FUNC
+mặt	B-FUNC-OB
+Hàn	B-BR
+Quốc	I-BR
+
+Kem	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+SPF	B-BR
+50	O
++	O
+cao	B-PROP
+cấp	I-PROP
+Hàn	B-BR
+Quốc	I-BR
+
+Túi	B-PN
+clutch	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+phối	B-STYLE
+dây	I-STYLE
+kéo	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+khóa	B-STYLE
+tròn	I-STYLE
+
+Nước	B-PN
+hoa	B-PROP
+hồng	I-PROP
+Kimchi	B-BR
+mun	I-BR
+&	O
+#39;s	O
+không	B-PROP
+cồn	I-PROP
+
+2	O
+Đai	B-PN
+nịt	B-FUNC
+bụng	I-FUNC
+Elixe	B-BR
+ENG298	I-BR
+
+Balo	B-PN
+Vals	B-STYLE
+năng	B-PROP
+động	I-PROP
+
+3	O
+gói	O
+giấy	B-PN
+thấm	B-FUNC
+dầu	I-FUNC
+The	B-BR
+Face	I-BR
+Shop	I-BR
+-	O
+Hàn	B-BR
+Quốc	I-BR
+
+2	O
+gói	O
+tinh	O
+cám	B-PN
+gạo	I-PN
+nguyên	B-PROP
+chất	I-PROP
+Hai	B-BR
+Lúa	I-BR
+chăm	B-FUNC
+sóc	I-FUNC
+da	I-FUNC
+
+Túi	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+Ipad	I-FUNC
+CoUn	I-BR
+
+Túi	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+chống	B-FUNC
+sóc	I-FUNC
+cho	O
+iPad	B-FUNC-OB
+,	O
+laptop	B-FUNC-OB
+
+2	O
+thỏi	O
+son	B-PN
+gió	I-PN
+Thái	B-BR
+Lan	I-BR
+
+Bột	B-PN
+trà	B-PROP
+xanh	I-PROP
+nguyên	B-PROP
+chất	I-PROP
+Hai	B-BR
+Lúa	I-BR
+200g	O
+
+3	O
+Gói	O
+bột	B-PN
+cám	I-PN
+gạo	B-PROP
+thơm	I-PROP
+Ái	B-BR
+Liên	I-BR
+
+3	O
+Gói	O
+bột	B-PN
+cám	I-PN
+thảo	B-PROP
+dược	I-PROP
+Ái	B-BR
+Liên	I-BR
+
+3	O
+Gói	O
+bột	B-PN
+cám	I-PN
+nghệ	B-PROP
+Ái	B-BR
+Liên	I-BR
+
+Mắt	B-PN
+kính	I-PN
+chống	B-FUNC
+bụi	I-FUNC
+thời	B-PROP
+trang	I-PROP
+
+Dây	B-PN
+chuyền	I-PN
+và	O
+khuyên	B-PN
+tai	I-PN
+bạc	B-PROP
+xinh	B-PROP
+xắn	I-PROP
+
+10	O
+gói	O
+dầu	B-PN
+nhuộm	B-FUNC
+tóc	I-FUNC
+-	O
+Gội	O
+là	O
+đen	O
+Algimar	B-BR
+
+Kính	B-PN
+tráng	B-PROP
+gương	I-PROP
+trẻ	B-STYLE
+trung	I-STYLE
+,	O
+năng	B-PROP
+động	I-PROP
+(kèm	O
+bao	O
+da)	O
+
+5	O
+ống	O
+Collagen	B-PN
+tươi	B-PROP
+công	B-PROP
+nghệ	I-PROP
+NANO	I-PROP
+AQP	B-BR
+của	O
+Mỹ	B-BR
+
+Túi	B-PN
+iPad	B-FUNC-OB
+Loại	B-PROP
+Lớn	I-PROP
+Kiểu	O
+Mới	O
+Xuất	O
+Khẩu	O
+
+Ví	B-PN
+nữ	B-OB
+cầm	B-FUNC
+tay	I-FUNC
+họa	B-STYLE
+tiết	I-STYLE
+lập	I-STYLE
+thể	I-STYLE
+
+3	O
+gói	O
+bột	B-PN
+cám	I-PN
+nghệ	B-PROP
+Ái	B-BR
+Liên	I-BR
+
+2	O
+gói	O
+bột	B-PN
+cám	I-PN
+ngọc	B-PROP
+trai	I-PROP
+Ái	B-BR
+Liên	I-BR
+
+3	O
+gói	O
+bột	B-PN
+cám	I-PN
+thảo	B-PROP
+dược	I-PROP
+Ái	B-BR
+Liên	I-BR
+
+Ba	B-PN
+lô	I-PN
+laptop	B-FUNC-OB
+2	B-PROP
+ngăn	I-PROP
+
+3	O
+gói	O
+bột	B-PN
+cám	I-PN
+gạo	B-PROP
+thơm	I-PROP
+Ái	B-BR
+Liên	I-BR
+
+Kem	B-PN
+giảm	B-FUNC
+béo	I-FUNC
+-	O
+Tinh	B-PN
+chất	I-PN
+giảm	B-FUNC
+béo	I-FUNC
+và	O
+săn	B-FUNC
+chắc	I-FUNC
+da	I-FUNC
+Slim	B-BR
+Extreme	I-BR
+4D	O
+
+02	O
+Đôi	O
+hoa	B-PN
+tai	I-PN
+giả	B-PROP
+ngọc	I-PROP
+trai	I-PROP
+
+Váy	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+cotton	B-PROP
+thời	B-PROP
+trang	I-PROP
+
+Kem	B-PN
+giảm	B-FUNC
+béo	I-FUNC
+chống	B-FUNC
+tích	I-FUNC
+tụ	I-FUNC
+mỡ	I-FUNC
+vi	B-PROP
+tinh	I-PROP
+thể	I-PROP
+Kim	I-PROP
+cương	I-PROP
+Slim	B-BR
+Extreme	I-BR
+4D	O
+
+Tinh	O
+cám	B-PN
+gạo	I-PN
+trà	B-PROP
+xanh	I-PROP
+Hai	B-BR
+Lúa	I-BR
+(lọ	O
+350g)	O
+
+Bảo	B-FUNC
+vệ	I-FUNC
+đôi	I-FUNC
+mắt	I-FUNC
+với	O
+kính	B-PN
+râm	I-PN
+thời	B-PROP
+trang	I-PROP
+
+Balo	B-PN
+thời	B-PROP
+trang	I-PROP
+Dutti	B-BR
+4	B-STYLE
+dây	I-STYLE
+kéo	I-STYLE
+
+Ví	B-PN
+nữ	B-OB
+da	B-PROP
+cá	I-PROP
+sấu	I-PROP
+cao	B-PROP
+cấp	I-PROP
+Việt	B-BR
+phong	I-BR
+
+Túi	B-PN
+nhựa	B-PROP
+trong	I-PROP
+suốt	I-PROP
+phong	B-STYLE
+cách	I-STYLE
+Hàn	I-STYLE
+Quốc	I-STYLE
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+phối	B-STYLE
+màu	I-STYLE
++	O
+Ví	B-PN
+nhỏ	B-PROP
+
+Sữa	B-PN
+rửa	B-FUNC
+mặt	I-FUNC
+Hàn	B-BR
+Quốc	I-BR
+cao	B-PROP
+cấp	I-PROP
+Point	B-BR
+Clean	I-BR
+Naturals	I-BR
+
+Túi	B-PN
+hộp	B-STYLE
+dây	B-STYLE
+zít	I-STYLE
+zắc	I-STYLE
++	O
+Ví	B-PN
+nhỏ	B-PROP
+
+5	O
+quần	B-PN
+lót	I-PN
+xuất	O
+khẩu	O
+cạp	B-STYLE
+trễ	I-STYLE
+thoáng	B-PROP
+mát	I-PROP
+,	O
+gợi	B-PROP
+cảm	I-PROP
+
+Sữa	B-PN
+tắm	B-FUNC
+dưỡng	B-FUNC
+ẩm	I-FUNC
+Charme	B-BR
+cho	O
+làn	O
+da	O
+mịn	O
+màng	O
+
+Tinh	B-PN
+dầu	I-PN
+bạc	B-PROP
+hà	I-PROP
+thiên	I-PROP
+nhiên	I-PROP
+Pure	B-BR
+Ssence	I-BR
+
+Tinh	B-PN
+dầu	I-PN
+Khuynh	B-PROP
+diệp	I-PROP
+đa	B-PROP
+công	I-PROP
+dụng	I-PROP
+
+Túi	B-PN
+đeo	B-FUNC
+chéo	I-FUNC
+Letter	B-BR
+bag	I-BR
+cá	B-PROP
+tính	I-PROP
+cho	O
+bạn	B-OB
+gái	I-OB
+
+Bộ	O
+sáp	B-PN
+tẩy	B-FUNC
+lông	I-FUNC
+cơ	I-FUNC
+thể	I-FUNC
+dạng	B-PROP
+miếng	I-PROP
+Shifei	B-BR
+
+Túi	B-PN
+đựng	B-FUNC
+Ipad	B-FUNC-OB
+da	B-PROP
+tổng	I-PROP
+hợp	I-PROP
+thời	B-PROP
+trang	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Tinh	B-PN
+chất	I-PN
+phục	B-FUNC
+hồi	I-FUNC
+hư	I-FUNC
+tổn	I-FUNC
+tóc	I-FUNC
+
+Kính	B-PN
+bảo	B-FUNC
+vệ	I-FUNC
+mắt	I-FUNC
+-	O
+Người	O
+bạn	O
+đồng	O
+hành	O
+của	O
+bạn	O
+
+Kính	B-PN
+râm	I-PN
+mắt	B-STYLE
+to	I-STYLE
+thời	B-PROP
+trang	I-PROP
+cho	O
+nữ	B-OB
+
+Hộp	O
+5	O
+mặt	B-PN
+nạ	I-PN
+chống	B-FUNC
+lão	I-FUNC
+hóa	I-FUNC
+,	O
+trắng	B-FUNC
+da	I-FUNC
+SkinLovers	B-BR
+
+Tẩy	B-FUNC
+tế	I-FUNC
+bào	I-FUNC
+chết	I-FUNC
+nha	B-PROP
+đam	I-PROP
+Green	B-BR
+Grapy	I-BR
+Hàn	B-BR
+Quốc	I-BR
+
+Dép	B-PN
+xốp	B-PROP
+xỏ	B-STYLE
+ngón	I-STYLE
+quai	B-STYLE
+phát	I-STYLE
+sáng	I-STYLE
+
+Hộp	O
+5	O
+mặt	B-PN
+nạ	I-PN
+cho	O
+da	B-PROP
+dầu	I-PROP
+,	O
+mụn	B-PROP
+,	O
+trắng	B-PROP
+da	I-PROP
+SkinLovers	B-BR
+
+Túi	B-PN
+xách	B-FUNC
+hộp	B-STYLE
+luxury	B-BR
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+
+2	O
+hộp	O
+phấn	B-PN
+nụ	I-PN
+Cung	B-BR
+Đình	I-BR
+Huế	I-BR
+Nhất	B-BR
+Chi	I-BR
+Mai	I-BR
+
+Váy	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+vải	B-PROP
+thô	I-PROP
+họa	B-STYLE
+tiết	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+
+Bộ	B-PN
+kềm	I-PN
+4	O
+món	O
+-	O
+Nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Bộ	B-PN
+kềm	I-PN
+6	O
+món	O
+-	O
+Nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
+cỡ	B-PROP
+nhỏ	I-PROP
+duyên	B-PROP
+dáng	I-PROP
+
+Ví	B-PN
+nữ	B-OB
+cầm	B-FUNC
+tay	I-FUNC
+hai	B-PROP
+màu	I-PROP
+phong	B-STYLE
+cách	I-STYLE
+
+Váy	B-PN
+chống	B-FUNC
+nắng	I-FUNC
+cotton	B-PROP
+2	B-PROP
+mặt	I-PROP
+mát	O
+lạnh	O
+mùa	O
+hè	O
+
+Tinh	B-PN
+dầu	I-PN
+bưởi	B-PROP
+kích	B-FUNC
+thích	I-FUNC
+mọc	I-FUNC
+tóc	I-FUNC
+100ml	O
+
+Bộ	O
+quà	O
+tặng	O
+:	O
+Sữa	B-PN
+tắm	B-FUNC
++	O
+nước	B-PN
+hoa	I-PN
+Cindy	B-BR
+
+Sữa	B-PN
+tắm	B-FUNC
+trắng	I-FUNC
+da	I-FUNC
+từ	O
+bạch	B-PROP
+quả	I-PROP
+hoặc	O
+tảo	B-PROP
+biển	I-PROP
+
+Nước	B-PN
+Hoa	I-PN
+Jackson	B-BR
+Dành	O
+Cho	O
+Nam	B-OB
+
+2	O
+nước	B-PN
+hoa	I-PN
+xịt	B-PROP
+Body	B-BR
+Mist	I-BR
+Sabrina	I-BR
+
+Máy	B-PN
+duỗi	B-FUNC
+tóc	I-FUNC
+mini	B-PROP
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Xịt	B-PN
+khoáng	I-PN
+giữ	B-FUNC
+ẩm	I-FUNC
+,	O
+dưỡng	B-FUNC
+trắng	I-FUNC
+da	I-FUNC
+từ	O
+Nha	B-PROP
+đam	I-PROP
+
+3	O
+chai	O
+nước	B-PN
+rửa	B-FUNC
+tay	I-FUNC
+diệt	B-FUNC
+khuẩn	I-FUNC
+L	O
+&	O
+#39;	O
+affair	O
+
+Combo	O
+6	O
+đôi	O
+tất	B-PN
+trắng	B-PROP
+Hàn	B-BR
+Quốc	I-BR
+Slazenger	B-BR
+
+Combo	O
+8	O
+đôi	O
+tất	B-PN
+giấy	B-PROP
+chống	B-FUNC
+trơn	B-FUNC-OB
+,	O
+trượt	B-FUNC-OB

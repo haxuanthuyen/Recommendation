@@ -1,0 +1,11896 @@
+2	O
+bộ	O
+dây	B-PN
+đai	I-PN
+khóa	B-PROP
+số	I-PROP
+chắc	B-PROP
+chắn	I-PROP
+cho	O
+vali	B-OB
+
+Túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+du	I-FUNC-OB
+lịch	I-FUNC-OB
+Monopoly	B-BR
+tiện	B-PROP
+dụng	I-PROP
+
+Tiết	B-PROP
+kiệm	I-PROP
+diện	I-PROP
+tích	I-PROP
+với	O
+Giá	B-PN
+để	B-FUNC
+giày	B-FUNC-OB
+,	O
+dép	B-FUNC-OB
+4	B-PROP
+tầng	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+trứng	B-FUNC-OB
+24	O
+quả	O
+tiện	B-PROP
+dụng	I-PROP
+
+Kệ	B-PN
+gỗ	B-PROP
+treo	B-PROP
+tường	I-PROP
+hình	B-PROP
+chữ	I-PROP
+nhật	I-PROP
+lồng	O
+tiện	B-PROP
+dụng	I-PROP
+
+Móc	B-PN
+treo	B-FUNC
+đa	B-PROP
+năng	I-PROP
+3	B-PROP
+tầng	I-PROP
+tiết	B-PROP
+kiệm	I-PROP
+diện	I-PROP
+tích	I-PROP
+
+Áo	B-PN
+mưa	I-PN
+đôi	B-PROP
+Tumi	B-BR
+cho	O
+những	O
+mưa	O
+mùa	O
+hạ	O
+
+Kệ	B-PN
+gỗ	B-PROP
+treo	B-PROP
+tường	I-PROP
+chữ	B-PROP
+LOVE	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+và	O
+lãng	B-PROP
+mạn	I-PROP
+
+3	O
+giá	B-PN
+đỡ	B-FUNC
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+hình	B-PROP
+siêu	I-PROP
+nhân	I-PROP
+
+5	O
+gói	O
+khăn	B-PN
+ướt	I-PN
+Baby	B-BR
+Health	I-BR
+loại	B-PROP
+100	I-PROP
+tờ	I-PROP
+
+Cơ	B-PROP
+bụng	I-PROP
+săn	I-PROP
+chắc	I-PROP
+với	O
+đĩa	B-PN
+xoay	B-FUNC
+eo	B-FUNC-OB
+kèm	O
+dây	B-PN-OB
+
+5	O
+gói	O
+Khăn	B-PN
+ướt	I-PN
+không	B-PROP
+mùi	I-PROP
+AnfaBaby	B-BR
+100	O
+tờ	O
+/	O
+gói	O
+
+3	O
+bàn	B-PN
+chải	I-PN
+mềm	B-PROP
+đa	B-PROP
+năng	I-PROP
+
+Túi	B-PN
+xách	I-PN
+du	B-PROP
+lịch	I-PROP
+US	B-BR
+cá	B-PROP
+tính	I-PROP
+
+Máy	B-PN
+xay	B-FUNC
+thịt	B-FUNC-OB
+Panasonic	B-BR
+cối	B-PROP
+thủy	I-PROP
+tinh	I-PROP
+
+Không	B-PROP
+lo	I-PROP
+bị	I-PROP
+ướt	I-PROP
+với	O
+Áo	B-PN
+mưa	I-PN
+cánh	B-PROP
+dơi	I-PROP
+Tumi	B-BR
+
+2	O
+kiềng	B-PN
+lưới	B-PROP
+tăng	B-PROP
+nhiệt	I-PROP
+độ	I-PROP
+,	O
+tiết	B-PROP
+kiệm	I-PROP
+gas	I-PROP
+
+Chảo	B-PN
+Làm	B-FUNC
+Pancakes	B-FUNC-OB
+
+Gel	I-PN
+bôi	B-FUNC
+trơn	I-FUNC
+K	O
+-	O
+Y	O
++	O
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Feel	B-BR
+
+Máy	I-PN
+xay	B-FUNC
+đa	B-PROP
+năng	I-PROP
+cầm	B-PROP
+tay	I-PROP
+Lotek	B-BR
+
+2	O
+tấm	I-PN
+phủ	B-FUNC
+tủ	B-FUNC-OB
+lạnh	I-FUNC-OB
+
+2	O
+Hộp	O
+bột	B-PN
+tẩy	B-FUNC
+lồng	B-FUNC-OB
+máy	I-FUNC-OB
+giặt	I-FUNC-OB
+Lifavins	B-BR
+
+Combo	O
+20	O
+muỗng	B-PN
+canh	I-PN
+tròn	B-PROP
+và	O
+vuông	B-PROP
+
+Bộ	O
+muỗng	B-PN
+nĩa	B-PN
+Anphacook	B-BR
+
+Bộ	O
+sản	O
+phẩm	O
+:	O
+Muỗng	B-PN
+cơm	I-PN
+,	O
+nĩa	B-PN
+,	O
+muỗng	B-PN
+canh	I-PN
+
+Bộ	O
+2	O
+gối	B-PN
+hơi	I-PN
++	O
+2	O
+cặp	O
+nút	O
+bịt	B-PN
+tai	I-PN
++	O
+2	O
+bịt	B-PN
+mắt	I-PN
+
+Hộp	B-PN
+đựng	B-FUNC
+bàn	I-FUNC
+chải	I-FUNC
+hình	B-PROP
+cánh	I-PROP
+cam	I-PROP
+
+3	O
+túi	B-PN
+lưới	I-PN
+giặt	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+
+3	O
+dụng	B-PN
+cụ	I-PN
+treo	B-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
+silicon	B-PROP
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+1m6	B-PROP
+Tumi	B-BR
+Loại	B-PROP
+1	I-PROP
+
+Mùng	B-PN
+tuyn	I-PN
+đặc	B-PROP
+biệt	I-PROP
+-	O
+100%	O
+sợi	B-PROP
+Polytester	I-PROP
+
+Combo	O
+10	O
+hộp	B-PN
+dựng	B-FUNC
+giầy	B-FUNC-OB
+trong	B-PROP
+suốt	I-PROP
+có	B-PROP
+quai	I-PROP
+xách	I-PROP
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
++	O
+2	O
+áo	B-PN
+gối	I-PN
+năm	I-PN
++	O
+1	O
+áo	B-PN
+gối	I-PN
+ôm	I-PN
+
+Hộp	O
+100	O
+băng	B-PN
+keo	I-PN
+cá	B-PROP
+nhân	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+3	O
+dây	B-PN
+phơi	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+tiện	B-PROP
+ích	I-PROP
+cho	O
+mọi	B-OB
+nhà	I-OB
+
+Gel	B-PN
+bôi	B-FUNC
+trơn	I-FUNC
+hỗ	B-PROP
+trợ	I-PROP
+thụ	I-PROP
+thai	I-PROP
+Conceive	B-BR
+Plus	I-BR
+4g	O
+x	O
+8	O
+
+Bộ	O
+8	O
+túi	B-PN
+hút	B-FUNC
+chân	B-FUNC-OB
+không	I-FUNC-OB
+-	O
+tặng	O
+kèm	O
+bơm	B-PN-OB
+tay	I-PN-OB
+
+Bộ	O
+drap	B-PN
+thun	B-PROP
+Quang	B-BR
+Phát	I-BR
+họa	B-PROP
+tiết	I-PROP
+hoa	I-PROP
+xanh	I-PROP
+
+Bộ	O
+drap	B-PN
+thun	B-PROP
+Quang	B-BR
+Phát	I-BR
+họa	B-PROP
+tiết	I-PROP
+ô	I-PROP
+vuông	I-PROP
+lá	O
+
+Bộ	O
+drap	B-PN
+thun	B-PROP
+hình	B-PROP
+gấu	I-PROP
+con	I-PROP
+-	O
+Quang	B-BR
+Phát	I-BR
+(1.6m	O
+x	O
+2m)	O
+
+Bộ	O
+drap	B-PN
+thun	B-PROP
+Quang	B-BR
+Phát	I-BR
+-	O
+họa	B-PROP
+tiết	I-PROP
+trái	I-PROP
+cây	I-PROP
+
+Bộ	O
+drap	B-PN
+thun	B-PROP
+lạnh	I-PROP
+Quang	B-BR
+Phát	I-BR
+
+Bộ	O
+drap	B-PN
+thun	B-PROP
+Quang	B-BR
+Phát	I-BR
+-	O
+hình	B-PROP
+chú	I-PROP
+cừu	I-PROP
+
+2	O
+bộ	O
+khuôn	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+8	B-PROP
+ngăn	I-PROP
+-	O
+Tiện	B-PROP
+lợi	I-PROP
+,	O
+dễ	B-PROP
+làm	I-PROP
+
+Bộ	O
+drap	B-PN
+thun	B-PROP
+hình	B-PROP
+chuột	I-PROP
+Mickey	I-PROP
+
+2	O
+đầu	B-PN
+lọc	B-FUNC
+nước	B-FUNC-OB
+tại	B-PROP
+vòi	I-PROP
+-	O
+Lọc	B-PROP
+sạch	I-PROP
+tạp	I-PROP
+chất	I-PROP
+
+2	O
+vỉ	O
+che	B-FUNC
+ổ	B-FUNC-OB
+điện	I-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+-	O
+An	B-PROP
+toàn	I-PROP
+cho	O
+gia	B-OB
+đình	I-OB
+
+Khuôn	B-PN
+nướng	B-FUNC
+bánh	B-FUNC-OB
+muffin	B-BR
+không	B-PROP
+dính	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Bàn	B-PN
+gấp	B-PROP
+cao	B-PROP
+cấp	I-PROP
+Woodpro	O
+nhỏ	B-PROP
+gọn	I-PROP
+,	O
+chắc	B-PROP
+chắn	I-PROP
+
+2	O
+vỏ	B-PN
+bọc	B-FUNC
+máy	B-FUNC-OB
+giặt	I-FUNC-OB
+cửa	O
+đứng	O
+hoặc	O
+cửa	O
+ngang	O
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+Quang	B-BR
+Phát	I-BR
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+Thắng	B-BR
+Lợi	I-BR
+họa	B-PROP
+tiết	I-PROP
+hoa	I-PROP
+xuân	I-PROP
+
+Chiếu	B-PN
+mây	B-PROP
+KIKO	B-BR
+Việt	B-BR
+Nam	I-BR
+1	O
+,	O
+8m*2m	O
+tặng	O
+kèm	O
+2	O
+vỏ	B-PN
+gối	I-PN
+
+Đèn	B-PN
+LED	B-PROP
+12W	O
+tiết	B-PROP
+kiệm	I-PROP
+điện	I-PROP
+
+Vòi	B-PN
+xịt	B-FUNC
+vệ	B-FUNC-OB
+sinh	I-FUNC-OB
+inox	B-PROP
+-	O
+Hàng	O
+Việt	B-BR
+Nam	I-BR
+
+5	O
+gói	O
+khăn	B-PN
+ướt	I-PN
+Baby	B-BR
+Health	I-BR
+tiện	B-PROP
+dụng	I-PROP
+
+Máy	B-PN
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+KIKO	B-BR
+-	O
+hàng	O
+Việt	B-BR
+Nam	I-BR
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+Xtreme	O
+có	B-PROP
+gai	I-PROP
+
+3	O
+bóng	B-PN
+đèn	I-PN
+Led	B-PROP
+Tom	B-BR
+House	I-BR
+5W	O
+-	O
+Siêu	B-PROP
+tiết	I-PROP
+kiệm	I-PROP
+điện	I-PROP
+
+Hộp	O
+màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Thái	B-BR
+Lan	I-BR
+Ringo	B-BR
+400	O
+
+Chiếu	B-PN
+lụa	B-PROP
+điều	B-PROP
+hòa	I-PROP
+họa	B-PROP
+tiết	I-PROP
+3D	I-PROP
+kèm	O
+2	B-PN-OB
+gối	I-PN-OB
+
+Vòi	B-PN
+xịt	B-FUNC
+vệ	B-FUNC-OB
+sinh	I-FUNC-OB
+inox	B-PROP
+Zento	B-BR
+-	O
+Bền	B-PROP
+,	O
+đẹp	B-PROP
+
+Dây	B-PN
+phơi	I-PN
+đa	B-PROP
+năng	I-PROP
+có	B-PROP
+kèm	I-PROP
+kẹp	I-PROP
+
+02	O
+nhiệt	B-PN
+kế	I-PN
+điện	B-PROP
+tử	I-PROP
+SIKA	B-BR
+an	B-PROP
+toàn	I-PROP
+cho	O
+trẻ	B-OB
+nhỏ	I-OB
+
+Đồng	B-PN
+hồ	I-PN
+LED	B-PROP
+để	B-PROP
+bàn	I-PROP
+4	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Bộ	O
+30	O
+khung	B-PN
+ảnh	I-PN
+kiểu	B-PROP
+Hàn	I-PROP
+Quốc	I-PROP
+
+Combo	O
+6	O
+móc	B-PN
+khóa	I-PN
+hoạt	B-PROP
+hình	I-PROP
+
+2	O
+bộ	O
+khuôn	B-PN
+kem	B-PROP
+14	B-PROP
+ngăn	I-PROP
+mát	B-PROP
+lạnh	I-PROP
+
+2	O
+kệ	B-PN
+hình	B-PROP
+thang	I-PROP
+treo	B-PROP
+tường	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Dầu	B-PN
+nóng	I-PN
+xoa	B-FUNC
+bóp	I-FUNC
+Antiphlamine	B-BR
+Hàn	B-BR
+Quốc	I-BR
+(100ml)	O
+
+Móc	B-PN
+treo	B-FUNC
+quần	B-FUNC-OB
+và	O
+khăn	B-FUNC-OB
+5	B-PROP
+tầng	I-PROP
+thông	B-PROP
+minh	I-PROP
+
+Giường	B-PN
+lưới	B-PROP
+Fancy	B-BR
+tốt	B-PROP
+cho	O
+xương	O
+sống	O
+của	O
+bé	B-OB
+
+Bộ	O
+2	O
+khóa	B-PN
+số	B-PROP
+đa	B-PROP
+năng	I-PROP
+khóa	B-FUNC
+tủ	B-FUNC-OB
+,	O
+túi	B-FUNC-OB
+xách	I-FUNC-OB
+,	O
+va	B-FUNC-OB
+li	I-FUNC-OB
+,	O
+...	O
+
+Combo	O
+2	O
+thảm	B-PN
+san	B-PROP
+hô	I-PROP
+siêu	B-PROP
+thấm	I-PROP
+
+2	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+cỡ	B-PROP
+lớn	I-PROP
+
+2	O
+Gối	B-PN
+hơi	I-PN
+du	B-PROP
+lịch	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Tai	B-PN
+nghe	I-PN
+Baby	B-BR
+Cat	I-BR
+EP0902	O
+sành	B-PROP
+điệu	I-PROP
+
+Gối	B-PN
+lông	B-PROP
+vũ	I-PROP
+100%	O
+-	O
+kích	O
+thước	O
+50x80cm	O
+
+2	O
+hộp	O
+Màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Ringo	B-BR
+200	O
+
+2	O
+vỉ	B-PN
+gác	B-FUNC
+chảo	B-FUNC-OB
+rán	I-FUNC-OB
+inox	B-PROP
+phi	O
+28cm	O
+
+Bật	B-PN
+lửa	I-PN
+LIÊN	O
+MINH	O
+3D	O
+-	O
+nhiều	B-PROP
+mẫu	I-PROP
+
+Bộ	O
+vòi	B-PN
+xịt	B-FUNC
+rửa	B-FUNC
+xe	B-FUNC-OB
+kèm	O
+dây	B-PN-OB
+dài	I-PN-OB
+10m	O
+
+50	O
+viên	B-PN
+gỗ	B-PROP
+thơm	I-PROP
+chống	B-FUNC
+gián	B-FUNC-OB
+,	O
+khử	B-FUNC
+mùi	I-FUNC
+,	O
+chống	B-FUNC
+ẩm	I-FUNC
+
+Máy	B-PN
+sấy	B-FUNC
+giày	B-FUNC-OB
+Nakagami	B-BR
+-	O
+Công	O
+nghệ	O
+Nhật	B-BR
+Bản	I-BR
+
+20	O
+nút	B-PN
+bịt	B-FUNC
+ổ	B-FUNC-OB
+điện	I-FUNC-OB
+-	O
+An	B-PROP
+toàn	I-PROP
+cho	O
+cả	O
+gia	B-BR
+đình	I-BR
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+mặt	B-PROP
+kính	I-PROP
+cảm	I-PROP
+biến	I-PROP
+thông	B-PROP
+minh	I-PROP
+
+Màn	B-PN
+tuyn	I-PN
+in	B-PROP
+hoa	I-PROP
+Long	B-BR
+Việt	I-BR
+(1m6	O
+x	O
+2m)	O
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+Thắng	B-BR
+Lợi	I-BR
+họa	B-PROP
+tiết	I-PROP
+trang	I-PROP
+nhã	I-PROP
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+Thắng	B-BR
+Lợi	I-BR
+họa	B-PROP
+tiết	I-PROP
+mùa	I-PROP
+xuân	I-PROP
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+nhung	I-PROP
+Long	B-BR
+Việt	I-BR
+1m6	O
+x	O
+2m	O
+
+Bộ	O
+drap	B-PN
+3D	B-PROP
+Long	B-BR
+Việt	I-BR
+
+Gối	B-PN
+Thảo	B-PROP
+mộc	I-PROP
+Oải	B-PROP
+Hương	I-PROP
+(Lavender)	O
+
+Gối	B-PN
+kê	B-FUNC
+cổ	B-FUNC-OB
+thảo	B-PROP
+dược	I-PROP
+mùi	B-PROP
+đinh	I-PROP
+lăng	I-PROP
+
+5	O
+giấy	B-PN
+dán	B-FUNC
+bếp	B-FUNC-OB
+cách	B-PROP
+nhiệt	I-PROP
+(45cm	O
+x	O
+75cm)	O
+
+10	O
+Hộp	B-PN
+đựng	B-FUNC
+giày	B-FUNC-OB
+trong	B-PROP
+suốt	I-PROP
+
+Hộp	B-PN
+cơm	I-PN
+Magic	B-BR
+Bullet	I-BR
+lòng	B-PROP
+inox	I-PROP
+tháo	B-PROP
+rời	I-PROP
+
+Cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+Easy	B-BR
+Mop	I-BR
+lồng	B-PROP
+inox	I-PROP
+
+Máy	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+hoa	I-FUNC-OB
+quả	I-FUNC-OB
+thế	O
+hệ	O
+mới	O
+-	O
+Đơn	B-PROP
+giản	I-PROP
+,	O
+dễ	B-PROP
+làm	I-PROP
+
+5	O
+túi	B-PN
+lưới	I-PN
+giặt	B-FUNC
+đồ	B-FUNC-OB
+30cm	O
+x	O
+40cm	O
+-	O
+Tiện	B-PROP
+lợi	I-PROP
+,	O
+dễ	B-PROP
+dùng	I-PROP
+
+Quả	B-PN
+lọc	B-FUNC
+nước	B-FUNC-OB
+tại	B-PROP
+vòi	I-PROP
+Wellos	B-BR
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+đa	B-PROP
+năng	I-FUNC
+Magic	B-BR
+Plus	I-BR
+
+Móc	B-PN
+chìa	I-PN
+khóa	I-PN
+-	O
+Phát	B-PROP
+tiếng	I-PROP
+kêu	I-PROP
+khi	O
+huýt	O
+sáo	O
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+cao	B-PROP
+cấp	I-PROP
+Nhật	B-BR
+Bản	I-BR
+
+3	O
+hộp	B-PN
+cơm	I-PN
+thủy	B-PROP
+tinh	I-PROP
+kèm	O
+túi	B-PN
+giữ	B-FUNC
+nhiệt	I-FUNC
+
+5	O
+hộp	B-PN
+inox	B-PROP
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+
+Nước	B-PN
+giặt	B-FUNC
+và	O
+xả	B-FUNC
+vải	B-FUNC-OB
+Freshar	B-BR
+an	B-PROP
+toàn	I-PROP
+cho	O
+da	O
+
+Móc	B-PN
+treo	B-FUNC
+khăn	B-FUNC-OB
+,	O
+cà	B-FUNC-OB
+vạt	I-FUNC-OB
+28	O
+ô	O
+tiện	B-PROP
+ích	I-PROP
+
+Gối	B-PN
+thảo	B-PROP
+mộc	I-PROP
+lá	B-PROP
+ĐINH	I-PROP
+LĂNG	I-PROP
+100%	O
+
+Cân	B-PN
+sức	B-PROP
+khỏe	I-PROP
+LAICA	B-BR
+PS1050	O
+-	O
+Sắc	B-PROP
+màu	I-PROP
+Italy	I-PROP
+
+Vòi	B-PN
+rửa	B-FUNC
+bát	B-FUNC-OB
+inox	B-PROP
+Selta	B-BR
+dây	B-PROP
+mềm	I-PROP
+cắm	O
+chậu	O
+hoặc	O
+tường	O
+
+Máy	B-PN
+xông	B-FUNC
+mặt	B-FUNC-OB
+LAICA	B-BR
+-	O
+Cho	O
+làn	O
+da	O
+sáng	O
+mịn	O
+
+Hộp	B-PN
+vải	B-PROP
+xếp	I-PROP
+di	B-PROP
+động	I-PROP
+1	B-PROP
+ngăn	I-PROP
+
+Set	O
+2	O
+túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+Monopoly	B-BR
+có	B-PROP
+bảng	I-PROP
+tên	I-PROP
+
+3	O
+túi	B-PN
+bảo	B-FUNC
+quản	I-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+bằng	O
+vải	B-PROP
+không	I-PROP
+dệt	I-PROP
+
+Combo	O
+2	O
+kệ	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+tiết	B-PROP
+kiệm	I-PROP
+không	I-PROP
+gian	I-PROP
+
+Vòi	B-PN
+xịt	B-FUNC
+nước	B-FUNC-OB
+tưới	B-FUNC
+cây	B-FUNC-OB
+,	O
+rửa	B-FUNC
+xe	B-FUNC-OB
+
+Quả	B-PN
+lọc	I-PN
+tại	B-PROP
+vòi	I-PROP
+bếp	I-PROP
+Wellos	B-BR
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Đồng	B-PN
+hồ	I-PN
+để	B-PROP
+bàn	I-PROP
+hình	B-PROP
+xe	I-PROP
+đạp	I-PROP
+có	B-PROP
+giá	I-PROP
+cắm	I-PROP
+bút	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+Gel	B-PN
+bôi	B-FUNC
+trơn	I-FUNC
+hỗ	B-PROP
+trợ	I-PROP
+thụ	I-PROP
+thai	I-PROP
+Conceive	B-BR
+Plus	I-BR
+4gmx3	O
+
+Nồi	B-PN
+áp	B-PROP
+suất	I-PROP
+điện	B-PROP
+FUJICOOK	B-BR
+6.0L	O
+
+Tạp	B-PN
+dề	I-PN
+và	O
+tay	B-PN
+áo	I-PN
+không	B-PROP
+thấm	I-PROP
+nước	I-PROP
+chống	B-FUNC
+bẩn	I-FUNC
+
+Nồi	B-PN
+áp	B-PROP
+suất	I-PROP
+Fujicook	B-BR
+60A2	O
+
+Bếp	B-PN
+hồng	B-PROP
+ngoại	I-PROP
+Fujicook	B-BR
+DD	O
+-	O
+HC18	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Bếp	B-PN
+hồng	B-PROP
+ngoại	I-PROP
+Fujicook	B-BR
+HC12A	O
+-	O
+BH	O
+12	O
+Tháng	O
+
+Mũ	B-PN
+hấp	B-FUNC
+tóc	B-FUNC-OB
+cá	B-PROP
+nhân	I-PROP
+
+Combo	O
+4	O
+đèn	B-PN
+nhấp	B-PROP
+nháy	I-PROP
+trang	B-PROP
+trí	I-PROP
+hình	I-PROP
+bướm	I-PROP
+
+Bếp	B-PN
+hồng	B-PROP
+ngoại	I-PROP
+Fujicook	B-BR
+HC68	O
+-	O
+BH	O
+12	O
+Tháng	O
+
+Máy	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+hoa	I-FUNC-OB
+quả	I-FUNC-OB
+nhanh	B-PROP
+chóng	I-PROP
+,	O
+dễ	B-PROP
+dàng	I-PROP
+
+Áo	B-PN
+mưa	I-PN
+cánh	B-PROP
+dơi	I-PROP
+Tumi	B-BR
+
+2	O
+túi	B-PN
+đựng	B-FUNC
+chăn	B-FUNC-OB
+màn	I-FUNC-OB
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+(tặng	O
+kèm	O
+1	O
+túi	O
+xách)	O
+
+3	O
+dây	B-PN
+phơi	B-FUNC
+đồ	B-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+
+Tiện	O
+ích	O
+cùng	O
+5	O
+hộp	B-PN
+đựng	B-FUNC
+giầy	B-FUNC-OB
+
+Thảm	B-PN
+du	B-PROP
+lịch	I-PROP
+2	B-PROP
+lớp	I-PROP
+1m5	O
+x1m8	O
+chống	B-PROP
+thấm	I-PROP
+nước	I-PROP
+
+Bộ	O
+đồ	B-PN
+nghề	I-PN
+sửa	B-FUNC
+chữa	I-FUNC
+24	B-PROP
+món	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+Đồng	B-PN
+hồ	I-PN
+để	B-PROP
+bàn	I-PROP
+cá	B-PROP
+tính	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+trang	I-FUNC-OB
+điểm	I-FUNC-OB
+nhỏ	B-PROP
+gọn	I-PROP
+xinh	B-PROP
+xắn	I-PROP
+
+Combo	O
+Rửa	B-FUNC
+chén	B-FUNC-OB
+,	O
+tẩy	B-FUNC
+tolet	B-FUNC-OB
+và	O
+nước	B-PN
+lau	B-FUNC
+sàn	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+
+2	O
+bộ	O
+gối	B-PN
+hơi	I-PN
+,	O
+bịt	B-PN
+tai	I-PN
+,	O
+bịt	B-PN
+mắt	I-PN
+du	B-PROP
+lịch	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+Túi	B-PN
+treo	B-FUNC
+đa	B-PROP
+năng	I-PROP
+12	B-PROP
+ngăn	I-PROP
+
+Bộ	O
+sản	B-PN
+phẩm	I-PN
+tiện	I-PN
+ích	I-PN
+gia	B-PROP
+đình	I-PROP
+cực	O
+HOT	O
+
+Bộ	O
+8	O
+túi	B-PN
+hút	B-PROP
+chân	I-PROP
+không	I-PROP
+-	O
+tặng	O
+kèm	O
+bơm	B-PN-OB
+tay	I-PN-OB
+
+2	O
+móc	B-PN
+treo	B-FUNC
+chìa	B-FUNC-OB
+khóa	I-FUNC-OB
+hàng	B-PROP
+rào	I-PROP
+gỗ	I-PROP
+
+Xe	B-PN
+kéo	I-PN
+đa	B-PROP
+năng	I-PROP
+gấp	B-PROP
+gọn	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+tải	O
+trọng	O
+40kg	O
+
+Khóa	B-PN
+phanh	I-PN
+đĩa	I-PN
+xe	B-PROP
+máy	I-PROP
+Z	O
+-	O
+con	O
+
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+11	B-PROP
+ngăn	I-PROP
+
+Tiện	B-PROP
+lợi	I-PROP
+cùng	O
+8	O
+Túi	B-PN
+hút	B-PROP
+chân	I-PROP
+không	I-PROP
+,	O
+kèm	O
+bơm	B-PN-OB
+tay	I-PN-OB
+
+Túi	B-PN
+vải	B-PROP
+đa	B-PROP
+năng	I-PROP
+
+Đèn	B-PN
+Led	B-PROP
+sạc	B-PROP
+để	B-PROP
+bàn	I-PROP
+24	B-PROP
+bóng	I-PROP
+nhỏ	B-PROP
+gọn	I-PROP
+,	O
+tiện	B-PROP
+ích	I-PROP
+
+Bạt	B-PN
+phủ	B-FUNC
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+Trường	B-BR
+Thịnh	I-BR
+vải	B-PROP
+dù	I-PROP
+pha	I-PROP
+nylon	I-PROP
+
+2	O
+túi	B-PN
+vải	B-PROP
+treo	B-PROP
+tường	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+Thảm	B-PN
+tập	B-FUNC
+yoga	I-FUNC
+có	B-PROP
+túi	I-PROP
+đựng	I-PROP
+
+Cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+lồng	I-PROP
+nhựa	B-PROP
+Thái	B-BR
+Sơn	I-BR
+
+Trổ	O
+tài	O
+khéo	O
+léo	O
+với	O
+Khuôn	B-PN
+cuộn	B-FUNC
+sushi	B-FUNC-OB
+
+Bàn	B-PN
+là	I-PN
+hơi	B-PROP
+nước	I-PROP
+Sokany	B-BR
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+CHITA	B-BR
+-	O
+CT31	O
+thời	B-PROP
+trang	I-PROP
+,	O
+an	B-PROP
+toàn	I-PROP
+
+Combo	O
+2	O
+thảm	B-PN
+lau	B-FUNC
+chân	B-FUNC-OB
+siêu	B-PROP
+thấm	I-PROP
+
+8	O
+miếng	B-PN
+chặn	B-FUNC
+góc	B-FUNC-OB
+bàn	I-FUNC-OB
+nhựa	B-PROP
+dẻo	I-PROP
+an	B-PROP
+toàn	I-PROP
+
+Bộ	B-PN
+chiết	I-PN
+mỹ	B-PROP
+phẩm	I-PROP
+mini	B-PROP
+5	B-PROP
+món	I-PROP
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+Chita	B-BR
+CT5A	O
+có	B-PROP
+kính	I-PROP
+bảo	I-PROP
+vệ	I-PROP
+
+6	O
+hộp	O
+tăm	B-PN
+bông	I-PN
+Thái	B-BR
+Lan	I-BR
+an	B-PROP
+toàn	I-PROP
+hữu	B-PROP
+dụng	I-PROP
+
+Bộ	O
+cờ	B-PN
+vua	I-PN
+có	B-PROP
+nam	I-PROP
+châm	I-PROP
+hấp	B-PROP
+dẫn	I-PROP
+cho	O
+cả	O
+gia	B-OB
+đình	I-OB
+
+Bộ	O
+cắt	B-FUNC
+gọt	I-FUNC
+rau	B-FUNC-OB
+củ	I-FUNC-OB
+Nicer	B-BR
+Dicer	I-BR
+Plus	I-BR
+đa	B-PROP
+năng	I-PROP
+
+Lược	B-PN
+điện	B-PROP
+Sokany	B-BR
+làm	B-FUNC
+xoăn	I-FUNC
+,	O
+uốn	B-FUNC
+phồng	I-FUNC
+,	O
+sấy	B-FUNC
+cụp	I-FUNC
+
+Nệm	B-PN
+PE	B-PROP
+gấp	B-PROP
+3	I-PROP
+công	O
+nghệ	O
+Hàn	B-BR
+Quốc	I-BR
+(195	O
+x	O
+155	O
+x	O
+10cm)	O
+
+Vali	B-PN
+du	B-PROP
+lịch	I-PROP
+kéo	B-PROP
+tiện	B-PROP
+lợi	I-PROP
+hợp	B-PROP
+thời	I-PROP
+trang	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+thức	B-FUNC-OB
+ăn	I-FUNC-OB
+MAGIC	B-BR
+BULLET	I-BR
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+sửa	B-FUNC
+chữa	I-FUNC
+đa	B-PROP
+năng	I-PROP
+9	B-PROP
+chi	I-PROP
+tiết	I-PROP
+LC8009	O
+
+6	O
+áo	B-PN
+mưa	I-PN
++	O
+6	O
+đôi	O
+Ủng	B-PN
+nilon	B-BR
+đi	B-FUNC
+mưa	I-FUNC
+
+Nồi	B-PN
+cơm	I-PN
+điện	I-PN
+Happy	B-BR
+Cook	I-BR
+1	O
+,	O
+8L	O
+
+Dụng	B-PN
+cụ	I-PN
+vắt	B-FUNC
+cam	B-FUNC-OB
+và	O
+4	O
+khay	B-PN
+đá	I-PN
+chữ	B-PROP
+xinh	B-PROP
+xắn	I-PROP
+
+2	O
+chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+Happy	B-BR
+Cook	I-BR
+
+Combo	O
+6	O
+túi	O
+giấy	B-PN
+ướt	I-PN
+lô	B-PROP
+hội	I-PROP
+Nuna	B-BR
+
+Bộ	O
+2	O
+chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+Happycook	B-BR
+(14	O
+-	O
+22	O
+cm)	O
+
+4	O
+lót	B-FUNC
+nón	B-FUNC-OB
+bảo	I-FUNC-OB
+hiểm	I-FUNC-OB
+
+Nồi	B-PN
+hợp	B-PROP
+kim	I-PROP
+nhôm	B-PROP
+Happycook	B-BR
+N24	O
+-	O
+R	O
+24cm	O
+
+Bộ	O
+vòi	B-PN
+sen	B-PROP
+tắm	B-FUNC
+dạng	B-PROP
+vuông	I-PROP
+
+Máy	B-PN
+may	I-PN
+mini	B-PROP
+cho	O
+gia	B-BR
+đình	I-BR
+
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+-	O
+Gọn	B-PROP
+gàng	I-PROP
+và	O
+làm	B-FUNC
+mới	I-FUNC
+không	B-FUNC-OB
+gian	I-FUNC-OB
+
+Ấm	B-PN
+đun	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+1.8L	B-PROP
+
+Set	O
+2	O
+balo	B-PN
+dây	B-PROP
+rút	I-PROP
+chống	B-PROP
+thấm	I-PROP
+nước	B-FUNC-OB
+năng	B-PROP
+động	I-PROP
+
+Thiết	B-PN
+bị	I-PN
+làm	B-FUNC
+giá	B-FUNC-OB
+sạch	I-FUNC-OB
+tự	B-PROP
+động	I-PROP
+tặng	O
+0	O
+,	O
+7	O
+kg	O
+đỗ	O
+xanh	O
+
+Túi	B-PN
+xách	I-PN
+du	B-PROP
+lịch	I-PROP
+mẫu	O
+mới	O
+
+Tủ	B-PN
+nhựa	B-PROP
+đa	B-PROP
+năng	I-PROP
+5	B-PROP
+ngăn	I-PROP
+
+Tủ	B-PN
+nhựa	B-PROP
+lắp	B-PROP
+rắp	I-PROP
+6	B-PROP
+ngăn	I-PROP
+Bảo	O
+Thy	O
+
+2	O
+túi	B-PN
+giữ	B-FUNC
+nhiệt	B-FUNC-OB
+
+Cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+phun	B-FUNC
+nước	B-FUNC-OB
+xoay	B-PROP
+360	I-PROP
+độ	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+Combo	O
+2	O
+tấm	B-PN
+trải	B-FUNC
+đa	B-PROP
+năng	I-PROP
+
+7	O
+khăn	B-PN
+mặt	I-PN
+Thái	B-BR
+Lan	I-BR
+kháng	B-PROP
+khuẩn	I-PROP
+100%	O
+cotton	B-PROP
+
+Máy	B-PN
+đuổi	B-FUNC
+muỗi	B-FUNC-OB
++	O
+côn	B-FUNC-OB
+trùng	I-FUNC-OB
+bằng	O
+tinh	B-PROP
+dầu	I-PROP
+
+6	O
+túi	O
+khăn	B-PN
+ướt	I-PN
+Miki	B-BR
+-	O
+90	O
+tờ	O
+/	O
+gói	O
+
+Tông	B-PN
+đơ	I-PN
+Kemei	B-BR
+động	B-PROP
+cơ	I-PROP
+khỏe	I-PROP
+,	O
+chạy	B-PROP
+êm	I-PROP
+ái	I-PROP
+
+Tủ	B-PN
+vải	B-PROP
+cao	B-PROP
+cấp	I-PROP
+đựng	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+-	O
+Bền	B-PROP
+,	O
+đẹp	B-PROP
+
+2	O
+màn	B-PN
+tuyn	I-PN
+Hà	B-BR
+Nội	I-BR
+cho	O
+giường	B-OB
+1m6	O
+
+Máy	B-PN
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+Misushita	B-BR
+12	O
+cốc	B-PN-OB
+thủy	B-PROP
+tinh	I-PROP
+
+Dụng	B-PN
+Cụ	I-PN
+Vắt	B-FUNC
+Cam	B-FUNC-OB
+Chính	O
+Hãng	O
+Tashuan	B-BR
+
+2	O
+hộp	O
+túi	B-PN
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+tự	B-PROP
+hủy	I-PROP
+sinh	O
+học	O
+
+2	O
+hộp	B-PN
+Lifavins	B-BR
+tẩy	B-FUNC
+sạch	I-FUNC
+cặn	I-FUNC
+ấm	B-FUNC-OB
+nước	I-FUNC-OB
+,	O
+phích	B-FUNC-OB
+nước	I-FUNC-OB
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+Tumi	B-BR
+dành	O
+cho	O
+giường	B-OB
+1m8	I-OB
+
+Kệ	B-PN
+kéo	B-FUNC
+đa	B-PROP
+năng	I-PROP
+3	B-PROP
+tầng	I-PROP
+-	O
+Tiết	B-PROP
+kiệm	I-PROP
+không	I-PROP
+gian	I-PROP
+
+Quả	B-PN
+cầu	I-PN
+ma	I-PN
+thuật	I-PN
+Plasma	B-PROP
+
+Giá	B-PN
+treo	B-FUNC
+góc	B-PROP
+tường	I-PROP
+hít	B-PROP
+chân	I-PROP
+không	I-PROP
+Tashuan	B-BR
+
+3	O
+túi	O
+nước	B-PN
+giặt	I-PN
+Fineline	B-BR
+Thái	B-BR
+Lan	I-BR
+(900ml	O
+/	O
+1	O
+gói)	O
+
+Kệ	B-PN
+đựng	B-FUNC
+gia	B-FUNC-OB
+vị	I-FUNC-OB
+5	B-PROP
+tầng	I-PROP
+Tashuan	B-BR
+
+Dụng	B-PN
+cụ	I-PN
+treo	B-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
+chống	B-PROP
+khuẩn	I-PROP
+Tashuan	B-BR
+
+Bộ	O
+10	O
+thanh	B-PN
+thu	B-PROP
+gọn	I-PROP
+chia	B-FUNC
+ô	I-FUNC
+ngăn	I-FUNC
+kéo	I-FUNC
+Tashuan	B-BR
+
+9	O
+bàn	B-PN
+chải	I-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+Thái	B-BR
+Lan	I-BR
+-	O
+2	B-PROP
+tầng	I-PROP
+,	O
+sợi	B-PROP
+mảnh	I-PROP
+
+2	O
+Thớt	B-PN
+treo	B-PROP
+Tashuan	B-BR
+kháng	B-PROP
+khuẩn	I-PROP
+-	O
+Không	B-PROP
+trơn	I-PROP
+trượt	I-PROP
+
+Kệ	B-PN
+để	B-FUNC
+nồi	B-FUNC-OB
+chảo	I-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+Tashuan	B-BR
+
+Kệ	B-PN
+để	B-FUNC
+giày	B-FUNC-OB
+Tashuan	B-BR
+
+Kệ	B-PN
+kéo	B-PROP
+đa	B-PROP
+năng	I-PROP
+Tashuan	B-BR
+
+7	O
+giấy	B-PN
+dán	B-FUNC
+bếp	B-FUNC-OB
+cách	B-PROP
+nhiệt	I-PROP
+họa	B-PROP
+tiết	I-PROP
+đa	I-PROP
+dạng	I-PROP
+
+Giá	B-PN
+úp	B-FUNC
+chén	B-FUNC-OB
+đũa	I-FUNC-OB
+muỗng	I-FUNC-OB
+kèm	O
+khay	B-PN-OB
+Tashing	B-BR
+
+2	O
+Dao	B-PN
+xếp	B-PROP
+dạng	B-PROP
+thẻ	I-PROP
+ATM	I-PROP
+
+4	O
+tấm	B-PN
+che	I-PN
+chống	B-FUNC
+nắng	B-FUNC-OB
+phản	B-PROP
+quang	I-PROP
+cho	O
+ô	B-OB
+tô	I-OB
+
+Cối	B-PN
+xay	B-FUNC
+tiêu	B-FUNC-OB
+
+Cây	B-PN
+Lau	B-FUNC
+Nhà	B-FUNC-OB
+Megahome	B-BR
+Mâm	B-PROP
+inox	I-PROP
+xoay	B-PROP
+360	I-PROP
+độ	I-PROP
+
+2	O
+móc	B-PN
+treo	B-FUNC
+khăn	B-FUNC-OB
+,	O
+quần	B-PN
+5	B-PROP
+tầng	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+Bàn	B-PN
+lau	B-FUNC
+bụi	B-FUNC-OB
+san	I-FUNC-OB
+hô	I-FUNC-OB
+siêu	B-PROP
+sạch	I-PROP
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+cao	B-PROP
+cấp	I-PROP
+Uncle	B-BR
+Bills	I-BR
+(18.5cm)	O
+
+Đèn	B-PN
+treo	B-PROP
+Uncle	B-BR
+Bills	I-BR
+IL0115	O
+
+4	O
+Ly	B-PN
+cà	B-PROP
+phê	I-PROP
+Espresso	B-BR
+sứ	B-PROP
+cao	B-PROP
+cấp	I-PROP
+Uncle	B-BR
+Bills	I-BR
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+thương	O
+hiệu	O
+Uncle	B-BR
+Bills	I-BR
+30cm	O
+
+Lưới	B-PN
+đệm	I-PN
+tựa	B-FUNC
+lưng	B-FUNC-OB
+thoáng	B-PROP
+khí	I-PROP
+Uncle	B-BR
+Bills	I-BR
+
+Ô	B-PN
+gấp	B-PROP
+“Gặp	O
+nước	O
+Nở	O
+Hoa”	O
+
+Xửng	B-PN
+Hấp	I-PN
++	O
+Bộ	B-PN
+Gắp	I-PN
+Nóng	I-PN
+Cho	O
+Nhà	B-OB
+Bếp	I-OB
+
+Hộp	O
+dụng	B-PN
+cụ	I-PN
+chăm	B-FUNC
+sóc	I-FUNC
+cá	B-FUNC-OB
+nhân	I-FUNC-OB
+120	B-PROP
+món	I-PROP
+-	O
+UBL	O
+
+Máy	B-PN
+đánh	B-FUNC
+trứng	B-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+ăn	B-FUNC
+24	B-PROP
+món	I-PROP
+Uncle	B-BR
+Bills	I-BR
+
+Khay	B-PN
+đựng	B-FUNC
+mỹ	B-FUNC-OB
+phẩm	I-FUNC-OB
+/	O
+trang	B-FUNC-OB
+sức	I-FUNC-OB
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Áo	B-PN
+mưa	I-PN
+cánh	B-PROP
+dơi	I-PROP
+phủ	B-PROP
+PU	I-PROP
+
+Bình	B-PN
+nước	I-PN
+kèm	O
+túi	B-PN-OB
+MY	B-BR
+BOTTLE	I-BR
+
+02	O
+Gối	B-PN
+tựa	B-FUNC
+đầu	I-FUNC
+ghế	B-FUNC-OB
+xe	I-FUNC-OB
+ô	I-FUNC-OB
+tô	I-FUNC-OB
+-	O
+Chống	B-FUNC
+mệt	I-FUNC
+mỏi	I-FUNC
+khi	O
+đi	O
+xe	O
+
+Bộ	O
+ba	O
+miếng	B-PN
+gỗ	I-PN
+lót	B-FUNC
+nồi	B-FUNC-OB
+xuất	B-PROP
+khẩu	I-PROP
+
+2	O
+túi	B-PN
+lọc	B-FUNC
+đa	B-PROP
+năng	I-PROP
+
+Vòi	B-PN
+rửa	B-FUNC
+xe	B-FUNC-OB
+20m	O
+cực	B-PROP
+mạnh	I-PROP
+loại	O
+vòi	O
+đồng	B-PROP
+siêu	I-PROP
+bền	I-PROP
+
+Máy	B-PN
+sấy	B-FUNC
+tóc	B-FUNC-OB
+chân	B-PROP
+gấp	I-PROP
+nhỏ	B-PROP
+gọn	I-PROP
+1300W	O
+
+Thảm	B-PN
+nhảy	B-FUNC
+audition	I-FUNC
+vui	B-PROP
+nhộn	I-PROP
+
+Cốc	B-PN
+sứ	B-PROP
+cỡ	B-PROP
+lớn	I-PROP
+có	B-PROP
+nắp	I-PROP
+giữ	I-PROP
+nhiệt	I-PROP
+
+2	O
+ruột	B-PN
+gối	I-PN
+cao	B-PROP
+cấp	I-PROP
+nâng	O
+giấc	O
+say	O
+nồng	O
+
+Bàn	B-PN
+học	I-PN
+gấp	B-PROP
+xếp	B-PROP
+đa	B-PROP
+năng	I-PROP
+Tashuan	B-BR
+
+4	O
+khuôn	B-PN
+làm	B-FUNC
+đá	B-FUNC-OB
+Tashuan	B-BR
+
+Bộ	B-PN
+giác	I-PN
+hơi	I-PN
+không	B-PROP
+dùng	I-PROP
+lửa	I-PROP
+
+Bình	B-PN
+nuớc	I-PN
+tủ	B-PROP
+lạnh	I-PROP
+3	B-PROP
+lít	I-PROP
+chính	O
+hãng	O
+Tashuan	B-BR
+
+Bộ	O
+6	O
+khuôn	B-PN
+làm	B-FUNC
+rau	B-FUNC-OB
+câu	I-FUNC-OB
+-	O
+chính	O
+hãng	O
+Tashuan	B-BR
+
+5	O
+Kẹp	B-PN
+Miệng	B-PROP
+Túi	I-PROP
+Chống	B-PROP
+Khuẩn	I-PROP
+Tashuan	B-BR
+
+Thảm	B-PN
+đa	B-PROP
+năng	I-PROP
+cao	B-PROP
+cấp	I-PROP
+có	O
+túi	B-PN-OB
+đựng	I-PN-OB
+
+Ly	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+Magic	B-BR
+
+2	O
+Thảm	B-PN
+dậm	B-FUNC
+chân	B-FUNC-OB
+len	B-PROP
+nhung	I-PROP
+siêu	B-PROP
+thấm	I-PROP
+
+2	O
+tô	B-PN
+nhúng	B-FUNC
+bánh	B-FUNC-OB
+tráng	I-FUNC-OB
+loại	B-PROP
+nhỏ	I-PROP
+
+Bộ	O
+3	O
+kệ	B-PN
+gỗ	B-PROP
+lục	I-PROP
+giác	I-PROP
+xuất	B-PROP
+khẩu	I-PROP
+
+Tinh	B-PN
+dầu	I-PN
+khuyếch	B-PROP
+tán	I-PROP
+30ml	O
+
+3	O
+bịch	O
+nước	B-PN
+xả	I-PN
+comfort	B-BR
+Thái	B-BR
+Lan	I-BR
+600ml	O
+
+Quạt	B-PN
+giải	B-FUNC
+nhiệt	I-FUNC
+năng	O
+lượng	O
+mặt	O
+trời	O
+Cool	O
+-	O
+vent	O
+
+2	O
+nắp	B-PN
+vung	I-PN
+lưới	B-PROP
+nhựa	I-PROP
+chống	B-FUNC
+văng	I-FUNC
+dầu	B-FUNC-OB
+mỡ	I-FUNC-OB
+
+Đồng	B-PN
+hồ	I-PN
+treo	B-PROP
+tường	I-PROP
+có	B-PROP
+nhiệt	I-PROP
+kế	I-PROP
+ẩm	O
+kế	O
+Kashi	O
+N39	O
+
+Combo	O
+3	O
+gói	O
+nước	B-PN
+giặt	B-FUNC
+xả	B-FUNC
+vải	B-FUNC-OB
+Thái	B-BR
+Lan	I-BR
+500ml	O
+/	O
+gói	O
+
+Tủ	B-PN
+vải	I-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+3	B-PROP
+ngăn	I-PROP
+
+Nước	B-PN
+rửa	B-FUNC
+chén	B-FUNC-OB
+Cherry	B-BR
+Thái	B-BR
+Lan	I-BR
+3	O
+,	O
+6L	O
+thơm	O
+mát	O
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+-	O
+6	B-PROP
+lần	I-PROP
+lượn	I-PROP
+sóng	I-PROP
+(24	O
+cái)	O
+
+2	O
+gối	B-PN
+cotton	B-PROP
+cho	O
+giấc	O
+ngủ	O
+sâu	O
+
+Tủ	B-PN
+vải	I-PN
+xếp	B-PROP
+2	B-PROP
+ngăn	I-PROP
+
+Xà	B-PN
+đơn	I-PN
+lắp	B-PROP
+cửa	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+5	O
+giấy	B-PN
+dán	B-FUNC
+bếp	B-FUNC-OB
+cách	B-PROP
+nhiệt	I-PROP
+loại	B-PROP
+to	I-PROP
+60cm	O
+x	O
+90cm	O
+
+Áo	B-PN
+mưa	I-PN
+2	B-PROP
+đầu	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Hộp	B-PN
+cơm	I-PN
+hâm	B-FUNC
+nóng	I-FUNC
+hút	B-FUNC
+chân	B-FUNC-OB
+không	I-FUNC-OB
+,	O
+đa	B-PROP
+chức	I-PROP
+năng	I-PROP
+
+Máy	B-PN
+massage	B-FUNC
+vai	B-PROP
+lưng	I-PROP
+nhiều	B-PROP
+chế	I-PROP
+độ	I-PROP
+
+Nệm	B-PN
+PE	B-PROP
+Tapus	B-BR
+gấp	B-PROP
+3	I-PROP
+cho	O
+1	O
+người	O
+(dày	O
+2.5cm)	O
+
+Vòi	B-PN
+hoa	B-PROP
+sen	I-PROP
+tăng	B-PROP
+áp	I-PROP
+hạt	O
+nano	O
+mầu	O
+xanh	O
+(kèm	O
+dây)	O
+
+Khóa	B-PN
+cửa	B-PROP
+Zyeti	B-BR
+chống	B-FUNC
+cắt	I-FUNC
+an	B-PROP
+toàn	I-PROP
+cho	O
+mọi	O
+nhà	O
+
+Khóa	B-PN
+xe	B-PROP
+máy	I-PROP
+chữ	B-PROP
+U	I-PROP
+Marson	B-BR
+(Đen)	O
+
+Tỳ	B-PN
+hưu	I-PN
+phong	B-PROP
+thủy	I-PROP
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+Xtreme	I-BR
+-	O
+Nhật	B-BR
+Bản	I-BR
+
+Khóa	B-PN
+xe	B-PROP
+máy	I-PROP
+chữ	B-PROP
+U	I-PROP
+chống	B-FUNC
+trộm	B-FUNC-OB
+cỡ	B-PROP
+đại	I-PROP
+
+Bộ	O
+tua	B-PN
+vit	I-PN
+41	B-PROP
+món	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+Vòi	B-PN
+sen	B-PROP
+tăng	B-PROP
+áp	I-PROP
+và	O
+lọc	B-FUNC
+nano	I-FUNC
+thế	B-PROP
+hệ	I-PROP
+mới	I-PROP
+
+Bộ	O
+2	O
+móc	B-PN
+treo	B-FUNC
+inox	B-PROP
+đa	B-PROP
+năng	I-PROP
+loại	O
+20	B-PROP
+kẹp	I-PROP
+
+2	O
+Khăn	B-PN
+lau	B-FUNC
+tay	B-FUNC-OB
+sợi	B-PROP
+bông	I-PROP
+
+Khăn	B-PN
+tắm	I-PN
+cotton	B-PROP
+loại	B-PROP
+lớn	I-PROP
+(65	O
+x130cm)	O
+
+03	O
+khẩu	B-PN
+trang	I-PN
+bịt	B-FUNC
+tai	B-FUNC-OB
+chống	B-FUNC
+nắng	I-FUNC
+
+Dầu	B-PN
+xoa	B-FUNC
+bóp	I-FUNC
+khớp	I-FUNC
+Glucosamine	B-PROP
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Tách	B-PN
+úp	B-FUNC
+mỳ	B-FUNC-OB
+xinh	B-PROP
+xắn	I-PROP
+nắp	B-PROP
+hút	I-PROP
+chân	I-PROP
+không	I-PROP
+cao	B-PROP
+cấp	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+xay	B-FUNC
+tỏi	B-FUNC-OB
+ớt	I-FUNC-OB
++	O
+Mài	B-FUNC
+dao	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+
+Máy	B-PN
+tạo	B-FUNC
+độ	B-FUNC-OB
+ẩm	I-FUNC-OB
+Crystal	B-BR
+King	I-BR
+Lucky	I-BR
+
+Dụng	B-PN
+cụ	I-PN
+vắt	B-FUNC
+cam	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+6	B-PROP
+in	I-PROP
+1	I-PROP
+
+2	O
+Tấm	O
+thảm	B-PN
+lau	B-FUNC
+chân	B-FUNC-OB
+(55	O
+x	O
+35	O
+cm)	O
+
+Bộ	O
+3	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+tiết	B-PROP
+kiệm	I-PROP
+diện	I-PROP
+tích	I-PROP
+
+Bơm	B-PN
+hút	B-FUNC
+chân	B-FUNC-OB
+không	I-FUNC-OB
+Wenbo	B-BR
+thế	B-PROP
+hệ	I-PROP
+mới	I-PROP
+
+Bình	B-PN
+pha	B-FUNC
+trà	B-FUNC-OB
+và	O
+cà	B-FUNC-OB
+phê	I-FUNC-OB
+có	B-PROP
+đầu	I-PROP
+lọc	I-PROP
+
+Bộ	O
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+lồng	B-PROP
+inox	I-PROP
+cao	B-PROP
+cấp	I-PROP
+
+Vòi	B-PN
+sen	B-PROP
+tăng	B-PROP
+áp	I-PROP
+lực	I-PROP
+nước	I-PROP
+loại	B-PROP
+to	I-PROP
+
+Bộ	O
+tua	B-PN
+vít	I-PN
+32	B-PROP
+món	I-PROP
+bằng	O
+thép	B-PROP
+không	I-PROP
+gỉ	I-PROP
+bền	B-PROP
+chắc	I-PROP
+
+Cân	B-PN
+mini	B-PROP
+trọng	O
+lượng	O
+tối	O
+đa	O
+10kg	O
+
+Chiếu	B-PN
+mây	B-PROP
+KIKO	B-BR
+Việt	B-BR
+Nam	I-BR
+1	O
+,	O
+6mx2m	O
+,	O
+tặng	O
+kèm	O
+2	B-PN-OB
+vỏ	I-PN-OB
+gối	I-PN-OB
+
+Chăn	B-PN
+nỉ	B-PROP
+điều	B-PROP
+hòa	I-PROP
+1m6	O
+mềm	B-PROP
+mại	I-PROP
+
+Ô	B-PN
+che	B-FUNC
+mưa	I-FUNC
+trong	B-PROP
+suốt	I-PROP
+phong	B-PROP
+cách	I-PROP
+Hàn	I-PROP
+Quốc	I-PROP
+
+3	O
+dụng	B-PN
+cụ	I-PN
+treo	B-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
+silicon	B-PROP
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+Nón	B-PN
+bảo	B-FUNC
+hiểm	I-FUNC
+có	B-PROP
+kính	I-PROP
+chắn	B-FUNC
+gió	B-FUNC-OB
+,	O
+chắn	B-FUNC
+bụi	B-FUNC-OB
+
+Quạt	B-PN
+không	B-PROP
+cánh	I-PROP
+Fan	B-BR
+Blade	I-BR
+Less	I-BR
+
+Võng	B-PN
+dù	B-PROP
+du	B-PROP
+lịch	I-PROP
+An	B-BR
+Thịnh	I-BR
+
+3	O
+bông	B-PN
+tắm	I-PN
+2	B-PROP
+lớp	I-PROP
+-	O
+nhập	O
+khẩu	O
+Thái	B-BR
+Lan	I-BR
+
+50	O
+cuộn	B-PN
+chỉ	I-PN
++	O
+16	O
+cây	B-PN
+kim	I-PN
+,	O
+phụ	O
+kiện	O
+Uncle	B-BR
+Bills	I-BR
+
+Bộ	O
+12	O
+hũ	B-PN
+thủy	B-PROP
+tinh	I-PROP
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+họa	B-PROP
+tiết	I-PROP
+dễ	I-PROP
+thương	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+bào	B-FUNC
+rau	B-FUNC-OB
+,	O
+củ	B-FUNC-OB
+,	O
+qủa	B-FUNC-OB
+4	B-PROP
+trong	I-PROP
+1	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Khuôn	B-PN
+Làm	B-FUNC
+Socola	B-FUNC-OB
+Bằng	O
+Silicon	B-PROP
+Uncle	B-BR
+Bills	I-BR
+
+Rèm	B-PN
+cửa	I-PN
+hình	B-PROP
+bướm	I-PROP
+sang	B-PROP
+trọng	I-PROP
+
+2	O
+dụng	B-PN
+cụ	I-PN
+bảo	B-FUNC
+vệ	I-FUNC
+cổ	B-FUNC-OB
+chân	I-FUNC-OB
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Điều	B-PN
+hòa	I-PN
+hơi	I-PN
+nước	I-PN
+2	B-PROP
+ngăn	I-PROP
+mẫu	B-PROP
+mới	I-PROP
+,	O
+có	B-PROP
+khay	I-PROP
+chứa	I-PROP
+đá	I-PROP
+
+Giá	B-PN
+để	B-FUNC
+bát	B-FUNC-OB
+đĩa	I-FUNC-OB
+
+Móc	B-PN
+treo	B-FUNC
+quần	B-FUNC-OB
+và	O
+khăn	B-FUNC-OB
+5	B-PROP
+tầng	I-PROP
+thông	B-PROP
+minh	I-PROP
+
+5	O
+gói	O
+khăn	B-PN
+ướt	I-PN
+New	B-BR
+Born	I-BR
+-	O
+Tặng	O
+kèm	O
+bàn	B-PN-OB
+chải	I-PN-OB
+
+Thảm	B-PN
+đa	B-PROP
+năng	I-PROP
+80x	O
+180cm	O
+
+Voucher	O
+giảm	O
+giá	O
+2	O
+,	O
+3	O
+triệu	O
+mua	O
+xe	B-PN
+điện	I-PN
+chính	B-PROP
+hãng	I-PROP
+
+Túi	B-PN
+đựng	B-FUNC
+giày	B-FUNC-OB
+du	B-PROP
+lịch	I-PROP
+
+Máy	B-PN
+may	I-PN
+mini	B-PROP
+2	B-PROP
+tốc	I-PROP
+độ	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+Máy	B-PN
+massage	B-FUNC
+ngực	B-FUNC-OB
+-	O
+có	O
+thể	O
+sử	O
+dụng	O
+bất	O
+cứ	O
+nơi	O
+đâu	O
+
+Máy	B-PN
+massage	B-FUNC
+toàn	B-FUNC-OB
+thân	I-FUNC-OB
+Innovation	O
+
+Vòi	B-PN
+xịt	B-FUNC
+đa	B-PROP
+năng	I-PROP
+30m	O
+
+2	O
+móc	B-PN
+treo	B-FUNC
+dây	B-FUNC-OB
+nịt	I-FUNC-OB
+Tashuan	B-BR
+
+8	O
+khung	B-PN
+ảnh	I-PN
+treo	B-PROP
+tường	I-PROP
+nhiều	B-PROP
+kích	I-PROP
+cỡ	I-PROP
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+vân	B-PROP
+đá	I-PROP
+hoa	I-PROP
+cương	I-PROP
+Swonsan	B-BR
+
+Tủ	B-PN
+thuốc	I-PN
+gia	B-PROP
+đình	I-PROP
+chính	O
+hãng	O
+Tashuan	B-BR
+
+Ống	B-PN
+đựng	B-FUNC
+bông	B-FUNC-OB
+tẩy	I-FUNC-OB
+trang	I-FUNC-OB
+kháng	B-PROP
+chuẩn	I-PROP
+chính	O
+hãng	O
+Tashuan	B-BR
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+may	B-FUNC
+vá	I-FUNC
+76	B-PROP
+món	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Kìm	B-PN
+đa	B-PROP
+năng	I-PROP
+11	B-PROP
+món	I-PROP
+tích	O
+hợp	O
+20	B-PROP
+chức	I-PROP
+năng	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+xay	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+nấu	B-FUNC
+nướng	I-FUNC
+đa	B-PROP
+năng	I-PROP
+
+Kệ	B-PN
+Vải	B-PROP
+Xếp	B-PROP
+Treo	B-PROP
+Tường	I-PROP
+7	B-PROP
+Ngăn	I-PROP
+
+Khung	B-PN
+ảnh	I-PN
+gia	O
+đình	O
+kiểu	B-PROP
+dáng	I-PROP
+Hàn	I-PROP
+Quốc	I-PROP
+
+Máy	B-PN
+xông	B-FUNC
+mặt	B-FUNC-OB
+bằng	B-PROP
+hơi	I-PROP
+nước	I-PROP
+Benice	B-BR
+
+Nước	B-PN
+rửa	B-FUNC
+chén	B-FUNC-OB
+Green	B-BR
+Life	I-BR
+100%	O
+nguyên	B-PROP
+liệu	I-PROP
+sinh	I-PROP
+học	I-PROP
+
+Quạt	B-PN
+tản	B-FUNC
+nhiệt	I-FUNC
+laptop	B-FUNC-OB
+có	B-PROP
+thể	I-PROP
+gấp	I-PROP
+gọn	I-PROP
+
+Tủ	B-PN
+vải	I-PN
+3	B-PROP
+ngăn	I-PROP
+kéo	I-PROP
+
+Dù	B-PN
+gấp	B-PROP
+3	I-PROP
+thời	B-PROP
+trang	I-PROP
+
+Bình	B-PN
+đựng	B-FUNC
+sữa	B-FUNC-OB
+tắm	I-FUNC-OB
+tự	B-PROP
+động	I-PROP
+thông	B-PROP
+minh	I-PROP
+Soap	B-BR
+Magic	I-BR
+
+Đèn	B-PN
+ngủ	B-PROP
+handmade	B-PROP
+3D	B-PROP
+độc	B-PROP
+đáo	I-PROP
+
+Khung	B-PN
+cưa	I-PN
+2	B-PROP
+lưỡi	I-PROP
+
+Kềm	B-PN
+đa	B-PROP
+năng	I-PROP
+7	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Hộp	B-PN
+kim	I-PN
+chỉ	I-PN
+24	B-PROP
+món	I-PROP
+
+Máy	B-PN
+xay	B-FUNC
+ép	I-FUNC
+đa	B-PROP
+năng	I-PROP
+Gali	B-BR
+GL	O
+-	O
+8003	O
+
+Máy	B-PN
+chế	B-FUNC
+biến	I-FUNC
+sữa	B-FUNC-OB
+đậu	I-FUNC-OB
+nành	I-FUNC-OB
+Gali	B-BR
+
+2	O
+dây	B-PN
+phơi	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+
+Máy	B-PN
+massage	B-FUNC
+Gali	B-BR
+GL	O
+-	O
+1301	O
+
+Máy	B-PN
+xay	B-FUNC
+đa	B-PROP
+năng	I-PROP
+Gali	B-BR
+GL	O
+-	O
+8001	O
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Nồi	B-PN
+lẩu	B-PROP
+điện	B-PROP
+đa	B-PROP
+chức	I-PROP
+năng	I-PROP
+Gali	B-BR
+3.5L	O
+
+Bình	B-PN
+thủy	B-PROP
+điện	B-PROP
+Ga	B-BR
+Li	I-BR
+4L	O
+
+Bảo	O
+vệ	O
+quần	O
+áo	O
+với	O
+5	O
+túi	B-PN
+lưới	I-PN
+giặt	B-PROP
+đồ	I-PROP
+
+Máy	B-PN
+hâm	B-FUNC
+sữa	B-FUNC-OB
+Gali	B-BR
+4	B-PROP
+trong	I-PROP
+1	I-PROP
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Bếp	B-PN
+điện	B-PROP
+quang	I-PROP
+Gali	B-BR
+GL	O
+-	O
+2006	O
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+GL	B-BR
+-	O
+0018C	O
+1.8L	O
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Ấm	B-PN
+đun	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+Inox	B-PROP
+Gali	B-BR
+1.8L	O
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+Gali	B-BR
+2.2L	O
+
+Ấm	B-PN
+đun	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+Gali	B-BR
+GL	B-BR
+-	O
+0010	O
+
+3	O
+bọc	B-PN
+remote	B-PROP
+chống	B-FUNC
+bụi	B-FUNC-OB
+
+Bếp	B-PN
+Halogen	B-PROP
+Gali	B-BR
+-	O
+3001	O
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Combo	O
+8	O
+viên	B-PN
+tẩy	B-FUNC
+bồn	B-FUNC-OB
+cầu	I-FUNC-OB
+
+2	O
+cuộn	O
+túi	B-PN
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+tự	B-PROP
+hủy	I-PROP
+sinh	O
+học	O
+
+2	O
+giấy	B-PN
+dán	B-FUNC
+bếp	B-FUNC-OB
+chịu	B-PROP
+nhiệt	I-PROP
+loại	B-PROP
+lớn	I-PROP
+
+3	O
+cuộn	O
+túi	B-PN
+đựng	B-FUNC
+rác	B-FUNC-OB
+tự	B-PROP
+hủy	I-PROP
+sinh	O
+học	O
+
+Máy	B-PN
+đo	B-FUNC
+đường	B-FUNC-OB
+huyết	I-FUNC-OB
+xuất	O
+xứ	O
+Đức	B-BR
+-	O
+bảo	O
+hành	O
+trọn	O
+đời	O
+
+Bạt	B-PN
+phủ	B-FUNC
+xe	B-FUNC-OB
+ô	I-FUNC-OB
+tô	I-FUNC-OB
+4	B-PROP
+chỗ	I-PROP
+-	O
+Thách	O
+thức	O
+nắng	O
+mưa	O
+
+Máy	B-PN
+đo	B-FUNC
+huyết	B-FUNC-OB
+áp	I-FUNC-OB
+KINETIK	B-BR
+MEDICAL	O
+-	O
+xuất	O
+xứ	O
+Anh	B-BR
+Quốc	I-BR
+
+Máy	B-PN
+xay	B-FUNC
+cầm	B-PROP
+tay	I-PROP
+Philiger	B-BR
+EK	O
+-	O
+3019A	O
+
+Drap	B-PN
+chống	B-PROP
+thấm	I-PROP
+160	O
+x	O
+200	O
+x	O
+10cm	O
+
+Két	B-PN
+sắt	I-PN
+tiết	B-PROP
+kiệm	I-PROP
+điện	B-PROP
+tử	I-PROP
+thông	B-PROP
+minh	I-PROP
+
+Bàn	B-PN
+là	I-PN
+hơi	B-PROP
+nước	I-PROP
+cầm	B-PROP
+tay	I-PROP
+dạng	B-PROP
+đứng	I-PROP
+Cuckoo	B-BR
+
+Drap	B-PN
+chống	B-PROP
+thấm	I-PROP
+An	B-BR
+Thịnh	I-BR
+180	O
+cm	O
+x	O
+200	O
+cm	O
+x	O
+10	O
+cm	O
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+công	B-PROP
+nghệ	I-PROP
+cảm	I-PROP
+biến	I-PROP
+mẫu	O
+mới	O
+nhất	O
+2015	O
+
+Bộ	O
+12	O
+hũ	B-PN
+thủy	B-PROP
+tinh	I-PROP
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+họa	B-PROP
+tiết	I-PROP
+dễ	I-PROP
+thương	I-PROP
+
+Máy	B-PN
+xông	B-FUNC
+mũi	B-FUNC-OB
+họng	I-FUNC-OB
+khí	B-PROP
+dung	I-PROP
+Uright	B-BR
+TD	O
+-	O
+7013	O
+
+Máy	B-PN
+đo	B-FUNC
+huyết	B-FUNC-OB
+áp	I-FUNC-OB
+bắp	B-PROP
+tay	I-PROP
+điện	B-PROP
+tử	I-PROP
+tự	I-PROP
+động	I-PROP
+URIGHT	B-BR
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+WH	O
+-	O
+B05	O
+(5kg)	O
+cho	O
+chị	B-OB
+em	I-OB
+nội	I-OB
+trợ	I-OB
+
+Bộ	O
+Dao	B-PN
+cao	B-PROP
+cấp	I-PROP
+11	B-PROP
+món	I-PROP
+kèm	O
+thớt	B-PN-OB
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Kệ	B-PN
+để	B-FUNC
+đồ	B-FUNC-OB
+3	B-PROP
+tầng	I-PROP
+có	B-PROP
+bánh	I-PROP
+xe	I-PROP
+-	O
+Tiết	B-PROP
+kiệm	I-PROP
+không	I-PROP
+gian	I-PROP
+
+Ấm	B-PN
+nấu	B-FUNC
+thuốc	B-FUNC-OB
+tự	B-PROP
+động	I-PROP
+siêu	B-PROP
+tốc	I-PROP
+
+Máy	B-PN
+cắt	B-FUNC
+lông	B-FUNC-OB
+xù	I-FUNC-OB
+và	O
+hút	B-FUNC
+bụi	I-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+
+Nồi	B-PN
+cơm	I-PN
+điện	I-PN
+-	O
+Thương	O
+hiệu	O
+JustinHuose	B-BR
+
+Quạt	B-PN
+lỡ	B-PROP
+công	B-PROP
+nghiệp	I-PROP
+MICAN	B-BR
+
+Máy	B-PN
+tập	B-FUNC
+cơ	B-FUNC-OB
+bụng	I-FUNC-OB
+Revoflex	B-BR
+Xtreme	I-BR
+
+03	O
+hộp	O
+túi	B-PN
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+có	B-PROP
+khóa	I-PROP
+chắc	B-PROP
+chắn	I-PROP
+
+Làm	O
+đẹp	O
+tại	O
+nhà	O
+với	O
+máy	B-PN
+xông	B-FUNC
+hơi	I-FUNC
+mặt	B-FUNC-OB
+NTFS	O
+-	O
+618	O
+
+Set	O
+màng	B-PN
+bọc	B-FUNC
+và	O
+túi	B-PN
+đựng	B-FUNC
+nhà	B-PROP
+bếp	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+Bình	B-PN
+thủy	B-PROP
+tinh	I-PROP
+Glasslock	B-BR
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Nồi	B-PN
+nhôm	B-PROP
+hợp	I-PROP
+kim	I-PROP
++	O
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+HAPPYCOOK	B-BR
+
+Bạt	B-PN
+phủ	B-FUNC
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+2m	O
+x	O
+0.75m	O
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+1L	O
+-	O
+Thương	O
+hiệu	O
+Gali	B-BR
+
+Bàn	B-PN
+Ủi	I-PN
+Hơi	B-PROP
+Nước	I-PROP
+Gali	B-BR
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Vỉ	O
+8	O
+viên	B-PN
+tẩy	B-FUNC
+bồn	B-FUNC-OB
+cầu	I-FUNC-OB
+Wenbo	B-BR
+
+lẩu	B-PN
+điện	B-PROP
+đa	B-PROP
+chức	I-PROP
+năng	I-PROP
+Gali	B-BR
+
+Hai	O
+vỉ	O
+viên	B-PN
+tẩy	B-FUNC
+bồn	B-FUNC-OB
+cầu	I-FUNC-OB
+Wenbo	B-BR
+
+Gọn	B-PROP
+nhà	I-PROP
+với	O
+set	O
+02	O
+túi	B-PN
+Fresh	B-BR
+Home	I-BR
+3	B-PROP
+ngăn	I-PROP
+
+Hộp	B-PN
+Cơm	I-PN
+Giữ	B-FUNC
+Nhiệt	B-FUNC-OB
+3	B-PROP
+Tầng	I-PROP
+Mẫu	O
+Mới	O
+
+Áo	B-PN
+mưa	I-PN
+cao	B-PROP
+cấp	I-PROP
+không	B-PROP
+xẻ	I-PROP
+tà	I-PROP
+
+6	O
+cốc	B-PN
+nhựa	B-PROP
+Song	B-BR
+Long	I-BR
+màu	B-PROP
+đá	I-PROP
+quý	I-PROP
+
+4	O
+khăn	B-PN
+mặt	I-PN
+cotton	B-PROP
+kháng	B-PROP
+khuẩn	I-PROP
+cao	B-PROP
+cấp	I-PROP
+Sella	B-BR
+
+Đồng	B-PN
+hồ	I-PN
+hoa	B-PROP
+hướng	I-PROP
+dương	I-PROP
+xinh	B-PROP
+xắn	I-PROP
+
+Áo	B-PN
+mưa	I-PN
+Tumi	B-BR
+2	B-PROP
+đầu	I-PROP
+
+Túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+du	I-FUNC-OB
+lịch	I-FUNC-OB
+Monopoly	B-BR
+chống	B-PROP
+thấm	I-PROP
+nước	I-PROP
+
+Chiếu	B-PN
+lụa	B-PROP
+3D	I-PROP
+Kiko	B-BR
+2m	O
+x	O
+2	O
+,	O
+2m	O
+tặng	O
+kèm	O
+2	B-PN-OB
+vỏ	I-PN-OB
+gối	I-PN-OB
+
+3	O
+dây	B-PN
+phơi	B-FUNC
+đồ	B-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+
+Máy	B-PN
+hút	B-FUNC
+bụi	I-FUNC
+xe	B-OB
+Ô	I-OB
+Tô	I-OB
+Vacuum	B-BR
+Cleaner	I-BR
+
+3	O
+túi	B-PN
+lưới	B-PROP
+giặt	B-FUNC
+đồ	B-FUNC-OB
+loại	B-PROP
+lớn	I-PROP
+
+10	O
+túi	B-PN
+thơm	I-PN
+Topcar	B-BR
+-	O
+Hương	O
+thơm	O
+100%	O
+tự	O
+nhiên	O
+
+Bút	B-PN
+làm	B-FUNC
+mới	I-FUNC
+nền	B-FUNC-OB
+gạch	I-FUNC-OB
+-	O
+Chống	B-FUNC
+cặn	B-FUNC-OB
+ố	I-FUNC-OB
+và	O
+nấm	B-FUNC-OB
+mốc	I-FUNC-OB
+
+2	O
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+họa	B-PROP
+tiết	I-PROP
+hoa	I-PROP
+lá	I-PROP
+
+Gối	B-PN
+chữ	B-PROP
+U	I-PROP
++	O
+Bịt	B-PN
+mắt	I-PN
+họa	B-PROP
+tiết	I-PROP
+
+Gối	B-PN
+cổ	B-PROP
++	O
+Gối	B-PN
+tựa	B-FUNC
+lưng	B-FUNC-OB
+họa	B-PROP
+tiết	I-PROP
+
+2	O
+Túi	B-PN
+chống	B-FUNC
+nước	B-FUNC-OB
+cho	O
+điện	B-OB
+thoại	I-OB
++	O
+máy	B-OB
+ảnh	I-OB
+
+2	O
+gối	B-PN
+tựa	B-FUNC
+lưng	B-FUNC-OB
+mẫu	B-PROP
+mới	I-PROP
+2015	O
+
+Quạt	B-PN
+Phun	B-FUNC
+Sương	I-FUNC
+Mini	B-PROP
+Cầm	B-PROP
+Tay	I-PROP
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+có	B-PROP
+kính	I-PROP
+B821	O
+an	B-PROP
+toàn	I-PROP
+cho	O
+bạn	O
+
+Dụng	B-PN
+cụ	I-PN
+xoay	B-FUNC
+eo	B-FUNC-OB
+nâng	B-PROP
+cao	I-PROP
+sức	I-PROP
+khỏe	I-PROP
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+cầm	B-PROP
+tay	I-PROP
+nhỏ	B-PROP
+gọn	I-PROP
+,	O
+chuẩn	B-PROP
+xác	I-PROP
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+không	B-PROP
+kính	I-PROP
+D11	O
+
+3	O
+Khẩu	B-PN
+trang	I-PN
+sợi	B-PROP
+hoạt	B-PROP
+tính	I-PROP
+Cottie	I-PROP
+
+Máy	B-PN
+tập	B-FUNC
+cơ	B-FUNC-OB
+bụng	I-FUNC-OB
+tổng	O
+hợp	O
+Six	B-BR
+Pack	I-BR
+Care	I-BR
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+làm	B-FUNC
+trắng	I-FUNC
+răng	B-FUNC-OB
+an	B-PROP
+toàn	I-PROP
+White	B-BR
+Light	I-BR
+
+Máy	B-PN
+đánh	B-FUNC
+trứng	B-FUNC-OB
+,	O
+tạo	B-FUNC
+bọt	B-FUNC-OB
+cà	I-FUNC-OB
+phê	I-FUNC-OB
+Scarlett	B-BR
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+ASIA	B-BR
+-	O
+MT118k	O
+chính	B-PROP
+hãng	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+cất	B-FUNC
+giữ	I-FUNC
+và	O
+tăng	B-FUNC
+hơi	B-FUNC-OB
+ga	I-FUNC-OB
+cho	O
+nước	B-OB
+ngọt	I-OB
+
+Máy	B-PN
+đánh	B-FUNC
+trứng	B-FUNC-OB
++	O
+tạo	B-FUNC
+bọt	B-FUNC-OB
+cà	I-FUNC-OB
+phê	I-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+
+2	O
+Chuông	B-PN
+báo	B-PROP
+động	I-PROP
+chống	B-FUNC
+trộm	B-FUNC-OB
+
+3	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+cao	B-PROP
+cấp	I-PROP
+Living	B-BR
+Box	I-BR
+
+Chổi	B-PN
+hút	B-FUNC
+bụi	B-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+thế	O
+hệ	O
+mới	O
+G6	O
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+Safe	B-BR
+dành	O
+cho	O
+nam	B-OB
+
+2	O
+Ghế	B-PN
+đẩu	I-PN
+Song	B-BR
+Long	I-BR
+loại	B-PROP
+nhỏ	I-PROP
+
+Bộ	O
+khoá	B-PN
+cửa	I-PN
++	O
+chìa	B-PN
+Zsolex	B-BR
+
+10	O
+hộp	B-PN
+đựng	B-FUNC
+giầy	B-FUNC-OB
+trong	B-PROP
+suốt	I-PROP
+tiện	B-PROP
+ích	I-PROP
+
+Súng	B-PN
+bắn	B-FUNC
+keo	B-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+và	O
+an	B-PROP
+toàn	I-PROP
+
+Bếp	B-PN
+hồng	I-PN
+ngoại	I-PN
+Happy	B-BR
+Call	I-BR
+
+Bộ	O
+10	O
+chén	B-PN
+ăn	B-FUNC
+cơm	I-FUNC
+bằng	O
+sứ	B-PROP
+cao	B-PROP
+cấp	I-PROP
+
+2	O
+Túi	B-PN
+đựng	B-FUNC
+chăn	B-FUNC-OB
+,	O
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+cỡ	B-PROP
+lớn	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+chăm	B-FUNC
+sóc	I-FUNC
+móng	B-FUNC-OB
+12	B-PROP
+món	I-PROP
+siêu	B-PROP
+bền	I-PROP
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+Sokany	B-BR
+
+Ba	B-PN
+lô	I-PN
+kiểu	O
+dáng	O
+thể	B-PROP
+thao	I-PROP
+năng	B-PROP
+động	I-PROP
+
+Vòi	B-PN
+sen	B-PROP
+tăng	B-PROP
+áp	I-PROP
+dạng	B-PROP
+vuông	I-PROP
+(áp	O
+lực	O
+nước	O
+300%)	O
+
+2	O
+Hộp	B-PN
+dựng	B-FUNC
+đồ	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+
+Bộ	O
+3	O
+bát	B-PN
+sứ	B-PROP
+nắp	B-PROP
+hút	I-PROP
+chân	I-PROP
+không	I-PROP
+loại	B-PROP
+to	I-PROP
+(có	O
+2	O
+tai)	O
+
+Bộ	O
+3	O
+bát	B-PN
+sứ	B-PROP
+có	O
+nắp	B-PROP
+hút	I-PROP
+chân	I-PROP
+không	I-PROP
+Fresh	B-BR
+Seal	I-BR
+Bowl	I-BR
+
+Đèn	B-PN
+ngủ	B-PROP
+cảm	B-PROP
+ứng	I-PROP
+ánh	B-PROP
+sáng	I-PROP
+Avatar	I-PROP
+huyền	B-PROP
+ảo	I-PROP
+
+Combo	O
+6	O
+cốc	B-PN
+nhựa	B-PROP
+gấp	B-PROP
+gọn	I-PROP
+cực	B-PROP
+tiện	I-PROP
+
+Bộ	O
+giá	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+treo	B-PROP
+nhà	I-PROP
+bếp	I-PROP
+
+Combo	O
+khay	B-PN
+úp	B-FUNC
+cốc	B-FUNC-OB
+&	O
+2	O
+hộp	B-PN
+thực	I-PN
+phẩm	I-PN
+Song	B-BR
+Long	I-BR
+
+Khăn	B-PN
+tắm	I-PN
+sợi	B-PROP
+tre	I-PROP
+tự	I-PROP
+nhiên	I-PROP
+siêu	B-PROP
+mềm	I-PROP
+mịn	I-PROP
+
+Quạt	B-PN
+USB	B-PROP
+hình	B-PROP
+bánh	I-PROP
+xe	I-PROP
+độc	B-PROP
+đáo	I-PROP
+,	O
+xua	O
+tan	O
+cái	O
+nóng	O
+hè	O
+
+3	O
+hộp	O
+kem	B-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+trà	B-PROP
+xanh	I-PROP
+Xyldent	O
+chống	B-FUNC
+ê	I-FUNC
+buốt	I-FUNC
+
+Băng	B-PN
+keo	I-PN
+cường	B-PROP
+lực	I-PROP
+dùng	O
+cho	B-OB
+xe	I-OB
+hơi	I-OB
+
+Dụng	B-PN
+cụ	I-PN
+bơm	B-FUNC
+hơi	I-FUNC
+đạp	B-PROP
+chân	I-PROP
+ống	B-PROP
+-	O
+Loại	B-PROP
+lớn	I-PROP
+
+Chiếu	B-PN
+mây	I-PN
+điều	B-FUNC
+hòa	I-FUNC
+cho	O
+mùa	O
+hè	O
+1m6	O
+x	O
+2m	O
+
+Chiếu	B-PN
+mây	I-PN
+điều	B-FUNC
+hòa	I-FUNC
+mát	B-PROP
+mẻ	I-PROP
+cho	O
+mùa	O
+hè	O
+1.8m	O
+x	O
+2m	O
+
+2	O
+hộp	O
+kem	B-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+siêu	B-PROP
+trắng	I-PROP
+Classic	B-BR
+White	I-BR
+
+Máy	B-PN
+dập	B-FUNC
+xù	I-FUNC
+nhiều	B-PROP
+kiểu	I-PROP
+Treeson	B-BR
+1027	O
+
+Bộ	B-PN
+chiết	I-PN
+mỹ	B-PROP
+phẩm	I-PROP
+mini	B-PROP
+6	B-PROP
+món	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+2	O
+Kệ	B-PN
+giày	I-PN
+mini	B-PROP
+nhỏ	B-PROP
+gọn	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+3	O
+hộp	B-PN
+để	B-FUNC
+giày	B-FUNC-OB
+trong	B-PROP
+suốt	I-PROP
+có	B-PROP
+viền	I-PROP
+nhựa	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Ghế	B-PN
+xếp	I-PN
+inox	B-PROP
+tiện	B-PROP
+dụng	I-PROP
+38x29x56cm	O
+
+2	O
+Dụng	B-PN
+cụ	I-PN
+gắn	B-PROP
+bảo	B-FUNC
+vệ	I-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
+
+Đèn	B-PN
+led	B-PROP
+flash	B-PROP
+tích	B-PROP
+hợp	I-PROP
+điện	I-PROP
+thoại	I-PROP
+để	B-FUNC
+chụp	I-FUNC
+ảnh	I-FUNC
+
+Máy	B-PN
+phun	B-FUNC
+sương	B-FUNC-OB
+tạo	B-FUNC
+độ	B-FUNC-OB
+ẩm	I-FUNC-OB
+Mitsushita	B-BR
+
+Vòi	B-PN
+hoa	B-PROP
+sen	I-PROP
+tăng	B-PROP
+áp	I-PROP
+hạt	O
+nano	O
+mầu	O
+xanh	O
+(kèm	O
+dây)	O
+
+Vòi	B-PN
+sen	B-PROP
+tăng	B-PROP
+áp	I-PROP
+lực	I-PROP
+nước	I-PROP
+thế	O
+hệ	O
+mới	O
+
+Combo	O
+3	O
+Dao	B-PN
+gấp	B-PROP
+đa	B-PROP
+năng	I-PROP
+dáng	B-PROP
+thẻ	I-PROP
+ATM	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Combo	O
+khay	B-PN
+đựng	B-FUNC
+vỏ	B-FUNC-OB
+,	O
+hạt	B-FUNC-OB
+và	O
+dao	B-PN
+cắt	B-FUNC
+trái	B-FUNC-OB
+cây	I-FUNC-OB
+
+Lô	B-PN
+điện	B-PROP
+làm	B-FUNC
+tóc	B-FUNC-OB
+xoăn	I-FUNC-OB
+-	O
+Chỉ	O
+5	O
+phút	O
+
+Kệ	B-PN
+đựng	B-FUNC
+mỹ	B-FUNC-OB
+phẩm	I-FUNC-OB
+siêu	B-PROP
+tiện	I-PROP
+ích	I-PROP
+cỡ	B-PROP
+trung	I-PROP
+
+5	O
+khăn	B-PN
+mặt	I-PN
+Silk	B-BR
+-	O
+100%	O
+sợi	B-PROP
+tre	I-PROP
+thiên	I-PROP
+nhiên	I-PROP
+mềm	B-PROP
+mịn	I-PROP
+
+2	O
+bóng	B-PN
+đèn	I-PN
+LED	B-PROP
+Tom	B-BR
+House	I-BR
+12W	O
+tiết	B-PROP
+kiệm	I-PROP
+điện	I-PROP
+
+Máy	B-PN
+massage	B-FUNC
+11	B-PROP
+đầu	I-PROP
+Phoenix	B-BR
+Bing	I-BR
+
+2	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+cao	B-PROP
+cấp	I-PROP
+cỡ	B-PROP
+lớn	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Máy	B-PN
+massage	B-FUNC
+10	B-PROP
+đầu	I-PROP
+Massager	B-BR
+King	I-BR
+
+3	O
+găng	B-PN
+tay	I-PN
+cao	B-PROP
+su	I-PROP
+Malaysia	B-BR
+bền	B-PROP
+,	O
+đẹp	B-PROP
+
+Khăn	B-PN
+choàng	I-PN
+tắm	B-FUNC
+bông	B-PROP
+siêu	B-PROP
+thấm	I-PROP
+,	O
+siêu	B-PROP
+mềm	I-PROP
+mịn	I-PROP
+
+10	O
+miếng	O
+xốp	B-PN
+chống	B-FUNC
+kẹt	I-FUNC
+cửa	I-FUNC
+
+Combo	O
+2	O
+ống	B-PN
+tẩy	B-FUNC
+két	B-FUNC-OB
+nước	I-FUNC-OB
+toilet	I-FUNC-OB
+Hàn	B-BR
+Quốc	I-BR
+
+3	O
+hộp	O
+khẩu	B-PN
+trang	I-PN
+y	B-PROP
+tế	I-PROP
+3	B-PROP
+lớp	I-PROP
+
+3	O
+khăn	B-PN
+tắm	I-PN
+Silk	B-BR
+mềm	B-PROP
+mịn	I-PROP
+-	O
+100%	O
+cotton	B-PROP
+tự	I-PROP
+nhiên	I-PROP
+
+Combo	O
+2	O
+ống	B-PN
+thơm	I-PN
+tẩy	B-FUNC
+két	B-FUNC-OB
+nước	I-FUNC-OB
+toilet	I-FUNC-OB
+mùi	B-PROP
+thơm	I-PROP
+mát	I-PROP
+
+6	O
+hộp	O
+Bao	B-PN
+cao	I-PN
+su	I-PN
+Durex	B-BR
+siêu	B-PROP
+mỏng	I-PROP
+/	O
+Kéo	B-PROP
+dài	I-PROP
+thời	I-PROP
+gian	I-PROP
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Rocmen	B-BR
+
+Súng	B-PN
+bắn	B-FUNC
+giá	B-FUNC-OB
+tiền	I-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+,	O
+màu	B-PROP
+mực	I-PROP
+sắc	I-PROP
+nét	I-PROP
+
+Bộ	O
+lưỡi	B-PN
+dao	I-PN
+thay	B-PROP
+thế	I-PROP
+cho	O
+máy	B-OB
+xay	I-OB
+sinh	I-OB
+tố	I-OB
+
+Bình	B-PN
+vắt	B-FUNC
+nước	I-FUNC
+cam	B-FUNC-OB
+,	O
+chanh	B-FUNC-OB
+2	O
+trong	O
+1	O
+
+Võng	B-PN
+dù	B-PROP
+họa	B-PROP
+tiết	I-PROP
+lính	I-PROP
+phối	O
+mùng	B-PN-OB
+An	B-BR
+Thịnh	I-BR
+
+Bộ	O
+phụ	O
+kiện	O
+cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	O
+độ	O
+kèm	O
+2	O
+đầu	B-PN
+bông	I-PN
+lau	B-FUNC
+
+Kéo	B-PN
+cắt	B-FUNC
+đa	B-PROP
+năng	I-PROP
+
+Ổ	B-PN
+cắm	B-FUNC
+điện	I-FUNC
+du	B-PROP
+lịch	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+cơm	B-FUNC-OB
+Chefman	B-BR
+chính	B-PROP
+hãng	I-PROP
+lõi	B-PROP
+inox	I-PROP
+
+2	O
+Hộp	B-PN
+Đựng	B-FUNC
+Bàn	B-FUNC-OB
+Chải	I-FUNC-OB
+Và	O
+2	O
+Bộ	O
+Muỗng	B-PN
+Nĩa	I-PN
+Du	B-PROP
+Lịch	I-PROP
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+Thắng	B-BR
+Lợi	I-BR
+họa	B-PROP
+tiết	I-PROP
+sang	I-PROP
+trọng	I-PROP
+
+Cân	B-PN
+cầm	B-PROP
+tay	I-PROP
+điện	B-PROP
+tử	I-PROP
+nhỏ	B-PROP
+gọn	I-PROP
+
+Bao	B-PN
+cao	I-PN
+su	I-PN
+PlayBoy	B-BR
+3	O
+tính	B-PROP
+năng	I-PROP
+vượt	I-PROP
+trội	I-PROP
+
+2	O
+quạt	B-PN
+USB	B-PROP
+mini	B-PROP
+có	B-PROP
+thể	I-PROP
+uốn	I-PROP
+cong	I-PROP
+
+Set	O
+2	O
+gối	B-PN
+chữ	B-PROP
+U	I-PROP
+ngộ	B-PROP
+nghĩnh	I-PROP
+bảo	B-FUNC
+vệ	I-FUNC
+và	O
+nâng	B-FUNC
+đỡ	I-FUNC
+cổ	B-FUNC-OB
+
+4	O
+bàn	B-PN
+chải	I-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+cán	B-PROP
+trong	I-PROP
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Nồi	B-PN
+ủ	B-FUNC
+chân	B-PROP
+không	I-PROP
+MAGIC	B-BR
+HOME	I-BR
+
+2	O
+Thanh	B-PN
+treo	B-FUNC
+đồ	B-FUNC-OB
+-	O
+Không	B-PROP
+cần	I-PROP
+khoan	I-PROP
+tường	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+lấy	B-FUNC
+kem	B-FUNC-OB
+đánh	I-FUNC-OB
+răng	I-FUNC-OB
+Touch	B-BR
+Me	I-BR
+
+Tông	B-PN
+đơ	I-PN
+cắt	B-FUNC
+tóc	B-FUNC-OB
+chuyên	B-PROP
+dụng	I-PROP
+Chaoba	B-BR
+
+2	O
+Khăn	B-PN
+tắm	I-PN
+Việt	B-BR
+Nam	I-BR
+xuất	O
+khẩu	O
+chất	O
+cotton	B-PROP
+mềm	I-PROP
+mịn	I-PROP
+
+3	O
+bộ	O
+dụng	B-PN
+cụ	I-PN
+lấy	B-FUNC
+ráy	B-FUNC-OB
+tai	I-FUNC-OB
+có	B-PROP
+đèn	I-PROP
+an	B-PROP
+toàn	I-PROP
+
+Bộ	O
+3	O
+túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+du	I-FUNC-OB
+lịch	I-FUNC-OB
+nhỏ	B-PROP
+,	O
+nhẹ	B-PROP
+
+Máy	B-PN
+khâu	I-PN
+mini	B-PROP
+dành	O
+cho	O
+gia	B-OB
+đình	I-OB
+
+Kéo	B-PN
+cắt	B-FUNC
+gà	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+-	O
+Chất	O
+liệu	O
+Inox	B-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+nước	B-FUNC-OB
+rửa	I-FUNC-OB
+tay	I-FUNC-OB
+2	B-PROP
+ngăn	I-PROP
+
+Khóa	B-PN
+báo	B-FUNC
+động	I-FUNC
+chống	B-FUNC
+trộm	I-FUNC
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+,	O
+nhà	B-FUNC-OB
+cửa	I-FUNC-OB
+
+Két	B-PN
+sắt	I-PN
+mini	B-PROP
+đựng	B-FUNC
+tiền	B-FUNC-OB
+tiết	I-FUNC-OB
+kiệm	I-FUNC-OB
+
+Kéo	B-PN
+cắt	B-FUNC
+tỉa	I-FUNC
+cành	B-FUNC-OB
+cây	I-FUNC-OB
+
+Quạt	B-PN
+lồng	B-PROP
+sắt	I-PROP
+360	B-PROP
+độ	I-PROP
+tích	B-PROP
+hợp	I-PROP
+cổng	I-PROP
+USB	I-PROP
+
+5	O
+gói	O
+khăn	B-PN
+lau	B-FUNC
+giầy	B-FUNC-OB
+E	B-BR
+Skin	I-BR
+-	O
+Lau	B-PROP
+là	I-PROP
+sáng	I-PROP
+bóng	I-PROP
+
+2	O
+giỏ	B-PN
+lưới	I-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+màu	B-PROP
+sắc	I-PROP
+đáng	I-PROP
+yêu	I-PROP
+
+Chiếu	B-PN
+mây	I-PN
+điều	B-PROP
+hòa	I-PROP
+VIVI	B-BR
+mềm	B-PROP
+mại	I-PROP
+và	O
+thoáng	B-PROP
+mát	I-PROP
+
+Mũ	B-PN
+hấp	B-FUNC
+tóc	I-FUNC
+tặng	O
+kèm	O
+bộ	O
+dụng	B-PN-OB
+cụ	I-PN-OB
+trộn	B-FUNC
+mặt	I-FUNC
+nạ	I-FUNC
+
+Chảo	B-PN
+sần	B-PROP
+chống	B-PROP
+dính	I-PROP
+Newland	B-BR
+chất	B-PROP
+lượng	I-PROP
+Nhật	I-PROP
+Bản	I-PROP
+
+Thanh	B-PN
+treo	B-FUNC
+đồ	B-FUNC-OB
+-	O
+Không	B-PROP
+cần	I-PROP
+khoan	I-PROP
+(80	O
+-	O
+120cm)	O
+
+Bộ	O
+cắt	B-FUNC
+gọt	I-FUNC
+rau	B-FUNC-OB
+củ	I-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+
+Bộ	O
+quần	B-PN
+áo	I-PN
+mưa	I-PN
+Hải	B-BR
+Thủy	I-BR
+cao	B-PROP
+cấp	I-PROP
+,	O
+tiện	B-PROP
+dụng	B-PROP
+
+Thảm	B-PN
+bông	B-PROP
+mềm	I-PROP
+siêu	B-PROP
+thấm	I-PROP
+hút	I-PROP
+(60x42cm)	O
+
+3	O
+Túi	O
+nước	B-PN
+xả	B-FUNC
+vải	B-FUNC-OB
+comfort	B-BR
+Thái	B-BR
+Lan	I-BR
+
+Bộ	O
+4	O
+loại	O
+móc	B-PN
+treo	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+Vietcook	B-BR
+,	O
+chất	O
+inox	B-PROP
+bền	O
+
+15	O
+áo	B-PN
+mưa	I-PN
+giấy	B-PROP
+chấm	B-PROP
+bi	I-PROP
+bền	B-PROP
+,	O
+dai	B-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Máy	B-PN
+đo	B-FUNC
+đường	B-FUNC-OB
+huyết	I-FUNC-OB
+On	B-BR
+Call	I-BR
+EZ	I-BR
+II	I-BR
++	O
+hộp	O
+que	B-PN
+thử	I-PN
+
+2	O
+túi	B-PN
+đựng	B-FUNC
+giữ	B-FUNC
+nhiệt	I-FUNC
+kiểu	B-PROP
+dáng	I-PROP
+Hàn	I-PROP
+Quốc	I-PROP
+
+Tượng	B-PN
+Gỗ	I-PN
+điêu	B-PROP
+khắc	I-PROP
+Tam	O
+đa	O
+Phúc	O
+-	O
+Lộc	O
+-	O
+Thọ	O
+
+Combo	O
+5	O
+Dụng	B-PN
+Cụ	I-PN
+Thu	B-FUNC
+Gọn	I-FUNC
+Dây	B-FUNC-OB
+Điện	I-FUNC-OB
+Răng	B-PROP
+Cưa	I-PROP
+Hình	B-PROP
+Thú	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+nước	B-FUNC-OB
+rửa	I-FUNC-OB
+tay	I-FUNC-OB
+2	B-PROP
+ngăn	I-PROP
+
+Bàn	B-PN
+ủi	I-PN
+khô	B-PROP
+Blacker	B-BR
+BAU	O
+-	O
+270	O
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Bình	B-PN
+thủy	I-PN
+điện	I-PN
+Balcker	B-BR
+-	O
+bảo	O
+hành	O
+12	O
+tháng	O
+
+Nồi	B-PN
+canh	I-PN
+chống	B-PROP
+dính	I-PROP
+cho	O
+bếp	B-FUNC-OB
+từ	I-FUNC-OB
+Blacker	B-BR
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+Blacker	B-BR
+24cm	O
+
+Máy	B-PN
+xông	B-FUNC
+mặt	B-FUNC-OB
+bằng	B-PROP
+hơi	I-PROP
+nước	I-PROP
+
+Cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+lồng	O
+inox	B-PROP
+nhập	O
+khẩu	O
+Nhật	B-BR
+Bản	I-BR
+
+Nồi	B-PN
+Áp	B-PROP
+Suất	I-PROP
+Điện	B-PROP
+Blacker	B-BR
+BEPC	O
+-	O
+3S	O
+-	O
+BH	O
+12	O
+Tháng	O
+
+2	O
+gối	B-PN
+chữ	B-PROP
+U	I-PROP
+mềm	B-PROP
+mại	I-PROP
+nâng	B-FUNC
+đỡ	I-FUNC
+cổ	B-FUNC-OB
+
+Lẩu	B-PN
+Điện	I-PN
+Blacker	B-BR
+BMC	O
+-	O
+120A	O
+(3.5L)	O
+-	O
+BH	O
+12	O
+Tháng	O
+
+Bếp	B-PN
+điện	B-PROP
+từ	I-PROP
+Blacker	B-BR
+BIC	O
+-	O
+261	O
+-	O
+Tặng	O
+nồi	B-FUNC-OB
+lẩu	I-FUNC-OB
+
+Thư	B-PROP
+giãn	I-PROP
+đôi	I-PROP
+chân	I-PROP
+với	O
+dép	B-PN
+massage	B-FUNC
+chân	B-FUNC-OB
+độc	B-PROP
+đáo	I-PROP
+
+Giá	B-PN
+để	B-FUNC
+đồ	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+4	B-PROP
+tầng	I-PROP
+Multi	O
+Storage	O
+Rach	O
+
+Nồi	B-PN
+cơm	I-PN
+điện	I-PN
+Blacker	B-BR
+BRC	O
+-	O
+18RT	O
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Loa	B-PN
+Bluetooth	B-PROP
+WS	B-BR
+-	O
+655	O
+
+Bếp	B-PN
+điện	B-PROP
+từ	I-PROP
+Blacker	B-BR
+BIC	O
+-	O
+250	O
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Hộp	B-PN
+cơm	I-PN
+hâm	B-FUNC
+nóng	I-FUNC
+Chefman	B-BR
+CM	O
+-	O
+112N	O
+
+Khóa	B-PN
+cửa	I-PN
+NEO	B-BR
+chống	B-FUNC
+trộm	B-FUNC-OB
+,	O
+cắt	B-FUNC-OB
+,	O
+chìa	B-FUNC-OB
+vạn	I-FUNC-OB
+năng	I-FUNC-OB
+
+3	O
+túi	B-PN
+lưới	B-PROP
+giặt	B-FUNC
+đồ	B-FUNC-OB
+loại	B-PROP
+nhỏ	I-PROP
+
+Máy	B-PN
+trồng	B-FUNC
+rau	B-FUNC-OB
+mầm	I-FUNC-OB
+,	O
+giá	B-FUNC-OB
+đỗ	I-FUNC-OB
+sạch	I-FUNC-OB
+siêu	B-PROP
+tốc	I-PROP
+Green	B-BR
+Life	I-BR
+
+Chảo	B-PN
+Smartcook	B-BR
+ELMICH	B-BR
+chống	B-PROP
+dính	I-PROP
+-	O
+Size	O
+30cm	O
+
+2	O
+hộp	O
+dầu	B-PN
+xoa	B-FUNC
+bóp	I-FUNC
+khớp	B-FUNC-OB
+Glucosamine	B-PROP
+
+Chảo	B-PN
+Smartcook	B-BR
+ELMICH	B-BR
+chống	B-PROP
+dính	I-PROP
+-	O
+Size	O
+28cm	O
+
+Nồi	B-PN
+cơm	I-PN
+điện	I-PN
+SMARTCOOK	B-BR
+1	O
+,	O
+Elmich	B-BR
+
+Phích	B-PN
+giữ	B-FUNC
+nhiệt	I-FUNC
+inox	B-PROP
+Elmich	B-BR
+D7	O
+(750ml)	O
+
+Ấm	B-PN
+đun	B-FUNC
+nước	B-FUNC-OB
+siêu	B-PROP
+tốc	I-PROP
+(1	O
+,	O
+7L)	O
+SmartCook	B-BR
+Elmich	B-BR
+
+Bộ	O
+cắt	B-FUNC
+gọt	I-FUNC
+rau	B-FUNC-OB
+,	O
+củ	B-FUNC-OB
+,	O
+quả	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+siêu	B-PROP
+tiện	I-PROP
+ích	I-PROP
+
+Kéo	B-PN
+cắt	B-FUNC
+gà	B-FUNC-OB
+cán	B-PROP
+gỗ	I-PROP
+25.5cm	O
+Elmich	B-BR
+
+Kéo	B-PN
+Cắt	B-FUNC
+Gà	B-FUNC-OB
+24cm	O
+Cán	B-PROP
+Inox	I-PROP
+Elmich	B-BR
+
+Hộp	B-PN
+thuốc	I-PN
+gia	B-PROP
+đình	I-PROP
+cỡ	B-PROP
+lớn	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Lọ	B-PN
+xay	B-FUNC
+tiêu	B-FUNC-OB
+ELMICH	B-BR
+-	O
+EL7156	O
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+cầm	B-PROP
+tay	I-PROP
+-	O
+Nhỏ	B-PROP
+gọn	I-PROP
+,	O
+chuẩn	B-PROP
+xác	I-PROP
+
+Bình	B-PN
+đựng	B-FUNC
+thức	B-FUNC-OB
+ăn	I-FUNC-OB
+Elmich	B-BR
+500ml	O
+EL7228	O
+
+Ruột	B-PN
+gối	I-PN
+ép	B-PROP
+Queenland	B-BR
+mềm	B-PROP
+mại	I-PROP
+cho	O
+giấc	O
+ngủ	O
+êm	O
+ái	O
+
+2	O
+túi	B-PN
+chống	B-FUNC
+nước	B-FUNC-OB
+khóa	B-PROP
+nhựa	I-PROP
+lock	O
+chắc	B-PROP
+chắn	I-PROP
+
+Ô	B-PN
+tự	B-PROP
+động	I-PROP
+thông	B-PROP
+minh	I-PROP
+chống	B-FUNC
+tia	B-FUNC-OB
+cực	I-FUNC-OB
+tím	I-FUNC-OB
+
+Giá	B-PN
+úp	B-FUNC
+bát	B-FUNC-OB
+,	O
+đĩa	B-FUNC-OB
+đặt	B-PROP
+trên	I-PROP
+bồn	I-PROP
+rửa	I-PROP
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+ELMICH	B-BR
+1	O
+,	O
+5l	O
+kèm	O
+cối	B-PN-OB
+xay	I-PN-OB
+khô	I-PN-OB
+
+6	O
+khuôn	B-PN
+ép	B-FUNC
+cơm	B-FUNC-OB
+Nhật	B-BR
+Bản	I-BR
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+Chảo	B-PN
+Smartcook	B-BR
+ELMICH	B-BR
+chống	B-PROP
+dính	I-PROP
+-	O
+Size	O
+20cm	O
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+ELMICH	B-BR
+Red	B-BR
+Phoenix	I-BR
+đáy	B-PROP
+từ	I-PROP
+24cm	O
+
+Chảo	B-PN
+Smartcook	B-BR
+ELMICH	B-BR
+chống	B-PROP
+dính	I-PROP
+-	O
+Size	O
+26cm	O
+
+Chiếu	B-PN
+mây	B-PROP
+nằm	B-PROP
+điều	I-PROP
+hòa	I-PROP
+1m5	O
+x	O
+1m9	O
+
+Chảo	B-PN
+Smartcook	B-BR
+ELMICH	B-BR
+chống	B-PROP
+dính	I-PROP
+-	O
+Size	O
+24cm	O
+
+Chiếu	B-PN
+mây	B-PROP
+điều	B-PROP
+hòa	I-PROP
+mát	B-PROP
+rượi	I-PROP
+đón	O
+hè(tùy	O
+chọn	O
+m6	O
+/	O
+m8)	O
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+ELMICH	B-BR
+Red	B-BR
+Phoenix	I-BR
+đáy	B-PROP
+từ	I-PROP
+28cm	O
+
+2	O
+khuôn	B-PN
+làm	B-FUNC
+đá	I-FUNC
+,	O
+làm	B-FUNC
+bánh	I-FUNC
+chất	O
+silicon	B-PROP
+
+Đèn	B-PN
+ngủ	B-PROP
+chiếu	B-FUNC
+sao	B-FUNC-OB
+lung	I-FUNC-OB
+linh	I-FUNC-OB
+sắc	B-PROP
+màu	I-PROP
+
+Tủ	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+mỹ	I-FUNC-OB
+phẩm	I-FUNC-OB
+,	O
+trang	B-FUNC-OB
+sức	I-FUNC-OB
+xinh	B-PROP
+xắn	I-PROP
+
+4	O
+bàn	B-PN
+chải	I-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+Mittel	B-BR
+nhập	O
+khẩu	O
+Đức	B-BR
+
+Ấm	B-PN
+đun	B-FUNC
+nước	B-FUNC-OB
+có	B-PROP
+còi	I-PROP
+báo	I-PROP
+Zebra	B-BR
+-	O
+113524	O
+
+Nồi	B-PN
+cơm	I-PN
+điện	I-PN
+Homesun	B-BR
+HS	O
+-	O
+180F	O
+
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+nhiều	B-PROP
+ngăn	I-PROP
+có	B-PROP
+nắp	I-PROP
+đậy	I-PROP
+
+Ấm	B-PN
+đun	B-FUNC
+nước	B-FUNC-OB
+có	B-PROP
+còi	I-PROP
+báo	I-PROP
+nhập	O
+khẩu	O
+Nhật	B-BR
+Bản	I-BR
+
+Bật	B-PN
+lửa	I-PN
+điện	B-PROP
+móc	B-PROP
+khóa	I-PROP
+điện	I-PROP
+tử	I-PROP
+
+Bình	B-PN
+đun	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+Blacker	B-BR
+(1.7L)	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+Blacker	B-BR
+JJ28	O
+-	O
+BL5	O
+-	O
+Size	O
+28cm	O
+
+Điều	B-PN
+hòa	I-PN
+mini	B-PROP
+cầm	B-PROP
+tay	I-PROP
+có	B-PROP
+khay	I-PROP
+chứa	I-PROP
+đá	I-PROP
+
+Tông	B-PN
+đơ	I-PN
+cắt	B-FUNC
+tóc	B-FUNC-OB
+Walux	B-BR
+2010	O
+Fashion	B-BR
+Style	I-BR
+
+Máy	B-PN
+xay	B-FUNC
+đa	B-PROP
+năng	I-PROP
+Nhật	B-BR
+Bản	I-BR
+RÉCOLTE	B-BR
+
+Chiếu	B-PN
+tre	B-PROP
+nằm	B-PROP
+điều	I-PROP
+hòa	I-PROP
+-	O
+Kích	O
+thước	O
+(1m5x1m9)	O
+
+Chiếu	B-PN
+tre	B-PROP
+cao	B-PROP
+cấp	I-PROP
+nằm	B-PROP
+điều	I-PROP
+hòa	I-PROP
+-	O
+Loại	O
+1m6x2m	O
+
+Chiếu	B-PN
+tre	B-PROP
+cao	B-PROP
+cấp	I-PROP
+nằm	B-PROP
+điều	I-PROP
+hòa	I-PROP
+-	O
+Kích	O
+thước1m8x2m	O
+
+8	O
+bướm	B-PN
+3D	B-PROP
+cỡ	B-PROP
+lớn	I-PROP
+trang	B-FUNC
+trí	I-FUNC
+tủ	B-FUNC-OB
+lạnh	I-FUNC-OB
+,	O
+dán	B-FUNC
+tường	I-FUNC
+
+Chiếu	B-PN
+mây	B-PROP
+điều	B-PROP
+hòa	I-PROP
+cao	B-PROP
+cấp	I-PROP
+1m5	O
+x	O
+1m9	O
++	O
+2	O
+vỏ	O
+gối	O
+
+6	O
+Hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Durex	B-BR
+Kingtex	I-BR
+/	O
+Sensation	B-BR
+có	B-PROP
+gân	I-PROP
+
+2	O
+Hộp	O
+Durex	B-BR
+siêu	B-PROP
+mỏng	I-PROP
+&	O
+Kéo	B-PROP
+dài	I-PROP
+thời	I-PROP
+gian	I-PROP
+(24	O
+cái)	O
+
+Chiếu	B-PN
+mây	B-PROP
+điều	B-PROP
+hòa	I-PROP
+cao	B-PROP
+cấp	I-PROP
+1m6	O
+x	O
+2m	O
++	O
+2	O
+vỏ	O
+gối	O
+
+Chiếu	B-PN
+mây	B-PROP
+điều	B-PROP
+hòa	I-PROP
+cao	B-PROP
+cấp	I-PROP
+1m8x2m	O
++	O
+2	O
+vỏ	O
+gối	O
+
+Mền	B-PN
+nỉ	B-PROP
+cao	B-PROP
+cấp	I-PROP
+siêu	B-PROP
+nhẹ	I-PROP
+(180	O
+x	O
+200cm)	O
+
+Máy	B-PN
+xay	B-FUNC
+đa	B-PROP
+năng	I-PROP
+Krobell	B-BR
+
+Nồi	B-PN
+eCOOK	O
+DECO	O
+Lock	B-BR
+&	I-BR
+Lock	I-BR
+bằng	O
+nhôm	B-PROP
+cao	B-PROP
+cấp	I-PROP
+24cm	O
+
+2	O
+Túi	B-PN
+giữ	B-FUNC
+nhiệt	I-FUNC
+đa	B-PROP
+năng	I-PROP
+
+Quạt	B-PN
+sạc	B-PROP
+kèm	O
+đèn	B-PN
+27	B-PROP
+bóng	I-PROP
+loại	B-PROP
+lớn	I-PROP
+
+Nồi	B-PN
+canh	I-PN
+chống	B-PROP
+dính	I-PROP
+sắc	B-PROP
+màu	I-PROP
+Supor	B-BR
+16cm	O
+
+Tủ	B-PN
+vải	B-PROP
+Việt	B-BR
+Nam	I-BR
+cao	B-PROP
+cấp	I-PROP
+TV001(1.0m)	O
+
+Chảo	B-PN
+từ	B-PROP
+chống	B-PROP
+dính	I-PROP
+Elmich	B-BR
+28cm	O
+vung	O
+kính	O
+sâu	B-PROP
+lòng	I-PROP
+
+Quạt	B-PN
+hộp	B-PROP
+Misushita	B-BR
+nhỏ	B-PROP
+gọn	I-PROP
+
+Hè	B-PN
+tươi	I-PROP
+mát	I-PROP
+cùng	O
+máy	B-PN
+phun	B-FUNC
+sương	B-FUNC-OB
+tạo	B-FUNC
+độ	B-FUNC-OB
+ẩm	I-FUNC-OB
+
+2	O
+vỏ	B-PN
+bọc	B-FUNC
+máy	B-FUNC-OB
+giặt	I-FUNC-OB
+cửa	O
+trên	O
+
+Máy	B-PN
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+Misushita	B-BR
+6	O
+cốc	B-PN-OB
+nhựa	I-PN-OB
+
+Bộ	O
+30	O
+khung	B-PN
+ảnh	I-PN
+kiểu	B-PROP
+Hàn	I-PROP
+Quốc	I-PROP
+
+Máy	B-PN
+xay	B-FUNC
+cầm	B-PROP
+tay	I-PROP
+Magic	B-BR
+kèm	O
+cốc	B-PN-OB
+
+2	O
+áo	B-PN
+mưa	I-PN
+cánh	B-PROP
+dơi	I-PROP
+chống	B-PROP
+thấm	I-PROP
+
+Đai	B-PN
+massage	B-FUNC
+rung	B-PROP
+,	O
+nóng	B-PROP
+giảm	B-FUNC
+béo	I-FUNC
+Vibro	B-BR
+Shape	I-BR
+
+Máy	B-PN
+hút	B-FUNC
+bụi	B-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+thế	B-PROP
+hệ	I-PROP
+mới	I-PROP
+G6	O
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+Holtashi	B-BR
+1	O
+,	O
+8	O
+lít	O
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+Panasonic	B-BR
+2	B-PROP
+lớp	I-PROP
+2	O
+,	O
+2L	O
+
+Máy	B-PN
+hút	B-FUNC
+bụi	B-FUNC-OB
+2	B-PROP
+chiều	I-PROP
+Mini	B-PROP
+Vacuum	B-BR
+Cleaner	I-BR
+JK	O
+-	O
+8	O
+
+Combo	O
+5	O
+hộp	O
+giấy	B-PN
+ướt	I-PN
+Apha	B-BR
+IQ	I-BR
+
+3	O
+hộp	O
+khăn	B-PN
+vải	B-PROP
+Pubbi	B-BR
+300	O
+tờ	O
+
+Gối	B-PN
+massage	B-FUNC
+Magic	B-BR
+hồng	B-PROP
+ngoại	I-PROP
+Pillow	B-BR
+
+Vợt	B-PN
+muỗi	I-PN
+chất	B-PROP
+lượng	I-PROP
+cao	I-PROP
+
+Cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+Easy	B-BR
+Mop	I-BR
+lồng	B-PROP
+inox	I-PROP
+loại	B-PROP
+nhỏ	I-PROP
+
+Dầu	B-PN
+nóng	I-PN
+xoa	B-FUNC
+bóp	I-FUNC
+Antiphlamine	B-BR
+Hàn	B-BR
+Quốc	I-BR
+(100ml)	O
+
+Combo	O
+3	O
+túi	B-PN
+giặt	I-PN
+cỡ	B-PROP
+to	I-PROP
+
+Chiếu	B-PN
+lụa	B-PROP
+điều	B-PROP
+hòa	I-PROP
+3	B-PROP
+lớp	I-PROP
+cao	B-PROP
+cấp	I-PROP
+1m5	O
+x	O
+2m	O
+
+Chiếu	B-PN
+lụa	B-PROP
+điều	B-PROP
+hòa	I-PROP
+3	B-PROP
+lớp	I-PROP
+cao	B-PROP
+cấp	I-PROP
+1m6	O
+x	O
+2m	O
+
+Chiếu	B-PN
+lụa	B-PROP
+điều	B-PROP
+hòa	I-PROP
+3	B-PROP
+lớp	I-PROP
+cao	B-PROP
+cấp	I-PROP
+1m8x2m	O
+
+Xửng	B-PN
+Hấp	B-FUNC
+Lớn	B-PROP
+&	O
+Bộ	B-PN
+Gắp	I-PN
+Nóng	I-PN
+3	B-PROP
+Chia	I-PROP
+
+Đèn	B-PN
+led	B-PROP
+Hoàng	B-BR
+Sa	I-BR
+chống	B-FUNC
+cận	I-FUNC
+thị	I-FUNC
+
+Bộ	O
+cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+Bento	B-BR
+tiện	B-PROP
+dụng	I-PROP
+
+Hộp	B-PN
+cơm	I-PN
+cắm	B-PROP
+điện	I-PROP
+khay	B-PROP
+inox	I-PROP
+SKG	B-BR
+K900	O
+
+Nón	B-PN
+bảo	I-PN
+hiểm	I-PN
+kiểu	B-PROP
+dáng	I-PROP
+thể	I-PROP
+thao	I-PROP
+
+Tô	B-PN
+nhúng	B-FUNC
+bánh	I-FUNC
+tráng	I-FUNC
+3	B-PROP
+ngăn	I-PROP
+loại	B-PROP
+lớn	I-PROP
+
+Kệ	B-PN
+để	B-FUNC
+giày	B-FUNC-OB
+dép	I-FUNC-OB
+9	B-PROP
+tầng	I-PROP
+-	O
+Hàng	O
+Việt	B-BR
+Nam	I-BR
+
+05	O
+hộp	O
+khăn	B-PN
+ướt	I-PN
+Su	B-BR
+Su	I-BR
+loại	O
+80	O
+tờ	O
+/	O
+gói	O
+
+Kệ	B-PN
+gỗ	B-PROP
+ngang	B-PROP
+treo	B-PROP
+tường	I-PROP
+không	B-PROP
+giá	I-PROP
+đỡ	I-PROP
+
+Bộ	O
+sản	O
+phẩm	O
+máy	B-PN
+xông	B-FUNC
+mặt	B-FUNC-OB
+và	O
+xông	B-FUNC
+mũi	B-FUNC-OB
+bằng	B-PROP
+hơi	I-PROP
+nước	I-PROP
+
+Xe	B-PN
+kéo	B-PROP
+đi	B-FUNC
+chợ	I-FUNC
+có	B-PROP
+bánh	I-PROP
+xe	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Bạt	B-PN
+phủ	B-FUNC
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+in	B-PROP
+hình	I-PROP
+,	O
+chất	B-PROP
+siêu	I-PROP
+nhẹ	I-PROP
+
+06	O
+khăn	B-PN
+mặt	I-PN
+cotton	B-PROP
+êm	B-PROP
+ái	I-PROP
+,	O
+dễ	B-PROP
+chịu	I-PROP
+
+Thảm	B-PN
+tập	B-FUNC
+yoga	I-FUNC
+2	B-PROP
+mặt	I-PROP
+cao	B-PROP
+cấp	I-PROP
+-	O
+Hàng	O
+Đài	B-BR
+Loan	I-BR
+
+Bình	B-PN
+bơm	B-FUNC
+dầu	B-FUNC-OB
+gội	I-FUNC-OB
+,	O
+xà	B-FUNC-OB
+phòng	I-FUNC-OB
+Soap	B-BR
+Magic	I-BR
+tự	B-PROP
+động	I-PROP
+
+Ly	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+tuyết	I-FUNC-OB
+nhiệt	O
+đới	O
+độc	B-PROP
+đáo	I-PROP
+
+Két	B-PN
+mini	B-PROP
+thông	B-PROP
+minh	I-PROP
+
+Máy	B-PN
+sấy	B-FUNC
+tóc	B-FUNC-OB
+Caige	B-BR
+-	O
+2	O
+công	O
+tắc	O
+điều	O
+chỉnh	O
+
+2	O
+khuôn	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+8	B-PROP
+ngăn	I-PROP
+
+Bộ	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+xoay	B-PROP
+360	I-PROP
+độ	I-PROP
+lồng	B-PROP
+inox	I-PROP
+Zento	B-BR
+
+Hoa	B-PN
+đá	I-PN
+hình	B-PROP
+xe	I-PROP
+đạp	I-PROP
+để	B-PROP
+bàn	I-PROP
+xinh	B-PROP
+xắn	I-PROP
+
+2	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+
+Đai	B-PN
+quấn	B-PROP
+nóng	I-PROP
+giảm	B-FUNC
+mỡ	B-FUNC-OB
+bụng	I-FUNC-OB
+Heating	B-BR
+Pad	I-BR
+
+Đai	B-PN
+massage	B-FUNC
+giảm	B-FUNC
+béo	I-FUNC
+Benice	B-BR
+
+2	O
+túi	B-PN
+giặt	B-FUNC
++	O
+01	O
+dây	B-PN
+phơi	I-PN
+thông	B-PROP
+minh	I-PROP
+
+Thảm	B-PN
+lau	B-FUNC
+hình	B-PROP
+bàn	I-PROP
+chân	I-PROP
+
+Đồng	B-PN
+hồ	I-PN
+thông	B-PROP
+minh	I-PROP
+Smart	B-BR
+Watch	I-BR
+GT	O
+-	O
+08	O
+gắn	O
+sim	B-PN-OB
+nghe	I-PN-OB
+gọi	I-PN-OB
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+Shake	B-BR
+Take	I-BR
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+lấy	B-FUNC
+mắt	B-FUNC-OB
+dứa	I-FUNC-OB
++	O
+nạo	B-FUNC
+dưa	B-FUNC-OB
+chuột	I-FUNC-OB
+siêu	B-PROP
+nhanh	I-PROP
+
+Pin	B-PN
+sạc	B-PROP
+dự	B-PROP
+phòng	I-PROP
+Xiaomi	B-BR
+20800mAh	O
+
+20	O
+gói	O
+giấy	B-PN
+ướt	I-PN
+lô	B-PROP
+hội	I-PROP
+thơm	B-PROP
+mát	I-PROP
+Miki	B-BR
+(10	O
+tờ	O
+/	O
+1	O
+gói)	O
+
+Đèn	B-PN
+pin	I-PN
+sạc	B-PROP
+siêu	B-PROP
+sáng	I-PROP
+,	O
+dùng	O
+cả	O
+pin	O
+sạc	O
+và	O
+pin	O
+tiểu	O
+
+Đèn	B-PN
+Led	B-PROP
+24	B-PROP
+bóng	I-PROP
+tích	B-PROP
+điện	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Đèn	B-PN
+led	B-PROP
+tích	B-PROP
+điện	I-PROP
+39	B-PROP
+bóng	I-PROP
+siêu	B-PROP
+sáng	I-PROP
+
+Chuông	B-PN
+cửa	I-PN
+không	B-PN
+dây	I-PN
+VOYE	B-BR
+
+Khay	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+nhựa	B-PROP
+có	B-PROP
+nắp	I-PROP
+24	O
+ô	O
+siêu	O
+cứng	O
+
+Bộ	O
+cán	B-PN
+cây	B-PROP
+lau	I-PROP
+nhà	I-PROP
+inox	B-PROP
+và	O
+bông	B-PN
+lau	B-FUNC
+xoay	B-PROP
+360	I-PROP
+độ	I-PROP
+
+Nón	B-PN
+bảo	I-PN
+hiểm	I-PN
+họa	B-PROP
+tiết	I-PROP
+Doraemon	I-PROP
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+cho	O
+đệm	O
+dày	O
+dưới	O
+25cm	O
+1m6	O
+hoặc	O
+1m8	O
+
+Chăn	B-PN
+hè	B-PROP
+thu	I-PROP
+mềm	B-PROP
+mại	I-PROP
+bảo	B-FUNC
+vệ	I-FUNC
+sức	B-FUNC-OB
+khỏe	I-FUNC-OB
+gia	O
+đình	O
+
+Nón	B-PN
+bảo	I-PN
+hiểm	I-PN
+KT1	O
+có	B-PROP
+kính	I-PROP
+chắn	I-PROP
+gió	I-PROP
+
+Nệm	B-PN
+Bông	B-PROP
+ép	I-PROP
+Hàn	B-BR
+Quốc	I-BR
+gấp	O
+3	O
+(1.6m	O
+x	O
+2m	O
+x	O
+10cm)	O
+
+Ô	B-PN
+đóng	B-PROP
+mở	I-PROP
+2	B-PROP
+chiều	I-PROP
+chống	B-FUNC
+tia	B-FUNC-OB
+cực	I-FUNC-OB
+tím	I-FUNC-OB
+
+Nệm	B-PN
+PE	B-PROP
+công	O
+nghệ	O
+Hàn	B-BR
+Quốc	I-BR
+1.6m	O
+x	O
+2m	O
+x	O
+9cm	O
+
+Tông	B-PN
+đơ	I-PN
+cắt	B-FUNC
+tóc	B-FUNC-OB
+PCS	B-BR
+6826	O
+bảo	O
+hành	O
+1	O
+năm	O
+
+3	O
+móc	B-PN
+treo	B-PROP
+cửa	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+Bảo	B-FUNC
+vệ	I-FUNC
+giày	B-FUNC-OB
+dép	I-FUNC-OB
+với	O
+5	O
+hộp	B-PN
+đựng	B-FUNC
+giầy	B-FUNC-OB
+trong	B-PROP
+suốt	I-PROP
+
+2	O
+túi	B-PN
+cỡ	B-PROP
+lớn	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+giúp	O
+bảo	B-FUNC
+quản	I-FUNC
+đồ	B-FUNC-OB
+
+Xà	B-PN
+đơn	I-PN
+lắp	B-FUNC
+cửa	B-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+
+3	O
+túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+bằng	O
+vải	B-PROP
+không	I-PROP
+dệt	I-PROP
+
+Đầu	B-PN
+vòi	I-PN
+hoa	B-PROP
+sen	I-PROP
+tăng	B-PROP
+áp	I-PROP
+dành	O
+cho	O
+nước	O
+yếu	O
+
+Combo	O
+khay	B-PN
+úp	B-FUNC
+cốc	B-FUNC-OB
+&	O
+2	O
+hộp	B-PN
+thực	B-PROP
+phẩm	I-PROP
+Song	B-BR
+Long	I-BR
+
+Bình	B-PN
+đun	B-FUNC
+nước	B-FUNC-OB
+siêu	B-PROP
+tốc	I-PROP
+Homepro	B-BR
+ZDH	O
+100	O
+
+Bộ	B-PN
+sản	I-PN
+phẩm	I-PN
+trồng	B-FUNC
+mạ	B-FUNC-OB
+non	I-FUNC-OB
+để	B-PROP
+bàn	I-PROP
+
+Quạt	B-PN
+USB	I-PN
+360	B-PROP
+độ	I-PROP
+lồng	B-PROP
+sắt	I-PROP
+loại	B-PROP
+lớn	I-PROP
+
+Đèn	B-PN
+pin	I-PN
+siêu	B-PROP
+sáng	I-PROP
+nhiều	B-PROP
+cấp	I-PROP
+độ	I-PROP
+
+Đầu	B-PN
+khò	I-PN
+(thổi	O
+hơi	O
+nóng)	O
+sử	O
+dụng	O
+bình	B-PN-OB
+ga	I-PN-OB
+mini	B-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+sửa	B-FUNC
+chữa	I-FUNC
+đa	B-PROP
+năng	I-PROP
+12	B-PROP
+món	I-PROP
+
+Hộp	B-PN
+gỗ	B-PROP
+lắp	B-PROP
+ghép	I-PROP
+đựng	B-FUNC
+đồ	B-FUNC-OB
+cỡ	B-PROP
+trung	I-PROP
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+Baby	B-BR
+Vivi	I-BR
+loại	O
+1m6x2m	O
+
+Bơm	B-PN
+Đạp	B-PROP
+Chân	I-PROP
+2	B-PROP
+Pitton	I-PROP
+Thích	O
+Hợp	O
+Bơm	B-FUNC
+Xe	B-FUNC-OB
+Đạp	I-FUNC-OB
+,	O
+Xe	B-FUNC-OB
+Máy	I-FUNC-OB
+,	O
+Ô	B-FUNC-OB
+Tô	I-FUNC-OB
+Cực	O
+Kỳ	O
+Tiện	B-PROP
+Dụng	I-PROP
+
+Xẻng	B-PN
+dã	B-PROP
+ngoại	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+3	O
+khăn	B-PN
+lau	B-FUNC
+tay	B-FUNC-OB
+hình	B-PROP
+thú	I-PROP
+siêu	B-PROP
+thấm	I-PROP
+siêu	B-PROP
+ngộ	I-PROP
+nghĩnh	I-PROP
+
+2	O
+dụng	B-PN
+cụ	I-PN
+chùi	B-FUNC
+rửa	I-FUNC
+xoong	B-FUNC-OB
+nồi	I-FUNC-OB
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+loại	O
+cao	B-PROP
+cấp	I-PROP
+,	O
+nhiều	B-PROP
+họa	I-PROP
+tiết	I-PROP
+
+Bộ	O
+dao	B-PN
+5	B-PROP
+dụng	I-PROP
+cụ	I-PROP
+kháng	B-PROP
+khuẩn	I-PROP
+Everrich	B-BR
+
+01	O
+Bộ	O
+1	O
+ga	B-PN
+chun	B-PROP
++	O
+2	O
+vỏ	B-PN
+gối	I-PN
+cotton	B-PROP
+4	B-PROP
+mùa	I-PROP
+(tùy	O
+chọn	O
+
+Bộ	O
+6	O
+móc	B-PN
+trang	B-FUNC
+trí	I-FUNC
+chìa	B-FUNC-OB
+khóa	I-FUNC-OB
+dễ	B-PROP
+thương	I-PROP
+
+2	O
+ruột	B-PN
+gối	I-PN
+bông	B-PROP
+Hanful	B-BR
+cao	B-PROP
+cấp	I-PROP
+
+Chăn	B-PN
+nỉ	B-PROP
+tuyết	B-PROP
+nằm	B-FUNC
+điều	B-FUNC-OB
+hòa	I-FUNC-OB
+
+2	O
+viên	O
+pin	B-PN
+tiểu	B-PROP
+sạc	B-PROP
+được	I-PROP
+-	O
+Nhập	O
+khẩu	O
+Nhật	B-BR
+Bản	I-BR
+
+Máy	B-PN
+sấy	B-FUNC
+tóc	B-FUNC-OB
+TS	O
+-	O
+430	O
+hoặc	O
+TS	O
+-	O
+429	O
+Tiross	B-BR
+
+Máy	B-PN
+luộc	B-FUNC
+trứng	B-FUNC-OB
+Tiross	B-BR
+
+02	O
+bóng	B-PN
+tẩy	B-FUNC
+Toilet	B-FUNC-OB
+-	O
+Sạch	B-PROP
+bóng	I-PROP
+,	O
+thơm	B-PROP
+tho	I-PROP
+
+Khóa	B-PN
+bấm	I-PN
+đồng	B-PROP
+thau	I-PROP
+chống	B-FUNC
+cắt	B-FUNC-OB
+trộm	I-FUNC-OB
+cầu	O
+50	O
+
+Đèn	B-PN
+Led	B-PROP
+dài	B-PROP
+lớn	I-PROP
+-	O
+Có	O
+thể	O
+thắp	O
+sáng	O
+đến	O
+8h	O
+
+Đầu	B-PN
+vòi	I-PN
+sen	I-PN
+5	B-PROP
+cấp	I-PROP
+độ	I-PROP
+nước	I-PROP
+thế	B-PROP
+hệ	I-PROP
+mới	I-PROP
+
+03	O
+găng	B-PN
+tay	I-PN
+tắm	B-FUNC
+massage	I-FUNC
+,	O
+tẩy	B-FUNC
+da	B-FUNC-OB
+chết	I-FUNC-OB
+
+Nước	B-PN
+giặt	I-PN
+cao	B-PROP
+cấp	I-PROP
+Sun	B-BR
+nhập	O
+khẩu	O
+từ	O
+Mỹ	B-BR
+
+Bộ	O
+giá	B-PN
+treo	B-FUNC
+đựng	B-FUNC
+đồ	B-FUNC-OB
+nhà	I-FUNC-OB
+bếp	I-FUNC-OB
+gọn	B-PROP
+gàng	I-PROP
+,	O
+ngăn	B-PROP
+nắp	I-PROP
+
+Bộ	O
+ấm	B-PN
+chén	I-PN
+gốm	B-PROP
+sứ	I-PROP
+Bát	B-BR
+Tràng	I-BR
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+Baby	B-BR
+Vivi	I-BR
+1m	O
+,	O
+8	O
+X	O
+2m	O
+
+Bộ	O
+4	O
+hộp	B-PN
+nhựa	B-PROP
+bảo	B-FUNC
+quản	I-FUNC
+thức	B-FUNC-OB
+ăn	I-FUNC-OB
+
+2	O
+che	B-PN
+chống	I-PN
+nắng	I-PN
+phản	B-PROP
+quang	I-PROP
+cho	O
+ô	B-OB
+tô	I-OB
+
+Móc	B-PN
+treo	B-PROP
+đa	B-PROP
+năng	I-PROP
+3	B-PROP
+tầng	I-PROP
+tiết	B-PROP
+kiệm	I-PROP
+diện	I-PROP
+tích	I-PROP
+
+Nồi	B-PN
+nấu	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+2	B-PROP
+lớp	I-PROP
+King	B-BR
+Lucky	I-BR
+
+2	O
+tay	B-PN
+cầm	I-PN
+tủ	I-PN
+lạnh	I-PN
++	O
+1	O
+tấm	B-PN
+phủ	B-FUNC
+tủ	B-FUNC-OB
+lạnh	I-FUNC-OB
+
+Nồi	B-PN
+kho	B-FUNC
+cá	B-FUNC-OB
+,	O
+ninh	B-FUNC
+cháo	B-FUNC-OB
+lòng	B-PROP
+sứ	I-PROP
+nắp	B-PROP
+thủy	I-PROP
+tinh	I-PROP
+2	O
+,	O
+5l	O
+
+Nồi	B-PN
+kho	B-FUNC
+cá	B-FUNC-OB
+,	O
+ninh	B-FUNC
+cháo	B-FUNC-OB
+lòng	B-PROP
+sứ	I-PROP
+nắp	B-PROP
+thủy	I-PROP
+tinh	I-PROP
+1	O
+,	O
+5l	O
+
+Gel	B-PN
+thơm	B-PROP
+treo	B-PROP
+trong	I-PROP
+toilet	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+mặt	B-PROP
+kính	I-PROP
+vuông	I-PROP
+
+Bộ	O
+96	O
+kẹp	B-PN
+gỗ	B-PROP
+thông	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+20	O
+Miếng	B-PN
+lót	B-FUNC
+toilet	B-FUNC-OB
+không	B-PROP
+thấm	I-PROP
+nước	I-PROP
+
+5	O
+Dụng	B-PN
+cụ	I-PN
+chăm	B-FUNC
+sóc	I-FUNC
+móng	B-FUNC-OB
+Uncle	B-BR
+Bills	I-BR
+
+6	O
+Dao	B-PN
+cạo	B-FUNC
+râu	B-FUNC-OB
+cho	O
+nam	B-OB
+Uncle	B-BR
+Bills	I-BR
+
+3	O
+hộp	O
+chỉ	B-PN
+nha	B-PROP
+khoa	I-PROP
+Uncle	B-BR
+Bills	I-BR
+36m	O
+
+3	O
+miếng	O
+decal	B-PN
+dán	B-FUNC
+nắp	B-FUNC-OB
+bồn	I-FUNC-OB
+cầu	I-FUNC-OB
+
+2	O
+khăn	B-PN
+tắm	I-PN
+pha	B-PROP
+nilong	I-PROP
+cao	B-PROP
+cấp	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+2	O
+Hộp	B-PN
+Vải	B-PROP
+Không	I-PROP
+Dệt	I-PROP
+Có	B-PROP
+Nắp	I-PROP
+
+Bộ	O
+4	O
+túi	B-PN
+giặt	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+cho	O
+máy	B-OB
+giặt	I-OB
+
+Drap	B-PN
+phủ	B-FUNC
+bảo	B-FUNC
+vệ	I-FUNC
+nệm	B-FUNC-OB
+100%	O
+Cotton	B-PROP
+1m6	O
+
+4	O
+Hộp	B-PN
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Gối	B-PN
+ôm	I-PN
+cá	B-PROP
+ngựa	I-PROP
+ngộ	B-PROP
+nghĩnh	I-PROP
+,	O
+đáng	B-PROP
+yêu	I-PROP
+
+Tủ	B-PN
+vải	B-PROP
+cao	B-PROP
+cấp	I-PROP
+1m2	O
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+mini	B-PROP
+hình	B-PROP
+mèo	I-PROP
+
+2	O
+túi	O
+bột	B-PN
+tẩy	I-PN
+vệ	B-FUNC
+sinh	I-FUNC
+lồng	B-FUNC-OB
+máy	I-FUNC-OB
+giặt	I-FUNC-OB
+Sandokkaebi	B-BR
+
+Máy	B-PN
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+Sunny	B-BR
+đa	B-PROP
+chức	I-PROP
+năng	I-PROP
+
+2	O
+lọ	O
+sữa	B-PN
+rửa	B-FUNC
+tay	B-FUNC-OB
+diệt	B-PROP
+khuẩn	I-PROP
+&	O
+dưỡng	B-PROP
+da	I-PROP
+Fresco	B-BR
+
+Nồi	B-PN
+áp	B-PROP
+suất	I-PROP
+điện	B-PROP
+Unimax	B-BR
+UPC	O
+M62	O
+
+5	O
+khung	B-PN
+ảnh	I-PN
+kèm	O
+1	O
+decal	B-PN
+cây	I-PN
+hoa	I-PN
+xinh	B-PROP
+xắn	I-PROP
+
+Bộ	O
+quay	B-PN
+rau	I-PN
+,	O
+cắt	B-PN
+củ	I-PN
+quả	I-PN
+đa	B-PROP
+năng	I-PROP
+Swift	B-BR
+Chopper	I-BR
+
+Decal	B-PN
+bảng	B-PROP
+viết	I-PROP
+phấn	I-PROP
+đa	B-PROP
+năng	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+Decal	B-PN
+bảng	B-PROP
+ghi	I-PROP
+nhớ	I-PROP
+theo	O
+tháng	O
+dán	B-FUNC
+tường	B-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+
+4	O
+vỉ	B-PN
+tẩy	I-PN
+bồn	B-OB
+rửa	I-OB
+chén	B-OB
+bát	I-OB
+
+Khăn	B-PN
+tắm	I-PN
+sợi	B-PROP
+tre	I-PROP
+cao	B-PROP
+cấp	I-PROP
+tặng	O
+1	O
+khăn	B-PN
+mặt	I-PN
+trẻ	B-PROP
+em	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+làm	B-FUNC
+bánh	B-FUNC-OB
+quy	I-FUNC-OB
+25	B-PROP
+món	I-PROP
+-	O
+Nhanh	B-PROP
+,	O
+dễ	B-PROP
+làm	I-PROP
+
+Ô	B-PN
+đi	B-FUNC
+mưa	I-FUNC
+nhiều	B-PROP
+màu	I-PROP
+trong	B-PROP
+suốt	I-PROP
+
+Ấm	B-PN
+đun	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+SaKi	B-BR
+-	O
+1812	O
+(1.8L)	O
+
+16	O
+gói	O
+hạt	B-PN
+tinh	I-PN
+thể	I-PN
+trồng	B-FUNC
+cây	B-FUNC-OB
+không	B-PROP
+cần	I-PROP
+đất	I-PROP
+
+Ly	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+nhiều	B-PROP
+màu	I-PROP
+sắc	I-PROP
+
+2	O
+móc	B-PN
+treo	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+-	O
+Thương	O
+hiệu	O
+ASUMI	B-BR
+
+Ba	B-PN
+lô	I-PN
+laptop	B-PROP
+Qami	B-BR
+3	B-PROP
+ngăn	I-PROP
+
+Khuôn	B-PN
+làm	B-FUNC
+mỳ	B-FUNC-OB
+inox	B-PROP
+2	B-PROP
+đầu	I-PROP
+an	B-PROP
+toàn	I-PROP
+,	O
+tiết	B-PROP
+kiệm	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+tẩy	B-FUNC
+lông	B-FUNC-OB
+mặt	I-FUNC-OB
+Slique	B-BR
+êm	B-PROP
+dịu	I-PROP
+và	O
+hiệu	B-PROP
+quả	I-PROP
+
+Chuông	B-PN
+cửa	I-PN
+cho	O
+nhà	O
+bạn	O
+
+4	O
+hộp	O
+kem	B-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+thảo	B-PROP
+dược	I-PROP
+Xylitol	B-BR
+cao	B-PROP
+cấp	I-PROP
+
+01	O
+chai	O
+nước	B-PN
+xả	I-PN
+Fineline	B-BR
+Thái	B-BR
+Lan	I-BR
++	O
+02	O
+khăn	B-PN
+mặt	I-PN
+
+4	O
+viên	B-PN
+tẩy	B-FUNC
+bồn	B-FUNC-OB
+cầu	I-FUNC-OB
+Hàn	B-BR
+Quốc	I-BR
+siêu	B-PROP
+hiệu	I-PROP
+quả	I-PROP
+
+Ô	B-PN
+gấp	B-PROP
+“Gặp	O
+nước	O
+Nở	O
+Hoa”	O
+xinh	B-PROP
+xắn	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Giá	B-PN
+treo	B-FUNC
+đựng	B-FUNC
+đồ	I-FUNC
+5	B-PROP
+ngăn	I-PROP
+chất	O
+liệu	O
+vải	B-PROP
+không	I-PROP
+dệt	I-PROP
+
+2	O
+vỉ	B-PN
+gác	B-FUNC
+chảo	B-FUNC-OB
+rán	I-FUNC-OB
+inox	B-PROP
+phi	O
+24cm	O
+và	O
+28cm	O
+
+Hộp	B-PN
+đựng	B-FUNC
+gia	B-FUNC-OB
+vị	I-FUNC-OB
+4	B-PROP
+tầng	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+Đèn	B-PN
+ngủ	B-PROP
+decal	B-PROP
+con	I-PROP
+vật	I-PROP
+dễ	B-PROP
+thương	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Nước	B-PN
+tẩy	B-FUNC
+nhà	B-FUNC-OB
+tắm	I-FUNC-OB
+Safabio	B-BR
+không	B-PROP
+ăn	I-PROP
+mòn	I-PROP
+da	I-PROP
+tay	I-PROP
+
+Bạt	B-PN
+phủ	B-FUNC
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+không	B-PROP
+thấm	I-PROP
+nước	I-PROP
+
+Phiếu	B-PN
+bảo	I-PN
+hiểm	I-PN
+BIC	B-BR
+2	B-PROP
+năm	I-PROP
+cho	O
+xe	B-OB
+máy	I-OB
+
+Bộ	O
+3	O
+đĩa	B-PN
+thủy	B-PROP
+tinh	I-PROP
+cường	B-PROP
+lực	I-PROP
+bền	B-PROP
+,	O
+đẹp	B-PROP
+
+3	O
+hộp	B-PN
+Tẩy	I-PN
+cống	B-OB
+thoát	I-OB
+-	O
+bể	B-OB
+phốt	I-OB
+Lifavins	B-BR
+
+Hộp	B-PN
+cắm	B-FUNC
+điều	B-FUNC-OB
+khiển	I-FUNC-OB
+,	O
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+
+Chế	O
+biến	O
+món	O
+kem	O
+cùng	O
+Nồi	B-PN
+lẩu	B-PROP
+kem	I-PROP
+và	O
+hoa	B-PROP
+quả	I-PROP
+
+Kệ	B-PN
+bát	I-PN
+đa	B-PROP
+năng	I-PROP
+2	B-PROP
+tầng	I-PROP
+Yinrui	B-BR
+
+Bàn	B-PN
+phím	I-PN
+máy	B-PROP
+tính	I-PROP
+DLK	O
+-	O
+602U	O
+chính	O
+hãng	O
+Delux	B-BR
+
+Bàn	B-PN
+là	I-PN
+hơi	B-PROP
+nước	I-PROP
+Nova	B-BR
+hai	B-PROP
+chức	I-PROP
+năng	I-PROP
+
+Ngon	B-PROP
+giấc	I-PROP
+với	O
+chiếu	B-PN
+trúc	B-PROP
+mành	B-PROP
+1m6x2m	O
+
+Bàn	B-PN
+là	I-PN
+hơi	B-PROP
+nước	I-PROP
+Tokyo	B-BR
+
+Ngon	B-PROP
+giấc	I-PROP
+với	O
+chiếu	B-PN
+trúc	B-PROP
+mành	B-PROP
+1m8x2m	O
+
+4	O
+bản	B-PN
+chải	I-PN
+đánh	B-FUNC
+răng	I-FUNC
+cao	B-PROP
+cấp	I-PROP
+sợi	B-PROP
+siêu	I-PROP
+mảnh	I-PROP
+
+Khuôn	B-PN
+làm	B-FUNC
+thịt	B-FUNC-OB
+kẹp	I-FUNC-OB
+và	O
+túi	B-PN
+hấp	I-PN
+nướng	B-FUNC
+khoai	B-FUNC-OB
+
+2	O
+Khăn	B-PN
+tắm	I-PN
+gia	B-PROP
+đình	I-PROP
+loại	B-PROP
+lớn	I-PROP
+
+Bộ	O
+5	O
+bàn	B-PN
+chải	I-PN
+Nano	B-BR
+Silver	I-BR
+Hàn	B-BR
+Quốc	I-BR
+
+Máy	B-PN
+cuộn	B-FUNC
+Sushi	B-FUNC-OB
+-	O
+Perfect	B-BR
+Roll	I-BR
+sushi	I-BR
+
+2	O
+hộp	B-PN
+đựng	B-FUNC
+ổ	B-FUNC-OB
+cắm	I-FUNC-OB
+điện	I-FUNC-OB
+-	O
+An	B-PROP
+toàn	I-PROP
+và	O
+tiện	B-PROP
+lợi	I-PROP
+
+10	O
+móc	B-PN
+treo	B-FUNC
+phích	B-FUNC-OB
+cắm	I-FUNC-OB
+điện	I-FUNC-OB
+an	B-PROP
+toàn	I-PROP
+và	O
+tiện	B-PROP
+dụng	I-PROP
+
+Bộ	O
+tua	B-PN
+vít	I-PN
+đa	B-PROP
+năng	I-PROP
+22	B-PROP
+món	I-PROP
+hình	B-PROP
+chữ	I-PROP
+T	I-PROP
+
+Bộ	O
+tua	B-PN
+vít	I-PN
+6	B-PROP
+chiếc	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+2	O
+đế	B-PN
+để	B-FUNC
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+,	O
+card	B-FUNC-OB
+visit	I-FUNC-OB
+
+Bộ	O
+2	O
+túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+chống	B-PROP
+thấm	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+2	O
+Thảm	B-PN
+chùi	B-FUNC
+chân	B-FUNC-OB
+bằng	O
+nhung	B-PROP
+mềm	I-PROP
+
+Dụng	B-PN
+Cụ	I-PN
+Bơm	B-FUNC
+Hơi	I-FUNC
+Đạp	B-PROP
+Chân	I-PROP
+Đa	B-PROP
+Năng	I-PROP
+
+Máy	B-PN
+mát	I-PN
+xa	I-PN
+giảm	B-FUNC
+béo	I-FUNC
+thư	B-PROP
+giãn	I-PROP
+toàn	O
+thân	O
+Cnaier	B-BR
+
+Chảo	B-PN
+điện	B-PROP
+mini	B-PROP
+đa	B-PROP
+năng	I-PROP
+cho	O
+món	O
+ăn	O
+thêm	O
+ngon	O
+
+Ca	B-PN
+đựng	B-FUNC
+nước	I-FUNC
++	O
+4	O
+ly	B-PN
+uống	B-FUNC
+nước	I-FUNC
+
+2	O
+cây	B-PN
+trộn	B-FUNC
+bột	B-FUNC-OB
+làm	I-FUNC-OB
+bánh	I-FUNC-OB
+bằng	O
+silicon	B-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Khăn	B-PN
+tắm	I-PN
+Sasung	B-BR
+Hàn	B-BR
+Quốc	I-BR
+60	O
+x	O
+100cm	O
+
+Màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Nano	B-BR
+kháng	B-PROP
+khuẩn	I-PROP
+160m	O
+
+100	O
+que	B-PN
+vòng	I-PN
+phát	B-PROP
+sáng	I-PROP
+dạ	B-PROP
+quang	I-PROP
+
+02	O
+tấm	B-PN
+xốp	B-PROP
+trải	B-FUNC
+đa	B-PROP
+năng	I-PROP
+Hàn	B-BR
+Quốc	I-BR
+cỡ	O
+30cm	O
+x	O
+300cm	O
+
+Tô	B-PN
+nhúng	B-FUNC
+bánh	B-FUNC-OB
+tráng	I-FUNC-OB
+3	B-PROP
+ngăn	I-PROP
+
+2	O
+Thảm	B-PN
+san	B-PROP
+hô	I-PROP
+oval	B-PROP
+cao	B-PROP
+cấp	I-PROP
+
+Quạt	B-PN
+sạc	B-PROP
+3	B-PROP
+in	I-PROP
+1	I-PROP
+tích	O
+hợp	O
+đèn	B-PN-OB
+pin	I-PN-OB
+,	O
+đèn	B-PN-OB
+led	I-PN-OB
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+Thắng	B-BR
+Lợi	I-BR
+
+Gối	B-PN
+ngủ	B-PROP
+chữ	B-PROP
+U	I-PROP
+từ	O
+bọt	O
+cao	B-PROP
+su	I-PROP
+non	I-PROP
+siêu	B-PROP
+đàn	I-PROP
+hồi	I-PROP
+
+Đai	B-PN
+massage	B-FUNC
+giảm	B-FUNC
+béo	I-FUNC
+kép	I-FUNC
+Vibro	B-BR
+Shape	I-BR
+công	O
+nghệ	O
+Mỹ	B-BR
+
+Kệ	B-PN
+để	B-FUNC
+nồi	B-FUNC-OB
+chảo	I-FUNC-OB
+Tashuan	B-BR
+gọn	B-PROP
+gàng	I-PROP
+,	O
+ngăn	B-PROP
+nắp	I-PROP
+
+Máy	B-PN
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+tự	B-PROP
+động	I-PROP
+16	O
+cốc	B-PN
+Cook	B-BR
+Chen	I-BR
+
+Kệ	B-PN
+để	B-FUNC
+đồ	B-FUNC-OB
+Tashuan	B-BR
+có	B-PROP
+bánh	I-PROP
+xe	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+2	O
+Cuộn	B-PN
+dây	I-PN
+xốp	B-PROP
+nẹp	B-FUNC
+thành	B-FUNC-OB
+bàn	I-FUNC-OB
+chống	B-FUNC
+va	I-FUNC
+đập	I-FUNC
+
+Khóa	B-PN
+chống	B-FUNC
+trộm	B-FUNC-OB
+xe	I-FUNC-OB
+máy	I-FUNC-OB
+chữ	B-PROP
+U	I-PROP
+
+Máy	B-PN
+xông	B-FUNC
+mặt	B-FUNC-OB
+,	O
+xông	B-FUNC
+mũi	B-FUNC-OB
+hơi	B-PROP
+nước	I-PROP
+Benice	B-BR
+
+Nồi	B-PN
+inox	B-PROP
+3	B-PROP
+đáy	I-PROP
+cao	B-PROP
+cấp	I-PROP
+
+Drap	B-PN
+chống	B-PROP
+thấm	I-PROP
+1m6	O
+
+Nồi	B-PN
+cơm	I-PN
+,	O
+cặp	B-PN
+lồng	I-PN
+điện	B-PROP
+mini	B-PROP
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+thế	B-PROP
+hệ	I-PROP
+mới	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+bào	B-FUNC
+,	O
+cắt	B-FUNC
+,	O
+tỉa	B-FUNC
+củ	B-FUNC-OB
+quả	I-FUNC-OB
+
+Lót	B-PN
+nón	B-PROP
+bảo	I-PROP
+hiểm	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+tập	B-FUNC
+đa	B-PROP
+năng	I-PROP
+2	B-PROP
+bánh	I-PROP
+xe	I-PROP
+có	O
+kèm	O
+thảm	B-PN-OB
+
+2	O
+tấm	B-PN
+nướng	B-FUNC
+BBQ	B-FUNC-OB
+hợp	B-PROP
+kim	I-PROP
+không	B-PROP
+dính	I-PROP
+
+2	O
+bộ	O
+khuôn	B-PN
+tự	B-FUNC
+làm	I-FUNC
+kem	B-FUNC-OB
+8	B-PROP
+cây	I-PROP
+-	O
+Đơn	B-PROP
+giản	I-PROP
+,	O
+dễ	B-PROP
+làm	I-PROP
+
+Bộ	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+Thái	B-BR
+Sơn	I-BR
+-	O
+Hàng	O
+Thái	B-BR
+Lan	I-BR
+
+5	O
+Khung	B-PN
+Ảnh	I-PN
+Treo	B-PROP
+Tường	I-PROP
+Handmade	B-PROP
+
+Khay	B-PN
+nướng	B-FUNC
+bánh	B-FUNC-OB
+chống	B-PROP
+dính	I-PROP
+Moriitalia	B-BR
+40x25x1.5cm	O
+
+2	O
+hộp	B-PN
+màng	B-PROP
+nhôm	I-PROP
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+(30cmx5m	O
+/	O
+hộp)	O
+
+2	O
+vỉ	O
+viên	B-PN
+làm	B-FUNC
+sạch	I-FUNC
+và	O
+khử	B-FUNC
+mùi	I-FUNC
+toilet	B-FUNC-OB
+
+Khay	B-PN
+nướng	B-FUNC
+bánh	B-FUNC-OB
+chống	B-PROP
+dính	I-PROP
+Moriitalia	B-BR
+30x15x6.5cm	O
+
+Đèn	B-PN
+cảm	B-PROP
+ứng	I-PROP
+tiệt	B-PROP
+kiệm	I-PROP
+điện	I-PROP
+xoay	B-PROP
+360	I-PROP
+độ	I-PROP
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+1	O
+,	O
+8L	O
+Nasoko	B-BR
+-	O
+Siêu	B-PROP
+nhanh	I-PROP
+và	O
+tiết	B-PROP
+kiệm	I-PROP
+
+Thảm	B-PN
+lót	B-FUNC
+chân	B-FUNC-OB
+Carlmann	B-BR
+35x50cm	O
+
+Combo	O
+1	O
+súng	B-PN
+bắn	B-FUNC
+keo	B-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
++	O
+3	O
+cây	B-PN
+keo	I-PN
+nến	I-PN
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+Xtreme	O
+-	O
+Nhật	B-BR
+Bản	I-BR
+
+Cốc	B-PN
+sứ	B-PROP
+xương	I-PROP
+12	B-PROP
+oz	I-PROP
+kèm	O
+muỗng	B-PN-OB
+
+3	O
+Dụng	B-PN
+cụ	I-PN
+lấy	B-FUNC
+ráy	B-FUNC-OB
+tai	I-FUNC-OB
+có	B-PROP
+đèn	I-PROP
+
+Thớt	B-PN
+nhựa	B-PROP
+kháng	B-PROP
+khuẩn	I-PROP
+Homeselect	B-BR
+
+Bình	B-PN
+nước	I-PN
+thể	B-PROP
+thao	I-PROP
+và	O
+uống	B-FUNC
+trà	B-FUNC-OB
+Moriitalia	B-BR
+
+Bình	B-PN
+hoa	I-PN
+tinh	B-PROP
+dầu	I-PROP
+cho	O
+nhà	O
+thơm	O
+ngát	O
+
+Dụng	B-PN
+cụ	I-PN
+Xay	B-FUNC
+tiêu	B-FUNC-OB
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+
+Bình	B-PN
+hoa	I-PN
+tinh	B-PROP
+dầu	I-PROP
+thơm	I-PROP
+-	O
+Quà	O
+tặng	O
+yêu	O
+thương	O
+
+Bật	B-PN
+lửa	I-PN
+không	B-PROP
+ga	I-PROP
+PORSCHE	B-BR
+kèm	O
+cáp	B-PN-OB
+usb	I-PN-OB
+tiện	B-PROP
+dụng	I-PROP
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+1m6	O
+x	O
+2m	O
+tiện	B-PROP
+dụng	I-PROP
+cho	O
+mọi	O
+nhà	O
+
+Khóa	B-PN
+cửa	I-PN
+Việt	B-BR
+tiện	B-PROP
+lợi	I-PROP
+,	O
+chắc	B-PROP
+chắn	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+đánh	B-FUNC
+trứng	B-FUNC-OB
+CS	B-BR
+Exquisite	I-BR
+Whisk	I-BR
+
+Dao	B-PN
+bào	B-FUNC
+3	B-PROP
+trong	I-PROP
+1	I-PROP
+Fiore	B-BR
+Moriitalia	I-BR
+
+2	O
+Mút	B-PN
+lau	B-FUNC
+chùi	I-FUNC
+thần	B-PROP
+kỳ	I-PROP
+
+Ly	B-PN
+Sứ	B-PROP
+Moriitalia	B-BR
+375ml	O
+
+Chảo	B-PN
+thép	B-PROP
+carbon	I-PROP
+chống	B-PROP
+dính	I-PROP
+35cm	O
+
+2	O
+Dụng	B-PN
+cụ	I-PN
+khui	B-FUNC
+hộp	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+
+Bộ	O
+drap	B-PN
+cotton	B-PROP
+Thắng	B-BR
+Lợi	I-BR
+kèm	O
+mền	B-PN-OB
+
+Bộ	O
+drap	B-PN
+vải	B-PROP
+cotton	I-PROP
+Thắng	B-BR
+Lợi	I-BR
+1m6	O
+
+4	O
+Ly	B-PN
+nhựa	B-PROP
+màu	B-PROP
+sáng	I-PROP
+-	O
+Uncle	B-BR
+Bills	I-BR
+
+Máy	B-PN
+massage	B-FUNC
+cầm	B-PROP
+tay	I-PROP
+-	O
+MA	O
+116	O
+
+Áo	B-PN
+mưa	I-PN
+chống	B-PROP
+thấm	I-PROP
+không	B-PROP
+xẻ	I-PROP
+tà	I-PROP
+
+25	O
+Khuôn	B-PN
+Làm	B-FUNC
+Bánh	B-FUNC-OB
+Flan	I-FUNC-OB
+,	O
+Rau	B-FUNC-OB
+Câu	I-FUNC-OB
+
+Khuôn	B-PN
+nướng	B-FUNC
+bánh	B-FUNC-OB
+không	B-PROP
+dính	I-PROP
+Uncle	B-BR
+Bills	I-BR
+
+2	O
+Khuôn	B-PN
+làm	B-FUNC
+sushi	B-FUNC-OB
+dạng	B-PROP
+cuộn	I-PROP
+và	O
+dạng	B-PROP
+nắm	I-PROP
+
+Hộp	B-PN
+muối	B-FUNC
+dưa	B-FUNC-OB
+cà	I-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+&	O
+quot;Dưa	O
+ngon	O
+&	O
+quot;	O
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+bảo	B-FUNC
+vệ	I-FUNC
+đệm	B-FUNC-OB
+loại	B-PROP
+1	I-PROP
+,	O
+8m	O
+x	O
+2m	O
+
+Khăn	B-PN
+tắm	I-PN
+Sella	B-BR
+50cmx100cm	O
+-	O
+Mềm	B-PROP
+mại	I-PROP
+làn	O
+da	O
+
+Đai	B-PN
+massage	B-FUNC
+bụng	B-PROP
+giảm	B-FUNC
+béo	I-FUNC
+
+Máy	B-PN
+đánh	B-FUNC
+tạo	I-FUNC
+bọt	B-FUNC-OB
+cafe	I-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Máy	B-PN
+uốn	B-FUNC
+tóc	B-FUNC-OB
+sứ	B-PROP
+đa	B-PROP
+năng	I-PROP
+
+Lung	B-PROP
+linh	I-PROP
+với	O
+vòi	B-PN
+sen	B-PROP
+đèn	B-PROP
+led	I-PROP
+đổi	I-PROP
+màu	I-PROP
+kèm	O
+dây	B-PN-OB
+1	O
+,	O
+5m	O
+
+Bàn	B-PN
+chải	I-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+bằng	O
+điện	B-PROP
+newsmile	B-BR
+
+Combo	O
+1	O
+dây	B-PN
+thông	B-FUNC
+cống	B-FUNC-OB
+5m	O
++	O
+5	O
+gói	B-PN
+thông	B-FUNC
+cống	B-FUNC-OB
+
+Tiết	B-PROP
+kiệm	I-PROP
+diện	I-PROP
+tích	I-PROP
+với	O
+Giá	B-PN
+để	B-FUNC
+giày	B-FUNC-OB
+,	O
+dép	B-FUNC-OB
+4	B-PROP
+tầng	I-PROP
+
+Đai	B-PN
+massage	B-FUNC
+bụng	B-PROP
+giảm	B-FUNC
+béo	I-FUNC
+Sauna	B-BR
+
+Dù	B-PN
+gấp	B-PROP
+đi	B-FUNC
+mưa	I-FUNC
+gặp	O
+nước	O
+nở	O
+hoa	O
+
+Giỏ	B-PN
+gỗ	B-PROP
+thông	B-PROP
+minh	I-PROP
+đựng	B-FUNC
+hoa	B-FUNC-OB
+quả	I-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+
+Túi	B-PN
+đựng	B-FUNC
+máy	B-FUNC-OB
+ảnh	I-FUNC-OB
+tam	I-FUNC-OB
+giác	I-FUNC-OB
+(body	O
++	O
+lens	O
+kit)	O
+
+Tủ	B-PN
+đa	B-PROP
+năng	I-PROP
+6	B-PROP
+tầng	I-PROP
+,	O
+2	B-PROP
+ngăn	I-PROP
+chứa	I-PROP
+chống	B-PROP
+thấm	I-PROP
+nước	I-PROP
+
+Thảm	B-PN
+tập	B-FUNC
+Yoga	I-FUNC
+cao	B-PROP
+cấp	I-PROP
+không	B-PROP
+mùi	I-PROP
+,	O
+siêu	B-PROP
+nhẹ	I-PROP
+
+Máy	B-PN
+khâu	I-PN
+mini	B-PROP
+dành	O
+cho	O
+gia	B-OB
+đình	I-OB
+
+Vòi	B-PN
+xịt	B-FUNC
+nước	I-FUNC
+tăng	B-PROP
+áp	I-PROP
+Ez	B-BR
+Jet	I-BR
+Water	I-BR
+Canon	I-BR
+8	B-PROP
+chế	I-PROP
+độ	I-PROP
+
+Tủ	B-PN
+vải	B-PROP
+3	B-PROP
+buồng	I-PROP
+chất	B-PROP
+lượng	I-PROP
+cao	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+ép	B-FUNC
+cơm	B-FUNC-OB
+hình	B-PROP
+thù	I-PROP
+ngộ	I-PROP
+nghĩnh	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+ép	B-FUNC
+cơm	B-FUNC-OB
+tay	B-PROP
+cầm	I-PROP
+hình	B-PROP
+thỏ	I-PROP
+gấu	I-PROP
+
+20	O
+móc	B-PN
+quần	I-PN
+áo	I-PN
+người	B-PROP
+lớn	I-PROP
+tặng	O
+10	O
+móc	B-FUNC-OB
+trẻ	I-PN
+em	I-PN
+
+Bộ	O
+10	O
+thảm	B-PN
+xốp	B-PROP
+ghép	B-FUNC
+chữ	B-FUNC-OB
+,	O
+con	B-FUNC-OB
+vật	I-FUNC-OB
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+Vali	B-PN
+du	B-PROP
+lịch	I-PROP
+mùa	O
+Hè	O
+cỡ	B-PROP
+lớn	I-PROP
+-	O
+Có	B-PROP
+bánh	I-PROP
+xe	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+siêu	B-PROP
+mỏng	I-PROP
+Nhật	B-BR
+Bản	I-BR
+
+2	O
+hộp	O
+Bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+siêu	B-PROP
+mỏng	I-PROP
+,	O
+siêu	B-PROP
+gai	I-PROP
+Japan	B-BR
+
+Set	O
+8	O
+khung	B-PN
+ảnh	I-PN
+nhựa	B-PROP
+ép	I-PROP
+dẻo	I-PROP
+
+2	O
+hộp	O
+bông	B-PN
+ngoáy	B-FUNC
+tai	B-FUNC-OB
+hai	O
+chức	B-PROP
+năng	I-PROP
+độc	I-PROP
+đáo	I-PROP
+
+2	O
+Túi	B-PN
+Treo	B-FUNC
+8	B-PROP
+Ngăn	I-PROP
+-	O
+Mẫu	O
+Mới	O
+2015	O
+
+Kệ	B-PN
+gỗ	B-PROP
+2	B-PROP
+tầng	I-PROP
+cao	B-PROP
+cấp	I-PROP
+
+Balo	B-PN
+họa	B-PROP
+tiết	I-PROP
+sắc	I-PROP
+màu	I-PROP
+cá	B-PROP
+tính	I-PROP
+
+12	O
+chiếc	O
+kẹp	O
+miệng	O
+túi	O
+-	O
+Bảo	O
+vệ	O
+thực	O
+phẩm	O
+an	O
+toàn	O
+
+Quạt	B-PN
+đá	B-PROP
+mini	B-PROP
+cầm	B-PROP
+tay	I-PROP
+2	B-PROP
+in	I-PROP
+1	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+lọc	B-FUNC
+oxy	I-FUNC
+ô	B-FUNC-OB
+tô	I-FUNC-OB
+
+2	O
+Đèn	B-PN
+ngủ	B-PROP
+cảm	B-PROP
+ứng	I-PROP
+ánh	I-PROP
+sáng	I-PROP
+Avatar	B-BR
+
+Bộ	O
+vòi	B-PN
+sen	B-PROP
+kèm	O
+dây	B-PN-OB
+-	O
+Hàng	O
+Việt	O
+cho	O
+người	O
+Việt	O
+
+Khỏe	B-PROP
+mạnh	I-PROP
+và	O
+săn	B-PROP
+chắc	I-PROP
+với	O
+xà	B-PN
+đơn	I-PN
+treo	B-PROP
+tường	I-PROP
+Inox	B-PROP
+
+Vòi	B-PN
+phun	B-FUNC
+nước	B-FUNC-OB
+giãn	B-PROP
+nở	I-PROP
+thông	B-PROP
+minh	I-PROP
+Magic	B-BR
+Hose	I-BR
+
+Máy	B-PN
+ghi	B-FUNC
+âm	I-FUNC
+chụp	B-FUNC
+hình	I-FUNC
+mini	B-PROP
+có	B-PROP
+định	I-PROP
+vị	I-PROP
+
+Tông	B-PN
+đơ	I-PN
+cắt	B-FUNC
+tóc	B-FUNC-OB
+chuyên	B-PROP
+dụng	I-PROP
+Philips	B-BR
+
+Quạt	B-PN
+cây	B-PROP
+Kipor	B-BR
+KP	I-BR
+Q116Z	O
+điều	B-PROP
+khiển	I-PROP
+tự	I-PROP
+động	I-PROP
+
+Giá	B-PN
+đỡ	B-FUNC
+iPad	B-FUNC-OB
+và	O
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+hình	B-PROP
+cánh	I-PROP
+tay	I-PROP
+
+Giá	B-PN
+đỡ	B-FUNC
+cho	I-FUNC
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+,	O
+máy	B-FUNC-OB
+tính	I-FUNC-OB
+bảng	I-FUNC-OB
+
+2	O
+túi	B-PN
+chống	B-FUNC
+nước	B-FUNC-OB
+cho	O
+điện	B-OB
+thoại	I-OB
+di	I-OB
+động	I-OB
+
+Bộ	O
+nồi	B-PN
+Five	B-BR
+Star	I-BR
+3	B-PROP
+nắp	I-PROP
+inox	B-PROP
+
+Bộ	O
+nồi	B-PN
+Five	B-BR
+Star	I-BR
+5	B-PROP
+chiếc	I-PROP
+nắp	I-PROP
+inox	B-PROP
+
+​Đèn	B-PN
+pin	I-PN
+siêu	B-PROP
+sáng	I-PROP
+Ultrafire	B-BR
+T6.	O
+Tặng	O
+kèm	O
+pin	B-PN-OB
+sạc	I-PN-OB
+
+Bộ	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+Lucky	B-BR
+Lady	I-BR
+có	B-PROP
+trục	I-PROP
+giặt	I-PROP
+xả	O
+bông	O
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+sửa	B-FUNC
+chữa	I-FUNC
+đa	B-PROP
+năng	I-PROP
+11	B-PROP
+món	I-PROP
+
+Máy	B-PN
+nướng	B-FUNC
+bánh	B-FUNC-OB
+hình	B-PROP
+thú	I-PROP
+Magin	I-PROP
+
+2	O
+Bông	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+
+Máy	B-PN
+cạo	B-FUNC
+râu	B-FUNC-OB
+Boteng	B-BR
+RSCW	O
+
+Vỉ	B-PN
+nướng	I-PN
+inox	B-PROP
+dùng	O
+cho	O
+bếp	B-OB
+gas	I-OB
+,	O
+điện	I-OB
+,	O
+hồng	I-OB
+ngoại	I-OB
+
+Bông	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
++	O
+Mâm	B-PN
+lau	B-FUNC
+thay	B-PROP
+thế	I-PROP
+
+Combo	O
+50	O
+miếng	O
+giấy	B-PN
+bạc	I-PN
+lót	B-FUNC
+bếp	B-FUNC-OB
++	O
+bộ	O
+găng	B-PN
+tay	I-PN
+
+Màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Eufood	B-BR
+Wrap	I-BR
+415	O
+có	B-PROP
+thanh	I-PROP
+cắt	I-PROP
+
+Đai	B-PN
+giảm	B-FUNC
+béo	I-FUNC
+,	O
+massage	B-FUNC
+thư	I-FUNC
+giãn	I-FUNC
+toàn	B-FUNC-OB
+thân	I-FUNC-OB
+Benice	B-BR
+
+2	O
+hộp	O
+bông	B-PN
+ngoáy	B-FUNC
+tai	B-FUNC-OB
+600	O
+chiếc	O
+an	B-PROP
+toàn	I-PROP
+,	O
+êm	B-PROP
+ái	I-PROP
+
+Máy	B-PN
+xay	B-FUNC
+Sayonex	B-BR
+Blender	I-BR
+SB	O
+-	O
+871A	O
+
+Bạt	B-PN
+phủ	B-FUNC
+xe	B-FUNC-OB
+7	I-FUNC-OB
+chỗ	I-FUNC-OB
+thách	B-PROP
+thức	I-PROP
+nắng	I-PROP
+mưa	I-PROP
+
+Tủ	B-PN
+vải	B-PROP
+đựng	B-FUNC
+đồ	B-FUNC-OB
+3	B-PROP
+ngăn	I-PROP
+xinh	B-PROP
+xắn	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Tự	O
+làm	O
+kem	O
+dễ	O
+dàng	O
+với	O
+2	O
+bộ	O
+khuôn	B-PN
+kem	B-PROP
+6	B-PROP
+cái	I-PROP
+
+Máy	B-PN
+bơm	B-FUNC
+lốp	B-FUNC-OB
+,	O
+hút	B-FUNC
+bụi	B-FUNC-OB
+ôtô	I-FUNC-OB
+2	B-PROP
+trong	I-PROP
+1	I-PROP
+tiện	B-PROP
+lợi	I-PROP
+
+2	O
+Bông	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
+360	B-PROP
+độ	I-PROP
+
+Tăng	B-FUNC
+cường	I-FUNC
+sức	B-FUNC-OB
+khỏe	I-FUNC-OB
+với	O
+xà	B-PN
+đơn	I-PN
+treo	B-PROP
+cửa	I-PROP
+đa	B-PROP
+năng	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+chăm	B-FUNC
+sóc	I-FUNC
+móng	B-FUNC-OB
+12	B-PROP
+món	I-PROP
+
+4	O
+bàn	B-PN
+chải	I-PN
+kháng	B-PROP
+khuẩn	I-PROP
+Nano	B-PROP
+bạc	I-PROP
+Hàn	B-BR
+Quốc	I-BR
+
+4	O
+Miếng	B-PN
+lót	B-FUNC
+bàn	B-FUNC-OB
+ăn	I-FUNC-OB
+hoa	B-PROP
+văn	I-PROP
+trang	I-PROP
+nhã	I-PROP
+
+25	O
+Dụng	B-PN
+cụ	I-PN
+kẹp	B-FUNC
+chặn	I-FUNC
+giữ	I-FUNC
+dây	B-FUNC-OB
+điện	I-FUNC-OB
+
+Khăn	B-PN
+tắm	I-PN
+sợi	B-PROP
+bông	I-PROP
+mềm	B-PROP
+mại	I-PROP
+cỡ	B-PROP
+lớn	I-PROP
+70	O
+x	O
+140cm	O
+
+3	O
+khăn	B-PN
+mặt	I-PN
+sợi	B-PROP
+bông	I-PROP
+mềm	B-PROP
+mại	I-PROP
+
+3	O
+túi	B-PN
+chống	B-FUNC
+nước	B-FUNC-OB
+sắc	B-PROP
+màu	I-PROP
+cho	O
+điện	B-OB
+thoại	I-OB
+
+Khăn	B-PN
+tắm	I-PN
+sợi	B-PROP
+bông	I-PROP
+cỡ	O
+50	O
+x	O
+100cm	O
+Ki	O
+Ba	O
+
+Combo	O
+2	O
+đèn	B-PN
+pin	I-PN
+tự	B-PROP
+sạc	I-PROP
+tay	I-PROP
+-	O
+Tiết	B-PROP
+kiệm	I-PROP
+năng	I-PROP
+lượng	I-PROP
+
+15	O
+vỉ	B-PN
+dán	B-FUNC
+hình	B-FUNC-OB
+xăm	I-FUNC-OB
+thời	B-PROP
+trang	I-PROP
+,	O
+bền	B-PROP
+màu	I-PROP
+
+2	O
+Túi	O
+bao	B-PN
+tay	I-PN
+xốp	B-PROP
+tiện	B-PROP
+dụng	I-PROP
+(140	O
+cái)	O
+
+85	O
+túi	B-PN
+Zipper	B-BR
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+an	B-PROP
+toàn	I-PROP
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+Donlim	B-BR
+-	O
+Tặng	O
+bình	B-PN-OB
+đun	I-PN-OB
+siêu	I-PN-OB
+tốc	I-PN-OB
+1.7L	O
+
+Lò	B-PN
+nướng	I-PN
+Halogen	B-BR
+Donlim	I-BR
+tặng	O
+Bàn	B-PN-OB
+ủi	I-PN-OB
+hơi	I-PN-OB
+nước	I-PN-OB
+
+Bàn	B-PN
+ủi	I-PN
+hơi	B-PROP
+nước	I-PROP
+Donlim	B-BR
+
+Lò	B-PN
+nướng	I-PN
+12L	O
+-	O
+Thương	O
+hiệu	O
+Donlim	B-BR
+
+Chiếu	B-PN
+lụa	B-PROP
+3D	B-PROP
+Kiko	B-BR
+1.6x2m	O
+tặng	O
+kèm	O
+2	O
+vỏ	B-PN-OB
+gối	I-PN-OB
+
+Tự	O
+làm	O
+kem	O
+dễ	O
+dàng	O
+với	O
+khuôn	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+8	B-PROP
+ngăn	I-PROP
+
+Bình	B-PN
+đun	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+Donlim	B-BR
+1.5L	O
+
+Máy	B-PN
+tắm	B-FUNC
+nước	B-FUNC-OB
+nóng	I-FUNC-OB
+-	O
+Thương	O
+hiệu	O
+Cornell	B-BR
+
+Đai	B-PN
+massage	B-FUNC
+Vipro	B-BR
+Shape	I-BR
+
+Quạt	B-PN
+sạc	B-PROP
+kèm	O
+đèn	B-PN
+loại	B-PROP
+lớn	I-PROP
+có	B-PROP
+lồng	I-PROP
+
+24	O
+hũ	B-PN
+thủy	B-PROP
+tinh	I-PROP
+đựng	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+xinh	B-PROP
+xắn	I-PROP
+
+Bộ	O
+3	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+tiết	B-PROP
+kiệm	I-PROP
+diện	I-PROP
+tích	I-PROP
+123	O
+
+Chiếu	I-PN
+lụa	B-PROP
+3D	B-PROP
+Kiko	B-BR
+1.8x2m	O
+tặng	O
+kèm	O
+2	O
+vỏ	B-PN-OB
+gối	I-PN-OB
+
+Túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+treo	B-PROP
+thành	I-PROP
+ghế	I-PROP
+xe	B-PROP
+hơi	I-PROP
+
+6	O
+Cuộn	O
+túi	B-PN
+đựng	B-FUNC
+rác	B-FUNC-OB
+không	B-PROP
+lõi	I-PROP
+(55	O
+x	O
+65cm)	O
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+1	O
+,	O
+8L	O
+-	O
+Siêu	O
+nhanh	O
+,	O
+siêu	B-PROP
+tiết	I-PROP
+kiệm	I-PROP
+điện	I-PROP
+
+6	O
+Cuộn	O
+túi	B-PN
+đựng	B-FUNC
+rác	B-FUNC-OB
+cỡ	B-PROP
+tiểu	I-PROP
+(44	O
+x	O
+56cm)	O
+
+2	O
+túi	B-PN
+đa	B-PROP
+năng	I-PROP
+Fresh	B-BR
+home	I-BR
+hàng	O
+Việt	B-BR
+Nam	I-BR
+chắc	B-PROP
+bền	I-PROP
+
+Bộ	B-PN
+giác	I-PN
+hơi	I-PN
+không	B-PROP
+dùng	I-PROP
+lửa	I-PROP
+
+Rổ	B-PN
+quay	B-FUNC
+rau	B-FUNC-OB
+quả	I-FUNC-OB
+ly	B-PROP
+tâm	I-PROP
+Tashuan	B-BR
+an	B-PROP
+toàn	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Máy	B-PN
+sấy	B-FUNC
+tóc	B-FUNC-OB
+2	B-PROP
+chiều	I-PROP
+-	O
+2	O
+mức	O
+điều	O
+chỉnh	O
+tốc	O
+độ	O
+
+250	O
+túi	B-PN
+Zipper	B-BR
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+an	B-PROP
+toàn	I-PROP
+
+Ổ	B-PN
+khóa	I-PN
+chống	B-FUNC
+trộm	B-FUNC-OB
+còng	B-PROP
+dài	I-PROP
+
+Túi	B-PN
+vải	B-PROP
+đựng	B-FUNC
+giày	B-FUNC-OB
+12	B-PROP
+ngăn	I-PROP
+
+Hộp	B-PN
+cơm	I-PN
+điện	B-PROP
+hâm	B-FUNC
+nóng	I-FUNC
+đa	B-PROP
+năng	I-PROP
+Magic	B-BR
+A	O
+-	O
+03	O
+
+Bộ	O
+quần	B-PN
+áo	I-PN
+đi	B-FUNC
+mưa	I-FUNC
+Hatoco	B-OB
+
+Áo	B-PN
+mưa	I-PN
+cánh	B-PROP
+dơi	I-PROP
+vải	B-PROP
+dù	I-PROP
+
+6	O
+Móc	B-PN
+treo	B-FUNC
+phích	B-FUNC-OB
+cắm	B-PROP
+điện	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+làm	B-FUNC
+rau	B-FUNC-OB
+sạch	I-FUNC-OB
+
+Quạt	B-PN
+cây	B-PROP
+Kipor	B-BR
+KP	O
+-	O
+Q116Y	O
+bảo	O
+hành	O
+12	O
+tháng	O
+
+20	O
+Khuôn	B-PN
+cắt	B-FUNC
+rau	B-FUNC-OB
+câu	O
+tạo	O
+kiểu	B-PROP
+hoa	I-PROP
+nổi	I-PROP
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+mini	B-PROP
+cầm	B-PROP
+tay	I-PROP
+
+2	O
+khay	B-PN
+đá	B-PROP
+có	B-PROP
+nắp	I-PROP
+đậy	I-PROP
+
+Móc	B-PN
+treo	B-FUNC
+đồ	B-FUNC-OB
+5	B-PROP
+tầng	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+xuất	B-PROP
+khẩu	I-PROP
+
+Bình	B-PN
+thủy	B-PROP
+tinh	I-PROP
+Glasslock	B-BR
+nhập	O
+khẩu	O
+Hàn	B-BR
+Quốc	I-BR
+
+Công	B-PN
+tắc	I-PN
+đèn	I-PN
+cảm	B-PROP
+ứng	I-PROP
+Kono	B-BR
+KA	O
+-	O
+S06	O
+
+Công	B-PN
+tắc	I-PN
+đèn	I-PN
+cảm	B-PROP
+ứng	I-PROP
+gắn	B-PROP
+trần	I-PROP
+tự	B-PROP
+động	I-PROP
+KONO	B-BR
+
+2	O
+Khăn	B-PN
+trùm	B-FUNC
+đầu	B-FUNC-OB
+siêu	B-PROP
+thấm	I-PROP
+hút	I-PROP
+
+Bình	B-PN
+đun	B-FUNC
+siêu	B-PROP
+tốc	I-PROP
+Donlim	B-BR
+1.7L	O
+-	O
+Bảo	O
+hành	O
+12	O
+tháng	O
+
+Nồi	B-PN
+hấp	B-FUNC
+điện	B-PROP
+-	O
+Thương	O
+hiệu	O
+Cornell	B-BR
+
+Bộ	O
+tua	B-PN
+vít	I-PN
+30	B-PROP
+đầu	I-PROP
+chuyên	B-PROP
+dụng	I-PROP
+
+Máy	B-PN
+Xay	B-FUNC
+Sinh	B-FUNC-OB
+Tố	I-FUNC-OB
+Donlim	B-BR
+
+1	O
+Túi	B-PN
+giặt	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
++	O
+1	O
+túi	B-PN
+giặt	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
++	O
+1	O
+khăn	B-PN
+tắm	I-PN
+
+Chống	B-FUNC
+xước	B-FUNC-OB
+và	O
+oxy	B-FUNC-OB
+hóa	I-FUNC-OB
+với	O
+sơn	B-PN
+phủ	O
+Nano	B-PROP
+uv99	I-PROP
+
+Máy	B-PN
+làm	B-FUNC
+sữa	B-FUNC-OB
+đậu	I-FUNC-OB
+nành	I-FUNC-OB
+Donlim	B-BR
+1.8L	O
+
+3	O
+khăn	B-PN
+lau	B-FUNC
+bếp	B-FUNC-OB
++	O
+4	O
+Cước	B-PN
+rửa	B-FUNC
+chén	B-FUNC-OB
+
+Ổ	B-PN
+khóa	I-PN
+ZSOLEX	B-BR
+
+Đồng	B-PN
+hồ	I-PN
+dán	B-PROP
+tường	I-PROP
+DIY	B-BR
+Clock	I-BR
+360	O
+
+24	O
+gói	O
+giấy	B-PN
+ướt	I-PN
+bỏ	B-PROP
+túi	I-PROP
+Let	B-BR
+-	O
+green	I-BR
+
+Mỏ	B-PN
+hàn	I-PN
+cầm	B-PROP
+tay	I-PROP
++	O
+nhựa	B-PN
+thông	I-PN
++	O
+chì	B-PN
+
+Độc	B-PROP
+đáo	B-PROP
+cốc	B-PN
+tự	B-PROP
+khuấy	I-PROP
+thông	B-PROP
+minh	I-PROP
+
+Giá	B-PN
+để	B-FUNC
+giầy	B-FUNC-OB
+dép	I-FUNC-OB
+10	B-PROP
+tầng	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+cắt	B-FUNC
+rau	B-FUNC-OB
+quả	I-FUNC-OB
+siêu	B-PROP
+nhanh	I-PROP
+Pop	B-BR
+Chef	I-BR
+
+Bộ	O
+ga	B-PN
+gối	I-PN
+cotton	B-PROP
+nhung	I-PROP
+1	O
+,	O
+6mx2m	O
+cho	O
+giấc	O
+ngủ	O
+êm	O
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+sửa	B-FUNC
+chữa	I-FUNC
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+,	O
+ô	B-FUNC-OB
+tô	I-FUNC-OB
+tiện	B-PROP
+lợi	I-PROP
+
+Combo	O
+2	O
+hộp	B-PN
+đựng	B-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
++	O
+2	O
+hộp	O
+thìa	B-PN
+đũa	I-PN
+đi	B-PROP
+du	I-PROP
+lịch	I-PROP
+
+Móc	B-PN
+áo	I-PN
+treo	B-PROP
+cửa	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+cho	O
+mọi	O
+gia	O
+đình	O
+
+9	O
+gói	O
+khẩu	B-PN
+trang	I-PN
+Facemask	B-BR
+3	B-PROP
+lớp	I-PROP
+-	O
+Ngừa	B-PROP
+vi	I-PROP
+khuẩn	I-PROP
+
+Đệm	B-PN
+gel	B-PROP
+nước	I-PROP
+Cooling	B-BR
+Mat	I-BR
+Everon	I-BR
+
+Vòi	B-PN
+rửa	B-FUNC
+xe	B-FUNC-OB
+XHose	B-BR
+3m	O
+giãn	B-PROP
+nở	I-PROP
+8m	O
+(	O
++	O
+-	O
+0.5m)	O
+
+Combo	O
+đèn	B-PN
+led	B-PROP
+và	O
+quạt	B-PN
+cắm	B-PROP
+cổng	I-PROP
+USB	I-PROP
+
+Vòi	B-PN
+phun	B-FUNC
+nước	B-FUNC-OB
+giãn	B-PROP
+nở	I-PROP
+thông	B-PROP
+minh	I-PROP
+Xhose	B-BR
+dài	O
+5m	O
+
+Bút	B-PN
+trình	B-FUNC
+chiếu	I-FUNC
+laser	B-PROP
+Presenter	B-BR
+PP	O
+-	O
+1000	O
+
+Máy	B-PN
+đánh	B-FUNC
+trứng	B-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+Philips	B-BR
+
+Vòi	B-PN
+nước	I-PN
+phát	B-PROP
+sáng	I-PROP
+có	O
+màu	O
+phát	O
+sáng	O
+
+Bộ	O
+gối	B-PN
+đệm	I-PN
+mát	B-PROP
+điều	B-PROP
+hòa	I-PROP
+Morita	B-BR
+ngon	O
+giấc	O
+mùa	O
+hè	O
+
+Combo	O
+2	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+có	B-PROP
+nắp	I-PROP
+đậy	I-PROP
+
+Áo	B-PN
+bảo	B-FUNC
+vệ	I-FUNC
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+Tumi	B-BR
+
+3	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+gấp	B-PROP
+gọn	I-PROP
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+Chita	B-BR
+CT11N	O
+an	B-PROP
+toàn	I-PROP
+cho	O
+mọi	O
+nhà	O
+
+2	O
+Hộp	B-PN
+Chia	B-FUNC
+Thuốc	B-FUNC-OB
+7	B-PROP
+Ngày	I-PROP
+Tròn	B-PROP
+Xoay	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+nước	B-FUNC-OB
+rửa	I-FUNC-OB
+tay	I-FUNC-OB
+,	O
+dầu	B-FUNC-OB
+gội	I-FUNC-OB
+loại	B-PROP
+1	I-PROP
+ngăn	I-PROP
+
+Bộ	O
+4	O
+chân	B-PN
+đế	I-PN
+chống	B-FUNC
+rung	I-FUNC
+máy	B-FUNC-OB
+giặt	I-FUNC-OB
+Tashuan	B-BR
+
+Chiếu	B-PN
+lụa	B-PROP
+in	B-PROP
+hoa	I-PROP
+1	O
+,	O
+8m	O
+x	O
+2m	O
+kèm	O
+2	O
+vỏ	O
+gối	O
+
+Bộ	O
+thìa	B-PN
+,	O
+dĩa	B-PN
+,	O
+đũa	B-PN
+sứ	B-PROP
+9	B-PROP
+món	I-PROP
+đẹp	B-PROP
+mắt	I-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+nước	B-FUNC-OB
+rửa	B-FUNC
+tay	B-FUNC-OB
+2	B-PROP
+ngăn	I-PROP
+
+02	O
+bộ	O
+khuôn	B-PN
+làm	B-FUNC
+đá	B-FUNC-OB
+viên	I-FUNC-OB
+có	B-PROP
+nắp	I-PROP
+sạch	B-PROP
+sẽ	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+bảo	B-FUNC
+vệ	I-FUNC
+đệm	B-FUNC-OB
+1m2	O
+x	O
+1m9	O
+x	O
+10cm	O
+
+2	O
+túi	B-PN
+đựng	B-FUNC
+điện	B-FUNC-OB
+thoại	I-FUNC-OB
+vỏ	B-PROP
+trong	I-PROP
+
+Bộ	O
+ổ	B-PN
+khóa	I-PN
+chống	B-FUNC
+cắt	B-FUNC-OB
+trộm	I-FUNC-OB
+
+Khóa	B-PN
+chống	B-FUNC
+cắt	I-FUNC
+đồng	B-PROP
+thau	I-PROP
+loại	B-PROP
+to	I-PROP
+C	O
+-	O
+60H	O
+
+Máy	B-PN
+xay	B-FUNC
+cầm	B-PROP
+tay	I-PROP
+-	O
+Thương	O
+Hiệu	O
+Donlim	B-BR
+
+Đèn	B-PN
+học	I-PN
+để	B-PROP
+bàn	I-PROP
+sạc	B-PROP
+điện	I-PROP
+compact	O
+Tiross	B-BR
+
+Tông	B-PN
+đơ	I-PN
+cắt	B-FUNC
+tóc	B-FUNC-OB
+sạc	B-PROP
+điện	I-PROP
+Philips	B-BR
+QC2014	O
+
+An	B-PROP
+toàn	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+-   O
+Khóa	B-PN
+số	B-PROP
+dạng	B-PROP
+móc	I-PROP
+xe  O
+máy O
+,   O
+xe  O
+đạp O
+
+2	O
+gói	O
+bột	B-PN
+thông	B-FUNC
+cống	B-FUNC-OB
++	O
+1	O
+thông	B-FUNC
+tắc	I-FUNC
+hầm	B-FUNC-OB
+cầu	I-FUNC-OB
+Hando	B-BR
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+Brawn	B-BR
+312	O
+
+Giá	B-PN
+treo	B-FUNC
+để	I-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
+,	O
+kem	B-FUNC-OB
+đánh	I-FUNC-OB
+răng	I-FUNC-OB
+kèm	O
+cốc	B-PN-OB
+
+2	O
+bộ	O
+khuôn	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+Tashuan	B-BR
+-	O
+Tiện	B-PROP
+lợi	I-PROP
+,	O
+dễ	B-PROP
+làm	I-PROP
+
+Áo	B-PN
+mưa	I-PN
+1	B-PROP
+đầu	I-PROP
+cao	B-PROP
+cấp	I-PROP
+
+Máy	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+hoa	I-FUNC-OB
+quả	I-FUNC-OB
+thế	B-PROP
+hệ	I-PROP
+mới	I-PROP
+-	O
+Đơn	B-PROP
+giản	I-PROP
+,	O
+dễ	B-PROP
+làm	I-PROP
+
+Cây	B-PN
+lau	B-FUNC
+nhà	B-FUNC-OB
++	O
+bông	B-PN
+lau	B-FUNC
+siêu	B-PROP
+thấm	I-PROP
+
+Khăn	B-PN
+tắm	I-PN
+xuất	O
+khẩu	O
+Nhật	B-BR
+Bản	I-OB
+
+Gối	B-PN
+cao	B-PROP
+su	I-PROP
+non	I-PROP
+mềm	B-PROP
+mại	I-PROP
+cỡ	B-PROP
+lớn	I-PROP
+
+Vòi	B-PN
+hoa	B-PROP
+sen	I-PROP
+tăng	B-PROP
+áp	I-PROP
+,	O
+lọc	B-FUNC
+nano	I-FUNC
+thế	O
+hệ	O
+mới	O
+(kèm	O
+dây)	O
+
+Bio	B-PN
+bể	I-PN
+phốt	I-PN
++	O
+bột	B-PN
+thông	B-FUNC
+cống	B-FUNC-OB
+Tiktak	B-BR
+(02	O
+bộ)	O
+
+3	O
+khăn	B-PN
+tắm	I-PN
+xuất	O
+khẩu	O
+Nhật	B-BR
+Bản	I-BR
+
+4	O
+ca	B-PN
+nhựa	B-PROP
+màu	B-PROP
+sắc	I-PROP
+biểu	B-PROP
+lộ	I-PROP
+cảm	I-PROP
+xúc	I-PROP
+dễ	B-PROP
+thương	I-PROP
+
+20	O
+khung	B-PN
+hình	I-PN
+phong	B-PROP
+cách	I-PROP
+Hàn	I-PROP
+Quốc	I-PROP
+
+2	O
+chai	B-PN
+xịt	B-FUNC
+đánh	B-FUNC
+bóng	I-FUNC
+đồ	B-FUNC-OB
+da	I-FUNC-OB
+và	O
+đồ	B-FUNC-OB
+gỗ	I-FUNC-OB
+Hando	B-BR
+
+2	O
+chai	O
+nước	B-PN
+tẩy	B-FUNC
+cổ	B-FUNC-OB
+áo	I-FUNC-OB
+,	O
+tay	B-FUNC-OB
+áo	I-FUNC-OB
+Hando	B-BR
+dạng	B-PROP
+xịt	I-PROP
+
+Hộp	B-PN
+muối	B-FUNC
+dưa	B-FUNC-OB
+cà	I-FUNC-OB
+SOOXTO	O
+
+Ghế	O
+hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+hình	B-PROP
+ôtô	I-PROP
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+3	O
+hộp	B-PN
+nhựa	B-PROP
+PP	I-PROP
+tròn	B-PROP
+an	B-PROP
+toàn	I-PROP
+thực	O
+phẩm	O
+
+5	O
+Gói	O
+khăn	B-PN
+ướt	I-PN
+Baby	B-BR
+Health	I-BR
+(80	O
+miếng	O
+/	O
+gói)	O
+
+Nồi	B-PN
+canh	I-PN
+chống	B-PROP
+dính	I-PROP
+Supor	B-BR
+
+Bộ	O
+quần	B-PN
+áo	I-PN
+mưa	I-PN
+Tumi	B-BR
+chống	B-PROP
+thấm	I-PROP
+nước	I-PROP
+
+Tủ	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+bìa	B-PROP
+cứng	I-PROP
+có	B-PROP
+nắp	I-PROP
+
+Quạt	B-PN
+cây	I-PN
+Kipor	B-BR
+KP	O
+Q116Z	O
+điều	B-PROP
+khiển	I-PROP
+tự	I-PROP
+động	I-PROP
+
+Combo	O
+3	O
+vỉ	O
+nút	B-PN
+ổ	I-PN
+điện	I-PN
+-	O
+An	B-PROP
+toàn	I-PROP
+cho	O
+cả	O
+gia	O
+đình	O
+
+5	O
+kệ	B-PN
+để	B-FUNC
+giầy	B-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+Double	O
+&	O
+Double	O
+Tashuan	B-BR
+
+Bạt	B-PN
+trải	B-FUNC
+Picnic	B-BR
+họa	B-PROP
+tiết	I-PROP
+hoạt	I-PROP
+hình	I-PROP
+đáng	B-PROP
+yêu	I-PROP
+
+Cây	B-PN
+lau	B-FUNC
+kính	B-FUNC-OB
+điều	O
+chỉnh	O
+kích	O
+thước	O
+
+Vỏ	B-PN
+bọc	B-FUNC
+máy	B-FUNC-OB
+giặt	I-FUNC-OB
+chất	O
+liệu	O
+không	B-PROP
+thấm	I-PROP
+nước	I-PROP
+bền	B-PROP
+,	O
+đẹp	I-PROP
+
+Bộ	O
+bình	B-PN
+trà	I-PN
+và	O
+2	O
+tách	B-PN
+sứ	B-PROP
+hình	B-PROP
+chú	I-PROP
+hề	I-PROP
+
+Dầu	B-PN
+nhớt	I-PN
+xe	B-PROP
+số	I-PROP
++	O
+Dầu	B-PN
+trung	I-PN
+tu	I-PN
+tặng	O
+phiếu	B-PN-OB
+thay	I-PN-OB
+dầu	I-PN-OB
+
+Hộp	B-PN
+đựng	B-FUNC
+kem	B-FUNC-OB
+đánh	I-FUNC-OB
+răng	I-FUNC-OB
+Touch	B-BR
+Me	I-BR
+
+Tủ	B-PN
+vải	B-PROP
+đựng	B-FUNC
+đồ	B-FUNC-OB
+khung	B-PROP
+thép	I-PROP
+chịu	I-PROP
+lực	I-PROP
+
+Đèn	B-PN
+bắt	B-FUNC
+muỗi	B-FUNC-OB
+công	B-PROP
+nghệ	I-PROP
+LED	I-PROP
+
+3	O
+hộp	B-PN
+vải	B-PROP
+đựng	B-FUNC
+đồ	B-FUNC-OB
+lót	I-FUNC-OB
+cao	B-PROP
+cấp	I-PROP
+Living	B-BR
+Box	I-BR
+
+Máy	B-PN
+đánh	B-FUNC
+trứng	B-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+Philips	B-BR
+
+2	O
+móc	B-PN
+treo	B-FUNC
+đồ	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+chất	O
+liệu	O
+hợp	B-PROP
+kim	I-PROP
+bền	B-PROP
+chắc	I-PROP
+
+Bật	B-PN
+lửa	I-PN
+kiểu	B-PROP
+dáng	I-PROP
+iPhone	I-PROP
+6	I-PROP
+
+Vòi	B-PN
+rót	B-FUNC
+nước	B-FUNC-OB
+ngọt	I-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+nhà	O
+bếp	O
+SF400	O
+
+Túi	B-PN
+đựng	B-FUNC
+mỹ	B-FUNC-OB
+phẩm	I-FUNC-OB
+và	O
+đồ	B-FUNC-OB
+dùng	I-FUNC-OB
+cá	I-FUNC-OB
+nhân	I-FUNC-OB
+
+Bộ	O
+2	O
+thảm	B-PN
+lau	B-FUNC
+chân	B-FUNC-OB
+hoạt	B-PROP
+hình	I-PROP
+ngộ	I-PROP
+nghĩnh	I-PROP
+
+Combo	O
+dụng	B-PN
+cụ	I-PN
+cắt	B-FUNC
+táo	B-FUNC-OB
+,	O
+khoai	B-FUNC-OB
+tây	I-FUNC-OB
+
+2	O
+hộp	B-PN
+đựng	B-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
+hình	B-PROP
+thú	I-PROP
+
+5	O
+lưới	B-PN
+bọc	B-FUNC
+quạt	B-FUNC-OB
+máy	I-FUNC-OB
+an	B-PROP
+toàn	I-PROP
+
+Hộp	B-PN
+cơm	I-PN
+điện	B-PROP
+đa	B-PROP
+năng	I-PROP
+Swonsan	B-BR
+tặng	O
+bộ	O
+đũa	B-PN-OB
++	O
+thìa	B-PN-OB
+
+2	O
+Chảo	B-PN
+chống	B-FUNC
+dính	I-FUNC
+mini	B-PROP
+hình	B-PROP
+gấu	I-PROP
+
+Thớt	B-PN
+vuông	B-PROP
+Woodpro	B-BR
+-	O
+Chất	O
+liệu	O
+gỗ	B-PROP
+xà	I-PROP
+cừ	I-PROP
+bền	B-PROP
+,	O
+đẹp	B-PROP
+
+Hộp	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+trang	I-FUNC-OB
+điểm	I-FUNC-OB
+nhiều	B-PROP
+ngăn	I-PROP
+
+Giá	B-PN
+để	B-FUNC
+bàn	B-FUNC-OB
+chải	I-FUNC-OB
+đánh	I-FUNC-OB
+răng	I-FUNC-OB
+hoạt	B-PROP
+hình	I-PROP
+dễ	B-PROP
+thương	I-PROP
+
+10	O
+hộp	B-PN
+đựng	B-FUNC
+giầy	B-FUNC-OB
+trong	B-PROP
+suốt	I-PROP
+có	B-PROP
+quai	I-PROP
+xách	I-PROP
+
+15	O
+gói	O
+giấy	B-PN
+ướt	I-PN
+lô	B-PROP
+hội	I-PROP
+Miki	B-BR
+(20	O
+tờ	O
+/	O
+1	O
+gói)	O
+
+02	O
+Bộ	O
+đũa	B-PN
+ăn	B-FUNC
+,	O
+02	O
+đũa	B-PN
+xào	B-FUNC
+&	O
+01	O
+muỗng	B-PN
+cơm	I-PN
+Woodpro	B-BR
+
+2	O
+hộp	O
+Kem	B-PN
+đánh	I-PN
+răng	I-PN
+Hàn	B-BR
+Quốc	I-BR
+công	B-PROP
+nghệ	I-PROP
+Nano	I-PROP
+
+Dầu	B-PN
+nhớt	I-PN
+xe	B-PROP
+ga	B-PROP
++	O
+Dầu	B-PN
+trung	I-PN
+tu	I-PN
+tặng	O
+phiếu	B-PN-OB
+thay	I-PN-OB
+dầu	I-PN-OB
+
+5	O
+khăn	B-PN
+mặt	I-PN
+bông	B-PROP
+thể	B-PROP
+thao	I-PROP
+xuất	O
+Nhật	B-BR
+
+5	O
+móc	B-PN
+treo	B-FUNC
+quần	B-FUNC-OB
+áo	I-FUNC-OB
+xếp	B-PROP
+gọn	I-PROP
+
+Combo	O
+5	O
+dụng	B-PN
+cụ	I-PN
+lấy	B-FUNC
+ráy	B-FUNC-OB
+tai	I-FUNC-OB
+có	B-PROP
+đèn	I-PROP
+
+Ga	B-PN
+chống	B-PROP
+thấm	I-PROP
+bảo	B-FUNC
+vệ	I-FUNC
+nệm	B-FUNC-OB
+tùy	O
+chọn	O
+m6	O
+/	O
+m8	O
+đệm	O
+10cm	O
+
+Ga	B-PN
+chun	B-PROP
++	O
+1	O
+vỏ	B-PN
+gối	I-PN
+Family	O
+vải	B-PROP
+kaki	I-PROP
+Thắng	B-BR
+Lợi	I-BR
+
+Ga	B-PN
+chun	B-PROP
++	O
+2	O
+vỏ	B-PN
+gối	I-PN
+Family	O
+Thắng	B-BR
+Lợi	I-BR
+tùy	O
+chọn	O
+m6	O
+/	O
+m8	O
+
+Khóa	B-PN
+đồng	B-PROP
+cầu	B-PROP
+ngang	I-PROP
+chống	B-FUNC
+cắt	B-FUNC-OB
+trộm	I-FUNC-OB
+E9	O
+-	O
+80	O
+
+Nồi	B-PN
+cơm	I-PN
+điện	B-PROP
+tử	I-PROP
+cao	B-PROP
+cấp	I-PROP
+Eaststar	B-BR
+nhiều	B-PROP
+chức	I-PROP
+năng	I-PROP
+
+Combo	O
+3	O
+khẩu	B-PN
+trang	I-PN
+liền	B-PROP
+che	B-FUNC
+cổ	B-FUNC-OB
+Lady	O
+
+Combo	O
+02	O
+ruột	B-PN
+gối	I-PN
+ép	B-PROP
+chân	I-PROP
+không	I-PROP
+Hansik	B-BR
+kháng	B-PROP
+khuẩn	I-PROP
+
+Bàn	B-PN
+ủi	I-PN
+hơi	B-PROP
+nước	I-PROP
+cầm	B-PROP
+tay	I-PROP
+
+Miếng	B-PN
+dán	I-PN
+đuổi	B-FUNC
+muỗi	B-FUNC-OB
+
+1	O
+Cốc	B-PN
+sạc	B-PROP
+ô	B-FUNC-OB
+tô	I-FUNC-OB
++	O
+1	O
+Miếng	B-PN
+dán	I-PN
+trang	O
+trí	O
+hình	B-PROP
+rồng	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+bơm	B-FUNC
+đa	B-PROP
+năng	I-PROP
+
+2	O
+đèn	B-PN
+led	B-PROP
+đầu	B-PROP
+cắm	I-PROP
+USB	I-PROP
+siêu	B-PROP
+tiết	I-PROP
+kiệm	I-PROP
+điện	I-PROP
+
+Bộ	O
+muỗng	B-PN
+,	O
+sạn	B-PN
+gỗ	B-PROP
+Woodpro	B-BR
+tiện	B-PROP
+dụng	I-PROP
+
+Đai	B-PN
+massage	B-FUNC
+bụng	B-FUNC-OB
+X5	O
+-	O
+2	B-PROP
+động	I-PROP
+cơ	I-PROP
+
+02	O
+Dụng	B-PN
+cụ	I-PN
+ăn	B-FUNC
+trứng	B-FUNC-OB
+vịt	I-FUNC-OB
+lộn	I-FUNC-OB
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+6	O
+hôp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+-	O
+Đường	B-PROP
+gân	I-PROP
+tăng	I-PROP
+lực	I-PROP
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+Nhật	B-BR
+Bản	I-BR
+-	O
+Rắn	O
+hổ	O
+mang	O
+
+2	O
+hộp	O
+bao	B-PN
+cao	I-PN
+su	I-PN
+Sagami	B-BR
+-	O
+6	B-PROP
+lần	I-PROP
+lượn	I-PROP
+sóng	I-PROP
+(22	O
+cái)	O
+
+Giá	B-PN
+úp	B-FUNC
+bát	B-FUNC-OB
+,	O
+đĩa	B-FUNC-OB
+,	O
+cốc	B-FUNC-OB
+thông	B-PROP
+minh	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+tập	B-FUNC
+hít	I-FUNC
+đất	I-FUNC-OB
+cho	O
+cơ	O
+thể	O
+săn	O
+chắc	O
+
+Máy	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+trái	I-FUNC-OB
+cây	I-FUNC-OB
+Big	B-BR
+Boss	I-BR
+Swirlio	I-BR
+Frozen	I-BR
+
+Thùng	B-PN
+rác	I-PN
+2	B-PROP
+lớp	I-PROP
+Tashuan	B-BR
+hình	B-PROP
+quạt	I-PROP
+45	I-PROP
+độ	I-PROP
+
+Combo	O
+3	O
+vỏ	B-PN
+bọc	B-FUNC
+điều	B-FUNC-OB
+khiển	I-FUNC-OB
+hình	B-PROP
+nơ	I-PROP
+cute	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Tô	O
+điểm	O
+cho	O
+ngôi	O
+nhà	O
+với	O
+đồng	B-PN
+hồ	I-PN
+treo	I-PROP
+tường	I-PROP
+Kashi	B-BR
+
+Kệ	B-PN
+để	B-FUNC
+giày	B-FUNC-OB
+10	B-PROP
+tầng	I-PROP
+-	O
+Gọn	B-PROP
+gàng	I-PROP
+,	O
+chắc	B-PROP
+chắn	I-PROP
+
+Máy	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+trái	I-FUNC-OB
+cây	I-FUNC-OB
+Yonauas	B-BR
+
+Đồng	B-PN
+hồ	I-PN
+treo	B-PROP
+tường	I-PROP
+3D	I-PROP
+
+Khăn	B-PN
+tắm	I-PN
+Silk	B-PROP
+khổ	B-PROP
+lớn	I-PROP
+-	O
+100%	O
+cotton	B-PROP
+tự	I-PROP
+nhiên	I-PROP
+
+Máy	B-PN
+tập	B-FUNC
+cơ	B-FUNC-OB
+bụng	I-FUNC-OB
+tình	O
+yêu	O
+Roller	B-BR
+Slide	I-BR
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+làm	B-FUNC
+bánh	B-FUNC-OB
+quy	I-FUNC-OB
+25	B-PROP
+món	I-PROP
+
+Vòi	B-PN
+rửa	B-FUNC
+xe	B-FUNC-OB
+20m	O
+cực	B-PROP
+mạnh	I-PROP
+loại	O
+vòi	O
+đồng	B-PROP
+siêu	I-PROP
+bền	I-PROP
+
+Máy	B-PN
+khâu	I-PN
+mini	B-PROP
+dành	O
+cho	O
+gia	B-OB
+đình	I-OB
+
+02	O
+đèn	B-PN
+led	B-PROP
+cắm	B-PROP
+cổng	I-PROP
+USB	I-PROP
+-	O
+Nhỏ	B-PROP
+gọn	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+
+Combo	O
+3	O
+Giấy	B-PN
+dán	B-FUNC
+bếp	B-FUNC-OB
+cách	B-PROP
+nhiệt	I-PROP
+
+Kệ	B-PN
+để	B-FUNC
+giày	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+6	B-PROP
+ô	I-PROP
+Tashuan	B-BR
+
+2	O
+Túi	B-PN
+đựng	B-FUNC
+đồ	B-FUNC-OB
+trang	I-FUNC-OB
+điểm	I-FUNC-OB
+cá	O
+nhân	O
+
+Khóa	B-PN
+chữ	B-PROP
+U	I-PROP
+inox	B-PROP
+chống	B-FUNC
+trộm	B-FUNC-OB
+cho	O
+tất	O
+cả	O
+các	O
+loại	O
+xe	O
+
+Màn	B-PN
+che	B-FUNC
+cửa	B-FUNC-OB
+sổ	I-FUNC-OB
+45	O
+x	O
+36cm	O
+-	O
+hiện	B-PROP
+đại	I-PROP
+và	O
+tiện	B-PROP
+lợi	I-PROP
+
+Không	O
+lo	O
+muỗi	O
+đốt	O
+với	O
+đèn	B-PN
+bắt	B-FUNC
+muỗi	B-FUNC-OB
+hình	B-PROP
+nấm	I-PROP
+
+3	O
+móc	B-PN
+treo	B-FUNC
+đồ	B-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+chất	O
+liệu	O
+hợp	B-PROP
+kim	I-PROP
+bền	B-PROP
+chắc	I-PROP
+
+Khóa	B-PN
+cửa	I-PN
+Zyeti	B-BR
+an	B-PROP
+toàn	I-PROP
+cho	O
+mọi	O
+nhà	O
+
+Combo	O
+dao	B-PN
+gấp	B-PROP
+ATM	B-PROP
+và	O
+miếng	B-PN
+thép	B-PROP
+đa	B-PROP
+năng	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+sửa	B-FUNC
+chữa	I-FUNC
+gia	B-FUNC-OB
+đình	I-FUNC-OB
+24	B-PROP
+món	I-PROP
+
+Áo	B-PN
+mưa	I-PN
+cánh	B-PROP
+dơi	I-PROP
+1	B-PROP
+đầu	I-PROP
+siêu	B-PROP
+nhẹ	I-PROP
+
+Balo	B-PN
+du	B-PROP
+lịch	I-PROP
+chất	O
+liệu	O
+giả	B-PROP
+da	I-PROP
+
+3	O
+khẩu	B-PN
+trang	I-PN
+che	B-FUNC
+tai	B-FUNC-OB
+,	O
+cổ	B-FUNC-OB
+Lady	O
+chống	B-PROP
+nắng	I-PROP
+hiệu	I-PROP
+quả	I-PROP
+
+Vòi	B-PN
+xịt	B-FUNC
+vệ	B-FUNC-OB
+sinh	I-FUNC-OB
+Việt	B-BR
+Úc	I-BR
+-	O
+Hàng	O
+Việt	O
+cho	O
+người	O
+Việt	O
+
+Bộ	O
+khuôn	B-PN
+cắt	B-FUNC
+trái	B-FUNC-OB
+cây	I-FUNC-OB
+nhiều	O
+hình	O
+,	O
+siêu	B-PROP
+nhanh	I-PROP
+
+Kệ	B-PN
+để	B-FUNC
+đồ	B-FUNC-OB
+rửa	I-FUNC-OB
+bát	I-FUNC-OB
+đa	B-PROP
+năng	I-PROP
+cho	O
+nhà	B-OB
+bếp	I-OB
+thật	O
+gọn	B-PROP
+gàng	I-PROP
+
+Tủ	B-PN
+vải	B-PROP
+khung	B-PROP
+thép	I-PROP
+chịu	B-PROP
+lực	I-PROP
+
+1kg	O
+túi	B-PN
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Ringo	B-BR
+35cm	O
+x	O
+50cm	O
+
+Chảo	B-PN
+Unimax	B-BR
+chống	B-PROP
+dính	I-PROP
+phủ	B-PROP
+đá	I-PROP
+hoa	I-PROP
+cương	I-PROP
+
+Thiết	B-PN
+bị	I-PN
+làm	B-FUNC
+giá	B-FUNC-OB
+sạch	I-FUNC-OB
+tự	B-PROP
+động	I-PROP
+kèm	O
+0	O
+,	O
+7	O
+kg	O
+đỗ	B-PN-OB
+xanh	I-PN-OB
+
+Nồi	B-PN
+lẩu	I-PN
+nắp	B-PROP
+kính	I-PROP
+Vietcook	B-BR
+phi	B-PROP
+28cm	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+làm	B-FUNC
+và	O
+trang	B-FUNC
+trí	I-FUNC
+bánh	B-FUNC-OB
+100	B-PROP
+món	I-PROP
+
+Máy	B-PN
+nướng	B-FUNC-OB
+bánh	I-FUNC-OB
+hình	B-PROP
+thú	I-PROP
+Akira	B-BR
+tặng	O
+đồ	B-PN-OB
+làm	I-PN-OB
+bánh	I-PN-OB
+
+12	O
+hũ	B-PN
+thủy	B-PROP
+tinh	I-PROP
+làm	B-FUNC
+sữa	I-FUNC-OB
+chua	I-FUNC-OB
+
+2	O
+dụng	B-PN
+cụ	I-PN
+treo	B-FUNC-OB
+giấy	I-FUNC-OB
+vệ	I-FUNC-OB
+sinh	I-FUNC-OB
+cực	B-PROP
+kool	I-PROP
+
+4	O
+hộp	B-PN
+thực	I-PN
+phẩm	I-PN
+cao	B-PROP
+cấp	I-PROP
+Song	B-BR
+Long	I-BR
+bảo	B-FUNC
+quản	I-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+luôn	O
+sạch	B-PROP
+sẽ	I-PROP
+với	O
+giá	O
+90.000đ	O
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+Homesun	B-BR
+HS	O
+-	O
+639	O
+
+Nồi	B-PN
+đa	B-PROP
+năng	I-PROP
+3	B-PROP
+lớp	I-PROP
+đáy	I-PROP
+cao	B-PROP
+cấp	I-PROP
+hiệu	O
+Five	B-BR
+Star	I-BR
+
+Quánh	B-PN
+inox	B-PROP
+Vietcook	B-BR
+đường	B-PROP
+kính	I-PROP
+16cm	I-PROP
+
+10	O
+khăn	B-PN
+lau	B-FUNC
+đa	B-PROP
+năng	I-PROP
+và	O
+1	O
+khăn	B-PN
+lau	I-PN
+tay	I-PN
+nhà	B-PROP
+bếp	I-PROP
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+Fujika	B-BR
+1	O
+,	O
+8L	O
+chính	B-PROP
+hãng	I-PROP
+-	O
+BH	O
+12	O
+tháng	O
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+vân	B-PROP
+gỗ	I-PROP
+Nasoko	B-BR
+1	O
+,	O
+8L	O
+-	O
+Hàng	O
+Việt	B-BR
+Nam	I-BR
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+Kipor	B-BR
+3	B-PROP
+cối	I-PROP
+đa	B-PROP
+chức	I-PROP
+năng	I-PROP
+
+Ống	B-PN
+bơm	B-FUNC
+kem	B-FUNC-OB
+trang	B-FUNC
+trí	I-FUNC
+làm	B-FUNC
+bánh	I-FUNC-OB
+quy	I-FUNC-OB
+
+Rổ	B-PN
+úp	B-FUNC
+bát	B-FUNC-OB
+đĩa	I-FUNC-OB
+có	B-PROP
+khay	I-PROP
+hứng	I-PROP
+nước	I-PROP
+
+3	O
+Giấy	B-PN
+dán	B-PROP
+bếp	I-PROP
+cách	B-PROP
+nhiệt	I-PROP
+
+Combo	O
+2	O
+bộ	O
+dĩa	B-PN
+xiên	B-FUNC
+hoa	I-FUNC-OB
+quả	I-FUNC-OB
+sinh	B-PROP
+động	I-PROP
+,	O
+đẹp	B-PROP
+mắt	I-PROP
+
+Thùng	B-PN
+đựng	B-FUNC
+gạo	B-FUNC-OB
+Song	B-BR
+Long	I-BR
+có	B-PROP
+bánh	I-PROP
+xe	I-PROP
+
+Bộ	O
+5	O
+món	O
+đồ	B-PN
+dùng	I-PN
+nhà	I-PN
+bếp	I-PN
+bằng	O
+gỗ	B-PROP
+tự	I-PROP
+nhiên	I-PROP
+
+Hộp	B-PN
+Cơm	I-PN
+Giữ	B-FUNC
+Nhiệt	I-FUNC
+3	B-PROP
+Tầng	I-PROP
+Mẫu	B-PROP
+Mới	I-PROP
+
+6	O
+hộp	O
+Màng	B-PN
+bọc	B-FUNC
+Eufood	B-BR
+ST	O
+50	O
+
+Máy	B-PN
+ép	B-FUNC
+trái	B-FUNC-OB
+cây	I-FUNC-OB
+Misuko	B-BR
+250A	O
+
+2	O
+khăn	B-PN
+lau	B-FUNC
+bếp	B-FUNC-OB
+sợi	B-PROP
+bông	I-PROP
+
+2	O
+móc	B-PN
+xách	B-FUNC
+đồ	B-FUNC-OB
+đi	I-FUNC-OB
+chợ	I-FUNC-OB
+
+Máy	B-PN
+xay	B-FUNC
+sinh	B-FUNC-OB
+tố	I-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+3	B-PROP
+trong	I-PROP
+1	I-PROP
+Sokany	B-BR
+
+Xửng	B-PN
+hấp	B-FUNC
+loại	B-PROP
+lớn	I-PROP
+
+2	O
+chảo	B-PN
+hoạt	B-PROP
+hình	I-PROP
+dễ	B-PROP
+thương	I-PROP
+
+2	O
+bát	B-PN
+nhựa	B-PROP
+sắc	B-PROP
+màu	I-PROP
+nhập	O
+khẩu	O
+từ	O
+Nhật	B-BR
+
+Bộ	O
+3	O
+nồi	B-PN
+inox	B-PROP
+Smartcook	B-BR
+
+Chảo	B-PN
+vuông	B-PROP
+phủ	B-PROP
+sứ	I-PROP
+chống	B-PROP
+dính	I-PROP
+Smartcook	B-BR
+14cm	O
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+làm	B-FUNC
+bếp	B-FUNC-OB
+6	B-PROP
+món	I-PROP
+Tashuan	B-BR
+
+Nồi	B-PN
+bột	I-PN
+Elmich	B-BR
+chống	B-PROP
+dính	I-PROP
+cao	B-PROP
+cấp	I-PROP
+đáy	B-PROP
+từ	I-PROP
+16cm	I-PROP
+
+Bộ	O
+dao	B-PN
+và	O
+thớt	B-PN
+Tiross	B-BR
+kháng	B-PROP
+khuẩn	I-PROP
+7	B-PROP
+món	I-PROP
+TS1281	O
+
+Bộ	O
+chày	B-PN
+cối	I-PN
+inox	B-PROP
+Vietcook	B-BR
+cao	B-PROP
+cấp	I-PROP
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+ép	B-FUNC
+cơm	B-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+hình	B-PROP
+gấu	I-PROP
+,	O
+thỏ	B-PROP
+,	O
+mèo	B-PROP
+
+Máy	B-PN
+xay	B-FUNC
+sữa	B-FUNC-OB
+đậu	I-FUNC-OB
+nành	I-FUNC-OB
+Homepro	B-BR
+HP	O
+338A	O
+
+Màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Đồng	B-BR
+Tâm	I-BR
+30cm	O
+x	O
+250m	O
+
+Máy	B-PN
+xay	B-FUNC
+thịt	B-FUNC-OB
+Misushita	B-BR
+gọn	B-PROP
+nhẹ	I-PROP
+bền	B-PROP
+đẹp	I-PROP
+
+Vòi	B-PN
+rửa	B-FUNC
+bát	B-FUNC-OB
+Selta	B-BR
+dây	B-PROP
+mềm	I-PROP
+inox	B-PROP
+cắm	B-FUNC
+chậu	I-FUNC
+hoặc	O
+tường	B-FUNC
+
+Cốc	B-PN
+ăn	B-FUNC
+mỳ	B-FUNC-OB
+xinh	B-PROP
+xắn	I-PROP
+có	O
+nắp	B-PROP
+hút	I-PROP
+chân	I-PROP
+không	I-PROP
+
+2	O
+bộ	O
+khuôn	B-PN
+tự	B-FUNC
+làm	I-FUNC
+kem	B-FUNC-OB
+8	B-PROP
+cây	I-PROP
+-	O
+Đơn	B-PROP
+giản	I-PROP
+,	O
+dễ	B-PROP
+làm	I-PROP
+
+Giá	B-PN
+úp	B-FUNC
+chén	B-FUNC-OB
+đũa	B-FUNC-OB
+muỗng	B-FUNC-OB
+kèm	O
+khay	B-PN-OB
+Tashing	B-BR
+
+Bếp	B-PN
+từ	B-PROP
+Kipor	B-BR
+tiết	B-PROP
+kiệm	I-PROP
+điện	I-PROP
+tặng	O
+nồi	B-PN-OB
+lẩu	I-PN-OB
+vung	B-PROP
+kính	I-PROP
+
+Giải	B-PROP
+nhiệt	I-PROP
+ngày	O
+nóng	O
+với	O
+cốc	B-PN
+làm	B-FUNC
+kem	B-FUNC-OB
+tuyết	I-FUNC-OB
+ZOKU	B-BR
+
+Máy	B-PN
+xay	B-FUNC
+cầm	B-PROP
+tay	I-PROP
+Magic	B-BR
+kèm	O
+cốc	B-PN-OB
+
+Máy	B-PN
+xay	B-FUNC
+đa	B-PROP
+năng	I-PROP
+Krobell	B-BR
+
+Màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+An	B-BR
+Lành	I-BR
+loại	B-PROP
+400m	I-PROP
+
+Chảo	B-PN
+từ	B-PROP
+chống	B-PROP
+dính	I-PROP
+Elmich	B-BR
+28cm	O
+vung	B-PROP
+kính	I-PROP
+sâu	B-PROP
+lòng	I-PROP
+
+Nồi	B-PN
+canh	I-PN
+chống	B-PROP
+dính	I-PROP
+sắc	B-PROP
+màu	I-PROP
+Supor	B-BR
+16cm	O
+
+Nồi	B-PN
+eCOOK	B-BR
+DECO	I-BR
+Lock	B-BR
+&	I-BR
+Lock	I-BR
+bằng	O
+nhôm	B-PROP
+cao	B-PROP
+cấp	I-PROP
+24cm	O
+
+Thau	B-PN
+inox	B-PROP
+Vietcook	B-BR
+28cm	B-PROP
+sáng	B-PROP
+bóng	I-PROP
+
+Cà	B-PN
+phê	I-PN
+sạch	B-PROP
+Arabica	B-BR
+PiHatt	B-BR
+dạng	B-PROP
+bột	I-PROP
+cao	B-PROP
+cấp	I-PROP
+P	O
+
+Rổ	B-PN
+inox	B-PROP
+32cm	O
+bền	B-PROP
+đẹp	I-PROP
+
+Cân	B-PN
+điện	B-PROP
+tử	I-PROP
+cầm	B-PROP
+tay	I-PROP
+
+2	O
+hộp	O
+túi	B-PN
+đựng	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+tự	B-PROP
+hủy	I-PROP
+sinh	B-PROP
+học	I-PROP
+
+Kệ	B-PN
+để	B-FUNC
+đồ	B-FUNC-OB
+3	B-PROP
+tầng	I-PROP
+có	O
+bánh	B-PROP
+xe	I-PROP
+-	O
+Tiết	B-PROP
+kiệm	I-PROP
+không	I-PROP
+gian	I-PROP
+
+2	O
+Chảo	B-PN
+chiên	B-FUNC
+trứng	B-FUNC-OB
+ngộ	B-STYLE
+nghĩnh	I-STYLE
+
+Máy	B-PN
+đánh	B-FUNC
+trứng	B-FUNC-OB
+cầm	B-PROP
+tay	I-PROP
+Philips	B-BR
+
+2	O
+chảo	B-PN
+rán	B-FUNC
+hình	B-PROP
+gấu	I-PROP
+dễ	B-PROP
+thương	I-PROP
+
+Bếp	B-PN
+cồn	B-PROP
+tráng	B-PROP
+men	I-PROP
+nhỏ	B-PROP
+gọn	I-PROP
+,	O
+dễ	B-PROP
+mang	I-PROP
+theo	I-PROP
+
+Nồi	B-PN
+inox	B-PROP
+1	B-PROP
+đáy	I-PROP
+phi	B-PROP
+28	I-PROP
+Vietcook	B-BR
+dùng	O
+được	O
+bếp	B-PN-OB
+từ	I-PN-OB
+
+Máy	B-PN
+xay	B-FUNC
+thịt	B-FUNC-OB
+Panasonic	B-BR
+cối	B-PROP
+thủy	I-PROP
+tinh	I-PROP
+
+2	O
+hộp	B-PN
+thủy	B-PROP
+tinh	I-PROP
+hình	B-PROP
+chữ	I-PROP
+nhật	I-PROP
+Glasslock	B-BR
+Hàn	B-BR
+Quốc	I-BR
+
+Nồi	B-PN
+ủ	B-FUNC
+chân	B-PROP
+không	I-PROP
+MAGIC	B-BR
+HOME	I-BR
+
+2	O
+tay	B-PN
+cầm	I-PN
+tủ	I-PN
+lạnh	I-PN
++	O
+1	O
+tấm	B-PN
+phủ	B-FUNC
+tủ	B-FUNC-OB
+lạnh	I-FUNC-OB
+
+Chảo	B-PN
+sâu	B-PROP
+lòng	I-PROP
+chống	B-PROP
+dính	I-PROP
+siêu	B-PROP
+bền	I-PROP
+Unimax	B-BR
+
+Trổ	O
+tài	O
+khéo	O
+léo	O
+với	O
+Khuôn	B-PN
+cuộn	B-FUNC
+sushi	B-FUNC-OB
+
+Máy	B-PN
+luộc	B-FUNC
+trứng	B-FUNC-OB
+Tiross	B-BR
+
+Bộ	O
+chày	B-PN
+cối	I-PN
+inox	B-PROP
+Vietcook	B-BR
+sáng	B-PROP
+đẹp	B-PROP
+
+Bếp	B-PN
+điện	B-PROP
+quang	I-PROP
+đa	B-PROP
+chức	I-PROP
+năng	I-PROP
+-	O
+Tặng	O
+kèm	O
+1	O
+vỉ	B-PN-OB
+nướng	I-PN-OB
+
+2	O
+hộp	O
+màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I-FUNC-OB
+Las	B-BR
+Palms	I-BR
+150m	O
+x	O
+30cm	O
+
+Bộ	O
+dao	B-PN
+5	B-PROP
+dụng	I-PROP
+cụ	I-PROP
+kháng	B-PROP
+khuẩn	I-PROP
+Everrich	B-BR
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+Kipor	B-BR
+1.8L	B-PROP
+-	O
+Siêu	B-PROP
+nhanh	I-PROP
+siêu	B-PROP
+tiết	I-PROP
+kiệm	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+vắt	B-FUNC
+cam	B-FUNC-OB
+và	O
+4	O
+khay	B-PN
+đá	I-PN
+chữ	I-PN
+xinh	B-PROP
+xắn	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+vắt	B-FUNC
+cam	B-FUNC-OB
+và	O
+khuôn	B-PN
+xôi	I-PN
+Song	B-BR
+Long	I-BR
+
+Màng	B-PN
+bọc	B-FUNC
+thực	B-FUNC-OB
+phẩm	I--FUNC-OB
+Las	B-BR
+Palms	I-BR
+600	O
+
+Bộ	O
+3	O
+nồi	B-PN
+Inox	B-PROP
+3	B-PROP
+đáy	I-PROP
+Vietcook	B-BR
+dùng	O
+cho	O
+mọi	O
+loại	O
+bếp	O
+
+Phích	B-PN
+giữ	B-FUNC
+nhiệt	I-FUNC
+ELMICH	B-BR
+-	O
+Giữ	B-FUNC
+nóng	I-FUNC
+8	B-PROP
+tiếng	I-PROP
+
+Bình	B-PN
+đựng	B-FUNC
+thức	B-FUNC-OB
+ăn	I-FUNC-OB
+hút	B-PROP
+chân	I-PROP
+không	I-PROP
+ELMICH	B-BR
+
+Máy	B-PN
+xay	B-FUNC
+đa	B-PROP
+năng	I-PROP
+Nhật	B-BR
+Bản	I-BR
+RÉCOLTE	B-BR
+
+12	O
+chiếc	O
+kẹp	B-PN
+miệng	I-PN
+túi	I-PN
+
+2	O
+Dụng	B-PN
+cụ	I-PN
+lọc	B-FUNC
+nước	B-FUNC-OB
+tại	B-PROP
+vòi	I-PROP
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+Holtashi	B-BR
+1	O
+,	O
+8	O
+lít	O
+
+Ấm	B-PN
+siêu	B-PROP
+tốc	I-PROP
+Panasonic	B-BR
+2	B-PROP
+lớp	I-PROP
+2	O
+,	O
+2L	O
+
+Chảo	B-PN
+chống	B-PROP
+dính	I-PROP
+Smartcook	B-BR
+20cm	O
+-	O
+ST20	O
+
+Phích	B-PN
+giữ	B-FUNC
+nhiệt	I-FUNC
+Elmich	B-BR
+500ml	B-PROP
+EL6491	O
+
+Kéo	B-PN
+cắt	B-FUNC
+gà	B-FUNC-OB
+loại	B-PROP
+nhỏ	I-PROP
+
+Bộ	O
+máy	B-PN
+tạo	B-FUNC
+bọt	B-FUNC-OB
+cafe	I-FUNC-OB
+mini	B-PROP
+và	O
+dao	B-PN
+nạo	B-FUNC
+dưa	B-FUNC-OB
+
+Máy	B-PN
+làm	B-FUNC
+sữa	B-FUNC-OB
+chua	I-FUNC-OB
+Misushita	B-BR
+6	O
+cốc	B-PN
+nhựa	B-PROP
+
+2	O
+Tay	B-PN
+nắm	I-PN
+tủ	I-PN
+lạnh	I-PN
+hình	B-PROP
+thú	I-PROP
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+Dụng	B-PN
+cụ	I-PN
+gọt	B-FUNC
+,	O
+lấy	B-FUNC
+lõi	B-FUNC-OB
+dứa	I-FUNC-OB
+siêu	B-PROP
+nhanh	I-PROP
+,	O
+siêu	B-PROP
+đẹp	I-PROP
+
+Combo   O
+3   O
+bầu B-PN
+đất I-PN
+&   O
+150 O
+hạt B-PN
+giống   I-PN
+cà  B-PROP
+chua    I-PROP
+bi  I-PROP
