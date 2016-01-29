@@ -20,14 +20,49 @@ public class NERProcess {
     public static void main(String[] args) throws Exception {
         GlobalResourceInit.initModelMap();
         NERProcess nerProcess = new NERProcess();
-//        nerProcess.fileTokenize("data/dientucongnghe/test.raw", 9);
+//        nerProcess.fileTokenize("data/dientucongnghe/test.output", 9);
         nerProcess.fileTokenizeLabel("data/dientucongnghe/test.raw", 9);
-//        nerProcess.tokenize("Dụng cụ xoay eo nâng cao sức khỏe", 9);
+//        nerProcess.tokenize("Ổ cắm điện đa năng Nakagami 4 lỗ", 9);
+
+//        nerProcess.parseTitle("Ổ/B-PN cắm/I-PN điện/I-PN đa/B-PROP năng/I-PROP Nakagami/B-BR 4/B-PROP lỗ/I-PROP");
     }
 
     public NERProcess() {}
 
     private static Logger logger = LoggerFactory.getLogger(NERProcess.class);
+
+    public String parseTitle(String title) {
+        String[] arrayValue = title.split("\\s+");
+        String tmp = "";
+        String label = "";
+        StringBuilder result = new StringBuilder();
+        for (String tk : arrayValue) {
+            if (tk.contains("/B-")) {
+                if (!tmp.equals("")) {
+                    result.append(tmp + "/" + label + " ");
+                    tmp = "";
+                    label = "";
+                }
+                tmp = tk.split("/")[0];
+                label = tk.split("/")[1];
+            }else if (tk.contains("/I-") && !tmp.equals("")) {
+                tmp += "_" + tk.split("/")[0];
+            }else if (tk.contains("/O")) {
+                if (!tmp.equals("")) {
+                    result.append(tmp + "/" + label + " ");
+                    tmp = "";
+                    label = "";
+                }
+                result.append(tk + " ");
+            }
+        }
+        if (!tmp.equals("")) {
+            result.append(tmp + "/" + label + " ");
+        }
+
+//        System.out.println(result.toString());
+        return result.toString();
+    }
 
     public void fileTokenizeLabel(String path, int catId) {
         Map<String, String> result = new HashMap<>();
@@ -67,6 +102,8 @@ public class NERProcess {
                 for (String line : lstData) {
                     String title = StringNormalize.normalize(line);
                     String label = classifier.classifyToString(title);
+//                    String parseTitle = parseTitle(label);
+//                    String[] arrayLabel = parseTitle.split("\\s+");
                     String[] arrayLabel = label.split("\\s+");
                     for (String s : arrayLabel) {
                         String lb = "";

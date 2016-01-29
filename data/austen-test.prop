@@ -22,7 +22,7 @@ useClassFeature=true
 useWord=true
 useWordPairs=true
 useNGrams=true
-#usePosition
+
 #no ngrams will be included that do not contain either the
 #beginning or end of the word
 noMidNGrams=true
@@ -31,15 +31,19 @@ disjunctionWidth=5
 maxNGramLeng=6
 use2W=true
 useLC=true
-#usePrev=true
+usePrev=true
 #useNext=true
 useSymWordPairs=true
-#useSequences=true
-#usePrevSequences=true
+useSequences=true
+usePrevSequences=true
 maxLeft=1
+#usePosition=true
+#useLowerCase=true
+
 #the next 4 deal with word shape features
 #useTypeSeqs=true
 #useTypeSeqs2=true
+#useTypeSeqs3=true
 #useTypeySequences=true
 #wordShape=chris2useLC
 useOccurrencePatterns=true
@@ -59,7 +63,6 @@ readerAndWriter=edu.stanford.nlp.sequences.ColumnDocumentReaderAndWriter
 #prevWords=data/pn.prev.txt
 #nextWords=data/pn.next.txt
 
-#useLowerCase=true
 #useTags=true
 #cleanGazette=true
 #sloppyGazette=true

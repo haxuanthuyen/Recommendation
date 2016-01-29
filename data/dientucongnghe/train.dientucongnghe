@@ -1513,8 +1513,8 @@ mic	B-PN-OB
 Gậy	B-PN
 chụp	B-FUNC
 hình	I-FUNC
-tự	B-PROP
-sướng	I-PROP
+tự	B-FUNC
+sướng	I-FUNC
 Z07	O
 -	O
 7	O
