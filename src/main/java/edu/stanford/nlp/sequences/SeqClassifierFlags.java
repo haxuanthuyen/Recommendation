@@ -147,12 +147,14 @@ public class SeqClassifierFlags implements Serializable {
     public boolean useTags = false;
     public boolean useWordPairs = false;
     public boolean useGazettes = false;
-    //vietnb feature
+
+    //add feature
     public boolean usePrevWords = false;
     public boolean useNextWords = false;
     public boolean usePrevNumberPattern = false;
     public boolean useNextNumberPattern = false;
     //end
+
     public boolean useSequences = true;
     public boolean usePrevSequences = false;
     public boolean useNextSequences = false;
@@ -446,8 +448,12 @@ public class SeqClassifierFlags implements Serializable {
     public transient int interimOutputFreq = 0;
     public transient String initialWeights = null;
     public transient List<String> gazettes = new ArrayList<String>();
+
+    //customize add feature
     public transient List<String> prevWords = new ArrayList<String>();
     public transient List<String> nextWords = new ArrayList<String>();
+    //end customize
+
     public transient String selfTrainFile = null;
 
     public String inputEncoding = "UTF-8"; // used for CTBSegDocumentReader as well
@@ -1624,7 +1630,7 @@ public class SeqClassifierFlags implements Serializable {
                 StringTokenizer st = new StringTokenizer(val, " ,;\t");
                 if (prevWords == null) {
                     prevWords = new ArrayList<String>();
-                } // for after deserialization, as gazettes is transient
+                }
                 while (st.hasMoreTokens()) {
                     prevWords.add(st.nextToken());
                 }

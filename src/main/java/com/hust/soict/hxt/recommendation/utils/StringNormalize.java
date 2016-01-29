@@ -20,8 +20,12 @@ public class StringNormalize {
         output = output.replace("/", " / ");
         output = output.replace("\\", " \\ ");
         output = output.replace("&", " & ");
-        output = output.replace("\"", " \" ");
-        output = output.replace("\'", " \' ");
+        output = output.replace("\"", " ");
+        output = output.replace("\'", " ");
+        output = output.replace("`", " ");
+        output = output.replace("``", " ");
+        output = output.replace("“", " ");
+        output = output.replace("”", " ");
         output = output.replace("  ", " ");
         output = output.replace("  ", " ");
 

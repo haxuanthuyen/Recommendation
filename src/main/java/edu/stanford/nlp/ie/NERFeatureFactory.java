@@ -374,8 +374,11 @@ public class NERFeatureFactory<IN extends CoreLabel> extends FeatureFactory<IN> 
     public void init(SeqClassifierFlags flags) {
         super.init(flags);
         initGazette();
+        //customize add feaute
         initPrevWordDict();
         initNextWordDict();
+        //end
+
         if (flags.useDistSim) {
             initLexicon(flags);
         }
@@ -1310,50 +1313,42 @@ public class NERFeatureFactory<IN extends CoreLabel> extends FeatureFactory<IN> 
                 }
             }
 
-            // vietnb
-//            if (flags.usePrevNumberPattern) {
-//                String pattern = "\\d+";
-//                if(pWord.matches(pattern)) {
-//                    featuresC.add(cWord + "-PNUM");
-//                } else {
-//                    featuresC.add("-PNUM");
-//                }
-//            }
-//            if (flags.useNextNumberPattern) {
-//                String pattern = "\\d+";
-//                if(nWord.matches(pattern)) {
-//                    featuresC.add(cWord + "-NNUM");
-//                } else {
-//                    featuresC.add("-NNUM");
-//                }
-//            }
+            //customize add feature
+            if (flags.usePrevNumberPattern) {
+                String pattern = "\\d+";
+                if(pWord.matches(pattern)) {
+                    featuresC.add(cWord + "-PNUM");
+                } else {
+                    featuresC.add("-PNUM");
+                }
+            }
+            if (flags.useNextNumberPattern) {
+                String pattern = "\\d+";
+                if(nWord.matches(pattern)) {
+                    featuresC.add(cWord + "-NNUM");
+                } else {
+                    featuresC.add("-NNUM");
+                }
+            }
             if (flags.usePrevWords) {
                 String prevPhrase = p2Word + " " + pWord;
                 boolean cond = this.prevWordInfos.contains(prevPhrase) ||
                         this.prevWordInfos.contains(pWord) ||
                         pWord.matches("\\d+");
                 if(cond) {
-//                    featuresC.add(cWord + "-PWORD-DICT");
-                    featuresC.add("IS_PN");
+                    featuresC.add(cWord + "-IS-PN");
                 }
-//                } else {
-//                    featuresC.add("-PWORD-DICT");
-//                }
             }
             if (flags.useNextWords) {
                 String nextPhrase = nWord + " " + n2Word;
                 boolean cond = this.nextWordInfos.contains(nextPhrase) ||
                         this.nextWordInfos.contains(nWord);
-//                        nWord.matches("\\d+");
                 if(cond) {
-//                    featuresC.add(cWord + "-NWORD-DICT");
-                    featuresC.add("IS_PN");
+                    featuresC.add(cWord + "-IS-PN");
                 }
-//                } else {
-//                    featuresC.add("-NWORD-DICT");
-//                }
             }
-            // end
+            //end customize
+
             if (flags.useGazettes) {
                 if (flags.sloppyGazette) {
                     Collection<String> entries = wordToGazetteEntries.get(cWord);
@@ -2359,14 +2354,15 @@ public class NERFeatureFactory<IN extends CoreLabel> extends FeatureFactory<IN> 
         }
     }
 
+    //customize add feature
     public void initPrevWordDict() {
         try {
-            // read in gazettes
+            // read in preWordDict
             if (flags.prevWords == null) {
                 flags.prevWords = new ArrayList<String>();
             }
-            List<String> gazettes = flags.prevWords;
-            for (String prevWordFile : gazettes) {
+            List<String> preWords = flags.prevWords;
+            for (String prevWordFile : preWords) {
                 BufferedReader r = IOUtils.readerFromString(prevWordFile, flags.inputEncoding);
                 readPrevWord(r);
                 r.close();
@@ -2384,12 +2380,12 @@ public class NERFeatureFactory<IN extends CoreLabel> extends FeatureFactory<IN> 
 
     public void initNextWordDict() {
         try {
-            // read in gazettes
+            // read in nextWordDict
             if (flags.nextWords == null) {
                 flags.nextWords = new ArrayList<String>();
             }
-            List<String> gazettes = flags.nextWords;
-            for (String prevWordFile : gazettes) {
+            List<String> nextWords = flags.nextWords;
+            for (String prevWordFile : nextWords) {
                 BufferedReader r = IOUtils.readerFromString(prevWordFile, flags.inputEncoding);
                 readNextWord(r);
                 r.close();
@@ -2404,5 +2400,6 @@ public class NERFeatureFactory<IN extends CoreLabel> extends FeatureFactory<IN> 
             this.nextWordInfos.add(line);
         }
     }
+    //end customize
 
 } // end class NERFeatureFactory

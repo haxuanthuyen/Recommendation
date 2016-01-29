@@ -30,4 +30,21 @@ public class FileIO {
 
         return result;
     }
+
+    public static void writeFile(String path, String text) {
+
+        try{
+            FileOutputStream fos = new FileOutputStream(path);
+            OutputStreamWriter os = new OutputStreamWriter(fos,"utf-8");
+            BufferedWriter bw = new BufferedWriter(os);
+            bw.write(text);
+
+            bw.flush();
+            bw.close();
+            os.close();
+            fos.close();
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
