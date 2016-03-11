@@ -21,7 +21,7 @@ public class NERProcess {
         GlobalResourceInit.initModelMap();
         NERProcess nerProcess = new NERProcess();
 //        nerProcess.fileTokenize("data/dientucongnghe/test.output", 9);
-        nerProcess.fileTokenizeLabel("data/dientucongnghe/test.raw", 9);
+        nerProcess.fileTokenizeLabel("data/thoitrangnu/test.raw", 2);
 //        nerProcess.tokenize("Ổ cắm điện đa năng Nakagami 4 lỗ", 9);
 
 //        nerProcess.parseTitle("Ổ/B-PN cắm/I-PN điện/I-PN đa/B-PROP năng/I-PROP Nakagami/B-BR 4/B-PROP lỗ/I-PROP");
@@ -66,6 +66,7 @@ public class NERProcess {
 
     public void fileTokenizeLabel(String path, int catId) {
         Map<String, String> result = new HashMap<>();
+        StringBuilder rs = new StringBuilder();
         try {
             AbstractSequenceClassifier<CoreLabel> classifier = GlobalObject.modelMap.get(catId);
             if (classifier != null) {
@@ -74,7 +75,7 @@ public class NERProcess {
 //                String label = classifier.classifyToString(line);
 //                System.out.println(label);
                     String title = StringNormalize.normalize(line);
-                    TreeMap<String, String> datas = tokenize(title, 9);
+                    TreeMap<String, String> datas = tokenize(title, catId);
                     for (Map.Entry entry : datas.entrySet()) {
                         String key = entry.getKey().toString().split("_")[1];
                         String value = entry.getValue().toString();
@@ -84,13 +85,17 @@ public class NERProcess {
                             String v = result.get(key);
                             result.put(key, v + "," + value);
                         }
+
+                        rs.append(value + " ");
                     }
+                    rs.append("\n");
                 }
             }
         }catch (Exception e) {
             e.printStackTrace();
         }
         System.out.println(result.size());
+        System.out.println(rs.toString());
     }
 
     public void fileTokenize(String path, int catId) {
