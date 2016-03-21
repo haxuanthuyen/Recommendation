@@ -21,7 +21,7 @@ public class BuildModel {
 
     public static void main(String[] args) throws IOException {
         BuildModel buildModel = new BuildModel();
-        buildModel.train();
+//        buildModel.train();
         buildModel.testModel();
     }
 

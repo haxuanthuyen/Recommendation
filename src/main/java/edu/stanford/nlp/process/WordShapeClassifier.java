@@ -203,6 +203,9 @@ public class WordShapeClassifier {
     boolean upper = true;
     boolean lower = true;
     boolean mixed = true;
+
+//    String str2 = s.toLowerCase(new Locale("vi"));
+
     for (int i = 0; i < s.length(); i++) {
       char c = s.charAt(i);
       if (!Character.isDigit(c)) {

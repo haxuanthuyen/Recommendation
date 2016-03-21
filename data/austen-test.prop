@@ -1,13 +1,13 @@
 #location of the training file
 
-trainFile=data/giadungnoithat/train2.giadungnoithat
+trainFile=data/dientucongnghe/train.dientucongnghe
 
 #location where you would like to save (serialize to) your
 #classifier; adding .gz at the end automatically gzips the file,
 #making it faster and smaller
 
-serializeTo=data/giadungnoithat/model.giadungnoithat.gz
-testFile=data/giadungnoithat/test2.giadungnoithat
+serializeTo=data/dientucongnghe/model.dientucongnghe.gz
+testFile=data/dientucongnghe/test.dientucongnghe
 
 #structure of your training file; this tells the classifier
 #that the word is in column 0 and the correct answer is in
@@ -16,20 +16,44 @@ testFile=data/giadungnoithat/test2.giadungnoithat
 #map = word=0,tag=1,answer=2
 map = word=0,answer=1
 
+# optimal memory
+QNsize=25
+featureDiffThresh=0.05
+
 #these are the features we'd like to train with
 #some are discussed below, the rest can be
 #understood by looking at NERFeatureFactory
+maxLeft=1
 
+#(sub group)
 useNGrams=true
-maxNGramLeng=6
+maxNGramLeng=5
 noMidNGrams=true
-#useNeighborNGrams=true
+useNeighborNGrams=true
 #conjoinShapeNGrams=true
 #lowercaseNGrams=true
+
+#the next 4 deal with word shape features
+
+#(sub group)
+#wordShape=chris4
+#useTypeSeqs=true
+#useTypeSeqs2=true
+##useTypeSeqs3=true
+##useTypeySequences=true
 
 #no ngrams will be included that do not contain either the
 #beginning or end of the word
 
+#(sub group)
+usePrev=true
+useSequences=true
+usePrevSequences=true
+
+#(sub group)
+#useNext=true
+#useSequences=true
+#useNextSequences=true
 
 #(sub group)
 useDisjunctive=true
@@ -40,51 +64,14 @@ disjunctionWidth=5
 #useDisjunctiveShapeInteraction=true
 
 #(sub group)
-usePrev=true
 useSymWordPairs=true
-useSequences=true
-usePrevSequences=true
-
 useWordPairs=true
 use2W=true
 useLC=true
-maxLeft=1
 
+#(sub group)
+#useOccurrencePatterns=true
 #useClassFeature=true
-#useWord=true
-#useNext=true
 #usePosition=true
-#useLowerCase=true
-#useTags=true
 
-#the next 4 deal with word shape features
 
-#(sub group)
-wordShape=chris4
-useTypeSeqs=true
-useTypeSeqs2=true
-#useTypeSeqs3=true
-#useTypeySequences=true
-
-useOccurrencePatterns=true
-useLongSequences=true
-#useLastRealWord=true
-#useNextRealWord=true
-#useObservedSequencesOnly=true
-
-# optimal memory
-QNsize=25
-featureDiffThresh=0.05
-
-#customize add feature
-
-#(sub group)
-#usePrevNumberPattern=true
-#useNextNumberPattern=true
-prevWords=data/pn.prev.txt
-nextWords=data/pn.next.txt
-
-#(sub group)
-#cleanGazette=true
-#sloppyGazette=true
-#gazette=austen.gaz.txt

@@ -17,22 +17,25 @@ import java.util.*;
  */
 public class NERProcess {
 
-    public static void main(String[] args) throws Exception {
-        GlobalResourceInit.initModelMap();
-        NERProcess nerProcess = new NERProcess();
-//        nerProcess.fileTokenize("data/dientucongnghe/test.output", 9);
-        nerProcess.fileTokenizeLabel("data/thoitrangnu/test.raw", 2);
-//        nerProcess.tokenize("Ổ cắm điện đa năng Nakagami 4 lỗ", 9);
+    private static Logger logger = LoggerFactory.getLogger("warringLog");
+    private static NERProcess nerProcess;
 
-//        nerProcess.parseTitle("Ổ/B-PN cắm/I-PN điện/I-PN đa/B-PROP năng/I-PROP Nakagami/B-BR 4/B-PROP lỗ/I-PROP");
+    private NERProcess() {
     }
 
-    public NERProcess() {}
+    public static NERProcess getInstance() {
+        if (nerProcess == null) {
+            synchronized (NERProcess.class) {
+                nerProcess = new NERProcess();
+            }
+        }
 
-    private static Logger logger = LoggerFactory.getLogger(NERProcess.class);
+        return nerProcess;
+    }
 
-    public String parseTitle(String title) {
-        String[] arrayValue = title.split("\\s+");
+    public String buildTitleTrain(String title) {
+        String titleNormal = StringNormalize.normalize(title);
+        String[] arrayValue = titleNormal.split("\\s+");
         String tmp = "";
         String label = "";
         StringBuilder result = new StringBuilder();
@@ -60,11 +63,10 @@ public class NERProcess {
             result.append(tmp + "/" + label + " ");
         }
 
-//        System.out.println(result.toString());
         return result.toString();
     }
 
-    public void fileTokenizeLabel(String path, int catId) {
+    public String fileTokenizeLabel(String path, int catId) {
         Map<String, String> result = new HashMap<>();
         StringBuilder rs = new StringBuilder();
         try {
@@ -72,21 +74,18 @@ public class NERProcess {
             if (classifier != null) {
                 List<String> lstData = FileIO.readFile(path);
                 for (String line : lstData) {
-//                String label = classifier.classifyToString(line);
-//                System.out.println(label);
                     String title = StringNormalize.normalize(line);
-                    TreeMap<String, String> datas = tokenize(title, catId);
+                    TreeMap<String, String> datas = tokenize(title, 9);
                     for (Map.Entry entry : datas.entrySet()) {
                         String key = entry.getKey().toString().split("_")[1];
                         String value = entry.getValue().toString();
+                        rs.append(value + " ");
                         if (!result.containsKey(key)) {
                             result.put(key, value);
                         }else {
                             String v = result.get(key);
                             result.put(key, v + "," + value);
                         }
-
-                        rs.append(value + " ");
                     }
                     rs.append("\n");
                 }
@@ -94,8 +93,8 @@ public class NERProcess {
         }catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println(result.size());
-        System.out.println(rs.toString());
+
+        return rs.toString();
     }
 
     public void fileTokenize(String path, int catId) {
@@ -107,8 +106,6 @@ public class NERProcess {
                 for (String line : lstData) {
                     String title = StringNormalize.normalize(line);
                     String label = classifier.classifyToString(title);
-//                    String parseTitle = parseTitle(label);
-//                    String[] arrayLabel = parseTitle.split("\\s+");
                     String[] arrayLabel = label.split("\\s+");
                     for (String s : arrayLabel) {
                         String lb = "";
@@ -140,8 +137,8 @@ public class NERProcess {
                     "B-FUNC-OB", "B-PN-OB", "B-SEV", "B-SEV-OB", "B-LOC", "B-TYPE",
                     "B-NAME", "B-TIME", "B-HPROP", "B-TPROP");
 
-            System.out.println(classifier.classifyToString(title));
-            List<List<CoreLabel>> classify = classifier.classify(title);
+            String titleNormal = StringNormalize.normalize(title);
+            List<List<CoreLabel>> classify = classifier.classify(titleNormal);
             List<CoreLabel> coreLabels = classify.get(0);
 
             String key = "";
@@ -191,5 +188,19 @@ public class NERProcess {
             logger.error("error tokenize title " + title + " - cat_id " + catId, e);
         }
         return data;
+    }
+
+    public String tokenizer(String title, int catId) {
+        String result = null;
+        try {
+            AbstractSequenceClassifier<CoreLabel> classifier = GlobalObject.modelMap.get(catId);
+            if (classifier == null) return null;
+            String titleNormal = StringNormalize.normalize(title);
+            result = classifier.classifyToString(titleNormal);
+        }catch (Exception e) {
+            logger.warn("error tokenizer title " + title);
+        }
+
+        return result;
     }
 }

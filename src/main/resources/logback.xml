@@ -1,0 +1,74 @@
+<configuration scan="true" scanPeriod="30 seconds">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- encoders are assigned the type
+     ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%date [%thread] %-5level %logger{136} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="MainApp" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/main.txt</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>logs/main.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>10</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>15MB</maxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%date [%thread] %-5level %logger{136} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <appender name="warringLogApp" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/warringLogApp.txt</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>logs/warringLogApp.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>10</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>15MB</maxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%date [%thread] %-5level - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="suggestLogApp" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>logs/suggestLog.txt</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <fileNamePattern>logs/suggestLog.%i.log.zip</fileNamePattern>
+            <minIndex>1</minIndex>
+            <maxIndex>10</maxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <maxFileSize>15MB</maxFileSize>
+        </triggeringPolicy>
+        <encoder>
+            <pattern>%date [%thread] %-5level - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="warringLog" level="TRACE">
+        <appender-ref ref="warringLogApp"/>
+    </logger>
+
+    <logger name="suggestLog" level="INFO">
+        <appender-ref ref="suggestLogApp"/>
+    </logger>
+
+    <root level="TRACE">
+        <!-- <appender-ref ref="MainApp"/> -->
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
