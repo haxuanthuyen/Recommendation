@@ -1763,7 +1763,7 @@ nữ	B-PROP
 tính	I-PROP
 
 Váy	B-PN
-suông	B-STYLE
+suông	B--STYLE
 có	B-STYLE
 túi	I-STYLE
 chất	O
@@ -1858,7 +1858,7 @@ sọc	I-STYLE
 ngang	I-STYLE
 
 Áo	B-PN
-thun	B-PROP
+thun	BPROP
 nữ	B-OB
 phối	B-STYLE
 túi	I-STYLE
@@ -3064,7 +3064,7 @@ pha	B-STYLE
 ren	I-STYLE
 đệm	B-PROP
 dày	I-PROP
-gợi	B-PROP
+gợi	B-RPOP
 cảm	I-PROP
 
 Bộ	B-PN

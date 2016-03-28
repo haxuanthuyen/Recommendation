@@ -94,6 +94,7 @@ public class NERProcess {
             e.printStackTrace();
         }
 
+        System.out.println(result);
         return rs.toString();
     }
 
@@ -126,7 +127,28 @@ public class NERProcess {
         }
     }
 
-    public TreeMap<String, String> tokenize(String title, int catId) throws Exception {
+    public HashMap<String, String> tokenizeWithLabel(String title, int catId) {
+        HashMap<String, String> result = new HashMap<>();
+        TreeMap<String, String> datas = tokenize(title, catId);
+        if (datas == null) {
+            logger.info("do not tokenize for title: " + title);
+            return null;
+        }
+        for (Map.Entry entry : datas.entrySet()) {
+            String key = entry.getKey().toString().split("_")[1];
+            String value = entry.getValue().toString();
+            if (!result.containsKey(key)) {
+                result.put(key, value);
+            }else {
+                String v = result.get(key);
+                result.put(key, v + "," + value);
+            }
+        }
+
+        return result;
+    }
+
+    public TreeMap<String, String> tokenize(String title, int catId) {
 
         TreeMap<String, String> data = new TreeMap<>();
         try {

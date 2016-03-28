@@ -1,5 +1,7 @@
 package com.hust.soict.hxt.recommendation.bo;
 
+import java.util.HashMap;
+
 /**
  * Created by thuyenhx on 3/21/16.
  */
@@ -7,10 +9,12 @@ public class ItemRate {
 
     private String guid;
     private int itemId;
+    private int catId;
     private String title;
     private long timeOnSite;
     private long timeOnRead;
     private long timeInMilis;
+    private HashMap<String,String> label = new HashMap<>();
 
     public ItemRate(String guid, int itemId, String title, long timeOnSite, long timeOnRead, long timeInMilis) {
         this.guid = guid;
@@ -19,6 +23,29 @@ public class ItemRate {
         this.timeOnSite = timeOnSite;
         this.timeOnRead = timeOnRead;
         this.timeInMilis = timeInMilis;
+    }
+
+    public ItemRate(String title, int itemId, int catId, HashMap<String,String> label) {
+        this.title = title;
+        this.itemId = itemId;
+        this.catId = catId;
+        this.label = label;
+    }
+
+    public HashMap<String, String> getLabel() {
+        return label;
+    }
+
+    public void setLabel(HashMap<String, String> label) {
+        this.label = label;
+    }
+
+    public int getCatId() {
+        return catId;
+    }
+
+    public void setCatId(int catId) {
+        this.catId = catId;
     }
 
     public String getGuid() {
