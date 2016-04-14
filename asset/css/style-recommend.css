@@ -1,0 +1,134 @@
+
+* {
+    text-shadow: none;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    color: #333;
+}
+
+.containerrc {
+    height: auto;
+    width: 1160px;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+    margin: 0 auto 15px;
+    position: relative;
+    border: 1px solid #888888;
+}
+
+.sText {
+    background: linear-gradient(to right,#2d3e50 0,#14699f 100%);
+    margin: 0;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 12px;
+    color: #fff;
+    text-align: left;
+}
+
+.text2 {
+    float: right;
+}
+
+.slider_warraper {
+    max-height: 260px;
+    position: relative;
+    overflow: hidden;
+    margin: 0 70px;
+    z-index: 2;
+}
+
+.image_slider {
+    max-height: 260px;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    float: left;
+    padding: 0;
+}
+
+li {
+    width: 182px;
+    margin: 0 10px 10px;
+    padding: 0 2px;
+    position: relative;
+    float: left;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    background: transparent;
+}
+
+.textTitle {
+    margin: 18px 0 5px;
+    height: 32px;
+    padding: 0 5px;
+    overflow: hidden !important;
+    text-align: left;
+    font-family: Arial,sans-serif;
+}
+
+.slider_box .textTitle a {
+    color: #444;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 0 3px;
+    margin: 0;
+    height: auto;
+    max-height: 48px;
+    text-decoration: none;
+}
+.slider_box .textTitle a {
+    font-weight: 700 !important;
+}
+
+.price {
+    clear: left;
+    padding: 0 5px 5px;
+}
+
+.newPrice {
+    color: #900;
+    font-size: 14px;
+    float: left;
+}
+
+.oldPrice {
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+    vertical-align: 1px;
+}
+
+.sButton {
+    top: 120px;
+    position: absolute;
+    width: 36px;
+    height: 39px !important;
+    border: 1px solid #a2a6ac;
+    display: block;
+    box-shadow: none !important;
+    z-index: 2;
+}
+
+.sButton.prev {
+    background: url(../image/irl.png) center center no-repeat,-moz-linear-gradient(top,#f6f7f9 0,#e8e9ec 100%);
+    left: 33px !important;
+    border-radius: 2px;
+}
+
+.sButton.next {
+    background: url(../image/irr.png) center center no-repeat,-moz-linear-gradient(top,#f6f7f9 0,#e8e9ec 100%);
+    right: 33px !important;
+    border-radius: 2px;
+}
+
+

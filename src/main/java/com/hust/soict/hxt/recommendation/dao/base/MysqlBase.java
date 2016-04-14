@@ -1,6 +1,7 @@
 package com.hust.soict.hxt.recommendation.dao.base;
 
-import com.hust.soict.hxt.recommendation.utils.ConfigurationUtil;
+import com.hust.soict.hxt.recommendation.global.SystemInfo;
+import org.apache.commons.configuration.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,10 +29,10 @@ public class MysqlBase {
     }
 
     private static synchronized void init() {
-        final ConfigurationUtil conf = ConfigurationUtil.getInstance();
-        user = conf.get("mysql.user");
-        password = conf.get("mysql.pass");
-        url = conf.get("mysql.url");
+        final Configuration conf = SystemInfo.getConfiguration();
+        user = conf.getString("mysql.user");
+        password = conf.getString("mysql.pass");
+        url = conf.getString("mysql.url");
     }
 
     public synchronized static Connection createConnection() throws SQLException {

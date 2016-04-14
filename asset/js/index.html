@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Demo Xml</title>
+</head>
+<body>
+<div>
+    <h1>Thong tin ve san pham</h1>
+    <div>
+       <button onclick="showData()">Show san pham</button>
+        Tim kiem:
+        <select id="type_search">
+            <option value="id" selected>Item Id</option>
+            <option value="category">Category</option>
+            <option value="url">Url</option>
+            <option value="title">Title</option>
+            <option value="price">Price</option>
+            <option value="date">Date</option>
+        </select>
+        <input type="text" id="textSearch"><button onclick="searchData()">Search</button>
+    </div>
+    <br><br>
+    <div>
+        <div id="update-info" style="display: none">
+            <h4>Update data</h4>
+            <table>
+                <tr><td>Item Id</td><td><input style='width:300px' type='text' id='upItem' value=''></td></tr>
+                <tr><td>Category Id</td><td><input style='width:300px' type='text' id='upCategory' value=''></td></tr>
+                <tr><td>Url</td><td><input style='width:300px' type='text' id='upUrl' value=''></td></tr>
+                <tr><td>Title</td><td><input style='width:300px' type='text' id='upTitle' value=''></td></tr>
+                <tr><td>Price</td><td><input style='width:300px' type='text' id='upPrice' value=''></td></tr>
+                <tr><td>Date</td><td><input style='width:300px' type='text' id='upDate' value=''></td></tr>
+                <tr><td>Cap nhat</td><td><button onclick='updateData()'>Execute</button></td></tr>
+            </table>
+        </div>
+        <table id="demo" border="1" style="width:100%;"></table>
+    </div>
+</div>
+<script src="asset/js/jquery.js"></script>
+<script>
+
+    var typeSearch = "id";
+    var xmlContext;
+    $(document).ready(function() {
+
+        $("#type_search").change(function () {
+            var value = $(this).val();
+            switch (value) {
+                case "id":
+                    typeSearch = "id";
+                    break;
+                case "category":
+                    typeSearch = "categoryId";
+                    break;
+                case "url":
+                    typeSearch = "url";
+                    break;
+                case "title":
+                    typeSearch = "title";
+                    break;
+                case "price":
+                    typeSearch = "price";
+                    break;
+                case "date":
+                    typeSearch = "date";
+                    break;
+                default :
+                    typeSearch = 1;
+
+            }
+        });
+    });
+
+    function searchData() {
+        var text =  $("#textSearch").val();
+        var xmlhttp = new XMLHttpRequest();
+        var url = "http://localhost:6677/xml";
+        var params = "?type=" + typeSearch + "&input=" + text;
+
+        xmlhttp.onreadystatechange = function() {//Call a function when the state changes.
+            if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                showXml(xmlhttp);
+            }
+        }
+        xmlhttp.open("GET", url + params, true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send();
+    }
+
+    function showData() {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                showXml(xmlhttp);
+            }
+        };
+        xmlhttp.open("GET", "http://localhost:6677/xml?show=1", true);
+        xmlhttp.send();
+    }
+
+    function showXml(xml) {
+        document.getElementById("demo").innerHTML = "";
+        $("#update-info").css("display", "none");
+
+        var i;
+        var xmlDoc = xml.responseXML;
+        xmlContext = xml.responseXML;
+        var table="<tr><th>Item Id</th><th>Category Id</th><th>Url</th><th>Title</th><th>Price</th><th>Date</th><th</tr>";
+        var x = xmlDoc.getElementsByTagName("item");
+        for (i = 0; i < x.length; i++) {
+            table += "<tr>" +
+            "<td>" + x[i].getElementsByTagName("id")[0].childNodes[0].nodeValue + "</td>" +
+            "<td>" + x[i].getElementsByTagName("categoryId")[0].childNodes[0].nodeValue + "</td>" +
+            "<td>" + x[i].getElementsByTagName("url")[0].childNodes[0].nodeValue + "</td>" +
+            "<td>" + x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "</td>" +
+            "<td>" + x[i].getElementsByTagName("price")[0].childNodes[0].nodeValue + "</td>" +
+            "<td>" + x[i].getElementsByTagName("date")[0].childNodes[0].nodeValue + "</td>" +
+            "<td>" + "<button onclick='showUpdate( " + i + ")'>update</button>" + "</td>" +
+            "<td>" + "<button onclick='deleteData( " + i + ")'>delete</button>" + "</td>" +
+            "</tr>";
+        }
+        document.getElementById("demo").innerHTML = table;
+    }
+
+    function updateData() {
+        var xmlhttp = new XMLHttpRequest();
+
+        var id = $("#upItem").val();
+        var category = $("#upCategory").val();
+        var url = $("#upUrl").val();
+        var title = $("#upTitle").val();
+        var price = $("#upPrice").val();
+        var date = $("#upDate").val();
+
+        var link = "http://localhost:6677/xml";
+        var params = "?type=update" + "&id=" + id + "&category=" + category + "&url=" + url + "&title=" + title + "&price=" + price + "&date=" + date;
+
+        xmlhttp.onreadystatechange = function() {//Call a function when the state changes.
+            if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                showXml(xmlhttp);
+            }
+        }
+        xmlhttp.open("GET", link + params, true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send();
+
+//        $.get(link + params, function(data, status){
+//            xmlhttp = data;
+//            showXml(xmlhttp);
+//        });
+    }
+
+    function showUpdate(x){
+        document.getElementById("demo").innerHTML = "";
+        var lstNode = xmlContext.getElementsByTagName("item");
+        var id =  lstNode[Number(x)].getElementsByTagName("id")[0].childNodes[0].nodeValue;
+        var category =  lstNode[Number(x)].getElementsByTagName("categoryId")[0].childNodes[0].nodeValue;
+        var url =  lstNode[Number(x)].getElementsByTagName("url")[0].childNodes[0].nodeValue;
+        var title =  lstNode[Number(x)].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+        var price =  lstNode[Number(x)].getElementsByTagName("price")[0].childNodes[0].nodeValue;
+        var date =  lstNode[Number(x)].getElementsByTagName("date")[0].childNodes[0].nodeValue;
+
+        $("#upItem").val(id);
+        $("#upCategory").val(category);
+        $("#upUrl").val(url);
+        $("#upTitle").val(title);
+        $("#upPrice").val(price);
+        $("#upDate").val(date);
+
+        $("#update-info").css("display", "block");
+    }
+
+    function deleteData(x) {
+        var lstNode = xmlContext.getElementsByTagName("item");
+        var text =  lstNode[Number(x)].getElementsByTagName("id")[0].childNodes[0].nodeValue;
+        var xmlhttp = new XMLHttpRequest();
+        var url = "http://localhost:6677/xml";
+        var params = "?type=id" + "&delete=" + text;
+
+        xmlhttp.onreadystatechange = function() {//Call a function when the state changes.
+            if(xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                showXml(xmlhttp);
+            }
+        }
+        xmlhttp.open("GET", url + params, true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send();
+    }
+</script>
+</body>
+</html>

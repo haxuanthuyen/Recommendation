@@ -9,6 +9,28 @@ import java.util.List;
  */
 public class FileIO {
 
+    public static String getContentFile(String path) {
+        StringBuffer sb = new StringBuffer();
+        try{
+            FileInputStream ios = new FileInputStream(path);
+            InputStreamReader is = new InputStreamReader(ios, "utf-8");
+            BufferedReader br = new BufferedReader(is);
+
+            String line="";
+            while((line = br.readLine()) != null) {
+                sb.append(line);
+            }
+
+            br.close();
+            is.close();
+            ios.close();
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        return sb.toString();
+    }
+
     public static List<String> readFile(String path) {
         List<String> result = new ArrayList<>();
         try {

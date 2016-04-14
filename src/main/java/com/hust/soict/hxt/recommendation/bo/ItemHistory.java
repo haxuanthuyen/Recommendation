@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * Created by thuyenhx on 3/21/16.
  */
-public class ItemRate {
+public class ItemHistory implements Cloneable{
 
     private String guid;
     private int itemId;
@@ -13,23 +13,35 @@ public class ItemRate {
     private String title;
     private long timeOnSite;
     private long timeOnRead;
-    private long timeInMilis;
+    private double score;
     private HashMap<String,String> label = new HashMap<>();
 
-    public ItemRate(String guid, int itemId, String title, long timeOnSite, long timeOnRead, long timeInMilis) {
+    public ItemHistory(String guid, int itemId, String title, long timeOnSite, long timeOnRead, double score) {
         this.guid = guid;
         this.itemId = itemId;
         this.title = title;
         this.timeOnSite = timeOnSite;
         this.timeOnRead = timeOnRead;
-        this.timeInMilis = timeInMilis;
+        this.score = score;
     }
 
-    public ItemRate(String title, int itemId, int catId, HashMap<String,String> label) {
+    public ItemHistory(String title, int itemId, int catId, HashMap<String, String> label) {
         this.title = title;
         this.itemId = itemId;
         this.catId = catId;
         this.label = label;
+    }
+
+    public String getProductName() {
+        String productName = null;
+       if ((productName = label.get("PN")) != null) {
+           return productName;
+       }else if ((productName = label.get("SEV")) != null) {
+           return productName;
+       }else if ((productName = label.get("TYPE")) != null && catId == 1) {
+           return productName;
+       }
+        return null;
     }
 
     public HashMap<String, String> getLabel() {
@@ -88,11 +100,16 @@ public class ItemRate {
         this.timeOnRead = timeOnRead;
     }
 
-    public long getTimeInMilis() {
-        return timeInMilis;
+    public double getScore() {
+        return score;
     }
 
-    public void setTimeInMilis(long timeInMilis) {
-        this.timeInMilis = timeInMilis;
+    public void setScore(double score) {
+        this.score = score;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

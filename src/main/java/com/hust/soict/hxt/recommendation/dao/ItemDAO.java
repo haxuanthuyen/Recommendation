@@ -1,7 +1,8 @@
 package com.hust.soict.hxt.recommendation.dao;
 
+import com.hust.soict.hxt.recommendation.algorithm.similarity.WeightFactory;
 import com.hust.soict.hxt.recommendation.bo.Item;
-import com.hust.soict.hxt.recommendation.bo.ItemRate;
+import com.hust.soict.hxt.recommendation.bo.ItemHistory;
 import com.hust.soict.hxt.recommendation.dao.base.ConnectionBase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -42,14 +43,6 @@ public class ItemDAO  extends ConnectionBase {
             ps.executeBatch();
         }catch (Exception e) {
             logger.warn("error update history log ", e);
-        }finally {
-            if (ps != null) {
-                try {
-                    ps.close();
-                } catch (SQLException e) {
-                    logger.warn("error close statement ", e);
-                }
-            }
         }
     }
 
@@ -80,21 +73,13 @@ public class ItemDAO  extends ConnectionBase {
             return result;
         }catch (Exception e) {
             logger.warn("error get all data ", e);
-        }finally {
-            if (ps != null) {
-                try {
-                    ps.close();
-                } catch (SQLException e) {
-                    logger.warn("error close statement ", e);
-                }
-            }
         }
 
         return null;
     }
 
-    public HashMap<String, List<ItemRate>> loadDataByDate(String dt) {
-        HashMap<String, List<ItemRate>> historyLst = new HashMap<>();
+    public HashMap<String, List<ItemHistory>> loadDataByDate(String dt) {
+        HashMap<String, List<ItemHistory>> historyLst = new HashMap<>();
         String sql= "SELECT guid,item_id,content,timeonsite,timeonread,dt " +
                 "FROM content_history " +
                 "WHERE dt >= ? " +
@@ -104,6 +89,8 @@ public class ItemDAO  extends ConnectionBase {
         PreparedStatement ps = null;
 
         try{
+            long timeRequest = sdf.parse(dt).getTime();
+
             ps = conn.prepareStatement(sql);
             ps.setString(1, dt);
             ResultSet rs = ps.executeQuery();
@@ -114,10 +101,11 @@ public class ItemDAO  extends ConnectionBase {
                 long timeOnSite = rs.getLong("timeonsite");
                 long timeOnRead = rs.getLong("timeonread");
                 String date = rs.getString("dt");
-                long timeInMilis = sdf.parse(date).getTime();
+                long timeLog = sdf.parse(date).getTime();
+                double scoreByDate = WeightFactory.getScoreByHistory(timeRequest, timeLog, timeOnRead, timeOnSite);
 
-                ItemRate it = new ItemRate(guid, itemId, title, timeOnSite, timeOnRead, timeInMilis);
-                List<ItemRate> lst = historyLst.get(guid);
+                ItemHistory it = new ItemHistory(guid, itemId, title, timeOnSite, timeOnRead, scoreByDate);
+                List<ItemHistory> lst = historyLst.get(guid);
                 if (lst == null) {
                     lst = new ArrayList<>();
                 }
@@ -126,14 +114,6 @@ public class ItemDAO  extends ConnectionBase {
             }
         }catch (Exception e) {
             logger.warn("error load history list ", e);
-        }finally {
-            if (ps != null) {
-                try {
-                    ps.close();
-                } catch (SQLException e) {
-                    logger.warn("error close statement ", e);
-                }
-            }
         }
 
         return historyLst;

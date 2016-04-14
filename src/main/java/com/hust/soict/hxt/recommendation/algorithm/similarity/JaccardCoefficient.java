@@ -1,11 +1,16 @@
 package com.hust.soict.hxt.recommendation.algorithm.similarity;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.*;
 
 /**
  * Created by thuyenhx on 3/22/16.
  */
 public class JaccardCoefficient implements SimilarityMeasure {
+    protected static Logger logger = LoggerFactory.getLogger("warringLog");
+
 
     public JaccardCoefficient() {}
 
@@ -35,21 +40,27 @@ public class JaccardCoefficient implements SimilarityMeasure {
     }
 
     public double similarity(String a, String b) {
-        List<String> aTemp = new ArrayList<>();
-        List<String> bTemp = new ArrayList<>();
+        double simi = 0.0;
+        try {
+            List<String> aTemp = new ArrayList<>();
+            List<String> bTemp = new ArrayList<>();
 
-        String[] tokensA = a.split("_");
-        aTemp.addAll(Arrays.asList(tokensA));
+            String[] tokensA = a.split("_");
+            aTemp.addAll(Arrays.asList(tokensA));
 
-        String[] tokensB = b.split("_");
-        bTemp.addAll(Arrays.asList(tokensB));
+            String[] tokensB = b.split("_");
+            bTemp.addAll(Arrays.asList(tokensB));
 
-        Set<String> unionLst = new HashSet<>(aTemp);
-        unionLst.addAll(bTemp);
+            Set<String> unionLst = new HashSet<>(aTemp);
+            unionLst.addAll(bTemp);
 
-        Set<String> intersectionLst = new HashSet<>(aTemp);
-        intersectionLst.retainAll(bTemp);
+            Set<String> intersectionLst = new HashSet<>(aTemp);
+            intersectionLst.retainAll(bTemp);
 
-        return (double) intersectionLst.size() / unionLst.size();
+           simi = (double) intersectionLst.size() / unionLst.size();
+        }catch (Exception e) {
+            logger.error("error calulate simi jaccard for pn: " + a + "\t" + b);
+        }
+        return simi;
     }
 }

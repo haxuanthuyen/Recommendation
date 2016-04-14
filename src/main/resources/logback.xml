@@ -68,7 +68,7 @@
     </logger>
 
     <root level="TRACE">
-        <!-- <appender-ref ref="MainApp"/> -->
+         <appender-ref ref="MainApp"/>
         <appender-ref ref="STDOUT"/>
     </root>
 </configuration>
