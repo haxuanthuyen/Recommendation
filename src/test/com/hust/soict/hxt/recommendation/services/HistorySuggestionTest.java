@@ -1,6 +1,7 @@
 package com.hust.soict.hxt.recommendation.services;
 
 import com.hust.soict.hxt.recommendation.algorithm.ner.NERProcess;
+import com.hust.soict.hxt.recommendation.bo.ItemCluster;
 import com.hust.soict.hxt.recommendation.bo.ItemHistory;
 import com.hust.soict.hxt.recommendation.global.GlobalObject;
 import junit.framework.TestCase;
@@ -65,8 +66,8 @@ public class HistorySuggestionTest extends TestCase {
         lst.add(it5);
 
         HistorySuggestion historySuggestion = new HistorySuggestion();
-        List<ItemHistory> list = historySuggestion.groupBySimilarityItem(lst);
-        System.out.println(list.size());
+        ItemCluster list = historySuggestion.groupBySimilarityItem(lst, catId5);
+        System.out.println(list.getHistoryList().size());
     }
 
     public void testPutLabelToken() throws Exception{

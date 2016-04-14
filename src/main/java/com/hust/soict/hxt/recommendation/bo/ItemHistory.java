@@ -5,7 +5,7 @@ import java.util.HashMap;
 /**
  * Created by thuyenhx on 3/21/16.
  */
-public class ItemHistory implements Cloneable{
+public class ItemHistory implements Cloneable, Comparable<ItemHistory>{
 
     private String guid;
     private int itemId;
@@ -33,14 +33,15 @@ public class ItemHistory implements Cloneable{
     }
 
     public String getProductName() {
+        if (label == null) return null;
         String productName = null;
-       if ((productName = label.get("PN")) != null) {
-           return productName;
-       }else if ((productName = label.get("SEV")) != null) {
-           return productName;
-       }else if ((productName = label.get("TYPE")) != null && catId == 1) {
-           return productName;
-       }
+        if ((productName = label.get("PN")) != null) {
+            return productName;
+        } else if ((productName = label.get("SEV")) != null) {
+            return productName;
+        } else if ((productName = label.get("TYPE")) != null && catId == 1) {
+            return productName;
+        }
         return null;
     }
 
@@ -111,5 +112,12 @@ public class ItemHistory implements Cloneable{
     @Override
     public Object clone() throws CloneNotSupportedException {
         return super.clone();
+    }
+
+    @Override
+    public int compareTo(ItemHistory o) {
+        if (this.getScore() < o.getScore()) return 1;
+        else if (this.getScore() == o.getScore()) return 0;
+        else return -1;
     }
 }

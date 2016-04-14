@@ -135,13 +135,14 @@ public class NERProcess {
             return null;
         }
         for (Map.Entry entry : datas.entrySet()) {
-            String key = entry.getKey().toString().split("_")[1];
+            String key = entry.getKey().toString();
+            String normalKey = key.contains("-") ? key.split("_")[2] : key.split("_")[1];
             String value = entry.getValue().toString();
             if (!result.containsKey(key)) {
-                result.put(key, value);
+                result.put(normalKey, value);
             }else {
                 String v = result.get(key);
-                result.put(key, v + "," + value);
+                result.put(normalKey, v + "," + value);
             }
         }
 

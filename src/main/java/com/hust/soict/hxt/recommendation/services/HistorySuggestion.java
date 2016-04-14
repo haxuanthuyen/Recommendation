@@ -2,6 +2,7 @@ package com.hust.soict.hxt.recommendation.services;
 
 import com.hust.soict.hxt.recommendation.algorithm.ner.NERProcess;
 import com.hust.soict.hxt.recommendation.algorithm.similarity.JaccardCoefficient;
+import com.hust.soict.hxt.recommendation.bo.ItemCluster;
 import com.hust.soict.hxt.recommendation.bo.ItemGroup;
 import com.hust.soict.hxt.recommendation.bo.ItemHistory;
 import com.hust.soict.hxt.recommendation.global.GlobalObject;
@@ -23,18 +24,17 @@ public class HistorySuggestion {
     }
 
     public void buildListSuggest(String guid) {
-
+        List<ItemCluster> lstCluster = new ArrayList<>();
         try {
-            //lay du lieu item history theo guid va tokenize
             HashMap<Integer, List<ItemHistory>> listHistory = getAllHistoryList(guid);
             Set<Integer> lstCat = listHistory.keySet();
             for (int catId : lstCat) {
                 List<ItemHistory> valueLst = listHistory.get(catId);
-                List<ItemHistory> groupBySimiLst = groupBySimilarityItem(valueLst);
-                listHistory.put(catId, groupBySimiLst);
+                ItemCluster itemCluster = groupBySimilarityItem(valueLst, catId);
+                lstCluster.add(itemCluster);
             }
-
-            System.out.println(listHistory.size());
+            Collections.sort(lstCluster);
+            System.out.println(lstCluster.size());
         }catch (Exception e) {
             logger.error("error process guid: " + guid, e);
         }
@@ -44,7 +44,7 @@ public class HistorySuggestion {
     public HashMap<Integer, List<ItemHistory>> getAllHistoryList(String guid) throws Exception {
 
         HashMap<Integer, List<ItemHistory>> lstResult = new HashMap<>();
-        List<ItemHistory> list = GlobalObject.itemCache.get(guid);
+        List<ItemHistory> list = new ArrayList<>(GlobalObject.itemCache.get(guid));
         for (ItemHistory it : list) {
             String title = it.getTitle();
             int itemId = it.getItemId();
@@ -70,47 +70,49 @@ public class HistorySuggestion {
         return lstResult;
     }
 
-    public List<ItemHistory> groupBySimilarityItem(List<ItemHistory> lst) throws Exception {
-        List<ItemHistory> resultList = new ArrayList<>();
+
+    /**
+     * duyet qua cac item va cong don lai score cac
+     *  san pham co do tuong dong lon hon 1 nguong la 0.6
+     *  @return doi tuong ItemCluster gom catId,totalScore va danh sach cac item
+     *  da duoc sap xep lai theo score
+     */
+    public ItemCluster groupBySimilarityItem(List<ItemHistory> lst, int catId) throws Exception {
         HashMap<String, ItemGroup> groupList = new HashMap<>();
         HashMap<String, ItemGroup> tmpGroupList;
         JaccardCoefficient jaccard = new JaccardCoefficient();
         boolean flag = false;
+
         for (ItemHistory item : lst) {
+            if (item.getLabel() == null) continue;
             String pn = item.getProductName();
             ItemGroup itemGroup;
             if (!groupList.isEmpty() && groupList != null) {
                 flag = false;
                 Set<String> keys = groupList.keySet();
                 tmpGroupList = new HashMap<>(groupList);
-                    for (String pnGroupKey : keys) {
-//                    double sim = 0.0;
-//                    try {
-//                        sim = jaccard.similarity(pn, pnGroupKey);
-//                    }catch (Exception e) {
-//                        logger.error("error group by simi: " + pn +"\t" + pnGroupKey);
-//                    }
-                        double sim = jaccard.similarity(pn, pnGroupKey);
-                        if (sim >= 0.6) {
-                            itemGroup = groupList.get(pnGroupKey);
-                            ItemHistory itemReplace = itemGroup.getItemReplace();
-                            if (item.getScore() > itemGroup.getScore()) {
-                                itemGroup.getDuplicateList().add(itemReplace);
-                                itemGroup.setItemReplace(item);
-                                itemGroup.setScore(item.getScore());
-                                itemGroup.setTotalScore(item.getScore());
-                                itemGroup.setTotalLabel(item.getLabel());
-                                tmpGroupList.put(pn, itemGroup);
-                                tmpGroupList.remove(pnGroupKey);
-                            } else {
-                                itemGroup.getDuplicateList().add(item);
-                                itemGroup.setTotalScore(item.getScore());
-                                itemGroup.setTotalLabel(item.getLabel());
-                                tmpGroupList.put(pnGroupKey, itemGroup);
-                            }
-                            flag = true;
+                for (String pnGroupKey : keys) {
+                    double sim = jaccard.similarity(pn, pnGroupKey);
+                    if (sim >= 0.6) {
+                        itemGroup = groupList.get(pnGroupKey);
+                        ItemHistory itemReplace = itemGroup.getItemReplace();
+                        if (item.getScore() > itemGroup.getScore()) {
+                            itemGroup.getDuplicateList().add(itemReplace);
+                            itemGroup.setItemReplace(item);
+                            itemGroup.setScore(item.getScore());
+                            itemGroup.setTotalScore(item.getScore());
+                            itemGroup.setTotalLabel(item.getLabel());
+                            tmpGroupList.put(pn, itemGroup);
+                            tmpGroupList.remove(pnGroupKey);
+                        } else {
+                            itemGroup.getDuplicateList().add(item);
+                            itemGroup.setTotalScore(item.getScore());
+                            itemGroup.setTotalLabel(item.getLabel());
+                            tmpGroupList.put(pnGroupKey, itemGroup);
                         }
+                        flag = true;
                     }
+                }
                 groupList =  tmpGroupList;
             }
             if (groupList.isEmpty() || !flag) {
@@ -123,19 +125,25 @@ public class HistorySuggestion {
             }
         }
 
+        ItemCluster cluster = new ItemCluster();
+        List<ItemHistory> historyList = new ArrayList<>();
         groupList.entrySet().forEach(x -> {
             ItemGroup itemGroup = x.getValue();
             ItemHistory item = null;
-//            try {
-//                item = (ItemHistory) itemGroup.getItemReplace().clone();
-//            } catch (CloneNotSupportedException e) {
-//               logger.error("error clone item ", item.getItemId());
-//            }
+            try {
+                item = (ItemHistory) itemGroup.getItemReplace().clone();
+            } catch (CloneNotSupportedException e) {
+                logger.error("error clone item ", item.getItemId());
+            }
             item.setScore(itemGroup.getTotalScore());
             item.setLabel(itemGroup.getTotalLabel());
-            resultList.add(item);
+            historyList.add(item);
+            cluster.setTotalScore(item.getScore());
         });
+        Collections.sort(historyList);
+        cluster.setHistoryList(historyList);
+        cluster.setCatId(catId);
 
-        return resultList;
+        return cluster;
     }
 }
