@@ -1,5 +1,7 @@
 package com.hust.soict.hxt.recommendation.bo;
 
+import org.codehaus.jackson.annotate.JsonIgnore;
+
 import java.util.HashMap;
 
 /**
@@ -7,14 +9,25 @@ import java.util.HashMap;
  */
 public class ItemHistory implements Cloneable, Comparable<ItemHistory>{
 
-    private String guid;
-    private int itemId;
-    private int catId;
-    private String title;
-    private long timeOnSite;
-    private long timeOnRead;
+
     private double score;
     private HashMap<String,String> label = new HashMap<>();
+
+    @JsonIgnore
+    private String title;
+    @JsonIgnore
+    private int catId;
+    @JsonIgnore
+    private String guid;
+    @JsonIgnore
+    private int itemId;
+    @JsonIgnore
+    private long timeOnSite;
+    @JsonIgnore
+    private long timeOnRead;
+    @JsonIgnore
+    private String date;
+
 
     public ItemHistory(String guid, int itemId, String title, long timeOnSite, long timeOnRead, double score) {
         this.guid = guid;
@@ -23,6 +36,15 @@ public class ItemHistory implements Cloneable, Comparable<ItemHistory>{
         this.timeOnSite = timeOnSite;
         this.timeOnRead = timeOnRead;
         this.score = score;
+    }
+
+    public ItemHistory(String guid, int itemId, String title, long timeOnSite, long timeOnRead, String date) {
+        this.guid = guid;
+        this.itemId = itemId;
+        this.title = title;
+        this.timeOnSite = timeOnSite;
+        this.timeOnRead = timeOnRead;
+        this.date = date;
     }
 
     public ItemHistory(String title, int itemId, int catId, HashMap<String, String> label) {
@@ -107,6 +129,14 @@ public class ItemHistory implements Cloneable, Comparable<ItemHistory>{
 
     public void setScore(double score) {
         this.score = score;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 
     @Override

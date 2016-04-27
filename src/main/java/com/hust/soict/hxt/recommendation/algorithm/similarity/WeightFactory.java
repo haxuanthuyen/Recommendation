@@ -86,10 +86,10 @@ public class WeightFactory {
         return res;
     }
 
-    public static double getScoreByHistory(long timeRequest, long timeLog, long timeOnRead, long timeOnSite) {
-        int day = (int) ((timeLog - timeRequest)/(86400*1000));
+    public static double getScoreByHistory(long timeEnd, long timeDate, long timeOnRead, long totalTime) {
+        int day = (int) ((timeDate - timeEnd)/(86400*1000));
         double scoreByDate = 0.0;
-        double scoreByTime = 1.0;
+        double scoreByTime = (double) timeOnRead/totalTime;
         if (day == 0) scoreByDate =  conf.getDouble("score.zero", 0.1);
         if (day == 1) scoreByDate = conf.getDouble("score.one", 0.125);
         if (day == 2) scoreByDate = conf.getDouble("score.two", 0.25);
@@ -99,6 +99,6 @@ public class WeightFactory {
         //kiem tra khoang thoi gian nao thi khach hang co kha nang mua cao nhat => dua ra trong so
         //mac dinh score la 1.0
 
-        return scoreByTime * 0.4 + scoreByDate * 0.6;
+        return scoreByTime * 0.2 + scoreByDate * 0.8;
     }
 }

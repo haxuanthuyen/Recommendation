@@ -1,7 +1,6 @@
 package com.hust.soict.hxt.recommendation.algorithm.ner;
 
-import com.hust.soict.hxt.recommendation.global.GlobalObject;
-import com.hust.soict.hxt.recommendation.services.GlobalResourceInit;
+import com.hust.soict.hxt.recommendation.global.Resource;
 import com.hust.soict.hxt.recommendation.utils.FileIO;
 import com.hust.soict.hxt.recommendation.utils.StringNormalize;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
@@ -70,7 +69,7 @@ public class NERProcess {
         Map<String, String> result = new HashMap<>();
         StringBuilder rs = new StringBuilder();
         try {
-            AbstractSequenceClassifier<CoreLabel> classifier = GlobalObject.modelMap.get(catId);
+            AbstractSequenceClassifier<CoreLabel> classifier = Resource.modelMap.get(catId);
             if (classifier != null) {
                 List<String> lstData = FileIO.readFile(path);
                 for (String line : lstData) {
@@ -101,7 +100,7 @@ public class NERProcess {
     public void fileTokenize(String path, int catId) {
         StringBuilder content = new StringBuilder();
         try {
-            AbstractSequenceClassifier<CoreLabel> classifier = GlobalObject.modelMap.get(catId);
+            AbstractSequenceClassifier<CoreLabel> classifier = Resource.modelMap.get(catId);
             if (classifier != null) {
                 List<String> lstData = FileIO.readFile(path);
                 for (String line : lstData) {
@@ -153,7 +152,7 @@ public class NERProcess {
 
         TreeMap<String, String> data = new TreeMap<>();
         try {
-            AbstractSequenceClassifier<CoreLabel> classifier = GlobalObject.modelMap.get(catId);
+            AbstractSequenceClassifier<CoreLabel> classifier = Resource.modelMap.get(catId);
             if (classifier == null) return null;
 
             List<String> startLabels = Arrays.asList("B-PN", "B-BR", "B-STYLE", "B-OB", "B-FUNC", "B-PROP",
@@ -207,7 +206,7 @@ public class NERProcess {
             }
 
         } catch (Exception e) {
-            logger.error("model map size " + GlobalObject.modelMap.size());
+            logger.error("model map size " + Resource.modelMap.size());
             logger.error("error tokenize title " + title + " - cat_id " + catId, e);
         }
         return data;
@@ -216,7 +215,7 @@ public class NERProcess {
     public String tokenizer(String title, int catId) {
         String result = null;
         try {
-            AbstractSequenceClassifier<CoreLabel> classifier = GlobalObject.modelMap.get(catId);
+            AbstractSequenceClassifier<CoreLabel> classifier = Resource.modelMap.get(catId);
             if (classifier == null) return null;
             String titleNormal = StringNormalize.normalize(title);
             result = classifier.classifyToString(titleNormal);

@@ -25,8 +25,8 @@ public class NERProcessTest extends TestCase {
 
         GlobalResourceInit.initModelMap();
         NERProcess nerProcess = NERProcess.getInstance();
-//        String tokens = nerProcess.tokenizer("Nước hoa Fantasty body (4 mùi), tặng giấy thấm dầu", 7);
-        HashMap<String, String> map = nerProcess.tokenizeWithLabel("Nước hoa Fantasty body (4 mùi), tặng giấy thấm dầu", 7);
-        System.out.println(map);
+        String tokens = nerProcess.tokenizer("3 quần lửng bo gấu 100% cotton xinh xắn cho bé", 4);
+//        HashMap<String, String> map = nerProcess.tokenizeWithLabel("Quần vải dáng Baggy sành điệu cho nàng", 2);
+        System.out.println(tokens);
     }
 }

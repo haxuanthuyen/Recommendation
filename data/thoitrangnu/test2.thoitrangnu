@@ -67,14 +67,6 @@ nỉ	B-PROP
 hàng	O
 VNXK	B-BR
 
-Áo	B-PN
-lót	I-PN
-đệm	B-PROP
-dày	I-PROP
-siêu	B-FUNC
-đẩy	I-FUNC
-ngực	I-FUNC
-
 Gợi	B-STYLE
 cảm	I-STYLE
 với	O
@@ -414,12 +406,6 @@ sáng	I-STYLE
 thời	B-STYLE
 trang	I-STYLE
 
-Quần	B-PN
-định	B-FUNC
-hình	I-FUNC
-Slim	B-BR
-Lift	I-BR
-
 Áo	B-PN
 sơ	I-PN
 mi	I-PN
@@ -548,31 +534,11 @@ bầu	O
 ngực	O
 
 Bộ	B-PN
-tập	I-PN
-aerobic	B-FUNC
-áo	B-PN
-lửng	I-PN
-,	O
-quần	B-PN
-short	I-PN
-khỏe	B-STYLE
-khoắn	I-STYLE
-
-Bộ	B-PN
 đồ	I-PN
 thể	I-PN
 thao	I-PN
 navy	B-BR
 CIRINO	I-BR
-
-Áo	B-PN
-khoác	I-PN
-chống	B-FUNC
-nắng	I-FUNC
-cotton	B-PROP
-nhiều	B-PROP
-màu	I-PROP
-sắc	I-PROP
 
 Váy	B-PN
 voan	I-PN
@@ -1558,19 +1524,6 @@ người	I-BR
 trung	I-OB
 niên	I-OB
 
-Áo	B-PN
-gió	I-PN
-khoác	B-PROP
-nhẹ	I-PROP
-có	B-PROP
-mũ	I-PROP
-,	O
-chống	B-FUNC
-thấm	I-FUNC
-nước	I-FUNC
-cho	O
-nữ	B-OB
-
 Combo	O
 4	O
 quần	B-PN
@@ -1759,21 +1712,6 @@ mặc	B-STYLE
 nhà	I-STYLE
 vải	O
 tone	B-PROP
-
-2	O
-áo	B-PN
-lót	I-PN
-cho	O
-bà	B-OB
-bầu	I-OB
-và	O
-cho	B-FUNC
-con	I-FUNC
-bú	I-FUNC
-Artemi	B-BR
--	O
-hàng	O
-VN	B-BR
 
 Chân	B-PN
 váy	I-PN
@@ -2095,15 +2033,6 @@ ngày	O
 thu	O
 sang	O
 
-Quần	B-PN
-định	B-FUNC
-hình	I-FUNC
-3	O
-tác	O
-động	O
-Slim	B-BR
-Lift	I-BR
-
 Đầm	B-PN
 maxi	I-PN
 hoa	B-PROP
@@ -2277,3 +2206,125 @@ su	B-STYLE
 không	B-PROP
 đường	I-PROP
 may	I-PROP
+
+5	O
+quần	B-PN
+lót	I-PN
+nữ	B-OB
+xuất	O
+xứ	O
+Thái	B-BR
+Lan	I-BR
+
+Gợi	B-STYLE
+cảm	I-STYLE
+hơn	O
+với	O
+áo	B-PN
+lót	I-PN
+đúc	I-PN
+3	B-STYLE
+dây	I-STYLE
+
+Combo	O
+2	O
+áo	B-PN
+bra	I-PN
+quai	B-STYLE
+ngang	I-STYLE
++	O
+quai	B-STYLE
+chéo	I-STYLE
+cá	B-STYLE
+tính	I-STYLE
+
+2	O
+áo	B-PN
+bra	I-PN
+4	O
+quai	B-STYLE
+ngang	I-STYLE
+sexy	I-STYLE
+cho	O
+bạn	B-OB
+gái	I-OB
+
+2	O
+áo	B-PN
+lót	I-PN
+thể	B-STYLE
+thao	I-STYLE
+quai	B-STYLE
+đan	I-STYLE
+thời	B-STYLE
+trang	I-STYLE
+
+5	O
+quần	B-PN
+lót	I-PN
+cotton	B-PROP
+cạp	B-STYLE
+cao	I-STYLE
+ôm	B-STYLE
+sát	I-STYLE
+,	O
+quyến	B-STYLE
+rũ	I-STYLE
+
+4	O
+quần	B-PN
+lót	I-PN
+cạp	B-STYLE
+cao	I-STYLE
+cho	O
+phụ	B-OB
+nữ	I-OB
+trung	I-OB
+niên	I-OB
+
+Áo	B-PN
+ngực	I-PN
+trơn	B-PROP
+cho	O
+nữ	B-OB
+-	O
+Hàng	B-BR
+xuất	I-BR
+khẩu	I-BR
+
+Áo	B-PN
+ngực	I-PN
+phối	B-STYLE
+ren	I-STYLE
+quyến	B-STYLE
+rũ	I-STYLE
+
+Combo	O
+4	O
+quần	B-PN
+lót	I-PN
+đúc	I-PN
+thông	B-PROP
+hơi	I-PROP
+
+Áo	B-PN
+ngực	I-PN
+phối	B-STYLE
+ren	I-STYLE
+Victoria	B-BR
+
+Bộ	O
+đồ	B-PN
+lót	I-PN
+ren	B-PROP
+Victoria	B-BR
+
+Áo	B-PN
+dán	B-STYLE
+cánh	I-STYLE
+tiên	I-STYLE
+thời	B-STYLE
+trang	I-STYLE
+cho	O
+bạn	B-OB
+gái	I-OB

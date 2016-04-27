@@ -1,5 +1,6 @@
 package com.hust.soict.hxt.recommendation.global;
 
+import com.hust.soict.hxt.recommendation.bo.ItemCluster;
 import com.hust.soict.hxt.recommendation.bo.ItemHistory;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ling.CoreLabel;
@@ -10,8 +11,8 @@ import java.util.List;
 /**
  * Created by thuyenhx on 1/24/16.
  */
-public class GlobalObject {
+public class Resource {
     public static HashMap<Integer, AbstractSequenceClassifier<CoreLabel>> modelMap;
     public static HashMap<Integer, Integer> catCache;
-    public static HashMap<String, List<ItemHistory>> itemCache;
+    public static HashMap<String, List<ItemCluster>> clusterCache = new HashMap<>();
 }
