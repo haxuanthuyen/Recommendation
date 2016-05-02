@@ -77,9 +77,13 @@ public class WeightFactory {
             res.put("PROP", conf.getDouble("weight.nhabep.prop", 0.1));
             res.put("BR", conf.getDouble("weight.nhabep.br", 0.1));
         } else if (catId == 12) {// gia dung noi that
-            res.put("PN", conf.getDouble("weight.giadungnoithat.pn", 0.4));
-            res.put("FUNC", conf.getDouble("weight.giadungnoithat.func", 0.3));
-            res.put("PROP", conf.getDouble("weight.giadungnoithat.prop", 0.2));
+            res.put("PN", conf.getDouble("weight.giadungnoithat.pn", 0.3));
+            res.put("STYLE", conf.getDouble("weight.giadungnoithat.style", 0.1));
+            res.put("PN-OB", conf.getDouble("weight.giadungnoithat.pn-ob", 0.1));
+            res.put("FUNC", conf.getDouble("weight.giadungnoithat.func", 0.1));
+            res.put("FUNC-OB", conf.getDouble("weight.giadungnoithat.func-ob", 0.1));
+            res.put("PROP", conf.getDouble("weight.giadungnoithat.prop", 0.1));
+            res.put("BR", conf.getDouble("weight.giadungnoithat.br", 0.1));
             res.put("OB", conf.getDouble("weight.giadungnoithat.ob", 0.1));
         }
 

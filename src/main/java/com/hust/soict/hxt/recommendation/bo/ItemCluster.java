@@ -5,7 +5,7 @@ import java.util.List;
 /**
  * Created by thuyenhx on 4/14/16.
  */
-public class ItemCluster implements Comparable<ItemCluster>{
+public class ItemCluster implements Comparable<ItemCluster>, Cloneable{
 
     private int catId;
     private double totalScore;
@@ -41,6 +41,11 @@ public class ItemCluster implements Comparable<ItemCluster>{
 
     public void setHistoryList(List<ItemHistory> historyList) {
         this.historyList = historyList;
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 
     @Override

@@ -1,7 +1,9 @@
 package com.hust.soict.hxt.recommendation.services;
 
 import com.hust.soict.hxt.recommendation.algorithm.ner.ModelFactory;
-import com.hust.soict.hxt.recommendation.dao.CategoryDAO;
+import com.hust.soict.hxt.recommendation.algorithm.ner.NERProcess;
+import com.hust.soict.hxt.recommendation.bo.ItemData;
+import com.hust.soict.hxt.recommendation.dao.CategoryDao;
 import com.hust.soict.hxt.recommendation.global.Resource;
 import edu.stanford.nlp.ie.AbstractSequenceClassifier;
 import edu.stanford.nlp.ie.crf.CRFClassifier;
@@ -11,6 +13,8 @@ import org.slf4j.LoggerFactory;
 
 import java.sql.SQLException;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by thuyenhx on 1/24/16.
@@ -42,28 +46,37 @@ public class GlobalResourceInit {
     }
 
     public static void loadDataCache() throws SQLException {
+        CategoryDao categoryDAO = new CategoryDao();
+
         if (Resource.catCache == null) {
             Resource.catCache = new HashMap<>();
-            CategoryDAO categoryDAO = null;
-            try {
-                categoryDAO = new CategoryDAO();
-                HashMap<Integer, Integer> itemMap = categoryDAO.loadAllItemByCat();
-                Resource.catCache.putAll(itemMap);
-                logger.info("finish load category caching ");
+            HashMap<Integer, Integer> itemMap = categoryDAO.mapAllItemByCat();
+            Resource.catCache.putAll(itemMap);
+            logger.info("finish load category caching ");
+        }
 
-            }catch (Exception e) {
-                logger.warn("error reload category caching ",e);
-            }finally {
-                categoryDAO.dispose();
+        if (Resource.itemDetailCache == null) {
+            Resource.itemDetailCache = new HashMap<>();
+            HashMap<Integer, List<ItemData>> itemCache = categoryDAO.getAllItemByCat();
+            NERProcess nerProcess = NERProcess.getInstance();
+            for (Map.Entry entry : itemCache.entrySet()) {
+                int catId = (int) entry.getKey();
+                List<ItemData> lst = (List<ItemData>) entry.getValue();
+                for (ItemData item : lst) {
+                    HashMap<String, String> label = nerProcess.tokenizeWithLabel(item.getTitle(), catId);
+                    item.setLabel(label);
+                }
             }
+            Resource.itemDetailCache.putAll(itemCache);
+            logger.info("finish load all item details ");
         }
 
 //        if (Resource.itemCache == null) {
 //            Resource.itemCache = new HashMap<>();
-//            ItemDAO itemDAO = null;
+//            HistoryDao itemDAO = null;
 //            try{
 //                String date = "2016-03-09";
-//                itemDAO = new ItemDAO();
+//                itemDAO = new HistoryDao();
 //                HashMap<String, List<ItemHistory>> itemLst = itemDAO.loadDataByDate(date);
 //                Resource.itemCache.putAll(itemLst);
 //                logger.info("finish load item cache");

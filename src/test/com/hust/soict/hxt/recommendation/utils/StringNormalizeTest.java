@@ -1,7 +1,7 @@
 package com.hust.soict.hxt.recommendation.utils;
 
 import com.hust.soict.hxt.recommendation.bo.Item;
-import com.hust.soict.hxt.recommendation.dao.ItemDAO;
+import com.hust.soict.hxt.recommendation.dao.HistoryDao;
 import junit.framework.TestCase;
 
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class StringNormalizeTest extends TestCase {
         System.out.println(StringNormalize.receiveItemId(url));
 
         List<Item> lst = new ArrayList<>();
-        ItemDAO itemDAO = new ItemDAO();
+        HistoryDao itemDAO = new HistoryDao();
         List<Item> list = itemDAO.getAllItems();
         for (Item it : list) {
             if (it.getItemId() == 0) {

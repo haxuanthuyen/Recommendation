@@ -12,13 +12,13 @@ import java.util.List;
 public class ItemDAOTest extends TestCase {
 
     public void testLoadDataByDate() throws Exception {
-        ItemDAO itemDAO = new ItemDAO();
+        HistoryDao itemDAO = new HistoryDao();
         HashMap<String, List<ItemHistory>> lst = itemDAO.loadDataByDate("2016-03-09");
         System.out.println(lst.size());
     }
 
     public void testLoadDataByGuid() throws Exception {
-        ItemDAO itemDAO = new ItemDAO();
+        HistoryDao itemDAO = new HistoryDao();
         List<ItemHistory> res = itemDAO.loadDataByGuid("2016-03-07", "1445411930246467641");
         itemDAO.dispose();
         System.out.println(res.size());

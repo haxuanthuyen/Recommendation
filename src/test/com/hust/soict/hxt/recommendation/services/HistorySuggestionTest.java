@@ -23,6 +23,15 @@ public class HistorySuggestionTest extends TestCase {
         historySuggestion.buildListHistory(guid, "2016-03-13", "2016-03-09");
     }
 
+    public void testBuildListSuggest1() throws Exception {
+        GlobalResourceInit.initModelMap();
+        GlobalResourceInit.loadDataCache();
+
+        String guid = "1435715810206524383";
+        HistorySuggestion historySuggestion = new HistorySuggestion();
+        historySuggestion.buildListSuggest(guid, "2016-03-13", "2016-03-09");
+    }
+
     public void testGroupBySimilarityItem() throws Exception {
         GlobalResourceInit.initModelMap();
         GlobalResourceInit.loadDataCache();

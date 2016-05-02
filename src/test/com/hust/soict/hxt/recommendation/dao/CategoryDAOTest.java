@@ -10,8 +10,8 @@ import java.util.HashMap;
 public class CategoryDAOTest extends TestCase {
 
     public void testLoadAllItemByCat() throws Exception {
-        CategoryDAO categoryDAO = new CategoryDAO();
-        HashMap<Integer, Integer> catCache = categoryDAO.loadAllItemByCat();
+        CategoryDao categoryDAO = new CategoryDao();
+        HashMap<Integer, Integer> catCache = categoryDAO.mapAllItemByCat();
         System.out.println(catCache.size());
     }
 }

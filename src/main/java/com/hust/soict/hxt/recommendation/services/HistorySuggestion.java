@@ -4,9 +4,10 @@ import com.hust.soict.hxt.recommendation.algorithm.ner.NERProcess;
 import com.hust.soict.hxt.recommendation.algorithm.similarity.JaccardCoefficient;
 import com.hust.soict.hxt.recommendation.algorithm.similarity.WeightFactory;
 import com.hust.soict.hxt.recommendation.bo.ItemCluster;
+import com.hust.soict.hxt.recommendation.bo.ItemData;
 import com.hust.soict.hxt.recommendation.bo.ItemGroup;
 import com.hust.soict.hxt.recommendation.bo.ItemHistory;
-import com.hust.soict.hxt.recommendation.dao.ItemDAO;
+import com.hust.soict.hxt.recommendation.dao.HistoryDao;
 import com.hust.soict.hxt.recommendation.global.Resource;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
@@ -23,16 +24,67 @@ public class HistorySuggestion {
     private static Logger logger = LoggerFactory.getLogger("suggestLog");
     private NERProcess nerProcess;
     private SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-    private ObjectMapper mapper = new ObjectMapper();
+    private JaccardCoefficient jaccard = new JaccardCoefficient();
 
     public HistorySuggestion() {
         nerProcess = NERProcess.getInstance();
     }
 
-    public String buildListHistory(String guid, String startDate, String endDate) {
-        String jsonData = "";
+    public List<ItemData> buildListSuggest(String guid, String startDate, String endDate) {
+        List<ItemData> res = new ArrayList<>();
+        List<ItemCluster> lstCluster = buildListHistory(guid, startDate, endDate);
         try {
-            List<ItemCluster> lstCluster = Resource.clusterCache.get(guid);
+            ItemCluster lstItem = (ItemCluster) lstCluster.get(0).clone();
+            int catId = lstItem.getCatId();
+            List<ItemData> lstCompare = Resource.itemDetailCache.get(catId);
+            List<ItemHistory> lstHistory = lstItem.getHistoryList();
+            for (ItemHistory hItem : lstHistory) {
+                System.out.println(hItem.getTitle());
+                for (ItemData compareItem : lstCompare) {
+                    double sim = calSim(hItem.getLabel(), compareItem.getLabel(), catId);
+                    if (sim >= 0.15 && compareItem.getItemId() != hItem.getItemId()) {
+                        ItemData it = (ItemData) compareItem.clone();
+                        it.setScore(hItem.getScore());
+                        it.setSimilarity(sim);
+                        res.add(it);
+                        System.out.println("\t\t" + it.getTitle());
+                    }
+                }
+            }
+            Collections.sort(res);
+        }catch (Exception e) {
+            logger.error("error buid list suggest ",  e);
+        }
+        return res;
+    }
+
+    public double calSim(Map<String, String> labelA, Map<String, String> labelB, int catId) {
+        double totalSim = 0.0;
+        Map<String, Double> weightNer = WeightFactory.getWeightNer(catId);
+        Set<String> lstLabel = new HashSet<>();
+        lstLabel.addAll(labelA.keySet());
+        lstLabel.addAll(labelB.keySet());
+//        System.out.println(lstLabel);
+
+        for (String label : lstLabel) {
+            double weight = weightNer.get(label);
+
+            String infoA = labelA.getOrDefault(label,"");
+            String infoB = labelB.getOrDefault(label,"");
+            List<String> lstA = Arrays.asList(infoA.split(","));
+            List<String> lstB = Arrays.asList(infoB.split(","));
+            double sim = jaccard.similarity(lstA, lstB);
+
+            totalSim += sim*weight;
+        }
+
+        return totalSim;
+    }
+
+    public List<ItemCluster> buildListHistory(String guid, String startDate, String endDate) {
+        List<ItemCluster> lstCluster = null;
+        try {
+            lstCluster = Resource.clusterCache.get(guid);
             if (lstCluster == null) {
                 lstCluster = new ArrayList<>();
                 HashMap<Integer, List<ItemHistory>> listHistory = getAllHistoryList(guid, startDate, endDate);
@@ -44,19 +96,18 @@ public class HistorySuggestion {
                 }
                 Collections.sort(lstCluster);
             }
-            jsonData = mapper.writeValueAsString(lstCluster);
             Resource.clusterCache.put(guid, lstCluster);
         }catch (Exception e) {
             logger.error("error process guid: " + guid, e);
         }
 
-        return jsonData;
+        return lstCluster;
     }
 
     public HashMap<Integer, List<ItemHistory>> getAllHistoryList(String guid, String startDate, String endDate) throws Exception {
 
         HashMap<Integer, List<ItemHistory>> lstResult = new HashMap<>();
-        ItemDAO itemDAO = new ItemDAO();
+        HistoryDao itemDAO = new HistoryDao();
         List<ItemHistory> list = itemDAO.loadDataByGuid(endDate, guid);
         HashMap<String, Long> totalTimes = itemDAO.getTotalTime(guid, endDate);
         itemDAO.dispose();

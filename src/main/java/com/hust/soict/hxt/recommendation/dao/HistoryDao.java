@@ -18,13 +18,13 @@ import java.util.List;
 /**
  * Created by thuyenhx on 3/15/16.
  */
-public class ItemDAO  extends ConnectionBase {
+public class HistoryDao extends ConnectionBase {
 
     protected static Logger logger = LoggerFactory.getLogger("warringLog");
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
 
-    public ItemDAO() throws SQLException {
+    public HistoryDao() throws SQLException {
     }
 
     public void updateHistoryLog(List<Item> list) {
