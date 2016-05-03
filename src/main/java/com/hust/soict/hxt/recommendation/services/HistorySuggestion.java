@@ -52,6 +52,8 @@ public class HistorySuggestion {
                 }
             }
             Collections.sort(res);
+            int maxSize = res.size() > 30 ? 30 : res.size();
+            res = res.subList(0, maxSize);
         }catch (Exception e) {
             logger.error("error buid list suggest ",  e);
         }
@@ -64,10 +66,17 @@ public class HistorySuggestion {
         Set<String> lstLabel = new HashSet<>();
         lstLabel.addAll(labelA.keySet());
         lstLabel.addAll(labelB.keySet());
-//        System.out.println(lstLabel);
 
         for (String label : lstLabel) {
-            double weight = weightNer.get(label);
+            String lb = label;
+            double fixWeight = 1.0;
+
+            boolean flag = label.contains("-");
+            if (flag) {
+                lb = lb.split("-")[0];
+                fixWeight = 0.5;
+            }
+            double weight = weightNer.get(lb)*fixWeight;
 
             String infoA = labelA.getOrDefault(label,"");
             String infoB = labelB.getOrDefault(label,"");

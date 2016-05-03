@@ -53,6 +53,16 @@ body {
     padding: 0;
 }
 
+.sImage{
+    width: 100%;
+    height: 140px;
+}
+
+img {
+    max-width: 100%;
+    height: 140px;
+}
+
 li {
     width: 182px;
     margin: 0 10px 10px;
@@ -132,3 +142,76 @@ a {
 }
 
 
+/*css cho cluster table*/
+
+.container-table {
+    height: auto;
+    width: 1160px;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+    margin: 0 auto 15px;
+    position: relative;
+    /*border: 1px solid #888888;*/
+}
+
+table, th, td {
+    border: 2px solid #A1C3DF;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+table.table_style_01 {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 2px solid #A1C3DF;
+    background-color: #DAECF0;
+    text-align: justify;
+    box-sizing: border-box;
+}
+
+table.table_style_01 th {
+    border: 1px solid #A1C3DF;
+    padding: 0.5ex 0.5ex;
+}
+
+.cent {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.button{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-left: 5px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-repeat: repeat-x;
+    border-color: #F44336;
+    background-color: #F44336;
+    color: #FFF !important;
+}
+
+#search-top{
+    /*display: block;*/
+    width: 250px;
+    height: 20px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

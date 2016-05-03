@@ -6,8 +6,27 @@
 <script src="asset/js/jquery.js"></script>
 </head>
 <body>
-<div class=""></div>
-<div class="containerrc">
+<div class="container-table">
+    <div class="div-search">
+        <input id="search-top" placeholder="Tìm theo guid" type="text" /> <div class="button" id="search-btn">Xem</div>
+    </div>
+</div>
+<div class="container-table" id="div-history" style="display: none;">
+    <div><h1>Hồ sơ người dùng</h1></div>
+    <table class="table_style_01" style="width: 100%">
+        <tbody id="table-content">
+        <tr>
+            <th class="cent">Chủ đề</th>
+            <th class="cent">Từ khóa</th>
+            <th class="cent">Trọng số</th>
+        </tr>
+        </tbody>
+    </table>
+    <div style="margin-top: 5px;"></div>
+    <div class="button" id="suggest-btn">Xem gợi ý</div>
+</div>
+
+<div class="containerrc" id="box-suggest" style="display: none;">
     <div class="sText">
         <span class="text1">Gợi ý dựa trên các sản phẩm bạn đã xem</span>
         <span class="text2">Trang 1/5</span>
@@ -18,11 +37,52 @@
     <a id="prevrc_2" class="sButton prev" href="javascript:void(0)"></a>
     <a id="nextrc_2" class="sButton next" href="javascript:void(0)"></a>
     <script>
+        var guid = "";
+
+        function mappingCategory(catId) {
+            switch(Number(catId)) {
+                case 1:
+                    return "Ẩm thực & Nhà hàng";
+                    break;
+                case 2:
+                    return "Thời trang Nữ";
+                    break;
+                case 3:
+                    return "Spa & Làm đẹp";
+                    break;
+                case 4:
+                    return "Mẹ & Bé";
+                    break;
+                case 5:
+                    return "null";
+                    break;
+                case 6:
+                    return "Thực phẩm";
+                    break;
+                case 7:
+                    return "Phụ kiện & Mỹ phẩm";
+                    break;
+                case 8:
+                    return "Thời trang Nam";
+                    break;
+                case 9:
+                    return "Điện tử & Công nghệ";
+                    break;
+                case 10:
+                    return "Nhà bếp";
+                    break;
+                case 11:
+                    return "Đào tạo & Giải trí";
+                    break;
+                case 12:
+                    return "Gia dụng - Nội thất";
+                    break;
+            }
+        }
 
         $(document).ready(function(){
             var indexOfPage=1;
             $("#prevrc_2").click(function(){
-                loadJson();
                 var positionSlider = $("#image_slider_2").position().left;
                 if (positionSlider != 0) {
                     $("#image_slider_2").animate({left: "+=1030px"}, 600);
@@ -43,41 +103,102 @@
                     $(".text2").text("Trang " + indexOfPage + "/5");
                 }
             });
+
+            $('#suggest-btn').click(function(){
+                loadJsonSuggest(guid);
+                $('#box-suggest').css('display','block');
+            });
+
+            $('#search-btn').click(function(){
+                $('#div-history').css('display','none');
+                $('#box-suggest').css('display','none');
+                guid = $('#search-top').val();
+                loadJsonHistory(guid);
+                $('#div-history').css('display','block');
+            });
         });
 
-
-
-        function loadJson() {
+        function loadJsonSuggest(guid) {
+            var link = "http://localhost:6677/json/?guid=" + guid;
             var xmlhttp = new XMLHttpRequest();
             xmlhttp.onreadystatechange = function() {
                 if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
                     var lstJson = JSON.parse(xmlhttp.responseText);
-                   showData(lstJson);
+                    showData(lstJson);
                 }
             };
-            xmlhttp.open("GET", "http://localhost:6677/json", true);
+            xmlhttp.open("GET", link, true);
             xmlhttp.send();
         }
 
         function showData(lstJson) {
-            for(var i = 1; i < lstJson.products.length; i++) {
+            $("#image_slider_2").empty();
+            for(var i = 1; i < lstJson.length; i++) {
                 var text = '<li>' +
-                '<div class="sImage">' +
-                '<a href="' + lstJson.products[i].url + '" title="' + lstJson.products[i].title + '"><img src="' + lstJson.products[i].imgUrl + '"></a>' +
-                '</div>' +
-                '<div class="textTitle">' +
-                '<a href="' + lstJson.products[i].url + '" title="' + lstJson.products[i].title + '">' +  lstJson.products[i].title + '</a>' +
-                '</div>' +
-                '<div class="price">' +
-                '<span class="newPrice">' + lstJson.products[i].sellPrice + '<span>đ</span></span>' +
-                '<span class="oldPrice">' + lstJson.products[i].price + '<span>đ</span></span>' +
-                '</div>' +
-                '</li>';
+                        '<div class="sImage">' +
+                        '<a href="' + lstJson[i].url + '" title="' + lstJson[i].title + '"><img src="' + lstJson[i].imgUrl + '"></a>' +
+                        '</div>' +
+                        '<div class="textTitle">' +
+                        '<a href="' + lstJson[i].url + '" title="' + lstJson[i].title + '">' +  lstJson[i].title + '</a>' +
+                        '</div>' +
+                        '<div class="price">' +
+                        '<span class="newPrice">' + lstJson[i].sellPrice + '<span>đ</span></span>' +
+                        '<span class="oldPrice">' + lstJson[i].price + '<span>đ</span></span>' +
+                        '</div>' +
+                        '</li>';
                 $("#image_slider_2").append(text);
             }
         }
 
-        loadJson();
+        function loadJsonHistory(guid) {
+            var link = "http://localhost:6677/history/?guid=" + guid;
+            var xmlhttp = new XMLHttpRequest();
+            xmlhttp.onreadystatechange = function() {
+                if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                    var lstJson = JSON.parse(xmlhttp.responseText);
+                    parseData(lstJson);
+                }
+            };
+            xmlhttp.open("GET", link, true);
+            xmlhttp.send();
+        }
+
+        function parseData(lstJson) {
+            $("#table-content").empty();
+            var text = '<tr>' +
+                    '<th class="cent">Chủ đề</th>' +
+                    '<th class="cent">Từ khóa</th>' +
+                    '<th class="cent">Trọng số</th>' +
+                    '</tr>';
+            $("#table-content").append(text);
+            for(var i = 0; lstJson.length; i++) {
+                var topic = lstJson[i];
+                var category = mappingCategory(topic.catId);
+                var totalScore = topic.totalScore;
+                var historyList = topic.historyList;
+                var profile = "";
+                for(var j = 0; j < historyList.length; j++){
+                    var score = historyList[j].score;
+                    var label = historyList[j].label;
+                    for(var kw in label) {
+                        profile += " " + label[kw] + " (" + kw + ")";
+                    }
+                    profile += " => (" + score + ")" + "<br>";
+                }
+                addRow(category,profile,totalScore);
+            }
+        }
+
+        function addRow(category,keyword,weight) {
+            var content = '<tr>' +
+                    '<td class="cent">' + category + '</td>' +
+                    '<td class="left">' + keyword + '</td>' +
+                    '<td class="cent">' + weight + '</td>' +
+                    '</tr>';
+            $("#table-content").append(content);
+        }
+
+        //        loadJsonHistory("1441614997246491999");
     </script>
 </div>
 </body>

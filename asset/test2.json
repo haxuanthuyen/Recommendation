@@ -1,157 +1,689 @@
-{"products":[{
-  "itemId": 6596,
-  "catId": 44,
-  "url": "https://plaza.muachung.vn/dien-thoai/d-6596/iphone-4s-8gb-black.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "iPhone 4S 8GB Black",
-  "productName": "iPhone,Black",
-  "provinceId": [0],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-iphone4-50879/iphone-4s-8gb-black.jpg",
-  "price": "4.999.000",
-  "discountPrice": "0",
-  "sellPrice": "3.999.000",
-  "orderNum": 65
+[{
+  "catId": 12,
+  "totalScore": 69.68085579744036,
+  "historyList": [{
+    "score": 2.2019206040063177,
+    "label": {
+      "BR": "Garbage_Bags",
+      "FUNC-OB": "thực_phẩm",
+      "PROP": "tự_hủy_sinh_học,chắc_chắn",
+      "PN": "túi_đựng,túi_đựng_rác"
+    },
+    "productName": "túi_đựng,túi_đựng_rác"
+  }, {
+    "score": 2.1021347456924215,
+    "label": {
+      "BR": "Bamboo,Nhật_Bản,Thái_Lan",
+      "PROP": "4_chân,lồng_inox,tiện_dụng,xoay_360_độ",
+      "PN-OB": "bông",
+      "PN": "Cây_lau_nhà"
+    },
+    "productName": "Cây_lau_nhà"
+  }, {
+    "score": 2.0076343242735417,
+    "label": {
+      "BR": "Mpro,Thái_Lan,Sella,VN",
+      "FUNC": "kháng_khuẩn",
+      "PROP": "thiên_nhiên,cotton,cao_cấp,tự_nhiên",
+      "PN": "khăn_mặt"
+    },
+    "productName": "khăn_mặt"
+  }, {
+    "score": 1.7016420361247948,
+    "label": {
+      "BR": "Việt_Nam,Smart",
+      "PROP": "cỡ_lớn,An_toàn_tuyệt_đối",
+      "PN": "Thớt"
+    },
+    "productName": "Thớt"
+  }, {
+    "score": 1.6900985211816861,
+    "label": {
+      "PROP": "tiện_dụng,2_tầng",
+      "PN": "giỏ_đựng_đồ"
+    },
+    "productName": "giỏ_đựng_đồ"
+  }, {
+    "score": 1.4055082256211928,
+    "label": {
+      "BR": "Homicook",
+      "PROP": "màu_sắc,tiện_dụng",
+      "PN": "Ấm_siêu_tốc"
+    },
+    "productName": "Ấm_siêu_tốc"
+  }, {
+    "score": 1.3740364381403092,
+    "label": {
+      "BR": "Chefman,Việt_Nam",
+      "FUNC-OB": "cơm,đồ_lót,phụ_kiện",
+      "PROP": "lõi_nhựa,lõi_inox,nhiều_ngăn,xinh_xắn",
+      "PN": "Hộp_đựng"
+    },
+    "productName": "Hộp_đựng"
+  }, {
+    "score": 1.3009557597971044,
+    "label": {
+      "BR": "Hàn_Quốc",
+      "PROP": "đẹp,hở_mũi",
+      "PN": "dép_đi_trong_nhà"
+    },
+    "productName": "dép_đi_trong_nhà"
+  }, {
+    "score": 1.2103201153509955,
+    "label": {
+      "FUNC-OB": "thực_phẩm,giầy",
+      "PROP": "tiêu_chuẩn_IKEA,có_quai_xách",
+      "PN": "hộp_đựng"
+    },
+    "productName": "hộp_đựng"
+  }, {
+    "score": 1.206599923208261,
+    "label": {
+      "PROP": "cotton_nhung",
+      "STYLE": "hoạt_hình",
+      "PN": "gối"
+    },
+    "productName": "gối"
+  }]
 }, {
-  "itemId": 4229,
-  "catId": 5,
-  "url": "https://plaza.muachung.vn/phu-kien-cong-nghe/d-4229/hop-dung-o-cung-hdd-box-2-5-orico-2599us3-hang-chinh-hang.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Hộp đựng ổ cứng (HDD Box) 2.5'' Orico 2599US3 - Hàng chính hãng",
-  "productName": "Hộp đựng ổ cứng,ổ cứng HDD Box,Orico,Hàng chính hãng",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-4229-78046/hop-dung-o-cung-hdd-box-2-5-orico-2599us3-hang-chinh-hang.jpg",
-  "price": "250.000",
-  "discountPrice": "50.400",
-  "sellPrice": "180.000",
-  "orderNum": 24
+  "catId": 6,
+  "totalScore": 16.83378802930681,
+  "historyList": [{
+    "score": 2.4898916401894287,
+    "label": {
+      "BR": "Úc,Oldenburger",
+      "PROP": "nguyên_kem,vị_Vani,giàu_dinh_dưỡng",
+      "PN": "Sữa_bột"
+    },
+    "productName": "Sữa_bột"
+  }, {
+    "score": 2.073411036512638,
+    "label": {
+      "BR": "Devondale,Úc,Pháp,Tây_Ban_Nha,Đức,Promess",
+      "PROP": "nguyên_kem,ít_béo,tiệt_trùng",
+      "PN": "sữa_tươi"
+    },
+    "productName": "sữa_tươi"
+  }, {
+    "score": 1.2042900848793798,
+    "label": {
+      "BR": "Meggle,Mount_Victoria",
+      "PROP": "tách_kem,tách_béo",
+      "PN": "sữa"
+    },
+    "productName": "sữa"
+  }, {
+    "score": 0.881575456053068,
+    "label": {
+      "BR": "Sachi",
+      "PROP": "giàu_dinh_dưỡng",
+      "PN": "bột_mầm"
+    },
+    "productName": "bột_mầm"
+  }, {
+    "score": 0.803150912106136,
+    "label": {
+      "BR": "Riam",
+      "FUNC": "trẻ_hóa_làn_da",
+      "PN": "bột_mầm_đậu_nành"
+    },
+    "productName": "bột_mầm_đậu_nành"
+  }, {
+    "score": 0.8014925373134328,
+    "label": {
+      "BR": "Thổ_Nhĩ_Kỳ",
+      "PN": "mỳ_Spaghetti"
+    },
+    "productName": "mỳ_Spaghetti"
+  }, {
+    "score": 0.8007048092868989,
+    "label": {
+      "BR": "Malaysia",
+      "PROP": "vị_tổng_hợp",
+      "PN": "kẹo_mềm"
+    },
+    "productName": "kẹo_mềm"
+  }, {
+    "score": 0.6664795728165491,
+    "label": {
+      "BR": "Ấn_Độ",
+      "FUNC": "ổn_định_đường_huyết",
+      "PN": "thảo_dược_Methi"
+    },
+    "productName": "thảo_dược_Methi"
+  }, {
+    "score": 0.6029826263825545,
+    "label": {
+      "BR": "Tâm_Bảo",
+      "PROP": "ăn_liền,nảy_mầm",
+      "PN": "gạo_lứt,bột_gạo_lứt"
+    },
+    "productName": "gạo_lứt,bột_gạo_lứt"
+  }, {
+    "score": 0.5053210623582276,
+    "label": {
+      "BR": "Monte",
+      "PROP": "bổ_dưỡng",
+      "PN": "váng_sữa"
+    },
+    "productName": "váng_sữa"
+  }]
 }, {
-  "itemId": 2663,
-  "catId": 111,
-  "url": "https://plaza.muachung.vn/do-the-thao-mac-nha/d-2663/ao-the-thao-nu-women-s-ulight-training-original-a068.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Áo thể thao nữ Women s Ulight Training Original A068    ",
-  "productName": "Áo thể thao,thao,s,Original",
-  "provinceId": [0],
-  "imgUrl": "https://static5.zamba.vn/thumb_wl/150/i:nemo/2015/05/11/817563/1431314187219256342/ao-the-thao-nu-women-s-ulight-training-original-a068.png",
-  "price": "139.000",
-  "discountPrice": "0",
-  "sellPrice": "139.000",
-  "orderNum": 16
+  "catId": 4,
+  "totalScore": 15.279438843950944,
+  "historyList": [{
+    "score": 1.2051264204429413,
+    "label": {
+      "OB": "bé",
+      "FUNC": "vừa_học_vừa_chơi",
+      "PROP": "độc_đáo,điều_khiển_từ_xa",
+      "PN": "Ô_tô"
+    },
+    "productName": "Ô_tô"
+  }, {
+    "score": 1.0024609041283035,
+    "label": {
+      "BR": "Hưng_Việt",
+      "OB": "trẻ_em",
+      "PROP": "đáng_yêu",
+      "STYLE": "in_hình_Mickey,cao_cấp",
+      "PN": "Áo_mưa,Áo_mưa_choàng"
+    },
+    "productName": "Áo_mưa,Áo_mưa_choàng"
+  }, {
+    "score": 0.9045122047645504,
+    "label": {
+      "BR": "Frozen",
+      "OB": "bé_gái",
+      "PROP": "đáng_yêu",
+      "PN": "búp_bê"
+    },
+    "productName": "búp_bê"
+  }, {
+    "score": 0.8854726368159205,
+    "label": {
+      "OB": "bé",
+      "PROP": "ngộ_nghĩnh",
+      "PN": "ô_tô"
+    },
+    "productName": "ô_tô"
+  }, {
+    "score": 0.8853706425099577,
+    "label": {
+      "BR": "Việt_Nam",
+      "OB": "bé",
+      "PROP": "gỗ,độc_đáo",
+      "STYLE": "Minion",
+      "PN": "Đồ_chơi"
+    },
+    "productName": "Đồ_chơi"
+  }, {
+    "score": 0.8050995024875622,
+    "label": {
+      "OB": "bé",
+      "FUNC": "vẽ",
+      "PROP": "thông_minh",
+      "PN": "Bảng_viết_từ"
+    },
+    "productName": "Bảng_viết_từ"
+  }, {
+    "score": 0.8047263681592041,
+    "label": {
+      "PROP": "thấm_hút_tối_đa",
+      "PN": "quần_Unidry"
+    },
+    "productName": "quần_Unidry"
+  }, {
+    "score": 0.803150912106136,
+    "label": {
+      "OB": "bé",
+      "PROP": "hữu_dụng",
+      "PN": "chi_tiết"
+    },
+    "productName": "chi_tiết"
+  }, {
+    "score": 0.800207296849088,
+    "label": {
+      "BR": "Dr",
+      "PN": "bình_sữa"
+    },
+    "productName": "bình_sữa"
+  }, {
+    "score": 0.5061443879243386,
+    "label": {
+      "PROP": "thông_minh",
+      "PN-OB": "bàn_tính",
+      "PN": "Nhà_thả_hình_tập_luồn_dây"
+    },
+    "productName": "Nhà_thả_hình_tập_luồn_dây"
+  }]
 }, {
-  "itemId": 4232,
-  "catId": 5,
-  "url": "https://plaza.muachung.vn/phu-kien-cong-nghe/d-4232/sac-du-phong-remax-colorfull-10-000mah.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Sạc dự phòng  Remax colorfull 10.000mAh",
-  "productName": "Sạc dự phòng,phòng Remax",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-2-80859/sac-du-phong-remax-colorfull-10-000mah.png",
-  "price": "900.000",
-  "discountPrice": "100.000",
-  "sellPrice": "800.000",
-  "orderNum": 9
+  "catId": 2,
+  "totalScore": 13.906097744093445,
+  "historyList": [{
+    "score": 1.6089137645107794,
+    "label": {
+      "BR": "Nhật",
+      "OB": "bạn_gái",
+      "STYLE": "ôm_dáng",
+      "PN": "Quần_legging_sinh_nhiệt,Quần_legging_giữ_nhiệt"
+    },
+    "productName": "Quần_legging_sinh_nhiệt,Quần_legging_giữ_nhiệt"
+  }, {
+    "score": 1.306740110516431,
+    "label": {
+      "OB": "bạn_gái",
+      "STYLE": "trẻ_trung",
+      "PN": "Váy"
+    },
+    "productName": "Váy"
+  }, {
+    "score": 1.0053415414536861,
+    "label": {
+      "BR": "Spring",
+      "OB": "nữ",
+      "PROP": "không_đường_may",
+      "STYLE": "phối_ren_trước,viền_ren",
+      "PN": "quần_lót_đúc,quần_lót"
+    },
+    "productName": "quần_lót_đúc,quần_lót"
+  }, {
+    "score": 1.003609655469274,
+    "label": {
+      "BR": "VNXK",
+      "PROP": "khóa_hông",
+      "PN": "Quần_tregging"
+    },
+    "productName": "Quần_tregging"
+  }, {
+    "score": 0.9806855651615829,
+    "label": {
+      "BR": "VNXK",
+      "OB": "nữ",
+      "PROP": "dày_dặn,túi",
+      "STYLE": "thời_trang,chần_trám",
+      "PN": "Áo_phao"
+    },
+    "productName": "Áo_phao"
+  }, {
+    "score": 0.8079601990049752,
+    "label": {
+      "PROP": "nổi_bật",
+      "STYLE": "trẻ_trung",
+      "PN": "quần_áo"
+    },
+    "productName": "quần_áo"
+  }, {
+    "score": 0.8038557213930348,
+    "label": {
+      "BR": "Sabrina_Natural",
+      "PROP": "bền",
+      "PN": "Quần_tất"
+    },
+    "productName": "Quần_tất"
+  }, {
+    "score": 0.8003316749585406,
+    "label": {
+      "PROP": "thoáng_mát",
+      "PN": "quần_legging"
+    },
+    "productName": "quần_legging"
+  }, {
+    "score": 0.6862937860609165,
+    "label": {
+      "OB": "bạn_gái",
+      "PROP": "cotton,thoáng_mát,dày_dặn",
+      "STYLE": "điệu_đà,cộc_tay,thể_thao",
+      "PN": "Bộ_mặc_nhà"
+    },
+    "productName": "Bộ_mặc_nhà"
+  }, {
+    "score": 0.6417542278790611,
+    "label": {
+      "BR": "Nhật,Tumi",
+      "OB": "bạn_gái",
+      "FUNC": "chống_mưa",
+      "PROP": "ấm_áp,hai_lớp,siêu_nhẹ",
+      "PN": "Áo_gió"
+    },
+    "productName": "Áo_gió"
+  }]
 }, {
-  "itemId": 4702,
-  "catId": 5,
-  "url": "https://plaza.muachung.vn/phu-kien-cong-nghe/d-4702/cu-sac-2-cong-1a-2-4a-chinh-hang-remax-hong-kong.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Củ sạc 2 cổng 1A - 2.4A chính hãng Remax Hồng Kông",
-  "productName": "Củ sạc 2 cổng,chính hãng Remax Hồng",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-4702-37132/cu-sac-2-cong-1a-2-4a-chinh-hang-remax-hong-kong.jpg",
-  "price": "300.000",
-  "discountPrice": "0",
-  "sellPrice": "300.000",
-  "orderNum": 9
+  "catId": 7,
+  "totalScore": 8.873932804991913,
+  "historyList": [{
+    "score": 1.570776426756309,
+    "label": {
+      "BR": "Letter_bag,Thành_Long",
+      "OB": "bạn_gái,nữ",
+      "PROP": "da_bò,da_thật",
+      "STYLE": "cá_tính,thời_trang",
+      "PN": "Túi"
+    },
+    "productName": "Túi"
+  }, {
+    "score": 1.0850381550019386,
+    "label": {
+      "BR": "H2",
+      "OB": "phái_đẹp,nữ",
+      "PROP": "da_bò,Bảo_hành_12_tháng",
+      "PN": "Thắt_lưng"
+    },
+    "productName": "Thắt_lưng"
+  }, {
+    "score": 1.0819123871197425,
+    "label": {
+      "BR": "Đức,Thái_Lan",
+      "PROP": "thảo_dược",
+      "PN": "Sữa_tắm"
+    },
+    "productName": "Sữa_tắm"
+  }, {
+    "score": 0.8019900497512438,
+    "label": {
+      "PROP": "tiện_dụng",
+      "PN": "lót_cho"
+    },
+    "productName": "lót_cho"
+  }, {
+    "score": 0.4000985221674877,
+    "label": {
+      "PROP": "vải",
+      "STYLE": "cá_tính",
+      "PN": "Balo"
+    },
+    "productName": "Balo"
+  }, {
+    "score": 0.28046349942062576,
+    "label": {
+      "BR": "Cleopatra",
+      "PN-OB": "giấy_ướt",
+      "PN": "Sữa_tắm_dưỡng_ẩm"
+    },
+    "productName": "Sữa_tắm_dưỡng_ẩm"
+  }, {
+    "score": 0.2678607501727684,
+    "label": {
+      "BR": "Collagen_Dermal,Purite",
+      "FUNC-OB": "da",
+      "PROP": "Cao_bí_đao",
+      "STYLE": "hoa_hồng",
+      "PN": "mặt_nạ_dưỡng,mặt_nạ"
+    },
+    "productName": "mặt_nạ_dưỡng,mặt_nạ"
+  }, {
+    "score": 0.2654668375516915,
+    "label": {
+      "BR": "Thái_Lan",
+      "OB": "bạn_gái",
+      "FUNC": "tôn_dáng",
+      "PROP": "dai,không_xước",
+      "STYLE": "thời_trang,cổ_ngắn,lưới",
+      "PN": "tất"
+    },
+    "productName": "tất"
+  }, {
+    "score": 0.20422417398578002,
+    "label": {
+      "BR": "Hàn_Quốc",
+      "FUNC": "tôn_dáng",
+      "PROP": "bền,dai",
+      "PN": "quần_tất"
+    },
+    "productName": "quần_tất"
+  }, {
+    "score": 0.20110081112398612,
+    "label": {
+      "BR": "Úc",
+      "STYLE": "mặt_nạ",
+      "PN": "Serum"
+    },
+    "productName": "Serum"
+  }]
 }, {
-  "itemId": 4224,
-  "catId": 171,
-  "url": "https://plaza.muachung.vn/thuc-pham-va-dung-cu-an-uong/d-4224/ca-tap-uong-dr-brown-s-cho-tre-tu-6-9-thang-tuoi-170ml.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Ca tập uống Dr.Brown's cho trẻ từ 6 - 9 tháng tuổi 170ml",
-  "productName": "Ca tập uống,uống,từ,tuổi",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-4711-85887/ca-tap-uong-dr-brown-s-cho-tre-tu-6-9-thang-tuoi-170ml.jpg",
-  "price": "265.000",
-  "discountPrice": "14.000",
-  "sellPrice": "251.000",
-  "orderNum": 8
+  "catId": 8,
+  "totalScore": 7.84711855133959,
+  "historyList": [{
+    "score": 2.2897792122638387,
+    "label": {
+      "BR": "Nhật,Hàn",
+      "PROP": "thoáng_mát,mềm_mại",
+      "STYLE": "tam_giác,đùi",
+      "PN": "quần_sịp"
+    },
+    "productName": "quần_sịp"
+  }, {
+    "score": 1.6879088102206374,
+    "label": {
+      "BR": "VN,Hàn_Quốc,VNXK",
+      "OB": "nam",
+      "PROP": "len,ấm_áp,cotton",
+      "STYLE": "cổ_ngắn,cổ_cao,dài",
+      "PN": "tất"
+    },
+    "productName": "tất"
+  }, {
+    "score": 1.2807257636284914,
+    "label": {
+      "OB": "bạn_nam",
+      "STYLE": "khỏe_mạnh",
+      "PN": "Áo_phông"
+    },
+    "productName": "Áo_phông"
+  }, {
+    "score": 0.8002487562189056,
+    "label": {
+      "BR": "Nhật",
+      "OB": "nam",
+      "PROP": "ba_màu",
+      "PN": "tất_hài"
+    },
+    "productName": "tất_hài"
+  }, {
+    "score": 0.503144880329149,
+    "label": {
+      "BR": "Thành_Long",
+      "PROP": "cao_cấp",
+      "PN": "Ví"
+    },
+    "productName": "Ví"
+  }, {
+    "score": 0.5008210180623974,
+    "label": {
+      "BR": "VNXK",
+      "OB": "chàng,bạn_nam",
+      "PROP": "ấm_áp",
+      "PN": "Áo_khoác_phao,Áo_phao"
+    },
+    "productName": "Áo_khoác_phao,Áo_phao"
+  }, {
+    "score": 0.4010509031198687,
+    "label": {
+      "BR": "Vabaco",
+      "STYLE": "năng_động",
+      "PN": "Túi_trống"
+    },
+    "productName": "Túi_trống"
+  }, {
+    "score": 0.10230029276453367,
+    "label": {
+      "OB": "nam",
+      "PROP": "ấm_áp",
+      "STYLE": "thời_trang",
+      "PN": "Áo_khoác_gió"
+    },
+    "productName": "Áo_khoác_gió"
+  }, {
+    "score": 0.10083647009619406,
+    "label": {
+      "OB": "nam",
+      "PROP": "ấm_áp",
+      "STYLE": "cổ_3_phân",
+      "PN": "Áo_thun"
+    },
+    "productName": "Áo_thun"
+  }, {
+    "score": 0.10020911752404853,
+    "label": {
+      "OB": "chàng",
+      "STYLE": "thể_thao",
+      "PN": "Giày"
+    },
+    "productName": "Giày"
+  }]
 }, {
-  "itemId": 4228,
-  "catId": 5,
-  "url": "https://plaza.muachung.vn/phu-kien-cong-nghe/d-4228/hop-dung-o-cung-hdd-box-2-5-orico-2588us3-hang-chinh-hang.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Hộp đựng ổ cứng (HDD Box) 2.5'' Orico 2588US3 - Hàng chính hãng",
-  "productName": "Hộp đựng ổ cứng,ổ cứng HDD Box,Orico,Hàng chính hãng",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-4228-96275/hop-dung-o-cung-hdd-box-2-5-orico-2588us3-hang-chinh-hang.jpg",
-  "price": "320.000",
-  "discountPrice": "63.450",
-  "sellPrice": "235.000",
-  "orderNum": 7
+  "catId": 1,
+  "totalScore": 3.044994057457777,
+  "historyList": [{
+    "score": 1.6001658374792704,
+    "label": {
+      "LOC": "Chef_Dzung_'s,ZODÊONG",
+      "PROP": "Không_Khói,Hàn_Quốc",
+      "TYPE": "Nướng"
+    },
+    "productName": "Nướng"
+  }, {
+    "score": 0.6011317871936405,
+    "label": {
+      "PROP": "đặc_sắc,Âu",
+      "TYPE": "Buffet"
+    },
+    "productName": "Buffet"
+  }, {
+    "score": 0.2800622180743506,
+    "label": {
+      "LOC": "Vincom_Nguyễn_Chí_Thanh",
+      "PROP": "Hội_Quán",
+      "TYPE": "Lẩu"
+    },
+    "productName": "Lẩu"
+  }, {
+    "score": 0.2,
+    "label": {
+      "LOC": "Menu_VIP",
+      "PROP": "Thái_Tông",
+      "TYPE": "nướng",
+      "PN": "Gri_Trần"
+    },
+    "productName": "Gri_Trần"
+  }, {
+    "score": 0.10033458803847763,
+    "label": {
+      "LOC": "L’Annam",
+      "PROP": "cao_cấp",
+      "TYPE": "Buffet",
+      "PN": "hải_sản"
+    },
+    "productName": "hải_sản"
+  }, {
+    "score": 0.10025094102885822,
+    "label": {
+      "LOC": "Suchef_BBQ",
+      "TYPE": "lẩu"
+    },
+    "productName": "lẩu"
+  }, {
+    "score": 0.08304868564317935,
+    "label": {
+      "LOC": "Gà_142",
+      "PROP": "gà_không_lối_thoát"
+    },
+    "productName": null
+  }, {
+    "score": 0.08000000000000002,
+    "label": {
+      "LOC": "Royal_City",
+      "PROP": "tươi_dịp",
+      "TYPE": "Buffet",
+      "PN": "bia"
+    },
+    "productName": "bia"
+  }]
 }, {
-  "itemId": 5991,
-  "catId": 44,
-  "url": "https://plaza.muachung.vn/dien-thoai/d-5991/apple-iphone-6-plus-16gb-gold.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Apple iPhone 6 Plus 16GB Gold",
-  "productName": "Apple iPhone 6 Plus,Gold",
-  "provinceId": [22, 29],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-dien-thoai-iphone-6-plus-16gb-gold-38691/apple-iphone-6-plus-16gb-gold.jpg",
-  "price": "18.999.000",
-  "discountPrice": "1.009.000",
-  "sellPrice": "16.690.000",
-  "orderNum": 6
+  "catId": 9,
+  "totalScore": 1.2449708863293159,
+  "historyList": [{
+    "score": 0.48367606144264713,
+    "label": {
+      "BR": "Nakagami",
+      "PROP": "4_lỗ,dây_dài_2m",
+      "PN": "Ổ_cắm_điện"
+    },
+    "productName": "Ổ_cắm_điện"
+  }, {
+    "score": 0.20689455388180766,
+    "label": {
+      "OB": "điện_thoại",
+      "PROP": "tiện_dụng",
+      "STYLE": "đuôi_khỉ",
+      "PN": "Giá_đỡ"
+    },
+    "productName": "Giá_đỡ"
+  }, {
+    "score": 0.20544611819235228,
+    "label": {
+      "OB": "laptop",
+      "PROP": "phím_sticker",
+      "PN": "dán_bàn"
+    },
+    "productName": "dán_bàn"
+  }, {
+    "score": 0.10313676286072773,
+    "label": {
+      "BR": "Power_Bank",
+      "PROP": "5600mAh",
+      "PN": "Pin_sạc_dự_phòng"
+    },
+    "productName": "Pin_sạc_dự_phòng"
+  }, {
+    "score": 0.08519520920827502,
+    "label": {
+      "BR": "Vinaphone",
+      "PROP": "dung_lượng_5Gb",
+      "PN": "Sim_3G"
+    },
+    "productName": "Sim_3G"
+  }, {
+    "score": 0.0804666355576295,
+    "label": {
+      "STYLE": "ngộ_nghĩnh",
+      "PN": "tai_nghe"
+    },
+    "productName": "tai_nghe"
+  }, {
+    "score": 0.08015554518587652,
+    "label": {
+      "PROP": "không_dây",
+      "STYLE": "thời_trang",
+      "PN": "Chuột_máy_tính"
+    },
+    "productName": "Chuột_máy_tính"
+  }]
 }, {
-  "itemId": 4231,
-  "catId": 5,
-  "url": "https://plaza.muachung.vn/phu-kien-cong-nghe/d-4231/thiet-bi-cam-o-cung-docking-orico-6619us3-chuan-usb-3-0-truyen-du-lieu-nhanh.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Thiết bị cắm ổ cứng (Docking) ORICO 6619US3 - Chuẩn USB 3.0, truyền dữ liệu nhanh",
-  "productName": "Thiết bị cắm,cắm ổ cứng Docking ORICO,Chuẩn USB,truyền dữ liệu,liệu nhanh",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-1-28518/thiet-bi-cam-o-cung-docking-orico-6619us3-chuan-usb-3-0-truyen-du-lieu-nhanh.jpg",
-  "price": "620.000",
-  "discountPrice": "95.950",
-  "sellPrice": "505.000",
-  "orderNum": 5
-}, {
-  "itemId": 4240,
-  "catId": 93,
-  "url": "https://plaza.muachung.vn/sua-do-ngot/d-4240/sua-bot-celia-expert-2-400-gr-cho-tre-tu-6-12-thang-tuoi.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Sữa bột Celia® EXPERT 2 (400 gr) cho trẻ từ 6 - 12 tháng tuổi",
-  "productName": "Sữa bột,gr,từ,tuổi",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-1-29892/sua-bot-celia-expert-2-400-gr-cho-tre-tu-6-12-thang-tuoi.jpg",
-  "price": "199.000",
-  "discountPrice": "0",
-  "sellPrice": "199.000",
-  "orderNum": 5
-}, {
-  "itemId": 6059,
-  "catId": 44,
-  "url": "https://plaza.muachung.vn/dien-thoai/d-6059/lumia-830-white.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Lumia 830 White",
-  "productName": "Lumia,White",
-  "provinceId": [22, 29],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-cellulare-smartphone-nokia-lumia-830-bianco-tim-white-windows-phone-8-1-wi-93730/lumia-830-white.jpg",
-  "price": "7.999.000",
-  "discountPrice": "0",
-  "sellPrice": "7.999.000",
-  "orderNum": 5
-}, {
-  "itemId": 4234,
-  "catId": 5,
-  "url": "https://plaza.muachung.vn/phu-kien-cong-nghe/d-4234/cap-sac-remax-danh-cho-iphone-5-6-ipad.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Cáp sạc Remax dành cho iPhone 5/6/iPad",
-  "productName": "Cáp sạc Remax dành,iPhone",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-4234-64518/cap-sac-remax-danh-cho-iphone-5-6-ipad.jpg",
-  "price": "200.000",
-  "discountPrice": "0",
-  "sellPrice": "200.000",
-  "orderNum": 4
-}, {
-  "itemId": 4244,
-  "catId": 93,
-  "url": "https://plaza.muachung.vn/sua-do-ngot/d-4244/bot-an-dam-tieu-hoa-celia-200gr.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
-  "title": "Bột ăn dặm tiêu hóa Celia 200gr",
-  "productName": "Bột ăn dặm tiêu hóa Celia",
-  "provinceId": [22],
-  "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-4244-62446/bot-an-dam-tieu-hoa-celia-200gr.jpg",
-  "price": "85.000",
-  "discountPrice": "0",
-  "sellPrice": "85.000",
-  "orderNum": 3
-}]}
+  "catId": 3,
+  "totalScore": 0.7030557954927947,
+  "historyList": [{
+    "score": 0.4000656814449918,
+    "label": {
+      "SEV": "dưỡng",
+      "PROP": "mỹ_phẩm",
+      "SEV-OB": "da"
+    },
+    "productName": "dưỡng"
+  }, {
+    "score": 0.20278099652375436,
+    "label": {
+      "BR": "OPI",
+      "SEV": "đính_đá",
+      "PROP": "cao_cấp",
+      "SEV-OB": "răng"
+    },
+    "productName": "đính_đá"
+  }, {
+    "score": 0.10020911752404853,
+    "label": {
+      "SEV": "phủ_bóng_tóc"
+    },
+    "productName": "phủ_bóng_tóc"
+  }]
+}]
