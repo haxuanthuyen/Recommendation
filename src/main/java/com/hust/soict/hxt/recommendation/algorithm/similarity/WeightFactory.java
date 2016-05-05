@@ -34,12 +34,15 @@ public class WeightFactory {
             res.put("OB", conf.getDouble("weight.thoitrangnu.ob", 0.1));
             res.put("FUNC", conf.getDouble("weight.thoitrangnu.func", 0.1));
         } else if (catId == 3) {// spa va lam dep
-            res.put("SEV", conf.getDouble("weight.spa.sev", 0.6));
+            res.put("SEV", conf.getDouble("weight.spa.sev", 0.5));
             res.put("BR", conf.getDouble("weight.spa.br", 0.2));
             res.put("PROP", conf.getDouble("weight.spa.prop", 0.2));
+            res.put("OB", conf.getDouble("weight.spa.ob", 0.1));
         } else if (catId == 4) {// me va be
             res.put("PN", conf.getDouble("weight.mevabe.pn", 0.25));
-            res.put("STYLE", conf.getDouble("weight.mevabe.style", 0.4));
+            res.put("STYLE", conf.getDouble("weight.mevabe.style", 0.2));
+            res.put("BR", conf.getDouble("weight.mevabe.br", 0.1));
+            res.put("FUNC", conf.getDouble("weight.mevabe.func", 0.1));
             res.put("PROP", conf.getDouble("weight.mevabe.prop", 0.2));
             res.put("OB", conf.getDouble("weight.mevabe.ob", 0.15));
         } else if (catId == 5) {// do dung gia dinh
@@ -50,24 +53,28 @@ public class WeightFactory {
         } else if (catId == 6) {// thuc pham
             res.put("PN", conf.getDouble("weight.thucpham.pn", 0.3));
             res.put("FUNC", conf.getDouble("weight.thucpham.func", 0.2));
-            res.put("PROP", conf.getDouble("weight.thucpham.prop", 0.3));
+            res.put("PROP", conf.getDouble("weight.thucpham.prop", 0.2));
+            res.put("TYPE", conf.getDouble("weight.thucpham.type", 0.1));
             res.put("OB", conf.getDouble("weight.thucpham.ob", 0.1));
             res.put("BR", conf.getDouble("weight.thucpham.br", 0.1));
         } else if (catId == 7) {// phu kien va my pham
             res.put("PN", conf.getDouble("weight.phukienmypham.pn", 0.25));
             res.put("PROP", conf.getDouble("weight.phukienmypham.prop", 0.15));
-            res.put("FUNC", conf.getDouble("weight.phukienmypham.func", 0.25));
+            res.put("FUNC", conf.getDouble("weight.phukienmypham.func", 0.2));
+            res.put("OB", conf.getDouble("weight.phukienmypham.ob", 0.1));
             res.put("BR", conf.getDouble("weight.phukienmypham.br", 0.15));
-            res.put("STYLE", conf.getDouble("weight.phukienmypham.style", 0.2));
+            res.put("STYLE", conf.getDouble("weight.phukienmypham.style", 0.15));
         } else if (catId == 8) {// thoi trang nam
             res.put("PN", conf.getDouble("weight.thoitrangnam.pn", 0.3));
             res.put("STYLE", conf.getDouble("weight.thoitrangnam.style", 0.2));
             res.put("PROP", conf.getDouble("weight.thoitrangnam.prop", 0.2));
-            res.put("FUNC", conf.getDouble("weight.thoitrangnam.func", 0.2));
+            res.put("FUNC", conf.getDouble("weight.thoitrangnam.func", 0.1));
+            res.put("OB", conf.getDouble("weight.thoitrangnam.ob", 0.1));
             res.put("BR", conf.getDouble("weight.thoitrangnam.br", 0.1));
         } else if (catId == 9) {// dien tu cong nghe
             res.put("PN", conf.getDouble("weight.dientucongnghe.pn", 0.25));
-            res.put("PROP", conf.getDouble("weight.dientucongnghe.prop", 0.2));
+            res.put("PROP", conf.getDouble("weight.dientucongnghe.prop", 0.1));
+            res.put("STYLE", conf.getDouble("weight.dientucongnghe.style", 0.1));
             res.put("FUNC", conf.getDouble("weight.dientucongnghe.func", 0.25));
             res.put("BR", conf.getDouble("weight.dientucongnghe.br", 0.15));
             res.put("OB", conf.getDouble("weight.dientucongnghe.ob", 0.15));
@@ -77,11 +84,9 @@ public class WeightFactory {
             res.put("PROP", conf.getDouble("weight.nhabep.prop", 0.1));
             res.put("BR", conf.getDouble("weight.nhabep.br", 0.1));
         } else if (catId == 12) {// gia dung noi that
-            res.put("PN", conf.getDouble("weight.giadungnoithat.pn", 0.3));
+            res.put("PN", conf.getDouble("weight.giadungnoithat.pn", 0.4));
             res.put("STYLE", conf.getDouble("weight.giadungnoithat.style", 0.1));
-            res.put("PN-OB", conf.getDouble("weight.giadungnoithat.pn-ob", 0.1));
-            res.put("FUNC", conf.getDouble("weight.giadungnoithat.func", 0.1));
-            res.put("FUNC-OB", conf.getDouble("weight.giadungnoithat.func-ob", 0.1));
+            res.put("FUNC", conf.getDouble("weight.giadungnoithat.func", 0.2));
             res.put("PROP", conf.getDouble("weight.giadungnoithat.prop", 0.1));
             res.put("BR", conf.getDouble("weight.giadungnoithat.br", 0.1));
             res.put("OB", conf.getDouble("weight.giadungnoithat.ob", 0.1));

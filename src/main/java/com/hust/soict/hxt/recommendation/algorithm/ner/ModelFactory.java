@@ -26,7 +26,7 @@ public class ModelFactory {
         } else if(catId == 9) {
             return "data/dientucongnghe/model.dientucongnghe.gz";
         } else if(catId == 10) {
-            return "data/nhabep/model.nhabep.gz";
+            return "data/giadungnoithat/model.giadungnoithat.gz";
         } else if(catId == 11) {
             return null;
         } else if(catId == 12) {
