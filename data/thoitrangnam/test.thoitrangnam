@@ -4,21 +4,21 @@ găng	B-PN
 tay	I-PN
 hình	B-STYLE
 xăm	I-STYLE
-độc	B-PROP
-đáo	I-PROP
+độc	B-STYLE
+đáo	I-STYLE
 
 Ví	B-PN
 nam	B-OB
 vân	B-STYLE
 cá	I-STYLE
 sấu	I-STYLE
-lịch	B-PROP
-lãm	I-PROP
+lịch	B-STYLE
+lãm	I-STYLE
 
 Combo	O
 4	O
 quần	B-PN
-sịp	B-PROP
+sịp	I-PN
 đùi	B-STYLE
 hàng	O
 xuất	O
@@ -26,7 +26,7 @@ xuất	O
 Combo	O
 4	O
 quần	B-PN
-sịp	B-PROP
+sịp	I-PN
 tam	B-STYLE
 giác	I-STYLE
 xuất	O
@@ -39,7 +39,7 @@ nam	B-OB
 
 3	O
 quần	B-PN
-lót	B-PROP
+lót	I-PN
 nam	B-OB
 RLM003	O
 -	O
@@ -48,16 +48,16 @@ Hiệu	O
 Relax	B-BR
 
 Quần	B-PN
-lửng	B-PROP
+lửng	I-PN
 thể	B-STYLE
 thao	I-STYLE
 cho	O
 chàng	B-OB
-năng	B-PROP
-động	I-PROP
+năng	B-STYLE
+động	I-STYLE
 
 Áo	B-PN
-khoác	B-PROP
+khoác	I-PN
 nam	B-OB
 kiểu	O
 dáng	O
@@ -65,11 +65,11 @@ Hàn	B-BR
 Quốc	I-BR
 
 02	O
-bộ	B-PN
-quần	I-PN
+bộ	O
+quần	B-PN
 áo	I-PN
-bóng	B-STYLE
-đá	I-STYLE
+bóng	I-PN
+đá	I-PN
 đội	O
 tuyển	O
 
@@ -86,10 +86,10 @@ hành	O
 năm	O
 
 Quần	B-PN
-ngố	B-PROP
+ngố	I-PN
 kaki	B-PROP
-năng	B-PROP
-động	I-PROP
+năng	B-STYLE
+động	I-STYLE
 ngày	O
 hè	O
 
@@ -97,11 +97,11 @@ Bộ	B-PN
 cotton	I-PN
 thể	B-STYLE
 thao	I-STYLE
-khỏe	B-PROP
-khoắn	I-PROP
-nhiều	B-PROP
-màu	I-PROP
-sắc	I-PROP
+khỏe	B-STYLE
+khoắn	I-STYLE
+nhiều	B-STYLE
+màu	I-STYLE
+sắc	I-STYLE
 
 2	O
 đôi	O
@@ -110,19 +110,19 @@ giày	I-PN
 than	B-PROP
 hoạt	I-PROP
 tính	I-PROP
-khử	B-PROP
-mùi	I-PROP
+khử	B-FUNC
+mùi	I-FUNC
 cho	O
 nam	B-OB
 
-Trẻ	B-PROP
-trung	I-PROP
+Trẻ	O
+trung	O
 vào	O
 hè	O
 cùng	O
 quần	B-PN
-ngố	B-PROP
-jean	B-PROP
+ngố	I-PN
+jeans	B-PROP
 cho	O
 nam	B-OB
 
@@ -134,21 +134,21 @@ Nano	B-PROP
 hút	B-PROP
 ẩm	I-PROP
 ,	O
-khử	B-PROP
-mùi	I-PROP
+khử	B-FUNC
+mùi	I-FUNC
 dành	O
 cho	O
 nam	B-OB
 
 4	O
 quần	B-PN
-lót	B-PROP
+lót	I-PN
 nam	B-OB
 thun	B-PROP
 lạnh	I-PROP
 
 Áo	B-PN
-thun	B-PROP
+thun	I-PN
 nam	B-OB
 tay	B-STYLE
 ngắn	I-STYLE
@@ -156,10 +156,10 @@ cổ	B-STYLE
 bẻ	I-STYLE
 
 Giầy	B-PN
-lười	B-PROP
+lười	I-PN
 moca	B-BR
-phong	B-PROP
-cách	I-PROP
+phong	B-STYLE
+cách	I-STYLE
 cho	O
 chàng	B-OB
 
@@ -175,7 +175,7 @@ nam	B-OB
 
 3	O
 quần	B-PN
-lót	B-PROP
+lót	I-PN
 nam	B-OB
 cotton	B-PROP
 siêu	B-PROP
@@ -191,7 +191,7 @@ phối	B-STYLE
 màu	I-STYLE
 
 Quần	B-PN
-short	B-PROP
+short	I-PN
 nam	B-OB
 thể	B-STYLE
 thao	I-STYLE
@@ -206,8 +206,8 @@ Romario	B-BR
 -	O
 Thấm	B-FUNC
 hút	I-FUNC
-mồ	B-FUNC-OB
-hôi	I-FUNC-OB
+mồ	I-FUNC
+hôi	I-FUNC
 tốt	O
 
 Sandal	B-PN
@@ -232,13 +232,13 @@ hành	O
 1	O
 năm	O
 
-Tự	B-PROP
-tin	I-PROP
+Tự	O
+tin	O
 đón	O
 hè	O
 với	O
 quần	B-PN
-ngố	B-PROP
+ngố	I-PN
 kaki	B-PROP
 cho	O
 nam	B-OB
@@ -248,10 +248,10 @@ mát	I-PROP
 Thắt	B-PN
 lưng	I-PN
 nam	B-OB
-khóa	B-STYLE
-lăn	I-STYLE
-mặt	B-STYLE
-nổi	I-STYLE
+khóa	B-PROP
+lăn	I-PROP
+mặt	B-PROP
+nổi	I-PROP
 
 Thắt	B-PN
 lưng	I-PN
@@ -275,8 +275,8 @@ tháng	O
 
 Kính	B-PN
 râm	I-PN
-sành	B-PROP
-điệu	I-PROP
+sành	B-STYLE
+điệu	I-STYLE
 -	O
 Khỏi	O
 lo	O
@@ -286,7 +286,7 @@ hè	O
 Set	O
 4	O
 quần	B-PN
-sịp	B-PROP
+sịp	I-PN
 đùi	B-STYLE
 cotton	B-PROP
 mềm	B-PROP
@@ -302,8 +302,8 @@ pha	B-STYLE
 kẻ	I-STYLE
 tay	B-STYLE
 ngắn	I-STYLE
-thanh	B-PROP
-lịch	I-PROP
+thanh	B-STYLE
+lịch	I-STYLE
 
 Đồng	B-PN
 hồ	I-PN
@@ -314,7 +314,7 @@ mặt	B-STYLE
 tròn	I-STYLE
 
 Áo	B-PN
-thun	B-PROP
+thun	I-PN
 nam	B-OB
 Made	O
 in	O
@@ -323,7 +323,7 @@ size	O
 S	O
 
 Áo	B-PN
-thun	B-PROP
+thun	I-PN
 nam	B-OB
 Made	O
 in	O
@@ -332,7 +332,7 @@ size	O
 M	O
 
 Áo	B-PN
-thun	B-PROP
+thun	I-PN
 nam	B-OB
 Made	O
 in	O
@@ -343,16 +343,16 @@ L	O
 Combo	O
 5	O
 quần	B-PN
-sịp	B-PROP
+sịp	I-PN
 tam	B-STYLE
 giác	I-STYLE
 cạp	B-PROP
 chun	I-PROP
-bản	B-STYLE
-to	I-STYLE
+bản	B-PROP
+to	I-PROP
 
 Áo	B-PN
-thun	B-PROP
+thun	I-PN
 nam	B-OB
 Made	O
 in	O
@@ -362,24 +362,24 @@ XL	O
 
 2	O
 áo	B-PN
-phông	B-PROP
+phông	I-PN
 nam	B-OB
 cổ	B-STYLE
 tròn	I-STYLE
-khỏe	B-PROP
-khoắn	I-PROP
+khỏe	B-STYLE
+khoắn	I-STYLE
 
 Áo	B-PN
-phông	B-PROP
+phông	I-PN
 cổ	B-STYLE
 tim	I-STYLE
 in	B-STYLE
 chữ	I-STYLE
-sành	B-PROP
-điệu	I-PROP
+sành	B-STYLE
+điệu	I-STYLE
 
 Áo	B-PN
-thun	B-PROP
+thun	I-PN
 nam	B-OB
 tay	B-STYLE
 ngắn	I-STYLE
@@ -388,3 +388,674 @@ bẻ	I-STYLE
 AF	B-BR
 size	O
 M	O
+
+3	O
+đôi	O
+vớ	B-PN
+nam	B-OB
+cổ	B-STYLE
+ngắn	I-STYLE
+GTman	B-BR
+
+3	O
+quần	B-PN
+lót	I-PN
+nam	B-OB
+Relax	B-BR
+RLTK024	I-BR
+
+Găng	B-PN
+tay	I-PN
+nam	B-OB
+đi	O
+xe	B-FUNC-OB
+máy	I-FUNC-OB
+
+Combo	O
+6	O
+quần	B-PN
+sịp	I-PN
+đùi	B-STYLE
+xuất	O
+Nhật	B-BR
+
+6	O
+quần	B-PN
+sịp	I-PN
+tam	B-STYLE
+giác	I-STYLE
+hàng	O
+xuất	O
+Nhật	B-BR
+thoáng	B-PROP
+mát	I-PROP
+
+4	O
+quần	B-PN
+sịp	I-PN
+tam	B-STYLE
+giác	I-STYLE
+hàng	O
+xuất	O
+Nhật	B-BR
+thoáng	B-PROP
+mát	I-PROP
+
+5	O
+quần	B-PN
+sịp	I-PN
+tam	B-STYLE
+giác	I-STYLE
+hàng	O
+xuất	O
+
+Thắt	B-PN
+lưng	I-PN
+da	B-PROP
+cá	I-PROP
+sấu	I-PROP
+cao	B-PROP
+cấp	I-PROP
+Việt	B-BR
+Phong	I-BR
+
+Thắt	B-PN
+lưng	I-PN
+Thành	B-BR
+Long	I-BR
+da	B-PROP
+thật	I-PROP
+bảo	O
+hành	O
+1	O
+năm	O
+
+Thắt	B-PN
+lưng	I-PN
+vân	B-STYLE
+cá	I-STYLE
+sấu	I-STYLE
+da	B-PROP
+bò	I-PROP
+thật	I-PROP
+
+2	O
+quần	B-PN
+short	I-PN
+nam	B-OB
+phong	B-STYLE
+cách	I-STYLE
+thể	I-STYLE
+thao	I-STYLE
+
+4	O
+Quần	B-PN
+lót	I-PN
+nam	B-OB
+thun	B-PROP
+lạnh	I-PROP
+Chisin	B-BR
+
+Ví	B-PN
+da	B-PROP
+nam	B-OB
+cao	B-PROP
+cấp	I-PROP
+,	O
+hộp	O
+đựng	O
+sang	B-STYLE
+trọng	I-STYLE
+
+Ví	B-PN
+nam	B-OB
+vân	B-STYLE
+cá	I-STYLE
+sấu	I-STYLE
+lịch	B-STYLE
+lãm	I-STYLE
+
+8	O
+đôi	O
+tất	B-PN
+cổ	B-STYLE
+ngắn	I-STYLE
+Romario	B-BR
+-	O
+Thấm	B-FUNC
+hút	I-FUNC
+mồ	I-FUNC
+hôi	I-FUNC
+tốt	O
+
+Sành	B-STYLE
+điệu	I-STYLE
+với	O
+kính	B-PN
+tráng	B-PROP
+gương	I-PROP
+chống	B-FUNC
+lóa	I-FUNC
+
+Ví	B-PN
+nam	B-OB
+vân	B-STYLE
+kẻ	I-STYLE
+ô	I-STYLE
+100%	O
+da	B-PROP
+bò	I-PROP
+bền	I-PROP
+,	O
+đẹp	I-PROP
+
+Combo	O
+6	O
+đôi	O
+tất	B-PN
+dệt	B-PROP
+kim	I-PROP
+cổ	B-STYLE
+ngắn	I-STYLE
+
+3	O
+Quần	B-PN
+boxer	I-PN
+nam	B-OB
+Relax	B-BR
+
+6	O
+quần	B-PN
+lót	I-PN
+cotton	B-PROP
+cho	O
+nam	B-OB
+-	O
+Hàng	O
+xuất	O
+Nhật	B-BR
+
+4	O
+quần	B-PN
+boxer	I-PN
+đùi	B-STYLE
+-	O
+Hàng	O
+xuất	O
+Nhật	B-BR
+
+2	O
+quần	B-PN
+lửng	I-PN
+thể	B-STYLE
+thao	I-STYLE
+nam	B-OB
+
+2	O
+Áo	B-PN
+thun	I-PN
+nam	B-OB
+body	B-STYLE
+cổ	B-STYLE
+tim	I-STYLE
+
+4	O
+quần	B-PN
+sịp	I-PN
+đùi	B-STYLE
+hàng	O
+xuất	O
+khẩu	O
+
+4	O
+quần	B-PN
+sịp	I-PN
+tam	B-STYLE
+giác	I-STYLE
+hàng	O
+xuất	O
+Nhật	B-BR
+
+Kính	B-PN
+mát	I-PN
+thời	B-STYLE
+trang	I-STYLE
+cho	O
+nam	B-OB
+
+5	O
+đôi	O
+tất	B-PN
+Hàn	B-BR
+Quốc	I-BR
+cổ	B-STYLE
+ngắn	I-STYLE
+cho	O
+nam	B-OB
+
+Quần	B-PN
+short	I-PN
+thun	B-PROP
+nam	B-OB
+Prazenta	B-BR
+
+Đồng	B-PN
+hồ	I-PN
+nam	B-OB
+thể	B-STYLE
+thao	I-STYLE
+dây	B-PROP
+bố	I-PROP
+
+Quần	B-PN
+jeans	I-PN
+nam	B-OB
+Prazenta	B-BR
+
+Giày	B-PN
+thể	B-STYLE
+thao	I-STYLE
+nam	B-OB
+Prowin	B-BR
+TM1401	I-BR
+
+Giày	B-PN
+đá	B-FUNC
+bóng	I-FUNC
+đinh	B-STYLE
+nhỏ	I-STYLE
+Prowin	B-BR
+-	O
+SRV	I-BR
+
+Giày	B-PN
+đá	B-FUNC
+bóng	I-FUNC
+nam	B-OB
+đinh	B-STYLE
+nhỏ	I-STYLE
+Prowin	B-BR
+
+5	O
+đôi	O
+tất	B-PN
+Hàn	B-BR
+Quốc	I-BR
+cotton	B-PROP
+cổ	B-STYLE
+dài	I-STYLE
+
+5	O
+đôi	O
+tất	B-PN
+Hàn	B-BR
+Quốc	I-BR
+cotton	B-PROP
+cổ	B-STYLE
+ngắn	I-STYLE
+
+Bộ	O
+đồ	B-PN
+short	I-PN
+thun	B-PROP
+thể	B-STYLE
+thao	I-STYLE
+nam	B-OB
+
+5	O
+Đôi	O
+tất	B-PN
+hài	I-PN
+cotton	B-PROP
+cho	O
+nam	B-OB
+
+4	O
+quần	B-PN
+sịp	I-PN
+đùi	B-STYLE
+xuất	O
+mềm	B-PROP
+mại	I-PROP
+,	O
+thoáng	B-PROP
+mát	I-PROP
+
+Áo	B-PN
+sơ	I-PN
+mi	I-PN
+nam	B-OB
+xanh	B-STYLE
+đen	I-STYLE
+viền	I-STYLE
+trắng	I-STYLE
+
+Ví	B-PN
+nam	B-OB
+Thành	B-BR
+Long	I-BR
+100%	O
+da	B-PROP
+bò	I-PROP
+thật	I-PROP
+
+5	O
+đôi	O
+tất	B-PN
+hài	I-PN
+Bamboo	B-BR
+khử	B-FUNC
+mùi	I-FUNC
+
+Nước	B-PN
+hoa	I-PN
+Manley	B-BR
+-	O
+Jaguar	I-BR
+cho	O
+nam	B-OB
+giới	I-OB
+
+Thắt	B-PN
+lưng	I-PN
+Thành	B-BR
+Long	I-BR
+da	B-PROP
+thật	I-PROP
+-	O
+Bảo	O
+hành	O
+1	O
+năm	O
+
+Combo	O
+2	O
+găng	B-PN
+tay	I-PN
+hình	B-STYLE
+xăm	I-STYLE
+độc	B-STYLE
+đáo	I-STYLE
+
+2	O
+đôi	O
+lót	B-PN
+giày	I-PN
+than	B-PROP
+hoạt	I-PROP
+tính	I-PROP
+khử	B-FUNC
+mùi	I-FUNC
+cho	O
+nam	B-OB
+
+Thắt	B-PN
+lưng	I-PN
+nam	B-OB
+Today	B-BR
+Piegon	I-BR
+
+Sơ	B-PN
+mi	I-PN
+nam	B-OB
+cộc	B-STYLE
+tay	I-STYLE
+thời	B-STYLE
+trang	I-STYLE
+,	O
+lịch	B-STYLE
+sự	I-STYLE
+
+Quần	B-PN
+jeans	I-PN
+thun	B-PROP
+nam	B-OB
+-	O
+Vải	O
+co	B-PROP
+giãn	I-PROP
+4	O
+chiều	O
+
+Quần	B-PN
+jeans	I-PN
+nam	B-OB
+Dna	B-BR
+1450	O
+
+Quần	B-PN
+jeans	I-PN
+nam	B-OB
+51004	O
+
+Ví	B-PN
+da	B-PROP
+thật	I-PROP
+vân	B-STYLE
+cá	I-STYLE
+sấu	I-STYLE
+LaKa	B-BR
+cho	O
+bạn	B-OB
+nam	I-OB
+
+Thắt	B-PN
+lưng	I-PN
+da	B-PROP
+cá	I-PROP
+sấu	I-PROP
+LaKa	B-BR
+sành	B-STYLE
+điệu	I-STYLE
+cho	O
+bạn	B-OB
+nam	I-OB
+
+03	O
+quần	B-PN
+sịp	I-PN
+tam	B-STYLE
+giác	I-STYLE
+chất	O
+cotton	B-PROP
+mềm	B-PROP
+mịn	I-PROP
+-	O
+hàng	O
+VN	B-BR
+
+Áo	B-PN
+khoác	I-PN
+kéo	B-PROP
+khóa	I-PROP
+có	B-STYLE
+mũ	I-STYLE
+năng	B-STYLE
+động	I-STYLE
+
+Áo	B-PN
+phao	I-PN
+dày	B-PROP
+dặn	I-PROP
+,	O
+ấm	B-PROP
+áp	I-PROP
+,	O
+khỏe	B-STYLE
+khoắn	I-STYLE
+cho	O
+bạn	B-OB
+nam	I-OB
+
+Combo	O
+2	O
+quần	B-PN
+chun	B-STYLE
+gấu	I-STYLE
+cá	B-STYLE
+tính	I-STYLE
+cho	O
+bạn	B-OB
+nam	I-OB
+
+4	O
+quần	B-PN
+sịp	I-PN
+tam	B-STYLE
+giác	I-STYLE
+cotton	B-PROP
+hàng	O
+xuất	O
+Nhật	B-BR
+
+Thắt	B-PN
+lưng	I-PN
+da	B-PROP
+bò	I-PROP
+Thành	B-BR
+Long	I-BR
+203812	O
+lịch	B-STYLE
+lãm	I-STYLE
+
+Dao	B-PN
+cạo	I-PN
+râu	I-PN
+lưỡi	B-PROP
+kép	I-PROP
+Trans	B-BR
+Swift	I-BR
+-	O
+Vỉ	O
+12	O
+chiếc	O
+
+Dao	B-PN
+cạo	I-PN
+râu	I-PN
+lưỡi	B-PROP
+kép	I-PROP
+Trans	B-BR
+Classic	I-BR
+-	O
+Vỉ	O
+12	O
+chiếc	O
+
+Áo	B-PN
+phao	I-PN
+lót	B-PROP
+nỉ	I-PROP
+kiểu	O
+dáng	O
+khỏe	B-STYLE
+khoắn	I-STYLE
+cho	O
+bạn	B-OB
+nam	I-OB
+
+Combo	O
+3	O
+quần	B-PN
+sịp	I-PN
+nam	B-OB
+tam	B-STYLE
+giác	I-STYLE
+cạp	B-PROP
+to	I-PROP
+Viettex	B-BR
+
+Thắt	B-PN
+lưng	I-PN
+da	B-PROP
+thật	I-PROP
+
+Combo	O
+4	O
+quần	B-PN
+sịp	I-PN
+đùi	B-STYLE
+VNXK	B-BR
+mềm	B-PROP
+mại	I-PROP
+,	O
+thoáng	B-PROP
+mát	I-PROP
+
+Combo	O
+5	O
+đôi	O
+tất	B-PN
+Hàn	B-BR
+Quốc	I-BR
+cổ	B-STYLE
+cao	I-STYLE
+cho	O
+nam	B-OB
+
+Áo	B-PN
+nỉ	I-PN
+da	B-PROP
+cá	I-PROP
+sọc	B-STYLE
+tay	I-STYLE
+phong	B-STYLE
+cách	I-STYLE
+cho	O
+bạn	B-OB
+nam	I-OB
+
+Áo	B-PN
+nỉ	I-PN
+da	B-PROP
+cá	I-PROP
+dài	B-STYLE
+tay	I-STYLE
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bạn	B-OB
+nam	I-OB
+
+Combo	O
+10	O
+đôi	O
+tất	B-PN
+xù	B-PROP
+thể	B-STYLE
+thao	I-STYLE
+ấm	B-PROP
+áp	I-PROP
+cho	O
+nam	B-OB
+
+Ví	B-PN
+&	O
+amp	O
+;	O
+Thắt	B-PN
+lưng	I-PN
+da	B-PROP
+cao	B-PROP
+cấp	I-PROP
+Laka	B-BR
+-	O
+Quà	O
+tặng	O
+ý	O
+nghĩa	O
+
+Ví	B-PN
+&	O
+amp	O
+;	O
+Thắt	B-PN
+lưng	I-PN
+da	B-PROP
+vân	B-STYLE
+cá	I-STYLE
+sấu	I-STYLE
+sành	B-STYLE
+điệu	I-STYLE
+cho	O
+chàng	B-OB

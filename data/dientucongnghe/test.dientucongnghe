@@ -11,8 +11,8 @@ năm	O
 
 Điều	B-PN
 hoà	I-PN
-quạt	B-PROP
-đá	I-PROP
+quạt	B-PN
+đá	I-PN
 2	B-PROP
 cánh	I-PROP
 mát	B-PROP
@@ -31,8 +31,8 @@ chức	I-PROP
 năng	I-PROP
 
 Kính	B-PN
-cường	B-PROP
-lực	I-PROP
+cường	B-FUNC
+lực	I-FUNC
 titan	B-PROP
 bo	B-PROP
 nguyên	I-PROP
@@ -42,8 +42,8 @@ Iphone	B-OB
 Plus	I-OB
 
 Kính	B-PN
-cường	B-PROP
-lực	I-PROP
+cường	B-FUNC
+lực	I-FUNC
 titan	B-PROP
 2	B-PROP
 mặt	I-PROP
@@ -54,8 +54,8 @@ Iphone	B-OB
 6	I-OB
 
 Kính	B-PN
-cường	B-PROP
-lực	I-PROP
+cường	B-FUNC
+lực	I-FUNC
 Titan	B-PROP
 bo	B-PROP
 nguyên	I-PROP
@@ -64,7 +64,7 @@ Iphone	B-OB
 6	I-OB
 
 Giá	B-PN
-đỡ	B-FUNC
+đỡ	I-PN
 bàn	B-STYLE
 tay	I-STYLE
 +	O
@@ -77,7 +77,7 @@ thoại	I-OB
 
 Bộ	B-PN
 chia	B-FUNC
-USB	B-FUNC-OB
+USB	I-FUNC
 4	B-PROP
 cổng	I-PROP
 có	B-PROP
@@ -85,19 +85,19 @@ công	I-PROP
 tắc	I-PROP
 
 Bao	B-PN
-da	B-PROP
+da	I-PN
 Ipad	B-OB
-2	I-OB
-,	I-OB
-3	I-OB
-,	I-OB
-4	I-OB
+2	O
+,	O
+3	O
+,	O
+4	O
 Echo	B-BR
 cao	B-PROP
 cấp	I-PROP
 
 Chuột	B-PN
-quang	B-PROP
+quang	I-PN
 có	B-PROP
 dây	I-PROP
 -	O
@@ -120,8 +120,8 @@ tháng	O
 42Gb)	O
 
 Pin	B-PN
-sạc	B-FUNC
-dự	I-FUNC
+sạc	I-PN
+dự	B-FUNC
 phòng	I-FUNC
 Totoro	B-BR
 hình	B-STYLE
@@ -189,15 +189,15 @@ USB	I-PROP
 
 Nhiệt	B-PN
 kế	I-PN
-điện	B-PROP
-tử	I-PROP
+điện	I-PN
+tử	I-PN
 hồng	B-PROP
 ngoại	I-PROP
 đo	B-FUNC
-Tai	B-FUNC-OB
+Tai	I-FUNC
 hoặc	O
 đo	B-FUNC
-Trán	B-FUNC-OB
+Trán	I-FUNC
 
 Loa	B-PN
 nghe	B-FUNC
@@ -206,7 +206,7 @@ Bluetooth	B-PROP
 S10	B-BR
 
 Đèn	B-PN
-Led	B-PROP
+Led	I-PN
 để	B-PROP
 bàn	I-PROP
 gấp	B-PROP
@@ -214,14 +214,14 @@ gọn	I-PROP
 
 Miếng	B-PN
 dán	I-PN
-cường	B-PROP
-lực	I-PROP
+cường	B-FUNC
+lực	I-FUNC
 2	B-PROP
 mặt	I-PROP
 iPhone	B-OB
 5	I-OB
-/	I-OB
-5S	I-OB
+/	O
+5S	O
 
 Combo	O
 2	O
@@ -249,7 +249,7 @@ thoại	I-OB
 Smartphone	I-OB
 
 Đèn	B-PN
-led	B-PROP
+led	I-PN
 sạc	B-FUNC
 kẹp	B-PROP
 bàn	I-PROP
@@ -260,7 +260,7 @@ xoay	B-PROP
 độ	I-PROP
 
 Cáp	B-PN
-sạc	B-FUNC
+sạc	I-PN
 dây	B-PROP
 kéo	I-PROP
 chống	B-PROP
@@ -278,9 +278,9 @@ sướng	I-FUNC
 có	O
 bluetooth	B-PROP
 Monopod	B-BR
-Z07	B-BR
--	I-BR
-5	I-BR
+Z07	O
+-	O
+5	O
 
 3	O
 Ốp	B-PN
@@ -293,15 +293,15 @@ thoại	I-OB
 
 Miếng	B-PN
 dán	I-PN
-cường	B-PROP
-lực	I-PROP
+cường	B-FUNC
+lực	I-FUNC
 2	B-PROP
 mặt	I-PROP
 cho	O
 Iphone	B-OB
 5	I-OB
-/	I-OB
-5S	I-OB
+/	O
+5S	O
 
 Loa	B-PN
 nghe	B-FUNC
@@ -336,19 +336,19 @@ Gậy	B-PN
 chụp	B-FUNC
 ảnh	I-FUNC
 kèm	O
-điều	B-PN-OB
-khiển	I-PN-OB
+điều	B-PN
+khiển	I-PN
 Bluetooth	B-PROP
 
 Bộ	O
 cáp	B-PN
 +	O
 cốc	B-PN
-sạc	B-FUNC
+sạc	I-PN
 iPhone	B-OB
 6	I-OB
-/	I-OB
-6	I-OB
+/	O
+6	B-OB
 Plus	I-OB
 
 Gậy	B-PN
@@ -382,7 +382,7 @@ thoại	I-OB
 Android	I-OB
 
 Đèn	B-PN
-led	B-PROP
+led	I-PN
 tích	B-PROP
 điện	I-PROP
 39	B-PROP
@@ -391,7 +391,7 @@ siêu	B-PROP
 sáng	I-PROP
 
 Đèn	B-PN
-Led	B-PROP
+Led	I-PN
 24	B-PROP
 bóng	I-PROP
 tích	B-PROP
@@ -406,8 +406,8 @@ cực	B-PROP
 nhạy	I-PROP
 
 Loa	B-PN
-Multimedia	B-BR
-2.1	I-BR
+Multimedia	B-PROP
+2.1	I-PROP
 USB	B-PROP
 nghe	B-FUNC
 nhạc	I-FUNC
@@ -417,8 +417,8 @@ chất	I-PROP
 02	O
 đế	B-PN
 dựng	B-FUNC
-điện	B-FUNC-OB
-thoại	I-FUNC-OB
+điện	I-FUNC
+thoại	I-FUNC
 hình	B-STYLE
 voi	I-STYLE
 
@@ -428,22 +428,22 @@ Kaku	B-BR
 cho	O
 iPad	B-OB
 Mini	I-OB
-1	I-OB
-/	I-OB
-2	I-OB
-/	I-OB
-3	I-OB
+1	O
+/	O
+2	O
+/	O
+3	O
 
 Bao	B-PN
 da	B-PROP
 Kakusiga	B-BR
 cho	O
 iPad	B-OB
-2	I-OB
-/	I-OB
-3	I-OB
-/	I-OB
-4	I-OB
+2	O
+/	O
+3	O
+/	O
+4	O
 
 Gậy	B-PN
 chụp	B-FUNC
@@ -456,7 +456,7 @@ xoay	B-PROP
 độ	I-PROP
 
 Bao	B-PN
-da	B-PROP
+da	I-PN
 iPad	B-OB
 Air	I-OB
 2	I-OB
@@ -466,21 +466,21 @@ ca	I-STYLE
 rô	I-STYLE
 
 Đèn	B-PN
-bàn	B-PROP
+bàn	I-PN
 bảo	B-FUNC
 vệ	I-FUNC
-thị	B-FUNC-OB
-lực	I-FUNC-OB
+thị	I-FUNC
+lực	I-FUNC
 ,	O
-an	O
-toàn	O
+an	B-PROP
+toàn	I-PROP
 cho	O
 đôi	O
 mắt	O
 
 Đèn	B-PN
-treo	B-PROP
-tường	I-PROP
+treo	I-PN
+tường	I-PN
 năng	B-PROP
 lượng	I-PROP
 mặt	I-PROP
@@ -488,13 +488,13 @@ trời	I-PROP
 
 Loa	B-PN
 Bluetooth	B-PROP
-WS	B-BR
--	I-BR
-655	I-BR
+WS	O
+-	O
+655	O
 
 2	O
 quạt	B-PN
-USB	B-PROP
+USB	I-PN
 mini	B-PROP
 có	O
 thể	O

@@ -1,0 +1,27 @@
+{
+  "products": [{
+    "itemId": 6596,
+    "catId": 44,
+    "url": "https://plaza.muachung.vn/dien-thoai/d-6596/iphone-4s-8gb-black.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
+    "title": "iPhone 4S 8GB Black",
+    "productName": "iPhone,Black",
+    "provinceId": [0],
+    "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-iphone4-50879/iphone-4s-8gb-black.jpg",
+    "price": "4.999.000",
+    "discountPrice": "0",
+    "sellPrice": "3.999.000",
+    "orderNum": 65
+  }, {
+    "itemId": 4229,
+    "catId": 5,
+    "url": "https://plaza.muachung.vn/phu-kien-cong-nghe/d-4229/hop-dung-o-cung-hdd-box-2-5-orico-2599us3-hang-chinh-hang.html?_sc=mc&_tp=re&_zn=zone2&ss=1",
+    "title": "Hộp đựng ổ cứng (HDD Box) 2.5'' Orico 2599US3 - Hàng chính hãng",
+    "productName": "Hộp đựng ổ cứng,ổ cứng HDD Box,Orico,Hàng chính hãng",
+    "provinceId": [22],
+    "imgUrl": "https://static10.zamba.vn/thumb_wl/150/i:plaza/product/product/-0-4229-78046/hop-dung-o-cung-hdd-box-2-5-orico-2599us3-hang-chinh-hang.jpg",
+    "price": "250.000",
+    "discountPrice": "50.400",
+    "sellPrice": "180.000",
+    "orderNum": 24
+  }]
+}

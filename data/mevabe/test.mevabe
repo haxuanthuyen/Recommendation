@@ -1,1130 +1,2988 @@
-áo	N	B-PN
-mưa	N	I-PN
-hình	N	B-STYLE
-ngộ	A	I-STYLE
-nghĩnh	nghĩnh	I-STYLE
-
-10	M	O
-quần	N	B-PN
-dài	A	I-PN
-cho	E	O
-trẻ	A	B-OB
-sơ	Np	I-OB
-sinh	V	I-OB
-
-2	M	O
-đầm	Nu	B-PN
-maxi	Np	B-STYLE
-bo	V	B-STYLE
-thun	N	B-STYLE
-ngực	N	I-STYLE
-cho	E	O
-bé	N	B-OB
-gái	N	I-OB
-
-túi	N	B-PN
-trống	A	I-PN
-minion	Nb	B-STYLE
-đáng	R	B-PROP
-yêu	V	I-PROP
-cho	E	O
-bé	N	B-OB
-đựng	V	O
-đồ	N	O
-
-bộ	V	O
-đồ	N	B-PN
-chơi	V	I-PN
-đất	N	B-STYLE
-nặn	V	I-STYLE
-làm	V	B-FUNC
-kem	N	I-FUNC
-cho	E	O
-bé	Np	B-OB
-
-10	M	O
-đôi	M	O
-bao	L	B-PN
-tay	N	I-PN
-+	+	O
-10	M	O
-đôi	M	O
-bao	L	B-PN
-chân	N	I-PN
-+	+	O
-5	M	O
-nón	N	B-PN
-cho	E	O
-bé	Np	B-OB
-
-10	M	O
-vòng	N	B-PN
-tay	N	I-PN
-dâu	N	B-PROP
-tằm	N	I-PROP
-cho	E	O
-bé	Np	B-OB
-
-6	M	O
-yếm	N	B-PN
-ăn	V	B-FUNC
-2	M	B-PROP
-lớp	N	I-PROP
-có	V	B-PROP
-dây	N	I-PROP
-đeo	V	I-PROP
-vai	N	I-PROP
-
-set	V	O
-đồ	N	O
-áo	N	B-PN
-thun	N	B-PROP
-quần	N	B-PN
-bo	V	B-STYLE
-gấu	N	I-STYLE
-cực	Vb	B-PROP
-chất	N	I-PROP
-cho	E	O
-bé	N	B-OB
-trai	N	I-OB
-
-set	V	O
-20	M	O
-khăn	N	B-PN
-sữa	N	I-PN
-mềm	A	B-PROP
-mại	N	I-PROP
-dành	V	O
-cho	E	O
-bé	V	B-OB
-sơ	A	I-OB
-sinh	V	I-OB
-
-5	M	O
-áo	N	B-PN
-phông	N	B-STYLE
-trơn	A	B-STYLE
-cổ	V	I-STYLE
-tròn	A	I-STYLE
-size	N	O
-1-2-3	1-2-3	O
-
-xe	N	B-PN
-tập	V	B-FUNC
-đi	V	I-FUNC
-bằng	E	O
-gỗ	N	B-PROP
-kết	V	O
-hợp	A	O
-đồ	N	B-PN
-chơi	V	I-PN
-hình	N	B-STYLE
-3	M	I-STYLE
-con	Nc	I-STYLE
-gà	N	I-STYLE
-
-ghế	N	B-PN
-ngồi	V	B-FUNC
-xe	N	I-FUNC
-máy	N	I-FUNC
-xe	N	O
-số	N	O
-cho	E	O
-bé	Np	B-OB
-–	–	O
-an	N	B-PROP
-toàn	L	I-PROP
-êm	A	B-PROP
-ái	E	I-PROP
-
-10	M	O
-áo	N	B-PN
-thun	N	B-PROP
-ngắn	A	B-STYLE
-tay	N	I-STYLE
-cho	E	O
-trẻ	A	B-OB
-sơ	Np	I-OB
-sinh	V	I-OB
-
-áo	N	B-PN
-mưa	N	I-PN
-tumi	V	B-BR
-cho	E	O
-bé	Np	B-OB
-
-máy	N	B-PN
-tính	E	I-PN
-bảng	N	I-PN
-thông	V	B-PROP
-minh	V	I-PROP
-cho	E	O
-bé	N	B-OB
-yêu	A	I-OB
-
-quần	N	B-PN
-kaki	N	I-PN
-dài	A	B-STYLE
-cho	E	O
-bé	V	B-OB
-gái	N	I-OB
-từ	E	O
-1	M	O
--	-	O
-4	M	O
-tuổi	N	O
-
-đầm	N	B-PN
-bầu	I	I-PN
-ren	Nc	B-STYLE
-hoa	N	I-STYLE
-nổi	A	I-STYLE
-
-đầm	N	B-PN
-bầu	N	I-PN
-phối	V	B-STYLE
-nơ	N	I-STYLE
-eo	A	I-STYLE
-
-bộ	V	B-PN
-đồ	N	I-PN
-sửa	V	B-STYLE
-chữa	V	I-STYLE
-ngộ	A	B-PROP
-nghĩnh	E	I-PROP
-cho	E	O
-bé	N	B-OB
-trai	N	I-OB
-
-2	M	O
-bộ	Nu	O
-quần	N	B-PN
-áo	N	I-PN
-sơ	A	B-PROP
-sinh	V	I-PROP
-154	M	O
-bss04	Nu	O
-bss05	M	O
-
-combo	X	O
-2	M	O
-áo	N	B-PN
-đông	A	B-STYLE
-xuân	N	I-STYLE
-xinh	A	B-PROP
-xắn	V	I-PROP
-cho	E	O
-bé	N	B-OB
-gái	N	I-OB
-
-địu	V	B-PN
-royal	I	B-BR
-cho	E	O
-bé	N	B-OB
-lớn	A	I-OB
--	-	O
-model	N	O
-bc04	M	O
-
-2	M	O
-áo	N	B-PN
-thun	N	B-PROP
-cho	E	O
-bé	Nu	B-OB
-size	A	O
-4	M	O
--	-	O
-6	M	O
-
-thảm	N	B-PN
-chơi	V	B-FUNC
-2	M	B-PROP
-mặt	N	I-PROP
-maboshi	N	B-BR
-1m8	M	O
-x	N	O
-2m	M	O
-
-giày	N	B-PN
-đi	V	B-FUNC
-bộ	P	I-FUNC
-siêu	E	B-PROP
-êm	A	I-PROP
-và	C	O
-thoáng	A	B-PROP
-khí	A	I-PROP
-
-2	M	O
-váy	Nc	B-PN
-bò	N	I-PN
-dáng	N	B-STYLE
-xòe	N	I-STYLE
-xinh	A	B-PROP
-xắn	A	I-PROP
-cho	E	O
-bé	Np	B-OB
-
-bộ	V	B-PN
-đồ	N	I-PN
-đi	V	B-FUNC
-mưa	N	I-FUNC
-khóa	N	B-STYLE
-kéo	V	I-STYLE
-cho	E	O
-bé	A	B-OB
-6	M	O
--	-	O
-12	M	O
-tuổi	N	O
-
-combo	N	O
-2	M	O
-bộ	Nu	O
-quần	N	B-PN
-áo	N	I-PN
-lanh	N	B-PROP
-màu	N	B-PROP
-sắc	sắc	I-PROP
-
-kem	N	B-PN
-chống	V	B-FUNC
-hăm	N	I-FUNC
-cho	E	O
-bé	Np	B-OB
-nappy	Nc	B-BR
-rash	Np	I-BR
--	-	O
-xuất	V	O
-xứ	N	O
-úc	úc	B-BR
-
-túi	N	B-PN
-đựng	V	I-PN
-đồ	N	I-PN
-cho	E	O
-mẹ	N	B-OB
-và	C	O
-bé	V	I-OB
-32x14x16cm	M	O
-
-2	M	O
-bộ	Nu	B-PN
-đồ	N	I-PN
-thun	N	I-PN
-sọc	N	B-STYLE
-cho	E	O
-bé	V	B-OB
-từ	E	O
-6	M	O
-tháng	N	O
--	-	O
-1	M	O
-tuổi	N	O
-
-bộ	V	B-PN
-đồ	N	I-PN
-thun	N	I-PN
-phối	V	B-STYLE
-ren	N	I-STYLE
-cho	E	O
-mẹ	N	B-OB
-và	C	O
-bé	bé	B-OB
-
-ba	V	B-PN
-lô	N	I-PN
-hình	N	B-STYLE
-thú	N	I-STYLE
-ngộ	A	I-STYLE
-nghĩnh	A	I-STYLE
-cho	E	O
-bé	A	B-OB
-đi	V	O
-mẫu	N	O
-giáo	giáo	O
-
-chăn	N	B-PN
-nhung	N	B-STYLE
-cao	A	B-PROP
-cấp	N	I-PROP
-long	V	B-BR
-việt	N	I-BR
-cho	E	O
-bé	Np	B-OB
-
-2	M	O
-nón	N	B-PN
-tắm	V	B-FUNC
-cho	E	O
-em	N	B-OB
-bé	bé	I-OB
-
-2	M	O
-bộ	Nu	B-PN
-đồ	N	I-PN
-hình	N	B-STYLE
-nơ	N	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-bể	V	B-PN
-bơi	V	I-PN
-3	M	B-PROP
-tầng	N	I-PROP
-intex	N	B-BR
-58446	M	O
-
-bể	V	B-PN
-bơi	V	I-PN
-bằng	E	O
-hơi	R	B-PROP
-mini	A	B-STYLE
-cho	E	O
-bé	Np	B-OB
-
-combo	V	O
-đầm	N	B-PN
-xòe	Nc	B-STYLE
-hoa	N	B-STYLE
-cho	E	O
-mẹ	N	B-OB
-và	C	O
-bé	bé	B-OB
-
-bể	V	B-PN
-bơi	V	I-PN
-phao	N	I-PN
-3	M	B-PROP
-tầng	N	I-PROP
--	-	O
-nhựa	N	B-PROP
-bền	A	I-PROP
-chống	V	B-PROP
-thoát	V	I-PROP
-khí	khí	I-PROP
-
-combo	N	O
-2	M	O
-bộ	Nu	O
-quần	N	B-PN
-áo	N	I-PN
-hình	N	B-STYLE
-chim	N	I-STYLE
-cánh	N	I-STYLE
-cụt	A	I-STYLE
-ngộ	A	B-PROP
-nghĩnh	nghĩnh	I-PROP
-
-búp	Nc	B-PN
-bê	N	I-PN
-lật	V	B-STYLE
-đật	N	I-STYLE
-nhập	V	O
-khẩu	X	O
-nga	nga	B-BR
-
-3	M	O
-bộ	Nu	O
-quần	N	B-PN
-áo	N	I-PN
-sát	A	B-STYLE
-nách	N	I-STYLE
-cho	E	O
-bé	N	B-OB
-trai	N	I-OB
--	-	O
-100%	M	O
-cotton	N	B-PROP
-
-kính	N	B-PN
-râm	A	I-PN
-nhiều	A	B-PROP
-màu	N	I-PROP
-sắc	A	I-PROP
-sành	A	B-PROP
-điệu	N	I-PROP
-cho	E	O
-bé	Np	B-OB
-
-váy	N	B-PN
-thô	A	B-STYLE
-hoa	N	B-STYLE
-dáng	N	B-STYLE
-xòe	V	I-STYLE
-cho	E	O
-bé	N	B-OB
-gái	N	I-OB
-từ	E	O
-8	M	O
-đến	E	O
-12	M	O
-tuổi	N	O
-
-váy	V	B-PN
-xòe	N	B-STYLE
-cotton	N	B-PROP
-hình	N	B-STYLE
-hello	N	I-STYLE
-kitty	Y	I-STYLE
-đáng	R	B-PROP
-yêu	V	I-PROP
-
-đàn	Nc	B-PN
-keyboard	N	I-PN
-nhạc	N	B-STYLE
-trẻ	A	I-STYLE
-em	N	I-STYLE
-41	M	O
-phím	N	O
-tiross	N	O
-ts-3500	ts-3500	O
-
-3	M	O
-áo	N	B-PN
-cộc	V	B-STYLE
-tay	N	I-STYLE
-hình	N	B-STYLE
-ô	N	I-STYLE
-tô	Nb	Í-TYLE
-cho	E	O
-bé	N	B-OB
-trai	N	I-OB
-
-balo	V	B-PN
-quả	R	B-STYLE
-trứng	N	I-STYLE
-hình	N	B-STYLE
-thú	N	I-STYLE
-đáng	R	B-PROP
-yêu	V	I-PROP
-
-2	M	O
-bộ	Nu	O
-ba	M	B-PN
-lỗ	Nc	I-PN
-nhỏ	N	B-STYLE
-viền	V	B-STYLE
-kẻ	Nc	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-ô	V	B-PN
-tô	I	I-PN
-điều	N	B-STYLE
-khiển	V	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-bộ	V	O
-cờ	N	B-PN
-tướng	N	I-PN
-nam	N	B-PROP
-châm	V	I-PROP
-nhỏ	N	B-PROP
-gọn	A	I-PROP
-tiện	A	O
-dụng	dụng	O
-
-phạm	V	B-BR
-studio	Np	I-BR
--	-	O
-gói	Nc	B-PN
-chụp	V	I-PN
-ảnh	N	I-PN
-cho	E	O
-bé	V	B-OB
-ưu	N	O
-đãi	V	O
-đặc	A	O
-biệt	A	O
-
-áo	N	B-PN
-sơ	A	I-PN
-mi	N	I-PN
-cotton	N	B-PROP
-lịch	N	B-PROP
-sự	V	I-PROP
-duyên	N	B-PROP
-dáng	Nb	I-PROP
-cho	E	O
-bé	V	B-OB
-gái	gái	I-OB
-
-áo	N	B-PN
-sơ	A	I-PN
-mi	A	I-PN
-kẻ	Nc	B-STYLE
-sành	V	B-PROP
-điệu	N	I-PROP
-cho	E	O
-bé	N	B-OB
-trai	N	I-OB
-
-5	M	O
-khăn	N	B-PN
-xô	N	I-PN
-khổ	A	B-PROP
-lớn	A	I-PROP
-mềm	A	B-PROP
-mại	mại	I-PROP
-
-bộ	V	B-PN
-đồ	N	I-PN
-ăn	V	B-FUNC
-5	M	O
-món	Nu	O
-bằng	E	B-PROP
-tre	N	I-PROP
-moriitalia	A	B-BR
-cho	E	O
-bé	Np	B-OB
-
-váy	V	B-PN
-thô	A	B-PROP
-ren	V	B-STYLE
-tay	N	I-STYLE
-bèo	N	I-STYLE
-đáng	V	B-PROP
-yêu	V	I-PROP
-
-bộ	Nc	O
-đồ	N	B-PN
-bơi	V	I-PN
-kèm	V	O
-mũ	N	B-PN
-cực	V	B-PROP
-xinh	A	I-PROP
-cho	E	O
-bé	N	B-OB
-gái	N	I-OB
-
-2	M	O
-bộ	Nu	B-PN
-đồ	N	B-PN
-mặc	V	B-FUNC
-nhà	N	I-FUNC
-cho	E	O
-bé	V	B-OB
-hình	N	B-STYLE
-gấu	N	I-STYLE
-size	Nb	O
-2	M	O
--	-	O
-5	M	O
-
-bộ	V	O
-đất	N	B-PN
-nặn	V	I-PN
-birthday	V	B-BR
-cake	Nu	I-BR
-cho	E	O
-bé	N	B-OB
-thỏa	M	B-PROP
-sức	N	I-PROP
-sáng	V	I-PROP
-tạo	V	I-PROP
-
-ba	V	B-PN
-lô	N	I-PN
-hình	N	B-STYLE
-minion	V	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-gối	N	B-PN
-kể	V	B-FUNC
-chuyện	N	I-FUNC
-cổ	A	I-FUNC
-tích	A	I-FUNC
-đột	V	O
-phá	V	O
-thông	C	B-PROP
-minh	N	I-PROP
-cho	E	O
-bé	Np	B-OB
-
-3	M	O
-áo	N	B-PN
-thêu	V	B-STYLE
-hoa	N	I-STYLE
-đính	V	B-STYLE
-nơ	N	I-STYLE
-xinh	A	B-PROP
-xắn	V	I-PROP
-
-combo	X	O
-10	M	O
-quần	N	B-PN
-đùi	N	I-PN
-cho	E	O
-bé	N	B-OB
-trai	N	I-OB
-phối	V	B-STYLE
-dọc	A	I-STYLE
-
-set	X	O
-2	M	O
-gói	Nu	O
-khăn	N	B-PN
-ướt	A	I-PN
-và	C	O
-1	M	O
-hộp	N	B-PN
-cốm	N	I-PN
-lợi	V	B-FUNC
-sữa	N	I-FUNC
-tảo	N	B-PROP
-xoắn	V	I-PROP
-
-3	M	O
-áo	N	B-PN
-phông	N	B-STYLE
-cộc	V	B-STYLE
-tay	N	I-STYLE
-in	V	O
-chữ	N	B-STYLE
-độc	A	I-STYLE
-đáo	N	I-STYLE
-
-combo	X	O
-3	M	O
-áo	N	B-PN
-ba	V	B-STYLE
-lỗ	Nc	I-STYLE
-cotton	N	B-PROP
-cho	E	O
-bé	N	B-OB
-trai	N	I-OB
-
-set	X	O
-3	M	O
-áo	N	B-PN
-ba	M	B-STYLE
-lỗ	Nc	I-STYLE
-cực	R	B-PROP
-xinh	A	I-PROP
-cho	E	O
-bé	N	B-OB
-gái	N	I-OB
-
-bàn	N	B-PN
-chơi	V	B-FUNC
-bóng	Nc	I-FUNC
-đá	N	I-FUNC
-mini	A	B-PROP
-cho	E	O
-bé	Np	B-OB
-
-váy	V	B-PN
-kẻ	Nc	B-STYLE
-cotton	N	B-PROP
-sát	A	B-STYLE
-nách	N	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-thấm	V	B-PN
-sữa	N	I-PN
-happy	N	B-BR
-days	M	I-BR
-và	C	O
-cốm	N	B-PN
-lợi	V	I-PN
-sữa	N	I-PN
-mummilk	mummilk	B-BR
-
-2	M	O
-chiếc	Nc	O
-khăn	N	B-PN
-tắm	V	I-PN
-hoạt	A	B-STYLE
-hình	N	I-STYLE
-xuất	V	O
-nhật	nhật	O
-
-địu	X	B-PN
-2	M	B-PROP
-trong	E	I-PROP
-1	M	I-PROP
-baby	Nu	B-BR
-carrier	Nu	I-BR
-cho	E	O
-bé	N	B-OB
-yêu	A	I-OB
-
-bộ	V	O
-đồ	N	I-PN
-chơi	V	I-PN
-nhà	N	B-STYLE
-bếp	N	I-STYLE
-bằng	E	O
-inox	N	I-PROP
-
-váy	N	B-PN
-đuôi	N	B-STYLE
-cá	N	I-STYLE
-cổ	Np	B-STYLE
-đính	V	I-STYLE
-dây	N	I-STYLE
-sành	V	B-PROP
-điệu	Nu	I-PROP
-cho	E	O
-bé	N	B-OB
-6-8	M	O
-tuổi	N	O
-
-combo	N	O
-2	M	O
-bộ	Nu	O
-quần	N	B-PN
-áo	N	I-PN
-đính	V	B-STYLE
-hoa	N	I-STYLE
-siêu	A	B-PROP
-xinh	A	I-PROP
-
-thỏa	A	B-PROP
-sức	N	I-PROP
-sáng	V	I-PROP
-tạo	V	I-PROP
-với	E	O
-bộ	L	O
-đồ	N	B-PN
-chơi	V	I-PN
-đất	N	B-STYLE
-nặn	V	I-STYLE
-làm	V	B-STYLE
-kem	N	I-STYLE
-
-khéo	V	B-PROP
-tay	N	I-PROP
-tinh	V	B-PROP
-mắt	N	I-PROP
-với	C	O
-đồ	N	B-PN
-chơi	V	I-PN
-rút	V	B-STYLE
-gỗ	N	I-STYLE
-
-bộ	V	O
-cặp	M	B-PN
-bờm	N	I-PN
-dây	N	B-STYLE
-nơ	N	I-STYLE
-handmade	N	B-STYLE
-xinh	A	B-PROP
-yêu	V	I-PROP
-cho	E	O
-bé	Np	B-OB
-
-bộ	V	B-PN
-ghép	V	I-PN
-hình	N	I-PN
-lâu	A	B-STYLE
-đài	N	I-STYLE
-tuổi	N	O
-thơ	N	O
-cho	E	O
-bé	A	B-OB
-sáng	V	O
-tạo	V	O
-
-7	M	O
-quần	Nu	B-PN
-đóng	V	B-FUNC
-tã	N	I-FUNC
-cho	E	O
-bé	N	B-OB
-in	V	O
-hình	N	B-STYLE
-đáng	V	I-STYLE
-yêu	V	I-STYLE
-
-gói	V	B-PN
-chụp	V	I-PN
-hình	N	I-PN
-hấp	N	B-PROP
-dẫn	V	I-PROP
-tại	E	O
-bé	N	B-BR
-moon	A	I-BR
-studio	studio	I-BR
-
-đầm	N	B-PN
-xòe	P	B-STYLE
-phối	V	I-STYLE
-nơ	N	B-STYLE
-sau	N	I-STYLE
-k&p	N	B-BR
-cho	E	O
-bé	Np	B-OB
-
-đầm	N	B-PN
-suông	A	B-STYLE
-lai	A	B-STYLE
-bèo	V	I-STYLE
-cho	E	O
-mẹ	N	B-OB
-và	C	O
-bé	bé	B-OB
-
-bộ	Nc	O
-quần	N	B-PN
-áo	N	I-PN
-thể	N	B-STYLE
-thao	N	I-STYLE
-cho	E	O
-bé	Nu	B-OB
-size	A	O
-4	M	O
-5	M	O
-6	M	O
-
-gói	Nc	B-PN
-chụp	V	I-PN
-ảnh	N	I-PN
-hấp	N	B-PROP
-dẫn	V	I-PROP
-với	E	O
-khung	N	B-PN
-ảnh	N	I-PN
-décor	V	B-STYLE
-độc	A	B-PROP
-đáo	N	I-PROP
-
-áo	N	B-PN
-phao	N	I-PN
-có	T	B-STYLE
-cổ	M	I-STYLE
-intex	intex	B-BR
-
-3	M	O
-tấm	Nc	B-PN
-lót	N	I-PN
-lưng	N	I-PN
-thấm	V	B-FUNC
-mồ	N	I-FUNC
-hôi	N	I-FUNC
-cho	E	O
-bé	Np	B-OB
-
-2	M	O
-mũ	N	B-PN
-xốp	A	B-PROP
-chắn	V	B-FUNC
-nước	N	I-FUNC
-khi	N	O
-gội	Nc	B-PROP
-đầu	A	I-PROP
-và	C	O
-cắt	V	B-PROP
-tóc	N	I-PROP
-cho	E	O
-bé	Np	B-OB
-
-đầm	N	B-PN
-maxi	I	B-STYLE
-họa	P	B-STYLE
-tiết	N	I-STYLE
-mùa	Nc	O
-hè	N	O
-cho	E	O
-bé	Np	B-OB
-
-búp	N	B-PN
-bê	I	I-PN
-công	Nu	B-STYLE
-chúa	Nc	I-STYLE
-phim	N	O
-frozen	frozen	O
-
-bộ	N	O
-áo	N	B-PN
-bơi	V	I-PN
-liền	R	B-STYLE
-mũ	N	I-STYLE
-dễ	A	B-PROP
-thương	V	I-PROP
-cho	E	O
-bé	A	B-OB
-6	M	O
-đến	E	O
-12	M	O
-tuổi	N	O
-
-kính	N	B-PN
-mát	A	I-PN
-thời	N	B-STYLE
-trang	Nc	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-3	M	O
-dụng	Nu	B-PN
-cụ	N	I-PN
-lấy	V	B-FUNC
-ráy	N	I-FUNC
-tai	N	I-FUNC
-có	T	B-PROP
-đèn	N	I-PROP
-có	T	B-PROP
-hộp	N	I-PROP
-chống	V	I-PROP
-mất	X	I-PROP
-
-thú	N	B-PN
-bông	I	I-PN
-phát	A	B-STYLE
-nhạc	N	I-STYLE
-đưa	V	O
-bé	N	B-OB
-vào	E	O
-giấc	N	O
-ngủ	V	O
-êm	A	B-PROP
-ái	E	I-PROP
-
-tạm	A	B-FUNC
-biệt	A	I-FUNC
-nắng	V	I-FUNC
-bụi	Nc	I-FUNC
-với	C	O
-3	M	O
-khẩu	Nc	B-PN
-trang	Nc	I-PN
-tomato	Nu	B-BR
-cho	E	O
-bé	Np	B-OB
-
-balo	A	B-PN
-kitty	R	B-STYLE
-da	N	B-STYLE
-bóng	A	I-STYLE
-thời	N	B-TYLE
-trang	N	I-STYLE
-và	C	O
-tiện	A	B-PROP
-dụng	V	I-PROP
-cho	E	O
-bé	Np	B-OB
-
-chân	N	B-PN
-váy	I	I-PN
-xòe	Np	B-STYLE
-+	+	O
-áo	N	B-PN
-thun	N	B-PROP
-cho	E	O
-bé	Np	B-OB
-
-bộ	V	B-PN
-đồ	N	I-PN
-short	V	B-STYLE
-hình	N	B-STYLE
-thỏ	N	I-STYLE
-ngọc	N	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-2	M	O
-bộ	Nu	O
-quần	N	B-PN
-áo	N	I-PN
-dài	A	B-STYLE
-tay	N	I-STYLE
-hình	N	B-STYLE
-thú	N	I-STYLE
-ngộ	A	B-PROP
-nghĩnh	A	I-PROP
-vnxk	vnxk	B-BR
-
-váy	Nc	B-PN
-hoa	N	B-STYLE
-chấm	C	B-STYLE
-bi	Nu	I-STYLE
-cho	E	O
-bé	N	B-OB
-gái	N	I-OB
-từ	E	O
-8-12	M	O
-tuổi	N	O
-
-bộ	V	O
-đồ	N	B-PN
-chơi	V	I-PN
-câu	Nc	B-STYLE
-cá	N	I-STYLE
-2	M	B-STYLE
-cần	V	I-STYLE
-vui	A	B-PROP
-nhộn	A	I-PROP
-
-cặp	M	B-PN
-học	P	I-PN
-sinh	V	I-PN
-sao	N	B-BR
-mai	N	I-BR
-
-giải	N	B-PROP
-trí	N	I-PROP
-cùng	C	O
-bộ	Nc	B-PN
-phi	N	I-PN
-tiêu	N	I-PN
-nam	N	B-STYLE
-châm	V	I-STYLE
-2	M	B-PROP
-mặt	N	I-PROP
-
-6	M	O
-ô	Nu	B-PN
-tô	N	I-PN
-nhựa	N	B-PROP
-sắc	N	B-STYLE
-màu	N	I-STYLE
-cho	E	O
-bé	A	B-OB
-yêu	V	I-OB
-thỏa	A	B-PROP
-sức	N	I-PROP
-chơi	V	I-PROP
-đùa	V	I-PROP
-
-bể	N	B-PN
-bơi	V	I-PN
-3	M	B-PROP
-tầng	N	I-PROP
-cho	E	O
-bé	V	B-OB
-summer	L	O
-sea	N	O
-sl-c001	sl-c001	O
-
-tấm	Nc	B-PN
-lót	N	I-PN
-ngồi	V	B-STYLE
-toilet	N	I-STYLE
-cho	E	O
-bé	Np	B-OB
-
-2	M	O
-gối	N	B-PN
-ngủ	V	I-PN
-mềm	A	B-PROP
-mại	N	I-PROP
-thấm	V	B-FUNC
-hút	V	I-FUNC
-mồ	N	I-FUNC
-hôi	V	I-FUNC
-cho	E	O
-bé	Np	B-OB
-
-bảo	V	B-FUNC
-vệ	N	I-FUNC
-bé	V	B-OB
-yêu	V	I-OB
-với	C	O
-đai	Nc	B-PN
-xe	N	I-PN
-máy	N	I-PN
-royal	royal	B-BR
+10	O
+quần	B-PN
+đóng	I-PN
+tã	I-PN
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+10	O
+quần	B-PN
+chip	I-PN
+cotton	B-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+
+Mũ	B-PN
+bảo	I-PN
+hiểm	I-PN
+trẻ	B-OB
+em	I-OB
+có	B-PROP
+kính	I-PROP
+CHITA	B-BR
+
+10	O
+đôi	O
+bao	B-PN
+tay	I-PN
++	O
+10	O
+đôi	O
+bao	B-PN
+chân	I-PN
++	O
+5	O
+nón	B-PN
+cho	O
+bé	B-OB
+
+10	O
+vòng	B-PN
+tay	I-PN
+dâu	B-PROP
+tằm	I-PROP
+cho	O
+bé	B-OB
+
+Combo	O
+10	O
+bộ	O
+bao	B-PN
+tay	I-PN
+,	O
+chân	I-PN
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Set	O
+5	O
+áo	B-PN
+lót	I-PN
+cotton	B-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+tuổi	O
+dậy	O
+thì	O
+
+Hai	O
+Set	O
+khăn	B-PN
+xô	B-PROP
+hoa	B-STYLE
+túi	B-PROP
+lưới	I-PROP
+xuất	O
+Nhật	B-BR
+-	O
+16	O
+chiếc	O
+
+Bộ	O
+bể	B-PN
+,	O
+phao	B-PN
+,	O
+bóng	B-PN
+Intex	B-BR
+
+Set	O
+20	O
+khăn	B-PN
+xô	I-PN
+hoa	B-STYLE
+hàng	O
+xuất	O
+Nhật	B-BR
+
+Set	O
+kính	B-PN
+và	O
+mũ	B-PN
+bơi	B-FUNC
+kèm	O
+nút	B-PN-OB
+bịt	I-PN-OB
+tai	I-PN-OB
+cho	O
+bé	B-OB
+
+Giầy	B-PN
+trượt	B-FUNC
+patin	I-FUNC
+quà	O
+sành	B-STYLE
+điệu	I-STYLE
+cho	O
+bé	B-OB
+
+Bộ	O
+áo	B-PN
+,	O
+nón	B-PN
+,	O
+khăn	B-PN
+sữa	I-PN
+,	O
+bao	B-PN
+tay	I-PN
+,	O
+chân	I-PN
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Ô	B-PN
+tô	I-PN
+điều	B-PROP
+khiển	I-PROP
+cho	O
+bé	B-OB
+
+Bộ	O
+đất	B-PN
+nặn	I-PN
+Birthday	B-BR
+Cake	I-BR
+cho	O
+bé	B-OB
+thỏa	O
+sức	O
+sáng	B-FUNC
+tạo	I-FUNC
+
+Bộ	O
+đồ	B-PN
+short	I-PN
+phối	B-STYLE
+caro	I-STYLE
+cho	O
+bé	B-OB
+
+Lưu	B-FUNC
+giữ	I-FUNC
+những	O
+hình	B-PN
+ảnh	I-PN
+đáng	B-PROP
+yêu	B-PROP
+của	O
+bé	B-OB
+tại	O
+BeBe	B-BR
+
+Bộ	B-PN
+ghép	I-PN
+hình	I-PN
+lâu	B-PROP
+đài	I-PROP
+tuổi	O
+thơ	O
+cho	O
+bé	B-OB
+sáng	B-FUNC
+tạo	I-FUNC
+
+Bộ	B-PN
+ghép	I-PN
+hình	I-PN
+xe	B-PROP
+container	I-PROP
+cho	O
+bé	B-OB
+
+Đầm	B-PN
+suông	B-STYLE
+cổ	B-STYLE
+xếp	I-STYLE
+ly	I-STYLE
+cho	O
+mẹ	B-OB
+và	O
+bé	B-OB
+
+Set	O
+20	O
+khăn	B-PN
+sữa	I-PN
+mềm	B-PROP
+mại	I-PROP
+dành	O
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Ghế	B-PN
+gội	B-FUNC
+đầu	I-FUNC
+cho	O
+bé	B-OB
+
+Ghế	B-PN
+ngồi	B-FUNC
+toilet	B-FUNC-OB
+cực	B-PROP
+an	I-PROP
+toàn	I-PROP
+cho	O
+bé	B-OB
+
+Kính	B-PN
+mát	I-PN
+thời	B-PROP
+trang	I-PROP
+cho	O
+bé	B-OB
+
+2	O
+mũ	B-PN
+tắm	B-FUNC
+-	O
+gội	B-FUNC
+đầu	I-FUNC
+-	O
+cắt	B-FUNC
+tóc	I-FUNC
+cho	O
+bé	B-OB
+yêu	O
+
+18	O
+chiếc	O
+khăn	B-PN
+sữa	I-PN
+4	B-PROP
+lớp	I-PROP
+cực	B-PROP
+mềm	I-PROP
+mịn	I-PROP
+
+10	O
+rối	B-PN
+ngón	I-PN
+tay	I-PN
+hình	B-STYLE
+con	I-STYLE
+vật	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+,	O
+dễ	B-PROP
+thương	I-PROP
+
+Balo	B-PN
+thú	B-STYLE
+bông	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+
+Kính	B-PN
+mắt	I-PN
+xinh	B-PROP
+xắn	I-PROP
+,	O
+thời	B-PROP
+trang	I-PROP
+cho	O
+bé	B-OB
+
+02	O
+gối	B-PN
+chống	B-FUNC
+méo	I-FUNC
+đầu	I-FUNC
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+4	O
+khăn	B-PN
+quàng	B-FUNC
+cổ	I-FUNC
+lót	B-PROP
+nỉ	I-PROP
+bông	B-PROP
+handmade	B-STYLE
+Tí	B-BR
+Xíu	I-BR
+cho	O
+bé	B-OB
+
+Gối	B-PN
+đa	B-PROP
+năng	I-PROP
+cho	O
+bé	B-OB
+tập	B-FUNC
+nằm	I-FUNC
+,	O
+tập	B-FUNC
+lẫy	I-FUNC
+,	O
+tập	B-FUNC
+ngồi	I-FUNC
+
+Bộ	O
+phụ	B-PN
+kiện	I-PN
+làm	B-FUNC
+tóc	I-FUNC
+Kitty	B-BR
+
+Combo	O
+3	O
+áo	B-PN
+dài	B-STYLE
+tay	I-STYLE
+100%	O
+cotton	B-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+
+Combo	O
+5	O
+bộ	O
+quần	B-PN
+áo	I-PN
+dài	B-STYLE
+tay	I-STYLE
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Combo	O
+3	O
+băng	B-PN
+đô	I-PN
+cài	B-PROP
+tóc	I-PROP
+hand	B-STYLE
+made	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+
+Combo	O
+2	O
+đôi	O
+đũa	B-PN
+tập	B-FUNC
+ăn	I-FUNC
+cho	O
+bé	B-OB
+
+03	O
+khăn	B-PN
+yếm	I-PN
+lót	B-PROP
+lông	I-PROP
+mềm	B-PROP
+mại	I-PROP
+,	O
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+
+4	O
+bộ	O
+quần	B-PN
+áo	I-PN
+cotton	B-PROP
+cho	O
+trẻ	B-OB
+sơ	I-OB
+sinh	I-OB
+mặc	B-FUNC
+bỉm	I-FUNC
+
+10	O
+Quần	B-PN
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Gối	B-PN
+cho	O
+bé	B-OB
+đi	O
+xe	B-OB
+máy	I-OB
+
+Set	O
+5	O
+yếm	B-PN
+nhung	B-PROP
+2	B-PROP
+lớp	I-PROP
+mềm	B-PROP
+,	O
+ấm	B-PROP
+dễ	B-PROP
+thương	I-PROP
+cho	O
+bé	B-OB
+
+Bảng	B-PN
+học	I-PN
+thông	B-PROP
+minh	I-PROP
+cho	O
+bé	B-OB
+
+Chăn	B-PN
+nhung	B-PROP
+cao	B-PROP
+cấp	I-PROP
+Long	B-BR
+Việt	I-BR
+cho	O
+bé	B-OB
+90cm	O
+x	O
+105cm	O
+	O
+
+Chăn	B-PN
+nhung	B-PROP
+tuyết	I-PROP
+cho	O
+bé	B-OB
+
+5	O
+khăn	B-PN
+tam	B-STYLE
+giác	I-STYLE
+cotton	B-PROP
+xuất	O
+Nhật	B-BR
+cho	O
+bé	B-OB
+
+Tinh	B-PN
+dầu	I-PN
+tràm	I-PN
+Bé	B-BR
+Thơ	I-BR
+100ml	O
+
+Combo	O
+10	O
+áo	B-PN
+cotton	I-PN
+dài	B-STYLE
+tay	I-STYLE
+Bossin	B-BR
+cho	O
+bé	B-OB
+
+12	O
+đôi	O
+tất	B-PN
+mềm	B-PROP
+mịn	I-PROP
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+hàng	O
+Việt	B-BR
+Nam	I-BR
+
+Combo	O
+8	O
+áo	B-PN
+dài	B-STYLE
+tay	I-STYLE
+cotton	B-PROP
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+4	O
+đôi	O
+tất	B-PN
+ống	I-PN
+chân	I-PN
+vệ	I-FUNC
+bé	B-OB
+tập	B-FUNC
+bò	I-FUNC
+
+Combo	O
+10	O
+đôi	O
+tất	B-PN
+cotton	I-PN
+nhiều	B-PROP
+màu	I-PROP
+cho	O
+bé	B-OB
+
+5	O
+áo	B-PN
+dài	B-STYLE
+tay	I-STYLE
+cài	B-PROP
+cúc	I-PROP
+vai	I-PROP
+,	O
+cotton	B-PROP
+mềm	B-PROP
+mại	I-PROP
+cho	O
+bé	B-OB
+
+1	O
+Gói	O
+tã	B-PN
+quần	I-PN
+cho	O
+bé	B-OB
+Enjoy	B-BR
++	O
+10	O
+khăn	B-PN
+lau	B-FUNC
+bếp	B-FUNC-OB
+
+Combo	O
+2	O
+quần	B-PN
+cotton	I-PN
+CMC	B-BR
+mẫu	O
+mới	O
+cho	O
+bé	B-OB
+
+Máy	B-PN
+bay	I-PN
+điều	B-PROP
+khiển	I-PROP
+từ	I-PROP
+xa	I-PROP
+phát	B-PROP
+sáng	I-PROP
+,	O
+xoay	O
+360	O
+độ	O
+
+Khăn	B-PN
+quàng	B-FUNC
+cổ	I-FUNC
+cho	O
+bé	B-OB
+hình	B-STYLE
+trái	I-STYLE
+cây	I-STYLE
+
+Áo	B-PN
+đôi	I-PN
+sọc	B-STYLE
+ngang	I-STYLE
+cho	O
+mẹ	B-OB
+và	O
+bé	B-OB
+
+Set	O
+bộ	O
+đồ	I-PN
++	O
+áo	B-PN
+choàng	I-PN
+siêu	B-STYLE
+nhân	I-STYLE
+cho	O
+bé	B-OB
+2	O
+-	O
+7	O
+tuổi	O
+
+6	O
+khăn	B-PN
+yếm	I-PN
+cotton	B-PROP
+mềm	B-PROP
+mịn	I-PROP
+,	O
+cúc	B-PROP
+bấm	I-PROP
+tiện	B-PROP
+dụng	I-PROP
+
+Tàu	B-PN
+con	I-PN
+sâu	I-PN
+luồn	B-PROP
+dây	I-PROP
+kết	O
+hợp	O
+học	B-FUNC
+số	I-FUNC
+-	O
+hàng	O
+VN	B-BR
+
+Viên	B-PN
+Uống	I-PN
+Bà	I-PN
+Bầu	I-PN
+Prenatal	B-BR
+Formula	I-BR
+
+Xe	B-PN
+kéo	I-PN
+hươu	I-PN
+cao	B-STYLE
+cổ	I-STYLE
+Tottosi	B-BR
+
+5	O
+khăn	B-PN
+yếm	I-PN
+dầy	B-PROP
+dặn	I-PROP
+,	O
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+ngày	O
+đông	O
+lạnh	O
+
+10	O
+quần	B-PN
+dài	I-PN
+cotton	B-PROP
+cho	O
+trẻ	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Áo	B-PN
+khoác	I-PN
+nỉ	B-PROP
+hình	B-STYLE
+gấu	I-STYLE
+cho	O
+bé	B-OB
+
+Combo	O
+10	O
+đôi	O
+giày	B-PN
+vải	I-PN
+lót	B-PROP
+nỉ	I-PROP
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+
+Gối	B-PN
+chữ	B-STYLE
+C	I-STYLE
+đa	B-PROP
+năng	I-PROP
+cho	O
+mẹ	B-OB
+và	O
+bé	B-OB
+
+Bộ	O
+đất	B-PN
+nặn	I-PN
+khuôn	B-PROP
+hoa	B-PROP
+quả	I-PROP
+độc	B-PROP
+đáo	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Combo	O
+4	O
+gói	O
+khăn	B-PN
+sữa	I-PN
+4	B-PROP
+lớp	I-PROP
+cao	B-PROP
+cấp	I-PROP
+loại	O
+25	O
+x	O
+30cm	O
+
+Combo	O
+6	O
+đôi	O
+tất	B-PN
+len	B-PROP
+xắn	B-STYLE
+gấu	I-STYLE
+xinh	B-PROP
+xinh	I-PROP
+cho	O
+bé	B-OB
+
+Chân	B-PN
+váy	I-PN
+xòe	B-STYLE
+đáng	B-PROP
+yêu	I-PROP
+,	O
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+
+Combo	O
+4	O
+gói	O
+khăn	B-PN
+sữa	I-PN
+3	B-PROP
+lớp	I-PROP
+cao	B-PROP
+cấp	I-PROP
+30	O
+x	O
+35cm	O
+
+6	O
+đôi	O
+tất	B-PN
+len	B-PROP
+chống	B-FUNC
+trượt	I-FUNC
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+
+Combo	O
+6	O
+đôi	O
+tất	B-PN
+len	B-PROP
+chống	B-FUNC
+trượt	I-FUNC
+màu	B-STYLE
+sắc	I-STYLE
+cho	O
+bé	B-OB
+gái	I-OB
+
+Ô	B-PN
+tô	I-PN
+điều	B-PROP
+khiển	I-PROP
+từ	I-PROP
+xa	I-PROP
+dùng	B-PROP
+pin	I-PROP
+sạc	I-PROP
+siêu	B-PROP
+mạnh	I-PROP
+mẽ	I-PROP
+
+Ô	B-PN
+tô	I-PN
+điều	B-PROP
+khiển	I-PROP
+từ	I-PROP
+xa	I-PROP
+pin	B-PROP
+sạc	I-PROP
+siêu	B-PROP
+mạnh	I-PROP
+mẽ	I-PROP
+
+Bộ	O
+khăn	B-PN
+&	O
+mũ	B-PN
+len	B-PROP
+dày	B-PROP
+dặn	I-PROP
+,	O
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Nón	B-PN
+len	B-PROP
++	O
+khăn	B-PN
+len	B-PROP
+hình	B-STYLE
+con	I-STYLE
+bọ	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+
+5	O
+đôi	O
+giày	B-PN
+vải	I-PN
+cho	O
+bé	B-OB
+từ	O
+2	O
+đến	O
+12	O
+tháng	O
+tuổi	O
+
+Combo	O
+4	O
+gói	O
+khăn	B-PN
+sữa	I-PN
+3	B-PROP
+lớp	I-PROP
+mềm	B-PROP
+mịn	I-PROP
+loại	O
+25x30cm	O
+
+Combo	O
+2	O
+giầy	B-PN
+bông	I-PN
+tập	B-FUNC
+đi	I-FUNC
+đáng	B-PROP
+yêu	I-PROP
+,	O
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+
+5	O
+quần	B-PN
+cotton	I-PN
+chất	B-PROP
+lượng	I-PROP
+cao	I-PROP
+cho	O
+bé	B-OB
+
+Gói	B-PN
+chụp	I-PN
+ảnh	I-PN
+cho	O
+mẹ	B-OB
+bé	B-OB
+&	O
+gia	B-OB
+đình	I-OB
+tại	O
+Hoàng	B-BR
+studio	I-BR
+
+2	O
+mũ	B-PN
+len	B-PROP
+hình	B-STYLE
+sao	I-STYLE
+và	O
+tai	B-STYLE
+thỏ	I-STYLE
+siêu	B-PROP
+cute	I-PROP
+cho	O
+bé	B-OB
+
+Combo	O
+3	O
+quần	B-PN
+tất	I-PN
+len	B-PROP
+mông	B-STYLE
+thú	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Combo	O
+5	O
+hộp	O
+Tăm	B-PN
+bông	I-PN
+Daddy	B-BR
+100%	O
+cotton	B-PROP
+
+Quần	B-PN
+bò	I-PN
+cực	B-STYLE
+chất	I-STYLE
+cho	O
+bé	B-OB
+trai	I-OB
+
+Quần	B-PN
+nỉ	I-PN
+xuất	O
+khẩu	O
+chất	O
+đẹp	I-PROP
+cho	O
+bé	B-OB
+
+05	O
+cột	B-PN
+tóc	I-PN
+hình	B-STYLE
+nơ	I-STYLE
++	O
+băng	B-PN
+đô	I-PN
+kẽm	B-PROP
+mềm	I-PROP
+handmade	B-STYLE
+
+Áo	B-PN
+len	B-PROP
+cổ	B-STYLE
+bẻ	I-STYLE
+điệu	B-PROP
+đà	I-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+
+Doremon	B-PN
+nhảy	B-FUNC
+hát	I-FUNC
+khúc	O
+Lamada	B-BR
+vui	O
+nhộn	O
+
+Set	O
+Mũ	B-PN
+,	O
+Yếm	B-PN
+,	O
+Khẩu	B-PN
+Trang	I-PN
+Cho	O
+Bé	B-OB
+Yêu	O
+
+3	O
+khăn	B-PN
+tắm	B-FUNC
+sơ	B-OB
+sinh	I-OB
+4	B-PROP
+lớp	I-PROP
+siêu	B-PROP
+mềm	I-PROP
+
+3	O
+Khăn	B-PN
+tắm	B-FUNC
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+Nana	B-BR
+75	O
+x	O
+90cm	O
+	O
+
+4	O
+gói	O
+khăn	B-PN
+tắm	B-FUNC
+Nana	B-BR
+4	B-PROP
+lớp	I-PROP
+75	O
+x	O
+90cm	O
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Lưới	B-PN
+tắm	B-FUNC
+có	B-PROP
+gối	I-PROP
+đỡ	B-FUNC
+đầu	I-FUNC
+tiện	B-PROP
+dụng	I-PROP
+cho	O
+bé	B-OB
+
+Bộ	O
+khăn	B-PN
+tắm	B-FUNC
+và	O
+khăn	B-PN
+mặt	I-PN
+hoạt	B-STYLE
+hình	I-STYLE
+chất	O
+cotton	B-PROP
+
+Khăn	B-PN
+tắm	B-FUNC
+mềm	B-PROP
+mại	I-PROP
+chất	O
+cotton	B-PROP
+cho	O
+bé	B-OB
+size	O
+150x80cm	O
+
+3	O
+buổi	B-PN
+tắm	B-FUNC
+cho	O
+bé	B-OB
+&	O
+chăm	B-FUNC
+sóc	I-FUNC
+mẹ	B-OB
+tại	O
+nhà	B-OB
+
+Bộ	O
+kit	O
+90	O
+bong	B-PN
+bóng	I-PN
+nghệ	B-PROP
+thuật	I-PROP
+
+Hộp	B-PN
+chia	I-PN
+sữa	I-PN
+3	B-PROP
+ngăn	I-PROP
+di	B-PROP
+động	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Đàn	B-PN
+Guitar	I-PN
+điện	B-PROP
+tử	I-PROP
+cho	O
+bé	B-OB
+
+Bàn	B-PN
+chải	I-PN
+điện	B-PROP
+chăm	B-FUNC
+sóc	I-FUNC
+răng	B-FUNC-OB
+miệng	I-FUNC-OB
+hiệu	B-PROP
+quả	I-PROP
+cho	O
+bé	B-OB
+
+2	O
+chiếc	O
+khăn	B-PN
+tắm	B-FUNC
+hoạt	B-STYLE
+hình	I-STYLE
+xuất	O
+Nhật	B-BR
+
+5	O
+khăn	B-PN
+mặt	I-PN
+lông	B-PROP
+cừu	I-PROP
+mềm	B-PROP
+mịn	I-PROP
+cao	B-PROP
+cấp	I-PROP
+cho	O
+bé	B-OB
+
+Đầm	B-PN
+suông	B-STYLE
+lai	B-STYLE
+bèo	I-STYLE
+cho	O
+mẹ	B-OB
+và	O
+bé	B-OB
+
+Ghế	B-PN
+ngồi	B-FUNC
+ăn	I-FUNC
+dặm	I-FUNC
+có	B-PROP
+nấc	I-PROP
+điều	I-PROP
+chỉnh	I-PROP
+độ	I-PROP
+cao	I-PROP
+
+Xe	B-PN
+lắc	B-PROP
+phát	B-PROP
+nhạc	I-PROP
+Song	B-BR
+Long	I-BR
+
+Com	O
+bo	O
+2	O
+bộ	O
+quần	B-PN
+áo	I-PN
+dài	B-STYLE
+tay	I-STYLE
+in	B-STYLE
+chữ	I-STYLE
+cho	O
+bé	B-OB
+
+4	O
+áo	B-PN
+ngắn	B-STYLE
+tay	I-STYLE
+in	B-STYLE
+hình	I-STYLE
+thú	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+
+3	O
+yếm	B-PN
+ăn	B-FUNC
+có	B-PROP
+máng	I-PROP
+in	B-STYLE
+hình	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+6	O
+khăn	B-PN
+sữa	I-PN
+Hàn	B-BR
+Quốc	I-BR
+in	B-STYLE
+hình	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+
+Màn	B-PN
+chụp	I-PN
+chống	B-FUNC
+muỗi	I-FUNC
+,	O
+bụi	I-FUNC
+,	O
+in	B-STYLE
+hình	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+3	O
+quần	B-PN
+cotton	I-PN
+in	B-STYLE
+hình	I-STYLE
+cho	O
+bé	B-OB
+trai	I-OB
+
+Chăn	B-PN
+băng	B-PROP
+lông	I-PROP
+siêu	B-PROP
+nhẹ	I-PROP
+in	B-STYLE
+hình	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+
+Áo	B-PN
+mưa	I-PN
+in	B-STYLE
+hình	I-STYLE
+Mickey	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+
+Bộ	B-PN
+bé	B-OB
+trai	I-OB
+cotton	B-PROP
+chun	B-PROP
+in	B-STYLE
+hình	I-STYLE
+khỏe	B-PROP
+khoắn	I-PROP
+bé	B-OB
+trai	I-OB
+
+Áo	B-PN
+khoác	I-PN
+nỉ	B-PROP
+bông	B-PROP
+mỏng	B-PROP
+in	B-STYLE
+hình	I-STYLE
+Mickey	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+
+Bộ	B-PN
+nỉ	I-PN
+dài	B-STYLE
+tay	I-STYLE
+in	B-STYLE
+hình	I-STYLE
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+
+Bộ	B-PN
+nỉ	I-PN
+dài	B-STYLE
+tay	I-STYLE
+in	B-STYLE
+hình	I-STYLE
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+
+5	O
+quần	B-PN
+đũng	I-PN
+liền	B-STYLE
+in	B-STYLE
+hình	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Áo	B-PN
+khoác	I-PN
+cho	O
+bé	B-OB
+in	B-STYLE
+hình	I-STYLE
+thỏ	I-STYLE
+
+Bộ	B-PN
+da	B-PROP
+cá	I-PROP
+bé	B-OB
+gái	I-OB
+in	B-STYLE
+hình	I-STYLE
+&	O
+chấm	B-STYLE
+bi	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+
+Bộ	B-PN
+nỉ	I-PN
+dài	B-STYLE
+tay	I-STYLE
+bé	B-OB
+gái	I-OB
+in	B-STYLE
+hình	I-STYLE
+phối	B-STYLE
+quần	I-STYLE
+size	O
+1	O
+-	O
+4	O
+
+Bộ	B-PN
+nỉ	I-PN
+dài	B-STYLE
+tay	I-STYLE
+bé	B-OB
+gái	I-OB
+in	B-STYLE
+hình	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+size	O
+5	O
+-	O
+8	O
+
+Đầm	B-PN
+thun	B-PROP
+phối	B-STYLE
+nơ	I-STYLE
+họa	B-STYLE
+tiết	I-STYLE
+cô	I-STYLE
+gái	I-STYLE
+
+3	O
+áo	B-PN
+len	B-PROP
+cotton	B-PROP
+KenBu	B-BR
+kẻ	B-STYLE
+,	O
+in	B-STYLE
+hình	I-STYLE
+cho	O
+bé	B-OB
+gái	I-OB
+
+Áo	B-PN
+Croptop	I-PN
+in	B-STYLE
+hình	I-STYLE
+cho	O
+bé	B-OB
+từ	O
+8	O
+-	O
+12	O
+tuổi	O
+
+Giải	O
+trí	O
+cùng	O
+bộ	O
+phi	B-PN
+tiêu	I-PN
+nam	B-PROP
+châm	I-PROP
+2	B-PROP
+mặt	I-PROP
+
+Bảng	B-PN
+2	B-PROP
+mặt	I-PROP
+đa	B-PROP
+năng	I-PROP
+,	O
+thực	B-PROP
+hiện	I-PROP
+phép	I-PROP
+tính	I-PROP
+và	O
+chữ	B-PROP
+cái	I-PROP
+
+Ô	B-PN
+tô	I-PN
+điều	B-PROP
+khiển	I-PROP
+có	B-PROP
+pin	I-PROP
+sạc	I-PROP
+siêu	B-PROP
+mạnh	I-PROP
+mẽ	I-PROP
+
+Bảng	B-PN
+nam	I-PN
+châm	I-PN
+hai	B-PROP
+mặt	I-PROP
+kèm	O
+hình	B-STYLE
+dán	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+
+2	O
+Mắt	B-PN
+kính	I-PN
+Nobita	B-BR
+
+3	O
+áo	B-PN
+phông	I-PN
+dài	B-STYLE
+tay	I-STYLE
+in	B-STYLE
+hình	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+
+Bộ	O
+quần	B-PN
+áo	I-PN
+cotton	I-PN
+da	B-PROP
+cá	I-PROP
+khỏe	B-PROP
+khoắn	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+
+Bộ	O
+đập	B-PN
+chuột	I-PN
+phát	B-PROP
+nhạc	I-PROP
+đáng	B-PROP
+yêu	I-PROP
+dành	O
+cho	O
+bé	B-OB
+
+Chăn	B-PN
+ủ	B-FUNC
+băng	B-PROP
+lông	I-PROP
+có	B-PROP
+mũ	I-PROP
+,	O
+siêu	B-PROP
+ấm	I-PROP
+,	O
+siêu	B-PROP
+mềm	I-PROP
+
+Bộ	B-PN
+ghép	I-PN
+hình	I-PN
+bằng	O
+gỗ	B-PROP
+có	B-PROP
+nam	I-PROP
+châm	I-PROP
+cho	O
+bé	B-OB
+
+2	O
+yếm	B-PN
+ăn	B-FUNC
+nhựa	B-PROP
+dẻo	I-PROP
+hình	B-STYLE
+thú	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+
+Bộ	O
+đất	B-PN
+nặn	I-PN
+36	O
+màu	O
+tặng	O
+kèm	O
+khuôn	B-PN-OB
+cho	O
+bé	B-OB
+
+Bộ	O
+quần	B-PN
+áo	I-PN
+nỉ	I-PN
+lông	B-PROP
+bo	B-STYLE
+gấu	I-STYLE
+KenBu	B-BR
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+
+Decan	B-PN
+dán	B-FUNC
+tường	B-FUNC-OB
+hình	B-STYLE
+thước	I-STYLE
+đo	I-PROP
+chiều	I-PROP
+cao	I-PROP
+cho	O
+bé	B-OB
+
+5	O
+hộp	B-PN
+tăm	I-PN
+bông	I-PN
+Sakura	B-BR
+thân	B-PROP
+giấy	I-PROP
+kháng	B-PROP
+khuẩn	I-PROP
+cho	O
+bé	B-OB
+
+2	O
+Decal	B-PN
+đo	B-FUNC
+chiều	I-FUNC
+cao	B-PROP
+dán	I-PROP
+tường	I-PROP
+&	O
+chân	B-PROP
+tường	I-PROP
+cho	O
+bé	B-OB
+
+Đồ	B-PN
+chơi	I-PN
+máy	B-PROP
+bay	I-PROP
+điều	B-PROP
+khiển	I-PROP
+Minion	B-STYLE
+độc	B-PROP
+đáo	I-PROP
+cho	O
+bé	B-OB
+
+Đồ	B-PN
+chơi	I-PN
+Robot	B-BR
+"	O
+thông	B-PROP
+minh	I-PROP
+"	O
+hát	OS
+,	O
+nhảy	B-PROP
+,	O
+xoay	O
+360	O
+độ	O
+
+Combo	O
+bộ	O
+2	O
+mũ	B-PN
++	O
+2	O
+yếm	B-PN
+ăn	B-FUNC
+cao	B-PROP
+cấp	I-PROP
+Gongzhumama	B-BR
+cho	O
+bé	B-OB
+
+Mặt	B-PN
+nạ	I-PN
+hoạt	B-STYLE
+hình	I-STYLE
+cho	O
+bé	B-OB
+có	B-PROP
+đèn	I-PROP
+nhấp	I-PROP
+nháy	I-PROP
+
+Bộ	O
+đồ	B-PN
+chơi	I-PN
+phóng	B-PROP
+phi	I-PROP
+tiêu	I-PROP
+nam	B-PROP
+châm	I-PROP
+cho	O
+bé	B-OB
+
+Bé	B-OB
+tập	O
+nấu	O
+ăn	O
+với	O
+bộ	O
+đồ	B-PN
+chơi	I-PN
+nấu	B-PROP
+bếp	I-PROP
+phát	B-PROP
+sáng	I-PROP
+
+Khéo	O
+tay	O
+,	O
+tinh	O
+mắt	O
+đồ	B-PN
+chơi	I-PN
+rút	B-PROP
+gỗ	I-PROP
+
+5	O
+bàn	B-PN
+chải	I-PN
+đánh	B-FUNC
+răng	B-FUNC-OB
+tiện	B-PROP
+dụng	I-PROP
+,	O
+an	B-PROP
+toàn	I-PROP
+cho	O
+bé	B-OB
+
+6	O
+đôi	O
+tất	B-PN
+Miki	B-BR
+co	B-PROP
+giãn	I-PROP
+,	O
+màu	B-STYLE
+sắc	I-STYLE
+cho	O
+bé	B-OB
+
+2	O
+đôi	O
+tất	B-PN
+3D	B-STYLE
+dạng	B-PROP
+giầy	I-PROP
+chống	B-FUNC
+trượt	I-FUNC
+an	B-PROP
+toàn	I-PROP
+cho	O
+bé	B-OB
+
+Set	O
+mũ	B-PN
+có	B-PROP
+tai	I-PROP
+đáng	B-PROP
+yêu	I-PROP
+và	O
+yếm	B-PN
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+
+Bộ	O
+khăn	B-PN
+mũ	B-PN
+len	B-PROP
+quả	B-PROP
+dâu	I-PROP
+nhiều	B-PROP
+màu	I-PROP
+,	O
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+
+Mèo	B-PN
+máy	I-PN
+Doremon	I-PN
+biết	B-FUNC
+hát	I-FUNC
+,	O
+kể	B-FUNC
+chuyện	I-FUNC
+,	O
+dạy	B-PROP
+học	I-PROP
+
+Hộp	B-PN
+trang	I-PN
+sức	I-PN
+28	O
+món	O
+làm	O
+điệu	O
+cho	O
+bé	B-OB
+
+Bộ	O
+đất	B-PN
+nặn	I-PN
+8	O
+màu	O
+700gr	O
++	O
+32	O
+khuôn	B-PN
++	O
+1	O
+cây	B-PN
+lăn	I-PN
+
+Set	O
+3	O
+áo	B-PN
+cotton	I-PN
+chun	B-PROP
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+từ	O
+1	O
+-	O
+5	O
+tuổi	O
+
+Bộ	O
+Đất	B-PN
+Nặn	I-PN
+24	O
+Màu	O
++	O
+32	O
+Khuôn	B-PN
++	O
+1	O
+Cây	B-PN
+Lăn	I-PN
+Đất	I-PN
+
+2	O
+bộ	B-PN
+dài	B-STYLE
+tay	I-STYLE
+cotton	B-PROP
+mềm	B-PROP
+mịn	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+và	O
+gái	B-OB
+
+Set	O
+mũ	B-PN
+&	O
+yếm	B-PN
+cotton	I-PN
+nhiều	O
+màu	B-PROP
+sắc	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+2	O
+quần	B-PN
+thể	B-STYLE
+thao	I-STYLE
+khỏe	B-PROP
+khoắn	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+từ	O
+1	O
+-	O
+4	O
+tuổi	O
+
+2	O
+áo	B-PN
+lót	I-PN
+cho	B-FUNC
+con	I-FUNC
+bú	I-FUNC
+kèm	O
+miếng	B-PN-OB
+lót	I-PN-OB
+thấm	I-PN-OB
+sữa	I-PN-OB
+
+Đầm	B-PN
+ren	B-PROP
+xòe	B-STYLE
+tùng	I-STYLE
+voan	B-PROP
+hồng	B-PROP
+
+Gối	B-PN
+ôm	B-FUNC
+hình	B-STYLE
+cá	I-STYLE
+ngựa	I-STYLE
+họa	B-STYLE
+tiết	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Túi	B-PN
+trống	I-PN
+hình	B-STYLE
+ôtô	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+cho	O
+bé	B-OB
+
+Bảng	B-PN
+từ	I-PN
+2	B-PROP
+mặt	I-PROP
+và	O
+bộ	B-PN
+chữ	B-STYLE
+số	I-STYLE
+cho	O
+bé	B-OB
+
+3	O
+miếng	B-PN
+lót	B-FUNC
+bồn	I-FUNC
+cầu	I-FUNC
+ấm	B-PROP
+áp	I-PROP
+mùa	O
+đông	O
+
+2	O
+quần	B-PN
+nỉ	I-PN
+da	B-PROP
+cá	I-PROP
+túi	B-STYLE
+hộp	I-STYLE
+khỏe	B-PROP
+khoắn	I-PROP
+
+Túi	B-PN
+trống	I-PN
+hình	B-STYLE
+ô	I-STYLE
+tô	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+
+3	O
+áo	B-PN
+cotton	I-PN
+thêu	B-STYLE
+hình	B-STYLE
+trái	I-STYLE
+tim	I-STYLE
+bé	B-OB
+gái	I-OB
+từ	O
+1	O
+-	O
+5	O
+tuổi	O
+
+Quần	B-PN
+bò	I-PN
+cá	B-PROP
+tính	I-PROP
+&	O
+khỏe	B-PROP
+khoắn	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+
+Quần	B-PN
+kaki	I-PN
+nhung	B-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+2	O
+-	O
+8	O
+tuổi	O
+
+2	O
+gối	B-PN
+ngủ	B-FUNC
+mềm	B-PROP
+mại	I-PROP
+thấm	B-PROP
+hút	I-PROP
+mồ	I-PROP
+hôi	I-PROP
+cho	O
+bé	B-OB
+
+Bảng	B-PN
+ghi	B-FUNC
+chú	I-FUNC
+ghim	B-PROP
+-	O
+từ	B-PROP
+tính	I-PROP
+Quartet	B-BR
+79230	O
+
+Bảng	B-PN
+đa	B-PROP
+năng	I-PROP
+BNP	B-BR
+viết	B-FUNC
+,	O
+nam	B-PROP
+châm	I-PROP
+&	O
+ghim	B-FUNC
+ghi	I-FUNC
+chú	I-FUNC
+	O
+
+Đầm	B-PN
+hoa	B-STYLE
+hồng	I-STYLE
+chữ	B-STYLE
+A	I-STYLE
+cho	O
+bé	B-OB
+
+Đầm	B-PN
+thêu	B-STYLE
+bướm	I-STYLE
+phối	B-STYLE
+viền	I-STYLE
+chấm	B-STYLE
+bi	I-STYLE
+cho	O
+bé	B-OB
+
+Đầm	B-PN
+suông	B-STYLE
+hoa	B-STYLE
+anh	I-STYLE
+đào	I-STYLE
+cho	O
+bé	B-OB
+
+Đồ	B-PN
+chơi	I-PN
+mô	B-PROP
+hình	I-PROP
+xe	I-PROP
+lửa	I-PROP
+cho	O
+bé	B-OB
+
+Chăn	B-PN
+băng	B-PROP
+lông	I-PROP
+hình	B-STYLE
+thú	I-STYLE
+ấm	B-PROP
+áp	I-PROP
+xinh	B-PROP
+yêu	I-PROP
+cho	O
+bé	B-OB
+
+Chọn	O
+1	O
+trong	O
+3	O
+bộ	O
+đồ	B-PN
+chơi	I-PN
+gia	B-PROP
+đình	I-PROP
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+
+Xe	B-PN
+ô	I-PN
+tô	I-PN
+phát	B-PROP
+sáng	I-PROP
+có	B-PROP
+nhạc	I-PROP
+sinh	B-PROP
+động	I-PROP
+cho	O
+bé	B-OB
+
+Áo	B-PN
+khoác	I-PN
+chấm	B-STYLE
+bi	I-STYLE
+2	B-STYLE
+con	I-STYLE
+bướm	I-STYLE
+cho	O
+bé	B-OB
+
+Bộ	O
+đồ	B-PN
+chơi	I-PN
+6	O
+món	O
+lục	B-STYLE
+lạc	I-STYLE
+cho	O
+bé	B-OB
+
+5	O
+quần	B-PN
+nỉ	I-PN
+da	B-PROP
+cá	I-PROP
+hình	B-STYLE
+gấu	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Túi	B-PN
+đeo	I-PN
+công	B-STYLE
+chúa	I-STYLE
+3D	B-STYLE
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+gái	I-OB
+
+Bộ	O
+bút	B-PN
+dạ	I-PN
+phun	B-PROP
+sương	I-PROP
+12	O
+màu	O
+MINISO	B-BR
+
+Bộ	O
+đồ	B-PN
+dùng	I-PN
+học	B-FUNC
+tập	I-FUNC
+6	O
+món	O
+xinh	B-PROP
+xắn	I-PROP
+,	O
+tiện	B-PROP
+ích	I-PROP
+
+Bỉm	B-PN
+dán	I-PN
+Miki	B-BR
+siêu	B-PROP
+thấm	I-PROP
+size	O
+XL	O
+23	O
+miếng	O
+
+Bỉm	B-PN
+dán	I-PN
+Miki	B-BR
+siêu	B-PROP
+thấm	I-PROP
+size	O
+S	O
+32	O
+miếng	O
+
+6	O
+đôi	O
+vớ	B-PN
+hoạt	B-STYLE
+hình	I-STYLE
+cho	O
+bé	B-OB
+1	O
+-	O
+6	O
+tháng	O
+tuổi	O
+
+2	O
+quần	B-PN
+leging	I-PN
+lửng	I-PN
++	O
+2	O
+quần	B-PN
+legging	I-PN
+dài	B-STYLE
+
+Bộ	B-PN
+đồ	I-PN
+cho	O
+bé	B-OB
+yêu	O
+chất	O
+cotton	B-PROP
+mềm	B-PROP
+mịn	I-PROP
+
+Ô	B-PN
+hoạt	B-STYLE
+hình	I-STYLE
+có	B-PROP
+viền	I-PROP
+điệu	B-PROP
+đà	I-PROP
+&	O
+đáng	B-PROP
+yêu	I-PROP
+cho	O
+bé	B-OB
+
+Tã	B-PN
+quần	I-PN
+Unidry	B-BR
+cỡ	B-PROP
+đại	I-PROP
+-	O
+thấm	B-PROP
+hút	I-PROP
+tối	I-PROP
+đa	I-PROP
+
+Gói	B-PN
+chụp	I-PN
+ảnh	I-PN
+cho	O
+bé	B-OB
+yêu	O
+siêu	O
+hấp	B-PROP
+dẫn	I-PROP
+-	O
+Hoàng	B-BR
+Studio	I-BR
+
+2	O
+Decal	B-PN
+đo	B-FUNC
+chiều	I-FUNC
+cao	B-PROP
+dán	I-PROP
+tường	I-PROP
+&	O
+chân	B-PROP
+tường	I-PROP
+cho	O
+bé	B-OB
+
+Tấm	B-PN
+lót	I-PN
+Doremon	B-BR
+cho	O
+bé	B-OB
+cưng	O
+
+Bộ	O
+mũ	B-PN
+len	B-PROP
+tai	B-STYLE
+thỏ	I-STYLE
+kèm	O
+khăn	B-PN
+siêu	B-PROP
+ấm	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Bộ	O
+dụng	B-PN
+cụ	I-PN
+sửa	B-STYLE
+chữa	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+17	O
+món	O
+cho	O
+bé	B-OB
+trai	I-OB
+
+Giầy	B-PN
+dán	I-PN
+vải	B-PROP
+bò	I-PROP
+xinh	B-PROP
+xắn	I-PROP
+,	O
+tiện	B-PROP
+dụng	I-PROP
+cho	O
+bé	B-OB
+trai	I-OB
+
+Áo	B-PN
+váy	I-PN
+dạ	I-PN
+cánh	B-STYLE
+dơi	I-STYLE
+cho	O
+bé	B-OB
+gái	I-OB
+KenBu	B-BR
+
+Gói	B-PN
+chụp	I-PN
+ảnh	I-PN
+lịch	I-PN
+cho	O
+bé	B-OB
+đón	O
+giáng	O
+sinh	O
+&	O
+năm	B-PROP
+mới	I-PROP
+
+Váy	B-PN
+yếm	I-PN
+bò	B-PROP
+chấm	B-STYLE
+bi	I-STYLE
+điệu	B-PROP
+đà	I-PROP
+,	O
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+bé	B-OB
+
+Bộ	B-PN
+nỉ	I-PN
+in	B-STYLE
+hình	I-STYLE
+Minion	I-STYLE
+siêu	B-PROP
+xinh	I-PROP
+cho	O
+bé	B-OB
+
+Nhiệt	B-PN
+kế	I-PN
+điện	I-PN
+tử	I-PN
+đầu	B-PROP
+mềm	I-PROP
+Sika	B-BR
+SD702	O
+
+Đầm	B-PN
+3D	B-STYLE
+Carter	B-BR
+cho	O
+bé	B-OB
+8	O
+-	O
+12	O
+tuổi	O
+
+Áo	B-PN
+khoác	I-PN
+phao	I-PN
+dày	B-PROP
+dặn	I-PROP
+nhiều	B-PROP
+màu	I-PROP
+cho	O
+bé	B-OB
+
+Bộ	O
+đồ	B-PN
+chơi	I-PN
+rút	B-PROP
+gỗ	I-PROP
+54	O
+thanh	O
+
+Decal	B-PN
+dán	B-FUNC
+tường	B-FUNC-OB
+khổ	O
+60x90	O
+cm	O
+
+Decal	B-PN
+dán	B-FUNC
+tường	B-FUNC-OB
+khổ	O
+40x60	O
+cm	O
+
+6	O
+đôi	O
+hài	B-PN
+nỉ	B-PROP
+lông	B-PROP
+đi	B-FUNC
+trong	I-FUNC
+nhà	I-FUNC
+chống	B-FUNC
+trượt	I-FUNC
+cho	O
+bé	B-OB
+
+4	O
+đôi	O
+tất	B-PN
+gấp	B-STYLE
+gấu	I-STYLE
+xinh	B-PROP
+xắn	I-PROP
+cho	O
+trẻ	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Bộ	O
+đồ	B-PN
+chơi	I-PN
+ảo	B-PROP
+thuật	I-PROP
+nhiều	B-PROP
+món	I-PROP
+hấp	B-PROP
+dẫn	I-PROP
+
+Bộ	B-PN
+nỉ	I-PN
+kéo	B-PROP
+khóa	I-PROP
+có	B-PROP
+mũ	I-PROP
+dáng	B-STYLE
+thể	I-STYLE
+thao	I-STYLE
+cho	O
+bé	B-OB
+size	O
+5	O
+-	O
+8	O
+
+Bộ	B-PN
+cotton	B-PROP
+da	B-PROP
+cá	I-PROP
+khóa	B-PROP
+kéo	I-PROP
+có	B-PROP
+mũ	I-PROP
+cho	O
+bé	B-OB
+size	O
+6	O
+-	O
+8	O
+
+Combo	O
+3	O
+quần	B-PN
+nỉ	I-PN
+túi	B-STYLE
+hộp	B-STYLE
+khỏe	B-PROP
+khoắn	I-PROP
+cho	O
+bé	I-BR
+trai	B-OB
+
+Tấm	B-PN
+lót	B-FUNC
+ngồi	B-FUNC
+toilet	B-FUNC-OB
+cho	O
+bé	B-OB
+
+Bộ	B-PN
+trang	I-PN
+sức	I-PN
+chuỗi	I-PN
+hạt	I-PN
+hello	B-STYLE
+kitty	I-STYLE
+cho	O
+bé	B-OB
+yêu	O
+
+2	O
+quần	B-PN
+nỉ	I-PN
+cho	O
+bé	B-OB
+trai	I-OB
+ấm	B-PROP
+áp	I-PROP
+ngày	O
+lạnh	O
+
+Bộ	B-PN
+trống	I-PN
+Jazz	B-BR
+Drum	I-BR
+cho	O
+bé	B-OB
+3	O
+cái	O
+	O
+
+Bộ	B-PN
+trống	I-PN
+đồ	I-PN
+chơi	I-PN
+cho	O
+bé	B-OB
+
+Bộ	O
+sưu	B-PN
+tập	I-PN
+12	O
+siêu	B-PROP
+xe	I-PROP
+,	O
+máy	B-PROP
+bay	I-PROP
+đồ	B-PROP
+chơi	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Máy	B-PN
+nghe	I-PN
+tim	B-PROP
+thai	I-PROP
+iMediCare	B-BR
+-	O
+Bảo	O
+hành	O
+1	O
+năm	O
+
+Chăn	B-PN
+lông	B-PROP
+2	B-PROP
+lớp	I-PROP
+mềm	B-PROP
+mại	I-PROP
+,	O
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	B-OB
+
+2	O
+bộ	B-PN
+đồ	I-PN
+dài	B-STYLE
+cổ	B-STYLE
+tròn	I-STYLE
+cho	O
+bé	B-OB
+Bimbaby	B-BR
+
+Set	O
+túi	O
+5	O
+món	O
+cực	O
+hữu	O
+ích	O
+cho	O
+mẹ	B-OB
+và	O
+bé	B-OB
+
+Trọn	B-PN
+gói	I-PN
+chụp	I-PN
+ảnh	I-PN
+gia	B-OB
+đình	I-OB
+tại	O
+Suitin	B-BR
+Studio	I-BR
+
+3	O
+Áo	B-PN
+thun	I-PN
+cổ	B-STYLE
+tròn	I-STYLE
+tay	B-STYLE
+ngắn	I-STYLE
+cho	O
+bé	B-OB
+trai	I-OB
+
+Quần	B-PN
+short	I-PN
+jeans	I-PN
+cho	O
+bé	I-BR
+gái	I-OB
+
+Quần	B-PN
+short	I-PN
+jeans	I-PN
+thêu	B-STYLE
+hoa	I-STYLE
+Parona	B-BR
+cho	O
+bé	B-OB
+gái	I-OB
+
+Xâu	B-PN
+dây	I-PN
+mầm	B-PROP
+non	I-PROP
+và	O
+Xa	B-PN
+lộ	I-PN
+mini	B-PROP
+cho	O
+bé	B-OB
+học	O
+và	O
+chơi	O
+
+Combo	O
+5	O
+đôi	O
+tất	B-PN
+3D	B-STYLE
+hình	B-STYLE
+thú	I-STYLE
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+
+Bộ	O
+quà	O
+tặng	O
+ý	O
+nghĩa	O
+cho	O
+bé	B-OB
+sơ	I-OB
+sinh	I-OB
+
+Địu	B-PN
+2	O
+trong	O
+1	O
+Baby	B-BR
+Carrier	I-BR
+cho	O
+bé	B-OB
+yêu	O
+
+Xe	B-PN
+tải	I-PN
+hạng	B-PROP
+nặng	B-PROP
+chở	B-PROP
+xe	I-PROP
+con	I-PROP
+cho	O
+bé	B-OB
+từ	O
+3	O
+tuổi	O
+
+Máy	B-PN
+hút	B-FUNC
+mũi	I-FUNC
+an	B-PROP
+toàn	I-PROP
+cho	O
+trẻ	B-OB
+em	B-OB
+
+Combo	O
+4	O
+ô	B-PN
+tô	I-PN
+công	B-PROP
+trường	I-PROP
+ngộ	B-PROP
+nghĩnh	I-PROP
+cho	O
+bé	B-OB
+
+Combo	O
+2	O
+áo	B-PN
+len	B-PROP
+cổ	B-STYLE
+lọ	I-STYLE
+ấm	B-PROP
+áp	I-PROP
+cho	O
+bé	I-BR
+gái	I-OB
+
+Ô	B-PN
+tô	I-PN
+2	B-PROP
+tầng	I-PROP
+độc	B-PROP
+đáo	I-PROP
+cho	O
+bé	B-OB
+yêu	O
+
+Áo	B-PN
+khoác	I-PN
+sọc	B-PROP
+phối	B-STYLE
+nút	I-STYLE
+
+Combo	O
+5	O
+quần	B-PN
+mông	B-STYLE
+thú	I-STYLE
+cotton	B-PROP
+siêu	B-PROP
+đáng	I-PROP
+yêu	I-PROP
+cho	O
+bé	B-OB
+
+Giày	B-PN
+sneaker	I-PN
+Việt	B-BR
+Nam	I-BR
+xuất	O
+khẩu	O
+cho	O
+bé	B-OB
+
+2	O
+mũ	B-PN
+tắm	B-FUNC
+-	O
+gội	B-FUNC
+-	O
+cắt	B-FUNC
+tóc	I-FUNC
+cho	O
+bé	B-OB
+
+Gel	B-PN
+chăm	B-FUNC
+sóc	I-FUNC
+miệng	I-FUNC
+trẻ	B-OB
+em	I-OB
+Pororo	B-BR
+Hàn	B-BR
+Quốc	I-BR
+
+Bộ	O
+kem	B-PN
+và	O
+bàn	B-PN
+chải	I-PN
+đánh	B-PROP
+răng	I-PROP
+em	I-OB
+dễ	B-PROP
+thương	I-PROP
+
+Hộp	B-PN
+thẻ	I-PN
+ghép	I-PN
+số	I-PN
+tập	I-FUNC
+đếm	I-FUNC
+cho	O
+bé	B-OB
+yêu	O
+
+Đồ	B-PN
+chơi	I-PN
+công	B-STYLE
+chúa	I-STYLE
+/	O
+mèo	B-STYLE
+kitty	I-STYLE
+biết	B-FUNC
+bay	I-FUNC
+
+Bộ	O
+miếng	B-PN
+ghép	I-PN
+học	B-FUNC
+tiếng	B-PROP
+Anh	I-PROP
+Organ	B-BR
+Puzzle	I-BR
+
+Bộ	O
+miếng	B-PN
+ghép	I-PN
+tiếng	I-PN
+thông	I-PN
+minh	I-PROP
+Fruit	B-BR
+Puzzle	I-BR
+
+Gối	B-PN
+kể	B-FUNC
+chuyện	I-FUNC
+cổ	B-STYLE
+tích	I-STYLE
+Pubtech	B-BR
+cho	O
+bé	B-OB
+
+Combo	O
+cốm	B-PN
+lợi	I-PN
+sữa	I-PN
+MumMilk	B-BR
+và	O
+thấm	B-PN
+sữa	I-PN
+Happy	B-BR
+Days	I-BR
+
+Túi	B-PN
+xách	I-PN
++	O
+Ví	B-PN
+cầm	B-FUNC
+tay	I-FUNC
++	O
+Đồng	B-PN
+hồ	I-PN
+họa	B-STYLE
+tiết	I-STYLE
+mèo	I-STYLE
+Kitty	I-STYLE
+
+Bộ	O
+đồ	B-PN
+chơi	I-PN
+bếp	B-PROP
+đáng	B-PROP
+yêu	I-PROP
+cho	O
+bé	B-OB
+trổ	B-FUNC
+tài	I-FUNC
+nội	I-FUNC
+trợ	I-FUNC
+
+Bộ	O
+đồ	B-PN
+chơi	I-PN
+làm	B-PROP
+bánh	I-PROP
+cho	O
+bé	B-OB
+thử	O
+trổ	B-FUNC
+tài	I-FUNC
+
+Kệ	B-PN
+chữ	B-STYLE
+A	I-STYLE
+hình	B-STYLE
+chim	I-STYLE
+vẹt	I-STYLE
+cho	O
+bé	B-OB
+thỏa	O
+sức	O
+vui	B-FUNC
+chơi	I-FUNC
+
+5	O
+ô	B-PN
+tô	I-PN
+sắt	B-PROP
+nhiều	B-PROP
+kiểu	I-PROP
+cho	O
+bé	B-OB
+thỏa	O
+sức	O
+chơi	B-FUNC
+đùa	I-FUNC
+
+Robot	B-PN
+biến	I-PN
+hình	I-PN
+cho	O
+bé	B-OB
+thỏa	O
+sức	O
+sáng	B-FUNC
+tạo	I-FUNC
+
+Bộ	B-PN
+xếp	I-PN
+hình	I-PN
+&	O
+thông	B-PROP
+minh	I-PROP
+&	O
+Anto	B-BR
+bé	B-OB
+thỏa	O
+sức	O
+sáng	B-FUNC
+tạo	I-FUNC
+
+Rô	B-PN
+bốt	I-PN
+biến	I-PN
+hình	I-PN
+thông	B-PROP
+minh	I-PROP
+cho	O
+bé	B-OB
+sáng	B-FUNC
+tạo	I-FUNC
+
+Thỏa	O
+sức	O
+sáng	O
+tạo	O
+với	O
+bộ	O
+siêu	B-PN
+nhân	I-PN
+Gao	I-PN
+biến	I-PN
+hình	I-PN
+
+Bộ	O
+đồ	B-PN
+chơi	I-PN
+gỗ	B-PROP
+xếp	B-PROP
+hình	I-PROP
+40	O
+miếng	O
+cho	O
+bé	B-OB
+sáng	B-FUNC
+tạo	I-FUNC
+
+Khăn	B-PN
+tắm	B-FUNC
+,	O
+che	B-FUNC
+nắng	I-FUNC
+,	O
+giữ	B-FUNC
+ấm	I-FUNC
+hoạt	B-STYLE
+hình	I-STYLE
+cho	O
+bé	B-OB
+
+2	O
+Áo	B-PN
+gile	I-PN
+len	B-PROP
+giữ	B-FUNC
+ấm	I-FUNC
+cho	O
+bé	B-OB
+
+Bộ	B-PN
+học	I-PN
+toán	I-PN
+Vivitoys	B-BR
+giúp	O
+bé	B-OB
+học	B-FUNC
+nhanh	I-FUNC
+,	O
+dễ	B-PROP
+hiểu	I-PROP
+
+2	O
+túi	B-PN
+đeo	B-FUNC
+bụng	I-FUNC
+hình	B-STYLE
+thú	I-STYLE
+đáng	B-PROP
+yêu	I-PROP
+cho	O
+bé	B-OB

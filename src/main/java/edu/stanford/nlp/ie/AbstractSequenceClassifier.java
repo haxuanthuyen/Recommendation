@@ -136,7 +136,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     if (flags.featureFactories != null) {
       for (int i = 0; i < flags.featureFactories.length; i++) {
         FeatureFactory<IN> indFeatureFactory = new MetaClass(flags.featureFactories[i]).
-            createInstance(flags.featureFactoriesArgs.get(i));
+                createInstance(flags.featureFactoriesArgs.get(i));
         this.featureFactories.add(indFeatureFactory);
       }
     }
@@ -172,7 +172,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
 
     defaultReaderAndWriter = makeReaderAndWriter();
     if (flags.readerAndWriter != null &&
-        flags.readerAndWriter.equals(flags.plainTextDocumentReaderAndWriter)) {
+            flags.readerAndWriter.equals(flags.plainTextDocumentReaderAndWriter)) {
       plainTextReaderAndWriter = defaultReaderAndWriter;
     } else {
       plainTextReaderAndWriter = makePlainTextReaderAndWriter();
@@ -385,7 +385,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
         IN newFL = tokenFactory.makeToken(fi);
         String guess = classIndex.get(seq[pos]);
         fi.remove(CoreAnnotations.AnswerAnnotation.class); // because fake answers will get
-                                           // added during testing
+        // added during testing
         newFL.set(answerField, guess);
         pos++;
         kth.add(newFL);
@@ -418,7 +418,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    */
   public List<List<IN>> classify(String str) {
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromString(str, plainTextReaderAndWriter);
+            makeObjectBankFromString(str, plainTextReaderAndWriter);
     List<List<IN>> result = new ArrayList<List<IN>>();
 
     for (List<IN> document : documents) {
@@ -447,7 +447,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
   public List<List<IN>> classifyRaw(String str,
                                     DocumentReaderAndWriter<IN> readerAndWriter) {
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromString(str, readerAndWriter);
+            makeObjectBankFromString(str, readerAndWriter);
     List<List<IN>> result = new ArrayList<List<IN>>();
 
     for (List<IN> document : documents) {
@@ -473,7 +473,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    */
   public List<List<IN>> classifyFile(String filename) {
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromFile(filename, plainTextReaderAndWriter);
+            makeObjectBankFromFile(filename, plainTextReaderAndWriter);
     List<List<IN>> result = new ArrayList<List<IN>>();
 
     for (List<IN> document : documents) {
@@ -541,11 +541,11 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    */
   public String classifyToString(String sentences, String outputFormat, boolean preserveSpacing) {
     PlainTextDocumentReaderAndWriter.OutputStyle outFormat =
-      PlainTextDocumentReaderAndWriter.OutputStyle.fromShortName(outputFormat);
+            PlainTextDocumentReaderAndWriter.OutputStyle.fromShortName(outputFormat);
 
 
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromString(sentences, plainTextReaderAndWriter);
+            makeObjectBankFromString(sentences, plainTextReaderAndWriter);
 
     StringBuilder sb = new StringBuilder();
     for (List<IN> doc : documents) {
@@ -623,7 +623,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    */
   public List<Triple<String, Integer, Integer>> classifyToCharacterOffsets(String sentences) {
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromString(sentences, plainTextReaderAndWriter);
+            makeObjectBankFromString(sentences, plainTextReaderAndWriter);
 
     List<Triple<String, Integer, Integer>> entities = new ArrayList<>();
     for (List<IN> doc : documents) {
@@ -649,7 +649,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
                     fl.get(CoreAnnotations.CharacterOffsetEndAnnotation.class));
           } else {
             assert prevEntity != null; // if you read the code carefully, this
-                                       // should always be true!
+            // should always be true!
             prevEntity.setThird(fl.get(CoreAnnotations.CharacterOffsetEndAnnotation.class));
           }
         }
@@ -679,7 +679,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
   public List<String> segmentString(String sentence,
                                     DocumentReaderAndWriter<IN> readerAndWriter) {
     ObjectBank<List<IN>> docs = makeObjectBankFromString(sentence,
-                                                         readerAndWriter);
+            readerAndWriter);
 
     StringWriter stringWriter = new StringWriter();
     PrintWriter stringPrintWriter = new PrintWriter(stringWriter);
@@ -773,7 +773,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     // only for the OCR data does this matter
     flags.ocrTrain = true;
     train(makeObjectBankFromFiles(baseTrainDir, trainFiles, readerAndWriter),
-          readerAndWriter);
+            readerAndWriter);
   }
 
   public void train(String[] trainFileList,
@@ -781,7 +781,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     // only for the OCR data does this matter
     flags.ocrTrain = true;
     train(makeObjectBankFromFiles(trainFileList, readerAndWriter),
-          readerAndWriter);
+            readerAndWriter);
   }
 
   /**
@@ -815,8 +815,8 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    * @return The ObjectBank
    */
   public ObjectBank<List<IN>>
-    makeObjectBankFromString(String string,
-                             DocumentReaderAndWriter<IN> readerAndWriter)
+  makeObjectBankFromString(String string,
+                           DocumentReaderAndWriter<IN> readerAndWriter)
   {
     if (flags.announceObjectBankEntries) {
       System.err.print("Reading data using " + readerAndWriter.getClass());
@@ -831,7 +831,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     // ResettableReaderIteratorFactory(string), readerAndWriter);
     // TODO
     return new ObjectBankWrapper<IN>(flags, new ObjectBank<List<IN>>(new ResettableReaderIteratorFactory(string),
-        readerAndWriter), knownLCWords);
+            readerAndWriter), knownLCWords);
   }
 
   public ObjectBank<List<IN>> makeObjectBankFromFile(String filename) {
@@ -857,7 +857,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     // return new ObjectBank<List<IN>>(new
     // ResettableReaderIteratorFactory(files), readerAndWriter);
     return new ObjectBankWrapper<IN>(flags, new ObjectBank<List<IN>>(new ResettableReaderIteratorFactory(files, flags.inputEncoding),
-        readerAndWriter), knownLCWords);
+            readerAndWriter), knownLCWords);
     // } catch (IOException e) {
     // throw new RuntimeException(e);
     // }
@@ -887,7 +887,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     // readerAndWriter);
     // TODO get rid of ObjectBankWrapper
     return new ObjectBankWrapper<IN>(flags, new ObjectBank<List<IN>>(new ResettableReaderIteratorFactory(files,
-        flags.inputEncoding), readerAndWriter), knownLCWords);
+            flags.inputEncoding), readerAndWriter), knownLCWords);
   }
 
   public ObjectBank<List<IN>> makeObjectBankFromFiles(Collection<File> files,
@@ -900,7 +900,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     // readerAndWriter);
     // TODO get rid of ObjectBankWrapper
     return new ObjectBankWrapper<IN>(flags, new ObjectBank<List<IN>>(new ResettableReaderIteratorFactory(files,
-        flags.inputEncoding), readerAndWriter), knownLCWords);
+            flags.inputEncoding), readerAndWriter), knownLCWords);
   }
 
   /**
@@ -926,7 +926,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     // return new ObjectBank<List<IN>>(new ResettableReaderIteratorFactory(in),
     // readerAndWriter);
     return new ObjectBankWrapper<IN>(flags, new ObjectBank<List<IN>>(new ResettableReaderIteratorFactory(in),
-        readerAndWriter), knownLCWords);
+            readerAndWriter), knownLCWords);
   }
 
   /**
@@ -941,7 +941,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     flags.ocrTrain = false;
 
     ObjectBank<List<IN>> docs =
-      makeObjectBankFromFile(filename, readerAndWriter);
+            makeObjectBankFromFile(filename, readerAndWriter);
     printProbsDocuments(docs);
   }
 
@@ -1017,13 +1017,13 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
   }
 
   public void classifyStdin()
-    throws IOException
+          throws IOException
   {
     classifyStdin(plainTextReaderAndWriter);
   }
 
   public void classifyStdin(DocumentReaderAndWriter<IN> readerWriter)
-    throws IOException
+          throws IOException
   {
     BufferedReader is = IOUtils.readerFromStdin(flags.inputEncoding);
     for (String line; (line = is.readLine()) != null; ) {
@@ -1047,7 +1047,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    * @param testFile The file to test on.
    */
   public void classifyAndWriteAnswers(String testFile)
-    throws IOException
+          throws IOException
   {
     classifyAndWriteAnswers(testFile, plainTextReaderAndWriter, false);
   }
@@ -1064,11 +1064,23 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
   public void classifyAndWriteAnswers(String testFile,
                                       DocumentReaderAndWriter<IN> readerWriter,
                                       boolean outputScores)
-    throws IOException
+          throws IOException
   {
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromFile(testFile, readerWriter);
+            makeObjectBankFromFile(testFile, readerWriter);
     classifyAndWriteAnswers(documents, readerWriter, outputScores);
+  }
+
+  public String classifyAndReturnAnswers(String testFile,
+                                      DocumentReaderAndWriter<IN> readerWriter,
+                                      boolean outputScores)
+          throws IOException
+  {
+    ObjectBank<List<IN>> documents =
+            makeObjectBankFromFile(testFile, readerWriter);
+    String res = classifyAndReturnAnswers(documents, readerWriter, outputScores);
+
+    return res;
   }
 
   /** If the flag
@@ -1100,21 +1112,114 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
                                            DocumentReaderAndWriter<IN> readerWriter, boolean outputScores)
           throws IOException {
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromFiles(testFiles, readerWriter);
+            makeObjectBankFromFiles(testFiles, readerWriter);
     classifyAndWriteAnswers(documents, readerWriter, outputScores);
   }
 
   public void classifyAndWriteAnswers(Collection<List<IN>> documents,
-                                       DocumentReaderAndWriter<IN> readerWriter,
-                                       boolean outputScores)
+                                      DocumentReaderAndWriter<IN> readerWriter,
+                                      boolean outputScores)
           throws IOException {
     classifyAndWriteAnswers(documents,
                             IOUtils.encodedOutputStreamPrintWriter(System.out, flags.outputEncoding, true),
                             readerWriter, outputScores);
   }
 
+  public String classifyAndReturnAnswers(Collection<List<IN>> documents,
+                                      DocumentReaderAndWriter<IN> readerWriter,
+                                      boolean outputScores)
+          throws IOException {
+    String res = classifyAndReturnAnswers(documents,
+            IOUtils.encodedOutputStreamPrintWriter(System.out, flags.outputEncoding, true),
+            readerWriter, outputScores);
+    return res;
+  }
+
   /** Does nothing by default.  Children classes can override if necessary */
   public void dumpFeatures(Collection<List<IN>> documents) {}
+
+  public String classifyAndReturnAnswers(Collection<List<IN>> documents,
+                                         PrintWriter printWriter,
+                                         DocumentReaderAndWriter<IN> readerWriter,
+                                         boolean outputScores)
+          throws IOException {
+    StringBuilder sb = new StringBuilder();
+
+    if (flags.exportFeatures != null) {
+      dumpFeatures(documents);
+    }
+
+    Timing timer = new Timing();
+
+    Counter<String> entityTP = new ClassicCounter<>();
+    Counter<String> entityFP = new ClassicCounter<>();
+    Counter<String> entityFN = new ClassicCounter<>();
+    boolean resultsCounted = outputScores;
+    int numWords = 0;
+    int numDocs = 0;
+
+    final AtomicInteger threadCompletionCounter = new AtomicInteger(0);
+
+    ThreadsafeProcessor<List<IN>, List<IN>> threadProcessor =
+            new ThreadsafeProcessor<List<IN>, List<IN>>() {
+              @Override
+              public List<IN> process(List<IN> doc) {
+                doc = classify(doc);
+
+                int completedNo = threadCompletionCounter.incrementAndGet();
+                if (flags.verboseMode) System.err.println(completedNo + " examples completed");
+                return doc;
+              }
+              @Override
+              public ThreadsafeProcessor<List<IN>, List<IN>> newInstance() {
+                return this;
+              }
+            };
+
+    MulticoreWrapper<List<IN>, List<IN>> wrapper = null;
+    if (flags.multiThreadClassifier != 0) {
+      wrapper = new MulticoreWrapper<List<IN>, List<IN>>(flags.multiThreadClassifier, threadProcessor);
+    }
+
+    for (List<IN> doc: documents) {
+      numWords += doc.size();
+      numDocs++;
+      if (wrapper != null) {
+        wrapper.put(doc);
+        while (wrapper.peek()) {
+          List<IN> results = wrapper.poll();
+//          writeAnswers(results, printWriter, readerWriter);
+          resultsCounted = resultsCounted && countResults(results, entityTP, entityFP, entityFN);
+        }
+      } else {
+        List<IN> results = threadProcessor.process(doc);
+//        writeAnswers(results, printWriter, readerWriter);
+        resultsCounted = resultsCounted && countResults(results, entityTP, entityFP, entityFN);
+      }
+    }
+    if (wrapper != null) {
+      wrapper.join();
+      while (wrapper.peek()) {
+        List<IN> results = wrapper.poll();
+//        writeAnswers(results, printWriter, readerWriter);
+        resultsCounted = resultsCounted && countResults(results, entityTP, entityFP, entityFN);
+      }
+    }
+
+    long millis = timer.stop();
+//    double wordspersec = numWords / (((double) millis) / 1000);
+//    NumberFormat nf = new DecimalFormat("0.00"); // easier way!
+//    sb.append(StringUtils.getShortClassName(this) +
+//            " tagged " + numWords + " words in " + numDocs +
+//            " documents at " + nf.format(wordspersec) +
+//            " words per second." + "\n");
+    if (resultsCounted) {
+      String lineRes = getResults(entityTP, entityFP, entityFN);
+      sb.append(lineRes);
+    }
+
+    return sb.toString();
+  }
 
   public void classifyAndWriteAnswers(Collection<List<IN>> documents,
                                       PrintWriter printWriter,
@@ -1137,20 +1242,20 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     final AtomicInteger threadCompletionCounter = new AtomicInteger(0);
 
     ThreadsafeProcessor<List<IN>, List<IN>> threadProcessor =
-        new ThreadsafeProcessor<List<IN>, List<IN>>() {
-      @Override
-      public List<IN> process(List<IN> doc) {
-        doc = classify(doc);
+            new ThreadsafeProcessor<List<IN>, List<IN>>() {
+              @Override
+              public List<IN> process(List<IN> doc) {
+                doc = classify(doc);
 
-        int completedNo = threadCompletionCounter.incrementAndGet();
-        if (flags.verboseMode) System.err.println(completedNo + " examples completed");
-        return doc;
-      }
-      @Override
-      public ThreadsafeProcessor<List<IN>, List<IN>> newInstance() {
-        return this;
-      }
-    };
+                int completedNo = threadCompletionCounter.incrementAndGet();
+                if (flags.verboseMode) System.err.println(completedNo + " examples completed");
+                return doc;
+              }
+              @Override
+              public ThreadsafeProcessor<List<IN>, List<IN>> newInstance() {
+                return this;
+              }
+            };
 
     MulticoreWrapper<List<IN>, List<IN>> wrapper = null;
     if (flags.multiThreadClassifier != 0) {
@@ -1186,9 +1291,9 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     double wordspersec = numWords / (((double) millis) / 1000);
     NumberFormat nf = new DecimalFormat("0.00"); // easier way!
     System.err.println(StringUtils.getShortClassName(this) +
-                       " tagged " + numWords + " words in " + numDocs +
-                       " documents at " + nf.format(wordspersec) +
-                       " words per second.");
+            " tagged " + numWords + " words in " + numDocs +
+            " documents at " + nf.format(wordspersec) +
+            " words per second.");
     if (resultsCounted) {
       printResults(entityTP, entityFP, entityFN);
     }
@@ -1204,8 +1309,8 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    * @param readerAndWriter Class to be used for printing answers
    */
   public void classifyAndWriteAnswersKBest(String testFile, int k,
-                                       DocumentReaderAndWriter<IN> readerAndWriter)
-    throws IOException {
+                                           DocumentReaderAndWriter<IN> readerAndWriter)
+          throws IOException {
     ObjectBank<List<IN>> documents = makeObjectBankFromFile(testFile, readerAndWriter);
     PrintWriter pw = IOUtils.encodedOutputStreamPrintWriter(System.out, flags.outputEncoding, true);
     classifyAndWriteAnswersKBest(documents, k, pw, readerAndWriter);
@@ -1232,7 +1337,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
       int n = 1;
       for (List<IN> l : sorted) {
         printWriter.println("<sentence id=" + numSentences + " k=" + n + " logProb=" + kBest.getCount(l) + " prob="
-            + Math.exp(kBest.getCount(l)) + '>');
+                + Math.exp(kBest.getCount(l)) + '>');
         writeAnswers(l, printWriter, readerAndWriter);
         printWriter.println("</sentence>");
         n++;
@@ -1244,7 +1349,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     double wordspersec = numWords / (((double) millis) / 1000);
     NumberFormat nf = new DecimalFormat("0.00"); // easier way!
     System.err.println(this.getClass().getName() + " tagged " + numWords + " words in " + numSentences
-        + " documents at " + nf.format(wordspersec) + " words per second.");
+            + " documents at " + nf.format(wordspersec) + " words per second.");
   }
 
   /**
@@ -1256,7 +1361,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
   public void classifyAndWriteViterbiSearchGraph(String testFile, String searchGraphPrefix, DocumentReaderAndWriter<IN> readerAndWriter) throws IOException {
     Timing timer = new Timing();
     ObjectBank<List<IN>> documents =
-      makeObjectBankFromFile(testFile, readerAndWriter);
+            makeObjectBankFromFile(testFile, readerAndWriter);
     int numWords = 0;
     int numSentences = 0;
 
@@ -1264,7 +1369,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
       DFSA<String, Integer> tagLattice = getViterbiSearchGraph(doc, CoreAnnotations.AnswerAnnotation.class);
       numWords += doc.size();
       PrintWriter latticeWriter = new PrintWriter(new FileOutputStream(searchGraphPrefix + '.' + numSentences
-          + ".wlattice"));
+              + ".wlattice"));
       PrintWriter vsgWriter = new PrintWriter(new FileOutputStream(searchGraphPrefix + '.' + numSentences + ".lattice"));
       if (readerAndWriter instanceof LatticeWriter)
         ((LatticeWriter<IN, String, Integer>) readerAndWriter).printLattice(tagLattice, doc, latticeWriter);
@@ -1278,7 +1383,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     double wordspersec = numWords / (((double) millis) / 1000);
     NumberFormat nf = new DecimalFormat("0.00"); // easier way!
     System.err.println(this.getClass().getName() + " tagged " + numWords + " words in " + numSentences
-        + " documents at " + nf.format(wordspersec) + " words per second.");
+            + " documents at " + nf.format(wordspersec) + " words per second.");
   }
 
   /**
@@ -1351,7 +1456,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    * negatives, prints out precision, recall, and f1 for each key.
    */
   public static void printResults(Counter<String> entityTP, Counter<String> entityFP,
-                           Counter<String> entityFN) {
+                                  Counter<String> entityFN) {
     Set<String> entities = new TreeSet<String>();
     entities.addAll(entityTP.keySet());
     entities.addAll(entityFP.keySet());
@@ -1369,27 +1474,84 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     printPRLine("Totals", tp, fp, fn, printedHeader);
   }
 
+  public static String getResults(Counter<String> entityTP, Counter<String> entityFP,
+                                  Counter<String> entityFN) {
+    StringBuilder sb = new StringBuilder();
+
+    Set<String> entities = new TreeSet<String>();
+    entities.addAll(entityTP.keySet());
+    entities.addAll(entityFP.keySet());
+    entities.addAll(entityFN.keySet());
+    boolean printedHeader = false;
+    for (String entity : entities) {
+      double tp = entityTP.getCount(entity);
+      double fp = entityFP.getCount(entity);
+      double fn = entityFN.getCount(entity);
+      String line = getPRLine(entity, tp, fp, fn, printedHeader);
+      if (!line.equals("")) {
+        printedHeader = true;
+        sb.append(line + "\n");
+      }
+    }
+    double tp = entityTP.totalCount();
+    double fp = entityFP.totalCount();
+    double fn = entityFN.totalCount();
+    String line = getPRLine("Totals", tp, fp, fn, printedHeader);
+    sb.append(line);
+
+    return sb.toString();
+  }
+
   /**
    * Print a line of precision, recall, and f1 scores, titled by entity,
    * possibly printing a header if it hasn't already been printed.
    * Returns whether or not the header has ever been printed.
    */
   private static boolean printPRLine(String entity, double tp, double fp, double fn,
-                             boolean printedHeader) {
+                                     boolean printedHeader) {
     if (tp == 0.0 && (fp == 0.0 || fn == 0.0))
       return printedHeader;
     double precision = tp / (tp + fp);
     double recall = tp / (tp + fn);
     double f1 = ((precision == 0.0 || recall == 0.0) ?
-                 0.0 : 2.0 / (1.0 / precision + 1.0 / recall));
+            0.0 : 2.0 / (1.0 / precision + 1.0 / recall));
     if (!printedHeader) {
       System.err.println("         Entity\tP\tR\tF1\tTP\tFP\tFN");
       printedHeader = true;
     }
     System.err.format("%15s\t%.4f\t%.4f\t%.4f\t%.0f\t%.0f\t%.0f%n",
-                      entity, precision, recall, f1,
-                      tp, fp, fn);
+            entity, precision, recall, f1,
+            tp, fp, fn);
     return printedHeader;
+  }
+
+  private static String getPRLine(String entity, double tp, double fp, double fn,
+                                     boolean printedHeader) {
+    StringBuilder sb = new StringBuilder();
+    NumberFormat nf = new DecimalFormat("0.0000");
+    if (tp == 0.0 && (fp == 0.0 || fn == 0.0))
+      return "";
+    double precision = tp / (tp + fp);
+    double recall = tp / (tp + fn);
+    double f1 = ((precision == 0.0 || recall == 0.0) ?
+            0.0 : 2.0 / (1.0 / precision + 1.0 / recall));
+    if (!printedHeader) {
+//      System.err.println("         Entity\tP\tR\tF1\tTP\tFP\tFN");
+      sb.append("Entity\tP\tR\tF1\tTP\tFP\tFN\n");
+    }
+//    System.err.format("%15s\t%.4f\t%.4f\t%.4f\t%.0f\t%.0f\t%.0f%n",
+//            entity, precision, recall, f1,
+//            tp, fp, fn);
+    sb.append(entity
+            + "\t"+  nf.format(precision)
+            + "\t" +  nf.format(recall)
+            + "\t" +  nf.format(f1)
+            + "\t" + tp
+            + "\t" + fp
+            + "\t" + fn);
+//    System.out.println(sb.toString());
+
+    return sb.toString();
   }
 
   /**
@@ -1447,7 +1609,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    * @throws ClassNotFoundException If there are problems interpreting the serialized data
    */
   public void loadClassifier(InputStream in, Properties props) throws IOException, ClassCastException,
-      ClassNotFoundException {
+          ClassNotFoundException {
     loadClassifier(new ObjectInputStream(in), props);
   }
 
@@ -1463,7 +1625,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    * @throws ClassNotFoundException If there are problems interpreting the serialized data
    */
   public abstract void loadClassifier(ObjectInputStream in, Properties props) throws IOException, ClassCastException,
-      ClassNotFoundException;
+          ClassNotFoundException;
 
   private InputStream loadStreamFromClasspath(String path) {
     InputStream is = getClass().getClassLoader().getResourceAsStream(path);
@@ -1547,7 +1709,7 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
    *           If there are problems interpreting the serialized data
    */
   public void loadClassifier(File file, Properties props) throws ClassCastException, IOException,
-      ClassNotFoundException {
+          ClassNotFoundException {
     Timing.startDoing("Loading classifier from " + file.getAbsolutePath());
     BufferedInputStream bis;
     if (file.getName().endsWith(".gz")) {
@@ -1619,10 +1781,10 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     }
     if (wi instanceof CoreLabel) {
       cliqueWriter.print(wi.get(CoreAnnotations.TextAnnotation.class) + ' ' + wi.get(CoreAnnotations.PartOfSpeechAnnotation.class) + ' '
-          + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
+              + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
     } else {
       cliqueWriter.print(wi.get(CoreAnnotations.TextAnnotation.class)
-          + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
+              + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
     }
     boolean first = true;
     List<String> featsList = new ArrayList<String>(features);
@@ -1655,10 +1817,10 @@ public abstract class AbstractSequenceClassifier<IN extends CoreMap> implements 
     }
     if (wi instanceof CoreLabel) {
       cliqueWriter.print(wi.get(CoreAnnotations.TextAnnotation.class) + ' ' + wi.get(CoreAnnotations.PartOfSpeechAnnotation.class) + ' '
-          + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
+              + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
     } else {
       cliqueWriter.print(wi.get(CoreAnnotations.TextAnnotation.class)
-          + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
+              + wi.get(CoreAnnotations.GoldAnswerAnnotation.class) + '\t');
     }
     boolean first = true;
     for (List<String> featList : features) {

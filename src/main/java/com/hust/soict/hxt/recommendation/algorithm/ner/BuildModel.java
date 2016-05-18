@@ -21,7 +21,7 @@ public class BuildModel {
 
     public static void main(String[] args) throws IOException {
         BuildModel buildModel = new BuildModel();
-        buildModel.train();
+//        buildModel.train();
         buildModel.testModel();
     }
 
@@ -61,7 +61,9 @@ public class BuildModel {
         if (testFile != null) {
             // todo: Change testFile to call testFiles with a singleton list
             DocumentReaderAndWriter<CoreLabel> readerAndWriter = crf.defaultReaderAndWriter();
-            crf.classifyAndWriteAnswers(testFile, readerAndWriter, true);
+           String res =  crf.classifyAndReturnAnswers(testFile, readerAndWriter, true);
+            System.out.println(res);
+//            crf.classifyAndWriteAnswers(testFile, readerAndWriter, true);
 //            crf.printProbs(testFile, readerAndWriter);
 //            crf.getCliqueTrees(testFile,readerAndWriter);
         }
