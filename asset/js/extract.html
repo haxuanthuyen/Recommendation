@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extract item</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/style-recommend.css" media="all">
+    <script src="asset/js/jquery.js"></script>
+</head>
+<body>
+<div>
+    <div class="container-extract">
+        Thông tin tiêu đề sản phẩm:<br>
+        <textarea id="input_item" rows="4" cols="50">
+        </textarea>
+        <div style="margin-top: 5px;"></div>
+        Lựa chọn chủ đề: <select id="select-topic">
+        <option value="1">Ẩm thực nhà hàng</option>
+        <option value="2">Thời trang nữ</option>
+        <option value="3">Spa và làm đẹp</option>
+        <option value="4">Mẹ và bé</option>
+        <option value="6">Thực phẩm</option>
+        <option value="7">Phụ kiện và mỹ phầm</option>
+        <option value="8">Thời trang nam</option>
+        <option value="9">Điện tử công ngệ</option>
+        <option value="12">Gia dụng nội thất</option>
+    </select>
+        <div style="margin-top: 5px;"></div>
+        <div class="button" id="submit-btn">Submit</div>
+        <div style="margin-top: 15px;"></div>
+         Kết quả:<br>
+        <textarea id="output_item" rows="4" cols="50">
+        </textarea>
+    </div>
+</div>
+<script>
+    var typeTopic = "1";
+    $(document).ready(function() {
+        $('#submit-btn').click(function(){
+            var text = $('#input_item').val();
+            requestDataExtract(text, typeTopic);
+        });
+
+        $('#select-topic').change(function () {
+            var value = $(this).val();
+            switch (value) {
+                case "1":
+                    typeTopic = "1";
+                    break;
+                case "2":
+                    typeTopic = "2";
+                    break;
+                case "3":
+                    typeTopic = "3";
+                    break;
+                case "4":
+                    typeTopic = "4";
+                    break;
+                case "6":
+                    typeTopic = "6";
+                    break;
+                case "7":
+                    typeTopic = "7";
+                    break;
+                case "8":
+                    typeTopic = "8";
+                    break;
+                case "9":
+                    typeTopic = "9";
+                    break;
+                case "12":
+                    typeTopic = "12";
+                    break;
+                default :
+                    typeSearch = "1";
+            }
+        });
+    });
+
+    function requestDataExtract(text,type) {
+        var link = "http://localhost:6677/ner/?";
+        link += "title=" + text + "&type=" + type;
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                showData(xmlhttp.responseText);
+            }
+        };
+        xmlhttp.open("GET", link, true);
+        xmlhttp.send();
+    }
+
+    function showData(textEx) {
+        $("#output_item").empty();
+        $("#output_item").append(textEx);
+    }
+</script>
+</body>
+</html>

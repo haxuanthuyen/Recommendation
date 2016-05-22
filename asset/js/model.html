@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Model</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/style-recommend.css" media="all">
+    <script src="asset/js/jquery.js"></script>
+</head>
+<body>
+<div>
+    <div class="container-extract">
+        Lựa chọn chủ đề: <select id="select-topic">
+        <option value="1">Ẩm thực nhà hàng</option>
+        <option value="2">Thời trang nữ</option>
+        <option value="3">Spa và làm đẹp</option>
+        <option value="4">Mẹ và bé</option>
+        <option value="6">Thực phẩm</option>
+        <option value="7">Phụ kiện và mỹ phầm</option>
+        <option value="8">Thời trang nam</option>
+        <option value="9">Điện tử công ngệ</option>
+        <option value="12">Gia dụng nội thất</option>
+    </select>
+        <div style="margin-top: 5px;"></div>
+        <div class="button" id="submit-btn">Submit</div>
+    </div>
+
+    <div class="container-table" id="div-model" style="display: none;">
+        <div><h1>Test Model</h1></div>
+        <table class="table_style_01" style="width: 100%">
+            <tbody id="table-content">
+            <tr>
+                <th class="cent">Nhãn</th>
+                <th class="cent">Precision</th>
+                <th class="cent">Recall</th>
+                <th class="cent">F-Score</th>
+                <th class="cent">TP</th>
+                <th class="cent">FP</th>
+                <th class="cent">FN</th>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+<script>
+    var typeTopic = "1";
+    $(document).ready(function() {
+        $('#submit-btn').click(function(){
+            requestDataModel(typeTopic);
+            $('#div-model').css('display','block');
+        });
+
+        $('#select-topic').change(function () {
+            var value = $(this).val();
+            switch (value) {
+                case "1":
+                    typeTopic = "1";
+                    break;
+                case "2":
+                    typeTopic = "2";
+                    break;
+                case "3":
+                    typeTopic = "3";
+                    break;
+                case "4":
+                    typeTopic = "4";
+                    break;
+                case "6":
+                    typeTopic = "6";
+                    break;
+                case "7":
+                    typeTopic = "7";
+                    break;
+                case "8":
+                    typeTopic = "8";
+                    break;
+                case "9":
+                    typeTopic = "9";
+                    break;
+                case "12":
+                    typeTopic = "12";
+                    break;
+                default :
+                    typeSearch = "1";
+            }
+        });
+    });
+
+    function requestDataModel(type) {
+        var link = "http://localhost:6677/model/?";
+        link += "type=" + type;
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                var lstJson = JSON.parse(xmlhttp.responseText);
+                showData(lstJson);
+            }
+        };
+        xmlhttp.open("GET", link, true);
+        xmlhttp.send();
+    }
+
+    function showData(lstJson) {
+        $("#table-content").empty();
+        var text = '<tr>' +
+                '<th class="cent">Nhãn</th>' +
+                '<th class="cent">Precision</th>' +
+                '<th class="cent">Recall</th>' +
+                '<th class="cent">F-Score</th>' +
+                '<th class="cent">TP</th>' +
+                '<th class="cent">FP</th>' +
+                '<th class="cent">FN</th>' +
+                '</tr>';
+        $("#table-content").append(text);
+        for(var i = 0; lstJson.length; i++) {
+            var label = lstJson[i].label;
+            var precision = lstJson[i].precision;
+            var recall = lstJson[i].recall;
+            var f1 = lstJson[i].f1;
+            var tp = lstJson[i].tp;
+            var fp = lstJson[i].fp;
+            var fn = lstJson[i].fn;
+
+            var record = '<tr>' +
+                    '<td class="cent">' + label + '</td>' +
+                    '<td class="cent">' + precision + '</td>' +
+                    '<td class="cent">' + recall + '</td>' +
+                    '<td class="cent">' + f1 + '</td>' +
+                    '<td class="cent">' + tp + '</td>' +
+                    '<td class="cent">' + fp + '</td>' +
+                    '<td class="cent">' + fn + '</td>' +
+                    '</tr>';
+            $("#table-content").append(record);
+        }
+    }
+
+</script>
+</body>
+</html>

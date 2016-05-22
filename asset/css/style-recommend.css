@@ -215,3 +215,15 @@ table.table_style_01 th {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+
+/*extract container*/
+.container-extract {
+    height: auto;
+    width: 1160px;
+    box-sizing: border-box;
+    background: #fff;
+    text-align: center;
+    /*margin: 0 auto 15px;*/
+    position: relative;
+}

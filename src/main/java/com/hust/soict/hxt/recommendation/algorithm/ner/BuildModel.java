@@ -1,5 +1,6 @@
 package com.hust.soict.hxt.recommendation.algorithm.ner;
 
+import com.hust.soict.hxt.recommendation.bo.ModelData;
 import edu.stanford.nlp.ie.crf.*;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.sequences.DocumentReaderAndWriter;
@@ -8,6 +9,8 @@ import edu.stanford.nlp.util.StringUtils;
 import edu.stanford.nlp.util.Timing;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 /**
@@ -22,10 +25,14 @@ public class BuildModel {
     public static void main(String[] args) throws IOException {
         BuildModel buildModel = new BuildModel();
 //        buildModel.train();
-        buildModel.testModel();
+        buildModel.testModel("9");
     }
 
     public BuildModel() {
+       init();
+    }
+
+    public void init() {
         prop = StringUtils.propFileToProperties("data/austen-test.prop");
         flags = new SeqClassifierFlags(prop);
         crf =  chooseCRFClassifier(flags);
@@ -49,10 +56,11 @@ public class BuildModel {
         return crf;
     }
 
-    public void testModel() throws IOException {
-
-        String loadPath = flags.serializeTo;
-        String testFile = flags.testFile;
+    public List<ModelData> testModel(String type) throws IOException {
+        List<ModelData> lstData = new ArrayList<>();
+        String loadPath = getPathModel(type);
+        String testFile = getPathTest(type);
+        init();
 
         if (loadPath != null) {
             crf.loadClassifierNoExceptions(loadPath, prop);
@@ -61,12 +69,16 @@ public class BuildModel {
         if (testFile != null) {
             // todo: Change testFile to call testFiles with a singleton list
             DocumentReaderAndWriter<CoreLabel> readerAndWriter = crf.defaultReaderAndWriter();
-           String res =  crf.classifyAndReturnAnswers(testFile, readerAndWriter, true);
-            System.out.println(res);
-//            crf.classifyAndWriteAnswers(testFile, readerAndWriter, true);
-//            crf.printProbs(testFile, readerAndWriter);
-//            crf.getCliqueTrees(testFile,readerAndWriter);
+            String res =  crf.classifyAndReturnAnswers(testFile, readerAndWriter, true);
+            System.out.printf(res);
+            String[] array = res.split("\n");
+            for (int i = 1; i < array.length; i++) {
+                String[] arrayValue = array[i].split("\t");
+                ModelData data = new ModelData(arrayValue[0],arrayValue[1],arrayValue[2],arrayValue[3],arrayValue[4],arrayValue[5],arrayValue[6]);
+                lstData.add(data);
+            }
         }
+        return lstData;
     }
 
     public void train() {
@@ -95,5 +107,75 @@ public class BuildModel {
         if (serializeToText != null) {
             crf.serializeTextClassifier(serializeToText);
         }
+    }
+
+    public String getPathModel(String type) {
+        String path = "";
+        switch (type) {
+            case "1":
+                path = "data/amthucnhahang/model.amthucnhahang.gz";
+                break;
+            case "2":
+                path = "data/thoitrangnu/model.thoitrangnu.gz";
+                break;
+            case "3":
+                path = "data/spavalamdep/model.spavalamdep.gz";
+                break;
+            case "4":
+                path = "data/mevabe/model.mevabe.gz";
+                break;
+            case "6":
+                path = "data/thucpham/model.thucpham.gz";
+                break;
+            case "7":
+                path = "data/phukienmypham/model.phukienmypham.gz";
+                break;
+            case "8":
+                path = "data/thoitrangnam/model.thoitrangnam.gz";
+                break;
+            case "9":
+                path = "data/dientucongnghe/model.dientucongnghe.gz";
+                break;
+            case "12":
+                path = "data/giadungnoithat/model.giadungnoithat.gz";
+                break;
+            default:
+        }
+        return path;
+    }
+
+    public String getPathTest(String type) {
+        String path = "";
+        switch (type) {
+            case "1":
+                path = "data/amthucnhahang/test.amthucnhahang";
+                break;
+            case "2":
+                path = "data/thoitrangnu/test.thoitrangnu";
+                break;
+            case "3":
+                path = "data/spavalamdep/test.spavalamdep";
+                break;
+            case "4":
+                path = "data/mevabe/test.mevabe";
+                break;
+            case "6":
+                path = "data/thucpham/test.thucpham";
+                break;
+            case "7":
+                path = "data/phukienmypham/test.phukienmypham";
+                break;
+            case "8":
+                path = "data/thoitrangnam/test.thoitrangnam";
+                break;
+            case "9":
+                path = "data/dientucongnghe/test.dientucongnghe";
+                break;
+            case "12":
+                path = "data/giadungnoithat/test.giadungnoithat";
+                break;
+            default:
+        }
+        return path;
     }
 }
