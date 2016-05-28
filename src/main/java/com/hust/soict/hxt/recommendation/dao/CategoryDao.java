@@ -81,4 +81,33 @@ public class CategoryDao extends ConnectionBase {
         }
         return res;
     }
+
+    public List<ItemData> getItemByCat(int id) {
+        List<ItemData> res = new ArrayList<>();
+        String sql = "SELECT id,cat_id,url,title,medium_image,format_original_price,price " +
+                "FROM item_info_date " +
+                "WHERE dt >= '2016-01-01' " +
+                "AND cat_id=? ;";
+        PreparedStatement ps = null;
+        try{
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, id);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                int itemId = rs.getInt("id");
+                int catId = rs.getInt("cat_id");
+                String url = rs.getString("url");
+                String title = rs.getNString("title");
+                String imgUrl = rs.getString("medium_image");
+                String originalPrice = rs.getString("format_original_price");
+                String sellPrice = rs.getString("price");
+
+                ItemData item = new ItemData(itemId,catId,url,title,imgUrl,originalPrice,sellPrice);
+                res.add(item);
+            }
+        }catch (Exception e) {
+            logger.error("error get item detail by cat ", e);
+        }
+        return res;
+    }
 }

@@ -3,6 +3,7 @@ package com.hust.soict.hxt.recommendation.dao;
 import com.hust.soict.hxt.recommendation.algorithm.similarity.WeightFactory;
 import com.hust.soict.hxt.recommendation.bo.Item;
 import com.hust.soict.hxt.recommendation.bo.ItemHistory;
+import com.hust.soict.hxt.recommendation.bo.ItemSimilarity;
 import com.hust.soict.hxt.recommendation.dao.base.ConnectionBase;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -44,6 +45,52 @@ public class HistoryDao extends ConnectionBase {
         }catch (Exception e) {
             logger.warn("error update history log ", e);
         }
+    }
+
+    public void updateItemSimilarity(ItemSimilarity itemSimilarity) {
+        String sql = "INSERT INTO item_info_similarity(item_id,cat_id,item_similarity,dt) " +
+                " VALUES(?,?,?,?) " +
+                "ON DUPLICATE KEY UPDATE item_similarity=?, dt=?";
+        PreparedStatement ps = null;
+        try{
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, itemSimilarity.getItemId());
+            ps.setInt(2, itemSimilarity.getCatId());
+            ps.setString(3, itemSimilarity.getItemSimilarity());
+            ps.setString(4, itemSimilarity.getDt());
+            ps.setString(5, itemSimilarity.getItemSimilarity());
+            ps.setString(6, itemSimilarity.getDt());
+
+            logger.info("query: " + ps.toString());
+            ps.execute();
+        }catch (Exception e) {
+         logger.error("error update item similarity: " + itemSimilarity.getItemId());
+        }
+    }
+
+    public List<String> getGuidViewItem(int itemId, String dt) {
+        List<String> res = new ArrayList<>();
+        String sql = "SELECT DISTINCT guid " +
+                "FROM content_history " +
+                "WHERE dt >= ? " +
+                "AND url LIKE '%muachung.vn%' " +
+                "AND  url NOT LIKE '%plaza.muachung.vn%' " +
+                "AND item_id = ? ";
+        PreparedStatement ps = null;
+        try{
+            ps = conn.prepareStatement(sql);
+            ps.setString(1, dt);
+            ps.setInt(2, itemId);
+
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                res.add(rs.getString("guid"));
+            }
+
+        }catch (Exception e) {
+            logger.error("error get guid log");
+        }
+        return res;
     }
 
     public List<Item> getAllItems() {

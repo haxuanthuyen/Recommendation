@@ -45,15 +45,21 @@ public class GlobalResourceInit {
         logger.info("finish load all model.");
     }
 
-    public static void loadDataCache() throws SQLException {
+    public static void loadCategoryCache() throws SQLException {
         CategoryDao categoryDAO = new CategoryDao();
-
         if (Resource.catCache == null) {
             Resource.catCache = new HashMap<>();
             HashMap<Integer, Integer> itemMap = categoryDAO.mapAllItemByCat();
             Resource.catCache.putAll(itemMap);
             logger.info("finish load category caching ");
         }
+        categoryDAO.dispose();
+    }
+
+    public static void loadDataCache() throws SQLException {
+        CategoryDao categoryDAO = new CategoryDao();
+
+
 
         if (Resource.itemDetailCache == null) {
             Resource.itemDetailCache = new HashMap<>();
