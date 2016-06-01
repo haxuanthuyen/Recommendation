@@ -16,10 +16,10 @@
 <div class="containerrc" id="box-suggest" style="display: none;">
     <div class="sText">
         <span class="text1">Gợi ý dựa trên các sản phẩm bạn đã xem</span>
-        <span class="text2">Trang 1/5</span>
+        <span class="text2">Trang 1/6</span>
     </div>
     <div class="slider_warraper">
-        <ul style="width: 6060px; left: 0px" id="image_slider_2" class="image_slider"></ul>
+        <ul style="width: 6260px; left: 0px" id="image_slider_2" class="image_slider"></ul>
     </div>
     <a id="prevrc_2" class="sButton prev" href="javascript:void(0)"></a>
     <a id="nextrc_2" class="sButton next" href="javascript:void(0)"></a>
@@ -88,20 +88,20 @@
             if (positionSlider != 0) {
                 $("#image_slider_2").animate({left: "+=1030px"}, 600);
                 indexOfPage--;
-                $(".text2").text("Trang " + indexOfPage + "/5");
+                $(".text2").text("Trang " + indexOfPage + "/6");
             }
         });
 
         $("#nextrc_2").click(function(){
             var positionSlider = $("#image_slider_2").position().left;
-            if (positionSlider == -1030*4) {
+            if (positionSlider == -1030*5) {
                 $("#image_slider_2").animate({left: "0px"}, 600);
                 indexOfPage=1;
-                $(".text2").text("Trang " + indexOfPage + "/5");
+                $(".text2").text("Trang " + indexOfPage + "/6");
             }else {
                 $("#image_slider_2").animate({left: "-=1030px"}, 600);
                 indexOfPage++;
-                $(".text2").text("Trang " + indexOfPage + "/5");
+                $(".text2").text("Trang " + indexOfPage + "/6");
             }
         });
 
@@ -134,7 +134,7 @@
 
     function showData(lstJson) {
         $("#image_slider_2").empty();
-        for(var i = 1; i < lstJson.length; i++) {
+        for(var i = 0; i < lstJson.length; i++) {
             var text = '<li>' +
                     '<div class="sImage">' +
                     '<a href="' + lstJson[i].url + '" title="' + lstJson[i].title + '"><img src="' + lstJson[i].imgUrl + '"></a>' +

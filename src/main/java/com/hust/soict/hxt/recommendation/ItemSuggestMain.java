@@ -22,6 +22,7 @@ public class ItemSuggestMain {
         //init load model and data
         GlobalResourceInit.initModelMap();
         GlobalResourceInit.loadDataCache();
+        GlobalResourceInit.loadCategoryCache();
 
         // start webservice
         Server server = new Server(6677);
