@@ -7,6 +7,7 @@ import com.hust.soict.hxt.recommendation.bo.ItemCluster;
 import com.hust.soict.hxt.recommendation.bo.ItemData;
 import com.hust.soict.hxt.recommendation.bo.ItemGroup;
 import com.hust.soict.hxt.recommendation.bo.ItemHistory;
+import com.hust.soict.hxt.recommendation.dao.CategoryDao;
 import com.hust.soict.hxt.recommendation.dao.HistoryDao;
 import com.hust.soict.hxt.recommendation.global.Resource;
 import org.codehaus.jackson.map.ObjectMapper;
@@ -33,11 +34,13 @@ public class HistorySuggestion {
     public List<ItemData> buildListSuggest(String guid, String startDate, String endDate) {
         List<ItemData> res = new ArrayList<>();
         List<ItemCluster> lstCluster = buildListHistory(guid, startDate, endDate);
+        if (lstCluster.isEmpty()) return res;
         try {
             ItemCluster lstItem = (ItemCluster) lstCluster.get(0).clone();
             int catId = lstItem.getCatId();
             List<ItemData> lstCompare = Resource.itemDetailCache.get(catId);
             List<ItemHistory> lstHistory = lstItem.getHistoryList();
+            CategoryDao categoryDao = new CategoryDao();
             for (ItemHistory hItem : lstHistory) {
                 System.out.println(hItem.getTitle());
                 for (ItemData compareItem : lstCompare) {
@@ -50,6 +53,24 @@ public class HistorySuggestion {
                         System.out.println("\t\t" + it.getTitle());
                     }
                 }
+
+                //merger list item collaborative filtering
+                List<String> lst = categoryDao.getItemSimi(hItem.getItemId());
+                List<ItemData> tmpLst = new ArrayList<>();
+                int serial = 0;
+                for (String id : lst) {
+                    if (id.equals("")) continue;
+                    if (Resource.itemCache.get(Integer.valueOf(id)) != null) {
+                        ItemData itemData = (ItemData) Resource.itemCache.get(Integer.valueOf(id)).clone();
+                        itemData.setScore(hItem.getScore());
+                        itemData.setSimilarity(0.55 - 0.01 * serial);
+                        tmpLst.add(itemData);
+                        serial++;
+                    }
+                }
+
+                res.removeAll(tmpLst);
+                res.addAll(tmpLst);
             }
             Collections.sort(res);
             int maxSize = res.size() > 30 ? 30 : res.size();
@@ -146,7 +167,7 @@ public class HistorySuggestion {
                 lst.add(it);
                 lstResult.put(it.getCatId(), lst);
             }catch (Exception e) {
-                logger.error("error process item: " + itemId);
+                logger.error("error process item: " + itemId, e);
             }
         }
 

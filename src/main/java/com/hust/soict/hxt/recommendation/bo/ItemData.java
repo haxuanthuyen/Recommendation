@@ -119,6 +119,17 @@ public class ItemData implements Cloneable,Comparable<ItemData>{
     }
 
     @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof ItemData) {
+            ItemData obItem = (ItemData) obj;
+            if (this == obItem) return true;
+            else if (this.getItemId() == obItem.getItemId()) return true;
+            else return false;
+        }
+        return false;
+    }
+
+    @Override
     public int compareTo(ItemData o) {
         if (this.getScore() < o.getScore()) return 1;
         if (this.getScore() == o.getScore()) {

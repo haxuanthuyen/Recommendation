@@ -26,8 +26,9 @@ public class HistorySuggestionTest extends TestCase {
     public void testBuildListSuggest1() throws Exception {
         GlobalResourceInit.initModelMap();
         GlobalResourceInit.loadDataCache();
+        GlobalResourceInit.loadCategoryCache();
 
-        String guid = "1435715810206524383";
+        String guid = "1445411930246467641";
         HistorySuggestion historySuggestion = new HistorySuggestion();
         historySuggestion.buildListSuggest(guid, "2016-03-13", "2016-03-09");
     }

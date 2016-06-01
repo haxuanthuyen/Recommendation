@@ -9,6 +9,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
@@ -107,6 +108,26 @@ public class CategoryDao extends ConnectionBase {
             }
         }catch (Exception e) {
             logger.error("error get item detail by cat ", e);
+        }
+        return res;
+    }
+
+    public List<String> getItemSimi(int itemId) {
+        List<String> res = new ArrayList<>();
+        String sql = "SELECT item_similarity " +
+                "FROM item_info_similarity " +
+                "WHERE item_id= ? ";
+        PreparedStatement ps = null;
+        try{
+            ps = conn.prepareStatement(sql);
+            ps.setInt(1, itemId);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                String itemSimi = rs.getString("item_similarity");
+                res.addAll(Arrays.asList(itemSimi.split(",")));
+            }
+        }catch (Exception e) {
+            logger.error("error get item simi by item " + itemId, e);
         }
         return res;
     }

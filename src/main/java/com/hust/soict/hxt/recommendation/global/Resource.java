@@ -16,5 +16,6 @@ public class Resource {
     public static HashMap<Integer, AbstractSequenceClassifier<CoreLabel>> modelMap;
     public static HashMap<Integer, Integer> catCache;
     public static HashMap<Integer, List<ItemData>> itemDetailCache;
+    public static HashMap<Integer, ItemData> itemCache = new HashMap<>();
     public static HashMap<String, List<ItemCluster>> clusterCache = new HashMap<>();
 }

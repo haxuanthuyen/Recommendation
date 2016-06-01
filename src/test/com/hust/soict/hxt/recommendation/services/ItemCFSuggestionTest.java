@@ -11,6 +11,7 @@ public class ItemCFSuggestionTest extends TestCase {
         //init load model and data
         GlobalResourceInit.initModelMap();
         GlobalResourceInit.loadCategoryCache();
+//        GlobalResourceInit.loadDataCache();
 
         ItemCFSuggestion itemCFSuggestion = new ItemCFSuggestion();
         itemCFSuggestion.buildListSimilarity(1);
