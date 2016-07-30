@@ -1,13 +1,13 @@
 #location of the training file
 
-trainFile=data/dientucongnghe/train.dientucongnghe
+trainFile=data/mevabe/train.mevabe
 
 #location where you would like to save (serialize to) your
 #classifier; adding .gz at the end automatically gzips the file,
 #making it faster and smaller
 
-serializeTo=data/dientucongnghe/model.dientucongnghe.gz
-testFile=data/dientucongnghe/test.dientucongnghe
+serializeTo=data/mevabe/model.mevabe.gz
+testFile=data/mevabe/test.mevabe
 
 #structure of your training file; this tells the classifier
 #that the word is in column 0 and the correct answer is in

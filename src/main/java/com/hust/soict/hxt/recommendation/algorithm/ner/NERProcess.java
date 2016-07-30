@@ -130,7 +130,7 @@ public class NERProcess {
         HashMap<String, String> result = new HashMap<>();
         TreeMap<String, String> datas = tokenize(title, catId);
         if (datas == null) {
-            logger.info("do not tokenize for title: " + title);
+//            logger.info("do not tokenize for title: " + title);
             return null;
         }
         for (Map.Entry entry : datas.entrySet()) {

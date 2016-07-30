@@ -22,10 +22,11 @@ public class BuildModel {
     private SeqClassifierFlags flags;
     private Properties prop;
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
         BuildModel buildModel = new BuildModel();
 //        buildModel.train();
-        buildModel.testModel("9");
+//        buildModel.testModelOld("4");
+        buildModel.testModel("4");
     }
 
     public BuildModel() {
@@ -33,7 +34,7 @@ public class BuildModel {
     }
 
     public void init() {
-        prop = StringUtils.propFileToProperties("data/austen-test.prop");
+        prop = StringUtils.propFileToProperties("data/austen-test.prop.bck");
         flags = new SeqClassifierFlags(prop);
         crf =  chooseCRFClassifier(flags);
     }
@@ -56,11 +57,34 @@ public class BuildModel {
         return crf;
     }
 
+    public void testModelOld(String type) throws Exception {
+        prop = StringUtils.propFileToProperties("data/austen-test.prop.bck");
+        flags = new SeqClassifierFlags(prop);
+        crf =  chooseCRFClassifier(flags);
+
+        String loadPath = getPathModelOld(type);
+        String testFile = getPathTest(type);
+        init();
+
+        if (loadPath != null) {
+            crf.loadClassifierNoExceptions(loadPath, prop);
+        }
+
+        if (testFile != null) {
+            // todo: Change testFile to call testFiles with a singleton list
+            DocumentReaderAndWriter<CoreLabel> readerAndWriter = crf.defaultReaderAndWriter();
+           crf.classifyAndWriteAnswers(testFile, readerAndWriter, true);
+        }
+    }
+
     public List<ModelData> testModel(String type) throws IOException {
+        prop = StringUtils.propFileToProperties("data/austen-test.prop");
+        flags = new SeqClassifierFlags(prop);
+        crf =  chooseCRFClassifier(flags);
+
         List<ModelData> lstData = new ArrayList<>();
         String loadPath = getPathModel(type);
         String testFile = getPathTest(type);
-        init();
 
         if (loadPath != null) {
             crf.loadClassifierNoExceptions(loadPath, prop);
@@ -135,6 +159,41 @@ public class BuildModel {
                 break;
             case "9":
                 path = "data/dientucongnghe/model.dientucongnghe.gz";
+                break;
+            case "12":
+                path = "data/giadungnoithat/model.giadungnoithat.gz";
+                break;
+            default:
+        }
+        return path;
+    }
+
+    public String getPathModelOld(String type) {
+        String path = "";
+        switch (type) {
+            case "1":
+                path = "data/amthucnhahang/model2.amthucnhahang.gz";
+                break;
+            case "2":
+                path = "data/thoitrangnu/model2.thoitrangnu.gz";
+                break;
+            case "3":
+                path = "data/spavalamdep/model2.spavalamdep.gz";
+                break;
+            case "4":
+                path = "data/mevabe/model2.mevabe.gz";
+                break;
+            case "6":
+                path = "data/thucpham/model2.thucpham.gz";
+                break;
+            case "7":
+                path = "data/phukienmypham/model2.phukienmypham.gz";
+                break;
+            case "8":
+                path = "data/thoitrangnam/model2.thoitrangnam.gz";
+                break;
+            case "9":
+                path = "data/dientucongnghe/model2.dientucongnghe.gz";
                 break;
             case "12":
                 path = "data/giadungnoithat/model.giadungnoithat.gz";

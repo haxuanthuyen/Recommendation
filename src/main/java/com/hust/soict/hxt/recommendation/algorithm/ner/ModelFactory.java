@@ -12,7 +12,7 @@ public class ModelFactory {
         }else if(catId == 2) {
             return "data/thoitrangnu/model.thoitrangnu.gz";
         } else if(catId == 3) {
-            return "data/spavalamdep/model.spavalamdep.gz";
+            return "data/spavalamdep/model2.spavalamdep.gz";
         } else if(catId == 4) {
             return "data/mevabe/model.mevabe.gz";
         } else if(catId == 5) {
